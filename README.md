@@ -38,6 +38,7 @@
 |[with-context-mcp](https://github.com/boxpositron/with-context-mcp)|![GitHub Repo stars](https://badgen.net/github/stars/boxpositron/with-context-mcp)|MCP server for managing project-specific markdown notes with templates, batch edits, and ignore patterns.|
 |[opencode-skills](https://github.com/malhashemi/opencode-skills)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-skills)|Plugin for managing and organizing opencode skills and capabilities.|
 |[openskills](https://github.com/numman-ali/openskills)|![GitHub Repo stars](https://badgen.net/github/stars/numman-ali/openskills)|Alternative skills management plugin for opencode with enhanced features.|
+|[opencode-dynamic-context-pruning](https://github.com/Tarquinen/opencode-dynamic-context-pruning)|![GitHub Repo stars](https://badgen.net/github/stars/Tarquinen/opencode-dynamic-context-pruning)|Plugin that optimizes token usage by pruning obsolete tool outputs from conversation context.|
 
 ➡️ **[Suggest a new Plugin in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/plugins)**
 
