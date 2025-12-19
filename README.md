@@ -47,7 +47,6 @@
 |[opencode-sessions](https://github.com/malhashemi/opencode-sessions)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-sessions)|Session management plugin for OpenCode with multi-agent collaboration support|
 |[Opencode-Roadmap](https://github.com/IgorWarzocha/Opencode-Roadmap)|![GitHub Repo stars](https://badgen.net/github/stars/IgorWarzocha/Opencode-Roadmap)|Strategic roadmap planning and multi-agent coordination plugin. Provides project-wide planning capabilities with immutable history and auto-archiving.|
 |[opencode-gemini-auth](https://github.com/jenslys/opencode-gemini-auth)|![GitHub Repo stars](https://badgen.net/github/stars/jenslys/opencode-gemini-auth)|Authenticate the Opencode CLI with your Google account so you can use your existing Gemini plan and its included quota instead of API billing|
-|[opencode-direnv](https://github.com/simonwjackson/opencode-direnv)|![GitHub Repo stars](https://badgen.net/github/stars/simonwjackson/opencode-direnv)|Automatically loads direnv environment variables at session start. Perfect for Nix flakes and project-specific environments.|
 |[oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode)|![GitHub Repo stars](https://badgen.net/github/stars/code-yeongyu/oh-my-opencode)|Background agents, pre-built tools (LSP/AST/MCP), curated agents, and Claude Code compatible layer.|
 ➡️ **[Suggest a new Plugin in our Discussions!](https://github.com/awesome-opencode/awesome-opencode/discussions/categories/plugins)**
 
