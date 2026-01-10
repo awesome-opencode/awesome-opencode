@@ -97,7 +97,6 @@
 |[opencode-skills](https://github.com/malhashemi/opencode-skills)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-skills)|Skills management system for organising and tracking opencode capabilities.|
 |[opencode-sessions](https://github.com/malhashemi/opencode-sessions)|![GitHub Repo stars](https://badgen.net/github/stars/malhashemi/opencode-sessions)|Session management tool for opencode to track and organise coding sessions.|
 |[Handy](https://github.com/cjpais/Handy)|![GitHub Repo stars](https://badgen.net/github/stars/cjpais/Handy)|Easy Open Source Speech to Text|
-|[opencode-web](https://github.com/kcrommett/opencode-web)|![GitHub Repo stars](https://badgen.net/github/stars/kcrommett/opencode-web)|Web interface for opencode - browser-based access to AI coding agent.|
 |[openspec](https://github.com/Fission-AI/OpenSpec)|![GitHub Repo stars](https://badgen.net/github/stars/Fission-AI/OpenSpec)|Spec-driven development with opencode - structured specification management.|
 |[oc-manager](https://github.com/kcrommett/oc-manager)|![GitHub Repo stars](https://badgen.net/github/stars/kcrommett/oc-manager)|Terminal UI for inspecting, filtering, and pruning OpenCode metadata stored on disk. The app is written in TypeScript, runs on Bun, and renders with @opentui/react.|
 |[beads](https://github.com/steveyegge/beads)|![GitHub Repo stars](https://badgen.net/github/stars/steveyegge/beads)|Steve Yegge's project/task management system for agents (with beads_viewer UI)|
