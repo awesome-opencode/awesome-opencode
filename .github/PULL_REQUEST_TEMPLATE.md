@@ -1,6 +1,5 @@
 ## Submission Type
 
-<!-- Check one -->
 - [ ] Plugin
 - [ ] Project
 - [ ] Theme
@@ -11,7 +10,7 @@
 
 **Name:** 
 **Repository:** 
-**Description:** <!-- One sentence -->
+**Description:** 
 
 ## Checklist
 
@@ -20,12 +19,20 @@
 - [ ] Actively maintained
 - [ ] Not a duplicate
 - [ ] Entry added in alphabetical order
-- [ ] Used correct collapsible format
 
-## Entry Added
+## Entry Format
 
-<!-- Paste the entry you added to README.md -->
+Use this format in the appropriate README section:
 
 ```html
-
+<details>
+  <summary><b>Name</b> <img src="https://badgen.net/github/stars/owner/repo" height="14"/> - <i>Short description</i></summary>
+  <blockquote>
+    Full description.
+    <br><br>
+    <a href="https://github.com/owner/repo">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 ```
+
+See [contributing.md](contributing.md) for full instructions.
