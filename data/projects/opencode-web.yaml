@@ -1,0 +1,4 @@
+name: Opencode Web
+repo: https://github.com/kcrommett/opencode-web
+description: Browser-based access
+full_description: Web interface for opencode - browser-based access to AI coding agent.

@@ -1,0 +1,4 @@
+name: Warcraft Notifications
+repo: https://github.com/pantheon-org/opencode-warcraft-notifications
+description: Fun sound notifications
+full_description: Notification plugin with Warcraft sounds for opencode completion alerts.

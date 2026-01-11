@@ -1,0 +1,4 @@
+name: Codex Proxy Server
+repo: https://github.com/unluckyjori/Codex-Proxy-Server
+description: Local API proxy
+full_description: A proxy server that provides a local API proxy for Codex/ChatGPT-like models.

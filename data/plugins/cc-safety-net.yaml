@@ -1,0 +1,4 @@
+name: CC Safety Net
+repo: https://github.com/kenryu42/claude-code-safety-net
+description: Safety net catching destructive commands
+full_description: A Claude Code plugin that acts as a safety net, catching destructive git and filesystem commands before they execute.

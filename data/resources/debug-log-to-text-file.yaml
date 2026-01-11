@@ -1,0 +1,4 @@
+name: Debug Log to Text File
+repo: https://github.com/awesome-opencode/awesome-opencode/discussions/19
+description: Troubleshooting guide
+full_description: How to output a debug log from opencode to a text file for troubleshooting.

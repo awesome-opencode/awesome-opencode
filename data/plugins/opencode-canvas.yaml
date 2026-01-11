@@ -1,0 +1,4 @@
+name: Opencode Canvas
+repo: https://github.com/mailshieldai/opencode-canvas
+description: Interactive terminal canvases in tmux splits
+full_description: Interactive terminal canvases (calendars, documents, flight booking) in tmux splits. Port of claude-canvas for OpenCode.

@@ -1,0 +1,4 @@
+name: Gemini CLI to API
+repo: https://github.com/gzzhongqi/geminicli2api
+description: Gemini proxy
+full_description: A proxy that converts the Gemini CLI tool into OpenAI-compatible endpoints.

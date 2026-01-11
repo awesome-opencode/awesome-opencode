@@ -1,0 +1,4 @@
+name: Oh My Opencode
+repo: https://github.com/code-yeongyu/oh-my-opencode
+description: Agents & Pre-built tools
+full_description: Background agents, pre-built tools (LSP/AST/MCP), curated agents, and a Claude Code compatible layer.

@@ -1,0 +1,4 @@
+name: Context Analysis
+repo: https://github.com/IgorWarzocha/Opencode-Context-Analysis-Plugin
+description: Token usage analysis
+full_description: An opencode plugin that provides detailed token usage analysis for your AI sessions.

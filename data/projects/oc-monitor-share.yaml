@@ -1,0 +1,4 @@
+name: OC Monitor Share
+repo: https://github.com/Shlomob/ocmonitor-share
+description: CLI monitoring tool
+full_description: A CLI tool for monitoring and analysing opencode AI coding usage.

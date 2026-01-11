@@ -1,0 +1,4 @@
+name: OC Manager
+repo: https://github.com/kcrommett/oc-manager
+description: Metadata TUI
+full_description: Terminal UI for inspecting, filtering, and pruning OpenCode metadata stored on disk.

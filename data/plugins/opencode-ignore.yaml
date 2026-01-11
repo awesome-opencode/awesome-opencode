@@ -1,0 +1,4 @@
+name: Opencode Ignore
+repo: https://github.com/lgladysz/opencode-ignore
+description: Ignore files based on pattern
+full_description: Plugin to ignore directory/file based on pattern.

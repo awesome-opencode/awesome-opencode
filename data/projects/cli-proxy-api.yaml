@@ -1,0 +1,4 @@
+name: CLI Proxy API
+repo: https://github.com/router-for-me/CLIProxyAPI
+description: Multi-model proxy
+full_description: A proxy server providing compatible API interfaces for multiple model CLIs.

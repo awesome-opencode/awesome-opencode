@@ -1,0 +1,4 @@
+name: OpenAI Codex Auth
+repo: https://github.com/numman-ali/opencode-openai-codex-auth
+description: ChatGPT Plus/Pro OAuth
+full_description: This plugin enables opencode to use OpenAI's Codex backend via ChatGPT Plus/Pro OAuth authentication.

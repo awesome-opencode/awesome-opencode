@@ -1,0 +1,4 @@
+name: Qwen Code OAI Proxy
+repo: https://github.com/aptdnfapt/qwen-code-oai-proxy
+description: Qwen model proxy
+full_description: An OpenAI-Compatible Proxy Server for Qwen models.

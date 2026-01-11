@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/awesome-opencode/awesome-opencode/data/schema.json",
+  "title": "Awesome Opencode Entry",
+  "description": "Schema for validating YAML entries in the awesome-opencode list",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Name of the project or tool"
+    },
+    "repo": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the repository"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "description": "Short summary of the project"
+    },
+    "full_description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Longer detailed description of the project"
+    },
+    "install": {
+      "type": "object",
+      "description": "Installation instructions",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["config", "npm", "pip", "go", "script", "manual"],
+          "description": "Type of installation method"
+        }
+      },
+      "required": ["type"],
+      "additionalProperties": false
+    },
+    "compatibility": {
+      "type": "object",
+      "description": "Compatibility information",
+      "properties": {
+        "platforms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Supported platforms"
+        },
+        "opencode": {
+          "type": "string",
+          "description": "Compatible Opencode version"
+        }
+      },
+      "required": ["platforms", "opencode"],
+      "additionalProperties": false
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags for categorization"
+    }
+  },
+  "required": ["name", "repo", "description", "full_description"],
+  "additionalProperties": false
+}

@@ -1,0 +1,4 @@
+name: Beads
+repo: https://github.com/steveyegge/beads
+description: Project task management
+full_description: Steve Yegge's project/task management system for agents (with beads_viewer UI).

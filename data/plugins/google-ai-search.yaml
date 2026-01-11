@@ -1,0 +1,4 @@
+name: Google AI Search
+repo: https://github.com/IgorWarzocha/Opencode-Google-AI-Search-Plugin
+description: Query Google AI Mode (SGE)
+full_description: An opencode plugin that exposes a native tool for querying Google AI Mode (SGE).

@@ -1,0 +1,4 @@
+name: OC Context (occtx)
+repo: https://github.com/hungthai1401/occtx
+description: Switch contexts quickly
+full_description: A command-line tool for switching between different opencode contexts quickly.

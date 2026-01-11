@@ -1,0 +1,4 @@
+name: Ring a Bell Example
+repo: https://gist.github.com/ahosker/267f375a65378bcb9a867fd9a195db1e
+description: Simple terminal bell plugin
+full_description: A simple plugin to ring the terminal bell once a request is complete.

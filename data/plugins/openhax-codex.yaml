@@ -1,0 +1,4 @@
+name: OpenHax Codex
+repo: https://github.com/open-hax/codex
+description: OAuth authentication
+full_description: OAuth authentication plugin for personal coding assistance with ChatGPT Plus/Pro subscriptions.
