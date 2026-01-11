@@ -1,0 +1,4 @@
+name: Test Plugin
+repo: https://github.com/test/test-plugin
+description: This is a test entry to validate the workflow
+full_description: This is a test entry that will be deleted after verifying the GitHub Action works.
