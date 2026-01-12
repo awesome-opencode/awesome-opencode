@@ -1,0 +1,4 @@
+name: Zellij Namer
+repo: https://github.com/24601/opencode-zellij-namer
+tagline: Auto-rename Zellij sessions
+description: Keeps your Zellij session name in sync with your work.

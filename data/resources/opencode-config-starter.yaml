@@ -1,0 +1,4 @@
+name: Opencode Config Starter
+repo: https://github.com/jjmartres/opencode
+tagline: Flexible config starting point
+description: A powerful custom opencode configuration with agents, commands, rules, skills, and pre-configured MCP server.

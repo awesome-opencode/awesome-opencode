@@ -1,0 +1,4 @@
+name: Antigravity Multi-Auth
+repo: https://github.com/theblazehen/opencode-antigravity-multi-auth
+tagline: Multiple Google accounts
+description: Fork of opencode-antigravity-auth that allows using multiple Google accounts with automatic rotation when rate limited.

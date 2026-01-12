@@ -1,0 +1,4 @@
+name: Agent Skills (JDT)
+repo: https://github.com/joshuadavidthomas/opencode-agent-skills
+tagline: Dynamic skills loader
+description: Dynamic skills loader that discovers skills from project, user, and plugin directories.

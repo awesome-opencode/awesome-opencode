@@ -1,0 +1,4 @@
+name: Cupcake
+repo: https://github.com/eqtylab/cupcake
+tagline: Policy enforcement layer
+description: A native policy-layer for AI coding agents built on OPA/Rego with native OpenCode plugin support.

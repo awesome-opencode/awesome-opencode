@@ -1,0 +1,4 @@
+name: Agent Memory
+repo: https://github.com/joshuadavidthomas/opencode-agent-memory
+tagline: Letta-inspired memory
+description: Gives the agent persistent, self-editable memory blocks inspired by Letta agents.

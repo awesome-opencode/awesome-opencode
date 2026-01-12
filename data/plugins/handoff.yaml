@@ -1,0 +1,4 @@
+name: Handoff
+repo: https://github.com/joshuadavidthomas/opencode-handoff
+tagline: Session handoff prompts
+description: Creates focused handoff prompts for continuing work in a new session.

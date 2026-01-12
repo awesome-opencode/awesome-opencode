@@ -1,0 +1,4 @@
+name: Froggy
+repo: https://github.com/smartfrog/opencode-froggy
+tagline: Hooks and specialized agents
+description: Plugin providing Claude Code-style hooks, specialized agents, and tools like gitingest.

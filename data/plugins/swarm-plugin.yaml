@@ -1,0 +1,4 @@
+name: Swarm Plugin
+repo: https://github.com/joelhooks/opencode-swarm-plugin
+tagline: Swarm intelligence
+description: Swarm plugin for opencode enabling swarm-based agent coordination.

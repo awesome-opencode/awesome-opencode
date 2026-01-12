@@ -1,0 +1,4 @@
+name: Plugin Template
+repo: https://github.com/zenobi-us/opencode-plugin-template
+tagline: CICD setup for plugins
+description: Focuses on providing the CICD setup with generator script, release please, bun publish, npm trusted publishing, and mise tasks.

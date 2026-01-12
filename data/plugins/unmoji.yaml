@@ -1,0 +1,4 @@
+name: UNMOJI
+repo: https://codeberg.org/bastiangx/opencode-unmoji
+tagline: Strip emojis from output
+description: A simple plugin that strips ALL emojis from agent outputs in Opencode.

@@ -1,0 +1,4 @@
+name: Model Announcer
+repo: https://github.com/ramarivera/opencode-model-announcer
+tagline: Model self-awareness
+description: Automatically injects the current model name into the chat context so the LLM is self-aware.

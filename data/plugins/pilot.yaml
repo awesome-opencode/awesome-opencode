@@ -1,0 +1,4 @@
+name: Pilot
+repo: https://github.com/athal7/opencode-pilot
+tagline: Automation daemon
+description: Automation daemon that polls for work from GitHub issues and Linear tickets.

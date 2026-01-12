@@ -1,0 +1,4 @@
+name: Devcontainers
+repo: https://github.com/athal7/opencode-devcontainers
+tagline: Multi-branch devcontainers
+description: Plugin for running multiple devcontainer instances with auto-assigned ports and branch-based isolation.

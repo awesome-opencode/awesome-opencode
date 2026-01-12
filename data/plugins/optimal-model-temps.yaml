@@ -1,0 +1,4 @@
+name: Optimal Model Temps
+repo: https://github.com/Lyapsus/opencode-optimal-model-temps
+tagline: Optimal sampling temperatures
+description: Minimal plugin that nudges specific models to their preferred sampling temperature.

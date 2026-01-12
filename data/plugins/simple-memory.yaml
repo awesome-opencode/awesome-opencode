@@ -1,0 +1,4 @@
+name: Simple Memory
+repo: https://github.com/cnicolov/opencode-plugin-simple-memory
+tagline: Git-based memory
+description: Simple plugin to manage memory inside a git repo that can be committed and reviewed by team members.
