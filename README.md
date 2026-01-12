@@ -224,6 +224,15 @@
 </details>
 
 <details>
+  <summary><b>Envsitter Guard</b> <img src="https://badgen.net/github/stars/boxpositron/envsitter-guard" height="14"/> - <i>Prevent .env leaks</i></summary>
+  <blockquote>
+    OpenCode plugin that prevents agents/tools from reading or editing sensitive .env* files, while still allowing safe inspection via EnvSitter (keys + deterministic fingerprints; never values).
+    <br><br>
+    <a href="https://github.com/boxpositron/envsitter-guard">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Oh My Opencode</b> <img src="https://badgen.net/github/stars/code-yeongyu/oh-my-opencode" height="14"/> - <i>Agents & Pre-built tools</i></summary>
   <blockquote>
     Background agents, pre-built tools (LSP/AST/MCP), curated agents, and a Claude Code compatible layer.
