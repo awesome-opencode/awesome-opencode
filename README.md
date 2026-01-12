@@ -89,6 +89,15 @@
 </details>
 
 <details>
+  <summary><b>Opencode Mem</b> <img src="https://badgen.net/github/stars/tickernelz/opencode-mem" height="14"/> - <i>Persistent memory with vector database</i></summary>
+  <blockquote>
+    A persistent memory system for AI coding agents that enables long-term context retention across sessions using local vector database technology. Features dual memory scopes, web interface, auto-capture system, and multi-provider AI support.
+    <br><br>
+    <a href="https://github.com/tickernelz/opencode-mem">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Warcraft Notifications</b> <img src="https://badgen.net/github/stars/pantheon-org/opencode-warcraft-notifications" height="14"/> - <i>Fun sound notifications</i></summary>
   <blockquote>
     Notification plugin with Warcraft sounds for opencode completion alerts.
