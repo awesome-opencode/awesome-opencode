@@ -1,0 +1,11 @@
+name: Oh My Opencode Slim
+repo: https://github.com/alvinunreal/oh-my-opencode-slim
+tagline: Lightweight agent orchestration with reduced token usage
+description: Slimmed-down fork of oh-my-opencode focused on core agent orchestration. Features specialized sub-agents (Explorer, Oracle, Librarian, Designer, etc.), background task management, LSP/AST tools, tmux integration for live agent visibility, and MCP servers. Optimized to consume significantly fewer tokens.
+homepage: https://ohmyopencodeslim.com
+tags:
+  - agents
+  - orchestration
+  - background-tasks
+  - lsp
+  - mcp
