@@ -1,0 +1,10 @@
+name: OpenWork
+repo: https://github.com/different-ai/openwork
+tagline: Desktop GUI for OpenCode workflows
+description: Open-source alternative to Claude Cowork built on top of OpenCode. Provides a polished desktop UI for sessions, skills, plugins, and templates.
+homepage: https://openwork.software/
+tags:
+  - desktop
+  - gui
+  - opencode
+  - workflows
