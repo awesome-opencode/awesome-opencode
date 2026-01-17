@@ -1,0 +1,11 @@
+name: OpenCoins
+repo: https://github.com/singulargh/opencoins
+tagline: Multi-chain token launchpad plugin for OpenCode
+description: Deploy EVM and Solana tokens with AI assistance.
+tags:
+  - opencode-plugin
+  - blockchain
+  - defi
+  - token-deployment
+  - evm
+  - solana
