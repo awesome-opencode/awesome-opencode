@@ -765,6 +765,15 @@
 </details>
 
 <details>
+  <summary><b>OpenWork</b> <img src="https://badgen.net/github/stars/different-ai/openwork" height="14"/> - <i>Open-source Claude Cowork alternative</i></summary>
+  <blockquote>
+    Desktop GUI for OpenCode with sessions, skills, plugins, and templates in one place.
+    <br><br>
+    <a href="https://github.com/different-ai/openwork">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode DDEV</b> <img src="https://badgen.net/github/stars/JUVOJustin/opencode-ddev" height="14"/> - <i>DDEV container wrapper</i></summary>
   <blockquote>
     Wraps bash commands to execute inside the DDEV container (Docker-based PHP development environments).
