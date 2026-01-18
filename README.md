@@ -758,7 +758,6 @@
   <summary><b>Open Agent</b> <img src="https://badgen.net/github/stars/Th0rgal/openagent" height="14"/> - <i>Self-hosted control plane</i></summary>
   <blockquote>
     Self-hosted control plane for OpenCode agents with isolated Linux workspaces (systemd-nspawn), git-backed Library configuration, and multi-platform dashboards (Next.js web, SwiftUI iOS).
-
     <br><br>
     <a href="https://github.com/Th0rgal/openagent">🔗 <b>View Repository</b></a>
   </blockquote>
