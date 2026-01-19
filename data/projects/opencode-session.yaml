@@ -1,0 +1,4 @@
+name: Opencode Session Manager
+repo: https://github.com/GNITOAHC/opencode-session
+tagline: Session viewer & manager
+description: View & Manage sessions for opencode, also detect orphan sessions for deletion
