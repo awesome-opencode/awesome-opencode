@@ -1,0 +1,4 @@
+name: X402 Tools Plugin
+repo: https://github.com/itzannetos/x402-tools
+tagline: x402-powered OpenCode tools with automatic USDC micropayments.
+description: Adds x402-enabled tools to OpenCode and handles payments automatically on Base.
