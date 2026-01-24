@@ -1,0 +1,4 @@
+name: Opencode Quota
+repo: https://github.com/slkiser/opencode-quota
+tagline: Quota toasts and token tracking
+description: Track quota and token usage across providers via automatic toasts and slash commands.
