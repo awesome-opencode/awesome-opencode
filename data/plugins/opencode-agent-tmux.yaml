@@ -1,0 +1,4 @@
+name: OpenCode Agent Tmux
+repo: https://github.com/AnganSamadder/opencode-agent-tmux
+tagline: Real-time tmux panes for OpenCode agents with auto-launch, streaming, and cleanup.
+description: Smart tmux integration for OpenCode that auto-spawns panes to stream agent output, supports flexible layouts and multi-port setups, and cleans up when sessions finish.
