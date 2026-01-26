@@ -890,6 +890,15 @@
 </details>
 
 <details>
+  <summary><b>PAI-OpenCode</b> <img src="https://badgen.net/github/stars/Steffen025/pai-opencode" height="14"/> - <i>Daniel Miessler's PAI for OpenCode</i></summary>
+  <blockquote>
+    Complete port of Daniel Miessler's Personal AI Infrastructure (PAI) to OpenCode. Includes 33 skills, TELOS framework, multi-agent orchestration, memory system, and plugin-based lifecycle management. Works with any AI provider.
+    <br><br>
+    <a href="https://github.com/Steffen025/pai-opencode">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Qwen Code OAI Proxy</b> <img src="https://badgen.net/github/stars/aptdnfapt/qwen-code-oai-proxy" height="14"/> - <i>Qwen model proxy</i></summary>
   <blockquote>
     An OpenAI-Compatible Proxy Server for Qwen models.
