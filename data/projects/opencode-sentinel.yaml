@@ -1,0 +1,10 @@
+name: OpenCode Sentinel
+repo: https://github.com/OneOfLzx/opencode-sentinel
+tagline: A security-enhanced version of OpenCode for corporate intranets and offline networks
+description: OpenCode Sentinel is a security-enhanced version of OpenCode specifically designed for corporate intranets and offline networks. It ensures code privacy by allowing connections only to private AI servers (DeepSeek, vLLM, Ollama, etc.) and blocking unauthorized external requests via strict whitelist policies. It features a one-click packaging tool that pre-downloads all dependencies into a single archive, enabling plug-and-play deployment on isolated machines without any internet access or complex environment setup.
+tags:
+  - security
+  - offline
+  - enterprise
+  - network-policy
+  - private-cloud
