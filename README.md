@@ -287,6 +287,15 @@
 </details>
 
 <details>
+  <summary><b>vsync</b> <img src="https://badgen.net/github/stars/nicepkg/vsync" height="14"/> - <i>Config sync across AI coding tools</i></summary>
+  <blockquote>
+    Sync Skills, MCP servers, Agents & Commands across Claude Code, Cursor, OpenCode, and Codex. One command syncs everything with automatic format conversion (JSON ↔ TOML ↔ JSONC), environment variable syntax preservation, and atomic writes.
+    <br><br>
+    <a href="https://github.com/nicepkg/vsync">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Notify</b> <img src="https://badgen.net/github/stars/kdcokenny/opencode-notify" height="14"/> - <i>Native OS notifications</i></summary>
   <blockquote>
     Native OS notifications for OpenCode - know when tasks complete.
