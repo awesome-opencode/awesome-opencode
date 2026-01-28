@@ -1,0 +1,4 @@
+name: OpenCode Pollinations Plugin
+repo: https://github.com/fkom13/opencode-pollinations-plugin
+tagline: Unlimited Free AI models (OpenAI, Gemini, Mistral) with Safety Net & Cross-Platform support.
+description: Integrates the Pollinations.ai ecosystem directly into OpenCode. Provides free infinite access to standard models without API keys (OpenAI, Mistral, Gemini). Features a robust Safety Net that auto-fallbacks to free tiers if paid quotas fail, a real-time pollen dashboard, and dynamic port allocation for full Windows/Linux/Mac support.
