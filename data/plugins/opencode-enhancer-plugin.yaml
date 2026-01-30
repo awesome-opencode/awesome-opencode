@@ -1,0 +1,4 @@
+name: OpenCode Enhancer Plugin
+repo: https://github.com/MaansenV/opencode-enhancer-plugin
+tagline: Technical architect agent that transforms vague requests into precise engineering specifications
+description: A third primary agent mode for OpenCode featuring a two-agent architecture. The Enhancer agent analyzes codebases and generates actionable prompts, while the Explore-Context subagent maps project structure. Implements hook-based lifecycle system with read-only safety constraints, ensuring analysis and planning without direct code modifications. Ideal for complex refactoring and architectural design tasks.
