@@ -890,6 +890,15 @@
 </details>
 
 <details>
+  <summary><b>Promption</b> <img src="https://badgen.net/github/stars/Abdssamie/promption" height="14"/> - <i>Manage AI agent configs</i></summary>
+  <blockquote>
+    A desktop app + CLI for managing AI agent configurations across projects. Stop copy-pasting .cursorrules.
+    <br><br>
+    <a href="https://github.com/Abdssamie/promption">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Qwen Code OAI Proxy</b> <img src="https://badgen.net/github/stars/aptdnfapt/qwen-code-oai-proxy" height="14"/> - <i>Qwen model proxy</i></summary>
   <blockquote>
     An OpenAI-Compatible Proxy Server for Qwen models.
