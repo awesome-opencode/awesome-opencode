@@ -449,6 +449,15 @@
 </details>
 
 <details>
+  <summary><b>PPTX from Layouts</b> <img src="https://badgen.net/github/stars/tristan-mcinnis/pptx-from-layouts-skill" height="14"/> - <i>PowerPoint from slide master layouts</i></summary>
+  <blockquote>
+    Generate consultant-quality PowerPoint presentations from markdown outlines using your template's actual slide master layouts, not text overlays. Includes template profiling, visual types, and surgical edit mode.
+    <br><br>
+    <a href="https://github.com/tristan-mcinnis/pptx-from-layouts-skill">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Ralph Wiggum</b> <img src="https://badgen.net/github/stars/Th0rgal/opencode-ralph-wiggum" height="14"/> - <i>Self-correcting agent loops</i></summary>
   <blockquote>
     Iterative AI development loops with self-correcting agents based on the Ralph Wiggum technique.
