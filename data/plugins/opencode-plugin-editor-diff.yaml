@@ -1,0 +1,4 @@
+name: Editor Diff Plugin
+repo: https://github.com/HoangP8/opencode-plugin-editor-diff
+tagline: Editor Diff
+description: Shows diffs in editor after file edits.
