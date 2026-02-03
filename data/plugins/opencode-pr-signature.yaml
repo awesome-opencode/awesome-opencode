@@ -1,0 +1,4 @@
+name: PR Auto-Signature
+repo: https://github.com/arttttt/opencode-pr-signature
+tagline: Automatically adds AI model signature to PRs, Issues, and Commits
+description: Plugin that automatically appends AI model signature to Pull Requests, Issues, and git commit messages. Supports GitHub MCP tools, git CLI, and gh CLI. Recognizes 90+ AI models including Claude, GPT, Gemini, DeepSeek, Llama, Mistral, and more.
