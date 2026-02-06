@@ -1,0 +1,12 @@
+name: OpenCode Hindsight
+repo: https://github.com/nonetweaking-stack/opencode-hindsight
+tagline: Retrospective learning agent - learns from session mistakes to prevent future errors
+description: |
+  Hindsight is a unique plugin that makes OpenCode smarter through retrospective learning.
+  Unlike memory plugins that just store facts, Hindsight actively learns from errors, 
+  failed commands, and self-corrections during your session. It builds a pattern database 
+  of "what went wrong and why" and injects learned prevention rules into future prompts, 
+  helping OpenCode avoid repeating the same mistakes. Features include: automatic error 
+  detection and analysis, self-correction tracking, prevention hint injection, and 
+  session statistics for insights into learning progress.
+
