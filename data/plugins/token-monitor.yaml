@@ -1,0 +1,4 @@
+name: Token Monitor
+repo: https://github.com/Ainsley0917/opencode-token-monitor
+tagline: Token analysis & cost tracking with budgets, trends, and per-project analytics
+description: Track token usage (input/output/reasoning/cache), estimate costs, view daily trends with ASCII charts, set budget alerts, and export data. Supports per-agent breakdown, agent×model cross-analysis, and project-scoped analytics.
