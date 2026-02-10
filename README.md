@@ -467,6 +467,15 @@
 </details>
 
 <details>
+  <summary><b>Roampal</b> <img src="https://badgen.net/github/stars/roampal-ai/roampal-core" height="14"/> - <i>Outcome-based persistent memory</i></summary>
+  <blockquote>
+    Outcome-based persistent memory for OpenCode. Install with `pip install roampal && roampal init --opencode`, then context is injected automatically via plugin + MCP. Good advice gets promoted across sessions, bad advice gets demoted.
+    <br><br>
+    <a href="https://github.com/roampal-ai/roampal-core">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Shell Strategy</b> <img src="https://badgen.net/github/stars/JRedeker/opencode-shell-strategy" height="14"/> - <i>Avoid interactive shell hangs</i></summary>
   <blockquote>
     Instructions file that teaches LLMs how to avoid interactive shell commands that hang in non-TTY environments.
