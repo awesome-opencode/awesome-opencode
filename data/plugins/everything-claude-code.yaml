@@ -1,0 +1,9 @@
+name: Everything Claude Code (ECC Universal)
+repo: https://github.com/affaan-m/everything-claude-code
+tagline: "Battle-tested agents, skills, hooks, and rules for 6 languages"
+description: >
+  Complete collection of Claude Code configurations evolved over 10+ months
+  of daily use. 14 agents, 28 skills, 30 commands, rules for TypeScript,
+  Python, Go, Java, Django, and Spring Boot. Now universal — works with
+  Claude Code, OpenCode, and Cursor. Install via npm: ecc-universal.
+  42K+ GitHub stars. Built by an Anthropic hackathon winner.
