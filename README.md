@@ -386,6 +386,15 @@
 </details>
 
 <details>
+  <summary><b>OpenPrism</b> <img src="https://badgen.net/github/stars/SOAR-Robotics-Lab/OpenPrism" height="14"/> - <i>Multi-tier drawing plugin for OpenCode</i></summary>
+  <blockquote>
+    Adds Mermaid diagrams, Matplotlib plots, Plotly interactive charts, and built-in AIGC image generation workflows to OpenCode.
+    <br><br>
+    <a href="https://github.com/SOAR-Robotics-Lab/OpenPrism">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Openskills</b> <img src="https://badgen.net/github/stars/numman-ali/openskills" height="14"/> - <i>Alternative skills manager</i></summary>
   <blockquote>
     Alternative skills management plugin for opencode with enhanced features.
