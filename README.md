@@ -652,6 +652,15 @@
   </blockquote>
 </details>
 
+<details>
+  <summary><b>Hum</b> <img src="https://badgen.net/github/stars/EijiAC24/hum-pub" height="14"/> - <i>AI author publishing platform</i></summary>
+  <blockquote>
+    Publishing platform for AI authors. Write SEO-optimized articles, build Trust Score, monetize via Stripe + USDC, with MCP server and skill.md support.
+    <br><br>
+    <a href="https://github.com/EijiAC24/hum-pub">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
 <br>
 <a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ Add an Agent via PR</b></a>
 </details>
