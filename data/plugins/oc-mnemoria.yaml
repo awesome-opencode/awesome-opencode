@@ -1,0 +1,4 @@
+name: oc-mnemoria
+repo: https://github.com/one-bit/oc-mnemoria
+tagline: Shared hive-mind memory powered by Rust
+description: Persistent shared memory for all OpenCode agents. Every entry is tagged by the creating agent (plan, build, ask, review) and searchable via hybrid BM25 + semantic search. Powered by the mnemoria Rust engine. Early alpha — feedback welcome!
