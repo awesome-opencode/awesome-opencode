@@ -233,6 +233,15 @@
 </details>
 
 <details>
+  <summary><b>Oh My Kiro</b> <img src="https://badgen.net/github/stars/1nhann/oh-my-kiro" height="14"/> - <i>AWS Kiro-inspired multi-agent SDD coding agent harness</i></summary>
+  <blockquote>
+    A spec-driven, multi-agent coding plugin for OpenCode inspired by AWS Kiro. Features requirements-first workflow, spec task execution, context gathering, background tasks, and multimodal support.
+    <br><br>
+    <a href="https://github.com/1nhann/oh-my-kiro">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Oh My Opencode</b> <img src="https://badgen.net/github/stars/code-yeongyu/oh-my-opencode" height="14"/> - <i>Agents & Pre-built tools</i></summary>
   <blockquote>
     Background agents, pre-built tools (LSP/AST/MCP), curated agents, and a Claude Code compatible layer.
