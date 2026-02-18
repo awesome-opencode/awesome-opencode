@@ -1,0 +1,4 @@
+name: Oh My Kiro
+repo: https://github.com/1nhann/oh-my-kiro
+tagline: AWS Kiro-inspired multi-agent SDD coding agent harness
+description: A spec-driven, multi-agent coding plugin for OpenCode inspired by AWS Kiro. Features requirements-first workflow, spec task execution, context gathering, background tasks, and multimodal support.
