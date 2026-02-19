@@ -134,6 +134,15 @@
 </details>
 
 <details>
+  <summary><b>crawl4ai</b> <img src="https://badgen.net/github/stars/bewinxed/opencode-crawl4ai" height="14"/> - <i>Unrestricted web access</i></summary>
+  <blockquote>
+    Gives AI agents full web access via crawl4ai — fetch any URL, search the web (SearXNG or DuckDuckGo), extract structured data with CSS selectors, take screenshots, deep crawl sites, and map URLs. Stealth mode by default.
+    <br><br>
+    <a href="https://github.com/bewinxed/opencode-crawl4ai">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Devcontainers</b> <img src="https://badgen.net/github/stars/athal7/opencode-devcontainers" height="14"/> - <i>Multi-branch devcontainers</i></summary>
   <blockquote>
     Plugin for running multiple devcontainer instances with auto-assigned ports and branch-based isolation.
