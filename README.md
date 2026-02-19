@@ -578,6 +578,19 @@
 <a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ Add a Plugin via PR</b></a>
 </details>
 
+<details>
+  <summary><b>Graphiti memory</b> <img src="https://badgen.net/github/stars/artemfomin/opencode-graphiti" height="14"/> - <i>Graphiti temporal memory</i></summary>
+  <blockquote>
+    Lifecycle hook based temporal cross device compatible memory for opencode.
+    <br><br>
+    <a href="https://github.com/artemfomin/opencode-graphiti">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<br>
+<a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ Add a Plugin via PR</b></a>
+</details>
+
 <br>
 
 <div id="themes"></div>
