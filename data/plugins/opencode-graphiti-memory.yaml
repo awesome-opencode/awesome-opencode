@@ -1,0 +1,4 @@
+name: OpenCode Graphiti Memory
+repo: https://github.com/artemfomin/opencode-graphiti
+tagline: Lifecycle hook based temporal cross device compatible memory for opencode.
+description: Graphiti memory connector for opencode. Fully autometed remember/forget cycle based on lifecycle hooks. Cross device compatible. No need to worry about memory management.
