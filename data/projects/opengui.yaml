@@ -1,0 +1,13 @@
+name: OpenGUI
+repo: https://github.com/akemmanuel/OpenGUI
+tagline: Native desktop GUI for OpenCode with streaming, prompt queues, and multi-project support.
+description: >
+  OpenGUI is an open-source Electron desktop application that provides a rich graphical interface
+  for OpenCode. It connects to multiple project directories simultaneously, letting you manage
+  separate AI sessions per project. Responses stream in real-time via SSE with live token and
+  context usage tracking. A built-in prompt queue lets you stack messages while the assistant is
+  busy, automatically dispatching them when idle. Switch between AI providers, models, agents,
+  and model variants on the fly, use slash commands, manage MCP servers and skills, and optionally
+  dictate prompts via speech-to-text. Code blocks are syntax-highlighted with Shiki, math
+  expressions render via KaTeX, and the UI supports both dark and light themes. Builds as .deb
+  for Linux and .dmg for macOS.
