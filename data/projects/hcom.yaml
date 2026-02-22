@@ -1,0 +1,4 @@
+name: hcom
+repo: https://github.com/aannoo/hcom
+tagline: Let AI agents message, watch, and spawn each other across terminals
+description: Claude Code, Gemini CLI, Codex CLI, and OpenCode agents in separate terminals can message each other, detect file edit collisions, read transcripts, view terminal screens, subscribe to activity, and spawn/fork/resume agents. First-class OpenCode support with native plugin. Includes TUI dashboard, cross-device relay, Python API, and multi-agent workflow scripts. pip installable, MIT licensed.
