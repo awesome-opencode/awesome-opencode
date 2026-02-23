@@ -1,0 +1,4 @@
+name: OpenCode ntfy.sh
+repo: https://github.com/lannuttia/opencode-ntfy.sh
+tagline: Push notifications to keep you in the know, even when you're on the go.
+description: "An OpenCode plugin that adds push notifications through ntfy.sh."
