@@ -1,0 +1,4 @@
+name: Opencode Telegram Bot
+repo: https://github.com/grinev/opencode-telegram-bot
+tagline: Telegram bot client for OpenCode CLI
+description: Run and monitor AI coding tasks from your phone while everything runs locally on your machine.
