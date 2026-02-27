@@ -1,0 +1,4 @@
+name: Kilo Auth
+repo: https://github.com/JungHoonGhae/opencode-kilo-auth
+tagline: Kilo Gateway provider
+description: Use Kilo Gateway with 342+ AI models (including 29 free tier models) directly in your existing OpenCode installation — no separate CLI fork needed.
