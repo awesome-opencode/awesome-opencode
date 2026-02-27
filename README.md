@@ -206,6 +206,15 @@
 </details>
 
 <details>
+  <summary><b>Kilo Auth</b> <img src="https://badgen.net/github/stars/JungHoonGhae/opencode-kilo-auth" height="14"/> - <i>Kilo Gateway provider</i></summary>
+  <blockquote>
+    Use Kilo Gateway with 342+ AI models (including 29 free tier models) directly in your existing OpenCode installation — no separate CLI fork needed.
+    <br><br>
+    <a href="https://github.com/JungHoonGhae/opencode-kilo-auth">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Micode</b> <img src="https://badgen.net/github/stars/vtemian/micode" height="14"/> - <i>Brainstorm-Plan-Implement workflow</i></summary>
   <blockquote>
     Structured workflow with session continuity, subagent orchestration, git worktree isolation, and AST-aware tools.
