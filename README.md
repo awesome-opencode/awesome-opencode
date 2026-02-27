@@ -964,6 +964,15 @@
   </blockquote>
 </details>
 
+<details>
+  <summary><b>OpenCode Financial Services Extensions</b> <img src="https://badgen.net/github/stars/dl-alexandre/financial-services-plugins" height="14"/> - <i>IB/ER/PE/WM workflows</i></summary>
+  <blockquote>
+    A curated pack of OpenCode skills, commands, and MCP configs for financial services workflows (investment banking, equity research, private equity, wealth management).
+    <br><br>
+    <a href="https://github.com/dl-alexandre/financial-services-plugins">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
 <br>
 <a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ Add a Resource via PR</b></a>
 </details>
