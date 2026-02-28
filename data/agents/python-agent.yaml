@@ -1,0 +1,19 @@
+name: Python Expert Agent for OpenCode
+repo: https://github.com/amrahman90/python-expert-agent
+tagline: Python Expert Agent tool for OpenCode - 4 subagents, 10 skills
+description: A custom agent configuration for Python projects.
+  Includes
+  - 1 Primary Custom Agent `python-expert` with intelligent skill loading
+  - Predefined 4 Specialized Subagents for Code generation, review, testing, and exploration
+  - 10 On-Demand Skills for FastAPI, SQLAlchemy, pytest, asyncio, and more
+  - 3 Context Files for Standards, patterns, and security guidelines
+
+scope:
+  - project  # .opencode/agent/
+
+tags:
+  - python
+  - agent
+  - skill
+
+min_version: "0.0.4"
