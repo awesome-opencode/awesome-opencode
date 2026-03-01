@@ -1,0 +1,5 @@
+name: OpenPaw
+repo: https://github.com/daxaur/openpaw
+tagline: Personal assistant with 38 skills via CLI
+description: Open-source CLI tool (npx pawmode) that turns Claude Code into a personal assistant with 38 skills — email, calendar, Spotify, smart home, Slack, GitHub, and more. No daemon, no cloud, MIT licensed.
+homepage: https://www.npmjs.com/package/pawmode
