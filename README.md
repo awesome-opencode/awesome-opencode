@@ -215,6 +215,15 @@
 </details>
 
 <details>
+  <summary><b>Memento</b> <img src="https://badgen.net/github/stars/awdemos/opencode-memento" height="14"/> - <i>Preserve project context across sessions</i></summary>
+  <blockquote>
+    OpenCode plugin that preserves project context across sessions, automatically injecting relevant prior work into compaction.
+    <br><br>
+    <a href="https://github.com/awdemos/opencode-memento">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Model Announcer</b> <img src="https://badgen.net/github/stars/ramarivera/opencode-model-announcer" height="14"/> - <i>Model self-awareness</i></summary>
   <blockquote>
     Automatically injects the current model name into the chat context so the LLM is self-aware.
