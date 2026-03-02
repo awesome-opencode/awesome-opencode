@@ -1,0 +1,5 @@
+name: open-plan-annotator
+repo: https://github.com/ndom91/open-plan-annotator
+tagline: Annotate LLM plans like a Google Doc!
+description: A fully local agentic coding plugin that intercepts plan mode and opens an annotation UI in your browser. Mark up the plan, send structured feedback to the agent, and receive a revised version — iterate as many times as you need until you're ready to approve. Select text to strikethrough, replace, insert, or comment — then approve the plan or request changes
+
