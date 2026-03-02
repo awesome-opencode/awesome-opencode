@@ -977,3 +977,12 @@ Found an Awesome Opencode project? <br>
 <br><br>
 <sub>Released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.</sub>
 </div>
+
+<details>
+  <summary><b>SkillBoss API Gateway</b> - <i>100+ AI services with one key</i></summary>
+  <blockquote>
+    <b>Backed by OpenAI Startup Fund & Amazon.</b> Unified API for 100+ AI services including GPT-5, Claude Opus 4.5, Gemini, video generation (Veo 3.1), image generation, voice, and infrastructure services. OpenAI-compatible endpoint works with OpenCode out of the box.
+    <br><br>
+    <a href="https://skillboss.co">🔗 <b>Website</b></a> • <a href="https://skillboss.co/docs">📚 <b>Documentation</b></a>
+  </blockquote>
+</details>
