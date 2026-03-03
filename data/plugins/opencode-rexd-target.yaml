@@ -1,0 +1,4 @@
+name: opencode-rexd-target
+repo: https://github.com/samiralibabic/opencode-rexd-target
+tagline: Remote REXD targets over SSH
+description: Route OpenCode tools to remote REXD targets over SSH with local fallback, /target commands, PTY support, and edit/apply_patch routing.
