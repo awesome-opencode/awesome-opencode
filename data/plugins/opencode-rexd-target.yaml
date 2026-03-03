@@ -1,0 +1,4 @@
+name: opencode-rexd-target
+repo: https://github.com/samiralibabic/opencode-rexd-target
+tagline: Remote Execution Daemon (REXD) targets over SSH
+description: "Route OpenCode tools to remote servers running REXD (Remote Execution Daemon) over SSH with local fallback, /target commands, PTY support, and edit/apply_patch routing. Learn more: https://github.com/samiralibabic/rexd"
