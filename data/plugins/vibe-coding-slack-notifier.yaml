@@ -1,0 +1,4 @@
+name: Vibe Coding Slack Notifier
+repo: https://github.com/Wangmerlyn/vibe-coding-slack-notifier
+tagline: Slack DM alerts for OpenCode task completion
+description: OpenCode-compatible Slack notifier plugin and toolkit for Codex, OpenCode, Claude Code, and Gemini workflows.
