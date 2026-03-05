@@ -71,6 +71,15 @@
 </details>
 
 <details>
+  <summary><b>Amarcord</b> <img src="https://badgen.net/github/stars/rhighs/amarcord" height="14"/> - <i>Session knowledge extraction</i></summary>
+  <blockquote>
+    Makes opencode remember what it learned. Run /amarcord at the end of a session — it reviews what was non-obvious, extracts it, and saves it as a new command file so the next session starts smarter. Port of Claudeception for opencode.
+    <br><br>
+    <a href="https://github.com/rhighs/amarcord">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Antigravity Auth</b> <img src="https://badgen.net/github/stars/NoeFabris/opencode-antigravity-auth" height="14"/> - <i>Google Antigravity models</i></summary>
   <blockquote>
     Use Gemini and Anthropic models for free via Google Antigravity IDE authentication.
