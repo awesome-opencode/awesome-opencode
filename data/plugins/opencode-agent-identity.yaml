@@ -1,0 +1,4 @@
+name: Agent Identity
+repo: https://github.com/gotgenes/opencode-agent-identity
+tagline: Agent self-identity and per-message attribution for multi-agent sessions
+description: Two plugins that improve agent identity awareness. AgentSelfIdentityPlugin injects a one-liner into the system prompt so the model knows which agent it's operating as. AgentAttributionToolPlugin exposes a tool for querying per-message agent attribution via the SDK, useful for agents that review multi-agent sessions.
