@@ -1,0 +1,4 @@
+name: opencode-snip
+repo: https://github.com/VincentHardouin/opencode-snip
+tagline: OpenCode plugin that prefixes shell commands with snip to reduce LLM token consumption by 60-90%
+description: Automatically prefixes supported shell commands (git, go, cargo, npm, docker, etc.) with snip to filter output before it reaches your LLM context window.
