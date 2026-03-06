@@ -206,6 +206,15 @@
 </details>
 
 <details>
+  <summary><b>lgrep</b> <img src="https://badgen.net/github/stars/Sharper-Flow/lgrep" height="14"/> - <i>Semantic search and symbol intelligence for Opencode</i></summary>
+  <blockquote>
+    Dual-engine code intelligence plugin that gives Opencode agents semantic code search, exact symbol lookup, file and repo outlines, and local-first indexes backed by Voyage Code 3 and tree-sitter.
+    <br><br>
+    <a href="https://github.com/Sharper-Flow/lgrep">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Micode</b> <img src="https://badgen.net/github/stars/vtemian/micode" height="14"/> - <i>Brainstorm-Plan-Implement workflow</i></summary>
   <blockquote>
     Structured workflow with session continuity, subagent orchestration, git worktree isolation, and AST-aware tools.
