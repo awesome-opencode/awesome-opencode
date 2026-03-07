@@ -1,0 +1,4 @@
+name: lgrep
+repo: https://github.com/Sharper-Flow/lgrep
+tagline: Semantic search and symbol intelligence for Opencode
+description: Dual-engine code intelligence plugin that gives Opencode agents semantic code search, exact symbol lookup, file and repo outlines, and local-first indexes backed by Voyage Code 3 and tree-sitter.
