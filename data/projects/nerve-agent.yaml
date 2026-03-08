@@ -1,0 +1,19 @@
+name: Nerve Agent
+repo: https://github.com/NerveNetwork/nerve-agent
+tagline: Nerve blockchain payment skills and MCP server for OpenCode
+description: >
+  Two OpenCode skills for AI-powered Nerve blockchain interactions.
+  nerve-agent-payment enables address creation, balance queries, token transfers, and NerveSwap token swaps.
+  paybox-payment enables multi-chain payment collection via PayBox — accept any chain, settle to Nerve.
+  Includes an MCP server (nerve-rpc-mcp) for direct JSON-RPC and REST integration.
+  No private key required. No gas fees on Nerve network.
+tags:
+  - blockchain
+  - payments
+  - web3
+  - nerve
+  - mcp
+scope:
+  - project
+  - global
+homepage: https://github.com/NerveNetwork/nerve-agent
