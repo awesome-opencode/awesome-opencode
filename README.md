@@ -53,6 +53,15 @@
 <br>
 
 <details>
+  <summary><b>Agent Identity</b> <img src="https://badgen.net/github/stars/gotgenes/opencode-agent-identity" height="14"/> - <i>Agent self-identity and per-message attribution for multi-agent sessions</i></summary>
+  <blockquote>
+    Two plugins that improve agent identity awareness. AgentSelfIdentityPlugin injects a one-liner into the system prompt so the model knows which agent it's operating as. AgentAttributionToolPlugin exposes a tool for querying per-message agent attribution via the SDK, useful for agents that review multi-agent sessions.
+    <br><br>
+    <a href="https://github.com/gotgenes/opencode-agent-identity">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Agent Memory</b> <img src="https://badgen.net/github/stars/joshuadavidthomas/opencode-agent-memory" height="14"/> - <i>Letta-inspired memory</i></summary>
   <blockquote>
     Gives the agent persistent, self-editable memory blocks inspired by Letta agents.
