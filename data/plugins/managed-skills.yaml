@@ -1,0 +1,4 @@
+name: Manage Skills
+repo: https://github.com/Randroids-Dojo/ManageSkills
+tagline: Wizard-driven skills management for OpenCode.
+description: Modal-based skill install, remove, list, and update workflow that avoids ANSI prompts while wrapping the skills CLI inside OpenCode.
