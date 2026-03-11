@@ -1,0 +1,7 @@
+name: SEC-AF
+repo: https://github.com/Agent-Field/sec-af
+tagline: Multi-agent security auditor — orchestrates a 250+ agent swarm that proves exploitability, SARIF for CI
+description: >
+  Multi-agent security auditor. Orchestrates a 250+ agent swarm to find
+  vulnerabilities and prove they're exploitable — not just flag patterns.
+  SARIF output for GitHub Actions integration. Apache 2.0.
