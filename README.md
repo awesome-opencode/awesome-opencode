@@ -278,6 +278,15 @@
 </details>
 
 <details>
+  <summary><b>OMOC Swarm</b> <img src="https://badgen.net/github/stars/Delqhi/opencode-omoc-swarm" height="14"/> - <i>Codebuff-style multi-agent swarms (parallel + messaging)</i></summary>
+  <blockquote>
+    Codebuff-style multi-agent swarms for OpenCode: per-role sessions, agent-to-agent messaging, and parallel fan-out with basic model-collision gating. Includes a tmux side-by-side launcher.
+    <br><br>
+    <a href="https://github.com/Delqhi/opencode-omoc-swarm">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>open-plan-annotator</b> <img src="https://badgen.net/github/stars/ndom91/open-plan-annotator" height="14"/> - <i>Annotate LLM plans like a Google Doc!</i></summary>
   <blockquote>
     A fully local agentic coding plugin that intercepts plan mode and opens an annotation UI in your browser. Select text to strikethrough, replace, insert, or comment — then approve the plan or request changes
