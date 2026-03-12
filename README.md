@@ -766,7 +766,7 @@
 <details>
   <summary><b>Antigravity Local Bridge</b> <img src="https://badgen.net/github/stars/marcodiniz/ag-local-bridge" height="14"/> - <i>Local OpenAI-compatible API bridge for Antigravity</i></summary>
   <blockquote>
-    An Antigravity extension that exposes a local OpenAI-compatible HTTP server on <code>localhost:11435</code>. Enables any OpenAI-compatible tool (OpenCode, Aider, Cline, Continue.dev) to use Antigravity's Gemini, Claude, and GPT models without additional API keys.
+    An Antigravity extension that exposes a local OpenAI-compatible HTTP server on <code>localhost:11435</code>. Enables any OpenAI-compatible tool (OpenCode, Aider, Cline) to use Antigravity's Gemini, Claude, and GPT models without additional API keys.
     <br><br>
     <a href="https://github.com/marcodiniz/ag-local-bridge">🔗 <b>View Repository</b></a>
   </blockquote>
