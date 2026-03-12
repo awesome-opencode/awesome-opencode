@@ -638,6 +638,15 @@
 </details>
 
 <details>
+  <summary><b>Xquik</b> <img src="https://badgen.net/github/stars/Xquik-dev/x-twitter-scraper" height="14"/> - <i>X/Twitter data skill & MCP server</i></summary>
+  <blockquote>
+    X/Twitter data skill — MCP server, REST API, 20 extraction tools. Works with Claude Code, Cursor, Codex, and 40+ agents.
+    <br><br>
+    <a href="https://github.com/Xquik-dev/x-twitter-scraper">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Zellij Namer</b> <img src="https://badgen.net/github/stars/24601/opencode-zellij-namer" height="14"/> - <i>Auto-rename Zellij sessions</i></summary>
   <blockquote>
     Keeps your Zellij session name in sync with your work.

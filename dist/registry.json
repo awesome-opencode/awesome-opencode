@@ -835,6 +835,18 @@
     "tags": []
   },
   {
+    "productId": "xquik",
+    "type": "plugins",
+    "displayName": "Xquik",
+    "repoUrl": "https://github.com/Xquik-dev/x-twitter-scraper",
+    "tagline": "X/Twitter data skill & MCP server",
+    "description": "X/Twitter data skill — MCP server, REST API, 20 extraction tools. Works with Claude Code, Cursor, Codex, and 40+ agents.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "zellij-namer",
     "type": "plugins",
     "displayName": "Zellij Namer",
