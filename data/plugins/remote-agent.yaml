@@ -1,0 +1,4 @@
+name: Remote Agent
+repo: https://github.com/petrjirous/opencode-remote-agent
+tagline: Offload long-running tasks to AWS ECS Fargate
+description: Launch OpenCode agent tasks on remote AWS ECS Fargate containers. Automatically uploads your workspace and session context so the remote agent can continue where you left off. Apply changes back locally via git patch.
