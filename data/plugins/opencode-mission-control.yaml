@@ -1,0 +1,4 @@
+name: OpenCode Mission Control
+repo: https://github.com/nigel-dev/opencode-mission-control
+tagline: Command center for parallel agents — worktree isolation, DAG plans, merge train, PRs
+description: Orchestrates parallel OpenCode agents in tmux-isolated git worktrees with live inspection (capture/attach/diff), a dashboard overview, agent status reporting, and in-chat notifications. Supports DAG-based plans with autopilot/copilot/supervisor modes and a merge train with test gating and automatic rollback.
