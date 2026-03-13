@@ -1,0 +1,4 @@
+name: Puter Auth
+repo: https://github.com/Mihai-Codes/opencode-puter-auth
+tagline: 500+ AI models via Puter.com OAuth
+description: Access Claude Opus 4.5, GPT-5, Gemini, DeepSeek, and 400+ free OpenRouter models through Puter.com authentication. Features automatic model fallback, multi-account rotation, and MCP server mode.
