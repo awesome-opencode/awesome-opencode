@@ -1,0 +1,32 @@
+---
+name: python-venv
+repo: https://github.com/cikichen/skill-python-venv
+tagline: Enforce Python virtual environment usage for third-party packages
+description: |
+  A skill that enforces Python virtual environment usage when installing packages or running scripts requiring third-party dependencies.
+
+  ## Key Features
+  - **Auto-detection**: Automatically finds existing venvs (.venv, venv, env, .env)
+  - **Smart reuse**: Reuses existing environments instead of creating duplicates
+  - **uv priority**: Uses uv for fast operations, falls back to python3 -m venv
+  - **Cross-platform**: Works on Linux, macOS, Windows, and WSL
+  - **Conda/Mamba support**: Detects and uses conda environments when available
+  - **Project detection**: Recognizes uv.lock, pyproject.toml, requirements.txt, Poetry, Pipfile
+  - **Troubleshooting guide**: Helps solve common venv issues
+  - **Safe enforcement**: Only enforces venv for third-party packages, skips stdlib-only code
+
+  ## Usage
+  Simply install the skill and it will automatically activate when you use Python or pip commands with third-party packages:
+
+  ```bash
+  # Run Python script with dependencies (automatic venv creation)
+  "Run script.py that uses pandas and numpy"
+
+  # Install packages (within venv)
+  "Install requests and beautifulsoup4"
+
+  # Standard library only (skips venv)
+  "Print hello world"  # No venv created
+  ```
+
+  Perfect for Python development projects, data science workflows, and any codebase requiring third-party dependencies.
