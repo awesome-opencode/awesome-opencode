@@ -1,0 +1,4 @@
+name: P4OC (Pocket for OpenCode)
+repo: https://github.com/theblazehen/P4OC
+tagline: Android client for OpenCode
+description: Native Android app for controlling OpenCode from your phone. Chat with AI, manage sessions, browse files with syntax highlighting, view diffs, and use an embedded terminal — all styled with a terminal UI aesthetic. Available on Google Play.
