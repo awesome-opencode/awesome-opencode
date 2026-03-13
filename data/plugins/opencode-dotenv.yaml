@@ -1,0 +1,4 @@
+name: opencode-dotenv
+repo: https://github.com/tianhuil/opencode-dotenv
+tagline: "The missing dotenv bridge for AI-powered coding: multi-environment, encrypted, templated, zero friction."
+description: Automatically loads .env files before AI-triggered bash commands. Supports multi-environment configs (.env.development, .env.production), encrypted secrets with dotenvx, variable expansion, and safe merging without overriding existing environment variables.
