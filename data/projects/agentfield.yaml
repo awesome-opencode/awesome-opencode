@@ -1,0 +1,7 @@
+name: AgentField
+repo: https://github.com/Agent-Field/agentfield
+tagline: Control plane for orchestrating AI agent swarms as microservices — best-in-class DX
+description: >
+  Open-source infrastructure for orchestrating AI agent swarms at scale.
+  Best-in-class developer experience with SDKs for Python, Go, and TypeScript.
+  Handles async execution, durable state, and observability.
