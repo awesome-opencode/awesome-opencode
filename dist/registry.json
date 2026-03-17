@@ -1318,6 +1318,18 @@
     "tags": []
   },
   {
+    "productId": "moonlight",
+    "type": "themes",
+    "displayName": "Moonlight",
+    "repoUrl": "https://github.com/brunogabriel/opencode-moonlight-theme",
+    "tagline": "A moonlight color theme for OpenCode based on the popular moonlight-vscode-theme.",
+    "description": "A moonlight color theme for OpenCode based on the popular moonlight-vscode-theme by atomiks. Features a dark, cool-toned palette inspired by moonlight aesthetics.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "poimandres-theme",
     "type": "themes",
     "displayName": "Poimandres Theme",
