@@ -1,0 +1,4 @@
+name: Command Inject
+repo: https://github.com/shihyuho/opencode-command-inject
+tagline: Auto-inject project commands into OpenCode
+description: Automatically discovers and injects Makefile targets, npm/pnpm/yarn/bun scripts, and local skills at startup. Type / to see and run all project commands.
