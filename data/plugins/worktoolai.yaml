@@ -1,0 +1,4 @@
+name: Worktoolai
+repo: https://github.com/worktoolai/worktoolai-skill
+tagline: Structured code, markdown, and JSON access for AI agents
+description: Agent skill for structured code, markdown, and JSON processing. Block-level code exploration (codeai), section-based markdown access (markdownai), and compact JSON search/modify (jsonai). Optimized for minimal token cost with overflow protection and byte budgets.
