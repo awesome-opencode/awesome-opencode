@@ -1,0 +1,4 @@
+name: Opencode Skills Antigravity
+repo: https://github.com/FrancoStino/opencode-skills-antigravity/
+tagline: OpenCode CLI plugin that automatically downloads and keeps Antigravity Awesome Skills up to date
+description: This plugin ensures you always have the latest skills without any network latency at startup. Automated Updates: A GitHub Action checks for updates in the Antigravity Awesome Skills repository every hour. If new skills are found, it automatically bundles them and publishes a new version of the NPM package.
