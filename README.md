@@ -422,6 +422,15 @@
 </details>
 
 <details>
+  <summary><b>Worktree Memory Sync</b> <img src="https://badgen.net/github/stars/Edison-A-N/opencode-worktree-memory-sync" height="14"/> - <i>Auto-sync memory to git worktrees</i></summary>
+  <blockquote>
+    Automatically copies <code>.opencode/memory/</code> from the main repository into new git worktrees on session init. Detects worktrees via the <code>.git</code> file, resolves the main repo, and syncs memory files only when the destination is empty — so it never overwrites your changes.
+    <br><br>
+    <a href="https://github.com/Edison-A-N/opencode-worktree-memory-sync">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>opencode-mystatus</b> <img src="https://badgen.net/github/stars/vbgate/opencode-mystatus" height="14"/> - <i>Check AI subscription quotas</i></summary>
   <blockquote>
     Check all your AI subscription quotas in one command. Supports OpenAI (Plus/Pro/Codex, etc.), Zhipu AI, Google Antigravity, and more.
