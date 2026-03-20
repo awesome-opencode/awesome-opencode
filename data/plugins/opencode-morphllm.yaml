@@ -1,0 +1,4 @@
+name: Opencode MorphLLM
+repo: https://github.com/VitoLin/opencode-morphllm
+tagline: Fast edits, semantic search, model routing
+description: Highly configurable plugin for MorphLLM with 10,500 tokens/s edit with fast-apply, semantic grep with warpgrep, and cost savings with smart model routing!
