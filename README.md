@@ -764,6 +764,15 @@
 <br>
 
 <details>
+  <summary><b>AgenTopology</b> <img src="https://badgen.net/github/stars/agentopology/agentopology" height="14"/> - <i>Declarative multi-agent topology language</i></summary>
+  <blockquote>
+    Generate platform configs for OpenCode/OpenClaw and 6 other platforms (Claude Code, Codex, Gemini CLI, Copilot CLI, Kiro) from a single declarative .at file. Define agents, flows, gates, hooks, and group chats. Ships with a Claude Code skill and interactive visualizer. Apache 2.0.
+    <br><br>
+    <a href="https://github.com/agentopology/agentopology">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Agent of Empires</b> <img src="https://badgen.net/github/stars/njbrake/agent-of-empires" height="14"/> - <i>Multi-session TUI for OpenCode</i></summary>
   <blockquote>
     A terminal UI for managing multiple OpenCode sessions in tmux with git worktree integration and Docker sandboxing.
