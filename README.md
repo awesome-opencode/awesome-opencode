@@ -24,6 +24,8 @@
 
 <br>
 
+> ⚠️ **Disclaimer**: This is a community-maintained list and is not affiliated with or endorsed by Opencode or Anomaly.
+
 [**OFFICIAL**](#official) • [**PLUGINS**](#plugins) • [**THEMES**](#themes) • [**AGENTS**](#agents) • [**PROJECTS**](#projects) • [**RESOURCES**](#resources)
 
 <br>
@@ -229,6 +231,15 @@
     Structured workflow with session continuity, subagent orchestration, git worktree isolation, and AST-aware tools.
     <br><br>
     <a href="https://github.com/vtemian/micode">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Memento</b> <img src="https://badgen.net/github/stars/awdemos/opencode-memento" height="14"/> - <i>Preserve project context across sessions</i></summary>
+  <blockquote>
+    OpenCode plugin that preserves project context across sessions, automatically injecting relevant prior work into compaction.
+    <br><br>
+    <a href="https://github.com/awdemos/opencode-memento">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -490,6 +501,15 @@
     Automation daemon that polls for work from GitHub issues and Linear tickets.
     <br><br>
     <a href="https://github.com/athal7/opencode-pilot">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Pushguard</b> <img src="https://badgen.net/github/stars/awdemos/opencode-pushguard" height="14"/> - <i>Pre-push quality checks</i></summary>
+  <blockquote>
+    Runs desloppify quality checks before git push. Warns or blocks pushes if code score falls below threshold.
+    <br><br>
+    <a href="https://github.com/awdemos/opencode-pushguard">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
