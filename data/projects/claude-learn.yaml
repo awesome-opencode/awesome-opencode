@@ -1,0 +1,4 @@
+name: Claude Learn
+repo: https://github.com/OutcomeFocusAi/claude-learn
+tagline: Self-improving behavioral playbook plugin for Claude Code
+description: Self-improving behavioral playbook plugin for Claude Code. Captures corrections, failures, and discoveries as scored rules that strengthen or decay over sessions — a closed feedback loop for continuous improvement.
