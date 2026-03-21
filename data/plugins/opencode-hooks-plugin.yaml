@@ -1,0 +1,4 @@
+name: Opencode Hooks Plugin
+repo: https://github.com/romain325/opencode-hooks-plugin
+tagline: Claude code compatible hooks
+description: Use Claude code hooks definition and hook them to opencode hooks.
