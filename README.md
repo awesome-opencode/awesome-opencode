@@ -1052,6 +1052,15 @@
 </details>
 
 <details>
+  <summary><b>Untether</b> <img src="https://badgen.net/github/stars/littlebearapps/untether" height="14"/> - <i>Telegram bridge for remote task control</i></summary>
+  <blockquote>
+    Telegram bridge for OpenCode (and 5 other agents). Send tasks by voice or text, stream progress live, and manage sessions remotely. Supports 75+ providers via OpenCode's model system.
+    <br><br>
+    <a href="https://github.com/littlebearapps/untether">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Vibe Kanban</b> <img src="https://badgen.net/github/stars/BloopAI/vibe-kanban" height="14"/> - <i>Manage AI in parallel</i></summary>
   <blockquote>
     A Kanban board to manage and orchestrate AI coding agents in parallel.
