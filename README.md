@@ -215,6 +215,15 @@
 </details>
 
 <details>
+  <summary><b>Image Compact</b> <img src="https://badgen.net/github/stars/JlMoreno00/opencode-image-compact" height="14"/> - <i>Auto-compress oversized images</i></summary>
+  <blockquote>
+    Automatically compresses image attachments that exceed Anthropic's 5 MB base64 limit. Intercepts paste, drag-drop, and read-tool images before the API call, resizing and recompressing with Sharp so oversized screenshots no longer break sessions.
+    <br><br>
+    <a href="https://github.com/JlMoreno00/opencode-image-compact">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Kilo Gateway Auth</b> <img src="https://badgen.net/github/stars/JungHoonGhae/opencode-kilo-auth" height="14"/> - <i>Kilo Gateway provider</i></summary>
   <blockquote>
     Adds Kilo Gateway provider support to OpenCode.
