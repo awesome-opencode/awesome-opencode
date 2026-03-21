@@ -1,0 +1,4 @@
+name: GoopSpec
+repo: https://github.com/hffmnnj/opencode-goopspec
+tagline: Spec-driven development workflow
+description: Transforms AI-assisted coding with spec-driven workflows. Features 5-phase workflow (Plan, Research, Specify, Execute, Accept), contract gates for user confirmation, 12 specialized subagents, persistent memory system, wave-based execution with atomic commits, and deviation rules for handling unexpected situations.
