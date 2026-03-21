@@ -1,0 +1,5 @@
+name: Deck
+repo: https://github.com/cofy-x/deck
+homepage: https://deck.cofy-x.space
+tagline: Local cockpit for OpenCode-powered autonomous agents with secure sandboxes and live desktop visibility.
+description: Open-source desktop cockpit that runs OpenCode-integrated agents in isolated Docker sandboxes with chat plus live noVNC desktop monitoring, tool permission controls, and a Pilot bridge suite for orchestrating agents from Telegram, Slack, WhatsApp, and more.
