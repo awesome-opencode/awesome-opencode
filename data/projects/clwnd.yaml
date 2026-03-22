@@ -1,4 +1,4 @@
 name: clwnd
 repo: https://github.com/adiled/clwnd
 tagline: "take back what is yours"
-description: "clwnd unlocks claude code subscriptions inside opencode (usage-compliant). With harness stitching and clwnd's own runtime, you can opt-in to more low level cross-cutting control."
+description: "clwnd unlocks claude code subscriptions inside opencode (usage-compliant). With harness stitching and clwnd's own runtime, you can opt-in to more low level cross-cutting control over your agentic workflows."
