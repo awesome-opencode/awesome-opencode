@@ -1,4 +1,4 @@
 name: clwnd
 repo: https://github.com/adiled/clwnd
-tagline: "Use your Claude Code subscription in OpenCode with full tool control"
-description: "Bridges Claude Code CLI into OpenCode as a provider — persistent process, MCP-based file tools with directory enforcement, brokered tool execution for native OpenCode UI, session continuity, and permission forwarding. Uses your existing Claude subscription auth."
+tagline: "take back what is yours"
+description: "clwnd unlocks claude code subscriptions inside opencode (usage-compliant). With harness stitching and clwnd's own runtime, you can opt-in to more low level cross-cutting control."
