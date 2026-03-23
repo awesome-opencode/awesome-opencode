@@ -1,0 +1,4 @@
+name: Termly
+repo: https://termly.dev/
+tagline: Control Claude Code, OpenCode, and other CLI AI assistants from iPhone, iPad, or Android
+description: Free native mobile app that connects to OpenCode, Claude Code, Gemini CLI, and other terminal AI tools via a zero-knowledge WebSocket relay. Pairs in under 60 seconds via QR code. E2E encrypted (AES-256-GCM), no subscriptions, no usage limits.
