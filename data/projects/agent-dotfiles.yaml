@@ -1,0 +1,4 @@
+name: agent-dotfiles
+repo: https://github.com/saqibameen/agent-dotfiles
+tagline: Write AI coding rules once, sync to every agent
+description: Write AI coding rules once, sync to every agent. Supports Command Code, Claude Code, Cursor, Copilot, Codex, and OpenCode.
