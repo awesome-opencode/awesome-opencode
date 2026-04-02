@@ -1,0 +1,4 @@
+name: Effect Enforcer
+repo: https://github.com/mpsuesser/opencode-effect-enforcer
+tagline: Real-time Effect v4 pattern violation enforcement
+description: Enforces Effect-first development patterns via 44 real-time pattern violations (regex + AST), a skill gate requiring 7 of 39 bundled Effect skills before writing Effect code, automatic local Effect v4 reference cloning, and session guidance injection. Intercepts anti-patterns and injects targeted remediation so the agent produces idiomatic, Effect-first code.
