@@ -1,0 +1,4 @@
+name: OpenCode Preview
+repo: https://github.com/Edison-A-N/opencode-preview
+tagline: Auto-start file preview server with live reload
+description: Preview Markdown, DrawIO, HTML, CSV, and 40+ code languages in the browser with live reload. Multi-project support, git worktree awareness, sidebar navigation, and TUI integration.
