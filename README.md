@@ -647,6 +647,15 @@
 </details>
 
 <details>
+  <summary><b>ToolPipe MCP Server</b> <img src="https://badgen.net/github/stars/COSAI-Labs/toolpipe-mcp-server" height="14"/> - <i>120+ developer utility tools via MCP</i></summary>
+  <blockquote>
+    MCP server providing 120+ developer utility tools: code review, formatting, minification, QR codes, hashing, DNS, WHOIS, SSL, security headers, fake data, JSON Schema validation, TypeScript generation, Docker Compose generation, and more. Works with any MCP-compatible agent.
+    <br><br>
+    <a href="https://github.com/COSAI-Labs/toolpipe-mcp-server">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Xquik</b> <img src="https://badgen.net/github/stars/Xquik-dev/x-twitter-scraper" height="14"/> - <i>X/Twitter data skill & MCP server</i></summary>
   <blockquote>
     X/Twitter data skill — MCP server, REST API, 20 extraction tools. Works with Claude Code, Cursor, Codex, and 40+ agents.
