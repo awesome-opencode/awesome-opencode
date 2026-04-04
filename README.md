@@ -998,6 +998,15 @@
 </details>
 
 <details>
+  <summary><b>opencode-telegram</b> <img src="https://badgen.net/github/stars/raulvalverdeleal/opencode-telegram" height="14"/> - <i>Control OpenCode sessions from Telegram</i></summary>
+  <blockquote>
+    A Telegram bot that bridges your chats to an OpenCode server with real-time SSE progress, session management, and access control via user allowlists.
+    <br><br>
+    <a href="https://github.com/raulvalverdeleal/opencode-telegram">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Web</b> <img src="https://badgen.net/github/stars/kcrommett/opencode-web" height="14"/> - <i>Browser-based access</i></summary>
   <blockquote>
     Web interface for opencode - browser-based access to AI coding agent.
