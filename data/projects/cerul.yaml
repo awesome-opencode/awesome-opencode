@@ -1,4 +1,4 @@
 name: Cerul
 repo: https://github.com/cerul-ai/cerul
-tagline: Video search layer for AI agents
-description: Search what was said, shown, or presented in tech talks, podcasts, conference presentations, and earnings calls. Provides a CLI, MCP server, and agent skill for finding video evidence and citations from talks.
+tagline: The video search layer for AI agents
+description: Teach your AI agents to see. Search video by meaning — across speech, visuals, and on-screen text. Provides CLI, MCP server, agent skill, and SDKs (TypeScript/Python).
