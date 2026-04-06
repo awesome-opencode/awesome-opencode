@@ -1112,3 +1112,6 @@ Found an Awesome Opencode project? <br>
 <br><br>
 <sub>Released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.</sub>
 </div>
+
+
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - Open-source multi-agent orchestrator with 57 specialized agents, anti-duplication registry, quality gates, and heartbeat monitoring. Production-tested across 10,000+ tasks.
