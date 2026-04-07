@@ -1,4 +1,0 @@
-name: Copilot Usage
-repo: https://github.com/bhaskarmelkani/opencode-copilot-usage
-tagline: GitHub Copilot premium quota in the TUI sidebar
-description: Shows your GitHub Copilot premium request quota at the top of the OpenCode TUI sidebar. Displays used/remaining requests, overage amount, and reset date. Only visible when the active provider is github-copilot. Auto-refreshes after each AI response.

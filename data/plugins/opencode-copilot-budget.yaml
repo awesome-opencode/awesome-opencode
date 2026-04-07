@@ -1,0 +1,4 @@
+name: Copilot Budget
+repo: https://github.com/bhaskarmelkani/opencode-copilot-budget
+tagline: GitHub Copilot premium budget in the TUI sidebar
+description: Shows your GitHub Copilot premium request budget at the top of the OpenCode TUI sidebar. Displays a progress bar, used/remaining requests, overage amount, and reset date. Only visible when the active provider is github-copilot. Auto-refreshes after each AI response.
