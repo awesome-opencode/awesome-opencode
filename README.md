@@ -422,6 +422,15 @@
 </details>
 
 <details>
+  <summary><b>opencode-copilot-budget</b> <img src="https://badgen.net/github/stars/bhaskarmelkani/opencode-copilot-budget" height="14"/> - <i>GitHub Copilot premium budget in the OpenCode TUI sidebar</i></summary>
+  <blockquote>
+    Shows your GitHub Copilot premium request budget and remaining quota in the OpenCode TUI sidebar. Displays usage percentage, request count, and reset date with visual progress bar that turns red at 90% usage.
+    <br><br>
+    <a href="https://github.com/bhaskarmelkani/opencode-copilot-budget">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>opencode-mystatus</b> <img src="https://badgen.net/github/stars/vbgate/opencode-mystatus" height="14"/> - <i>Check AI subscription quotas</i></summary>
   <blockquote>
     Check all your AI subscription quotas in one command. Supports OpenAI (Plus/Pro/Codex, etc.), Zhipu AI, Google Antigravity, and more.
