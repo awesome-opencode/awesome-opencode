@@ -1,0 +1,4 @@
+name: opencode-copilot-budget
+repo: https://github.com/bhaskarmelkani/opencode-copilot-budget
+tagline: GitHub Copilot premium budget in the OpenCode TUI sidebar
+description: Shows your GitHub Copilot premium request budget and remaining quota in the OpenCode TUI sidebar. Displays usage percentage, request count, and reset date with visual progress bar that turns red at 90% usage.
