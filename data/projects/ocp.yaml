@@ -1,0 +1,4 @@
+name: ocp
+repo: https://github.com/alvarosanchez/ocp
+tagline: Manage OpenCode config profiles in Git
+description: A CLI for switching OpenCode configuration profiles stored in Git repositories.
