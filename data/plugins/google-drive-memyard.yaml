@@ -1,0 +1,4 @@
+name: Google Drive – Memyard
+repo: https://github.com/zagmoai/public-google-drive
+tagline: Create and edit Google Docs and Sheets without sign-in
+description: Agent skill for creating and editing Google Docs and Sheets without sign-in. Documents are hosted on Memyard with shareable links. No API keys or OAuth required. Auto-registers on first use.
