@@ -1,0 +1,4 @@
+name: SourceHarbor
+repo: https://github.com/xiaojiou176-open/sourceharbor
+tagline: Source-first MCP knowledge control tower for watchlists, grounded search, and evidence-backed Ask.
+description: SourceHarbor helps terminal agent workflows turn YouTube, Bilibili, RSSHub, and RSS inputs into watchlists, briefings, grounded search, and Ask answers. It ships an MCP server plus public CLI and SDK surfaces, so Opencode-adjacent workflows can reuse the same source-first evidence layer through MCP or HTTP.
