@@ -1,0 +1,12 @@
+name: opencode-trace
+repo: https://github.com/ljw1004/opencode-trace
+tagline: Capture raw json LLM requests+responses as jsonl traces, with interactive HTML viewer
+description: OpenCode plugin that logs raw provider request and response payloads to ~/opencode-trace as self-contained HTML files with an interactive viewer for debugging and inspection.
+scope:
+  - global
+tags:
+  - tracing
+  - debugging
+  - observability
+installation: |
+  Add `"@ljw1004/opencode-trace"` to the `plugin` array in `~/.config/opencode/opencode.json`.
