@@ -1,0 +1,4 @@
+name: ProofTrail
+repo: https://github.com/xiaojiou176-open/prooftrail
+tagline: Browser evidence and recovery layer for OpenCode-aligned agent workflows
+description: Evidence-first browser automation project that helps OpenCode-style coding-agent workflows run a canonical browser path, keep retained proof, and recover before guesswork via governed API and MCP surfaces.
