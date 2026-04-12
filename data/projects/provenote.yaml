@@ -1,0 +1,13 @@
+name: Provenote
+repo: https://github.com/xiaojiou176-open/provenote
+tagline: Outcome-first research workbench with a tracked OpenCode MCP starter bundle
+description: A source-grounded note and draft workbench that keeps the first door
+  on structured outcomes, then layers a first-party MCP server and a checked-in
+  OpenCode starter bundle on top so OpenCode users can inspect notebooks, research
+  threads, and auditable runs without overstating plugin or marketplace status.
+tags:
+  - research
+  - notes
+  - mcp
+  - opencode
+  - knowledge-work
