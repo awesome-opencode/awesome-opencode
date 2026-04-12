@@ -1,0 +1,13 @@
+name: Prompt Switchboard
+repo: https://github.com/xiaojiou176-open/multi-ai-sidepanel
+tagline: Browser-native AI compare workspace with an OpenCode-ready MCP packet
+description: A compare-first, local-first browser workspace that sends one prompt
+  across multiple AI tabs, keeps the trust boundary inside the browser, and ships
+  a checked-in OpenCode MCP starter bundle plus a publish-ready plugin scaffold
+  without pretending the plugin is already listed.
+tags:
+  - ai-compare
+  - browser
+  - mcp
+  - opencode
+  - workflow
