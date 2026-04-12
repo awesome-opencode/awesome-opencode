@@ -1,0 +1,4 @@
+name: ProofTrail
+repo: https://github.com/xiaojiou176-open/prooftrail
+tagline: Governed browser-evidence layer for OpenCode and other coding-agent shells
+description: Evidence-first browser automation and recovery workspace with a local stdio MCP side road, retained proof bundles, and honest install contracts for OpenCode-adjacent workflows.
