@@ -1,0 +1,4 @@
+name: Movi Organizer
+repo: https://github.com/xiaojiou176-open/movi-organizer
+tagline: Review-first local MCP workbench for file organization and batch workflow triage in coding-agent shells
+description: A review-first local MCP workflow for organizing files and batch work that exposes repo-owned OpenCode-compatible attach paths through its stdio server, dry-run safety model, and proof-first install materials instead of claiming a hosted or plugin-only surface.
