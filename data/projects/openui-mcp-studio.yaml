@@ -1,0 +1,4 @@
+name: OpenUI MCP Studio
+repo: https://github.com/xiaojiou176-open/openui-mcp-studio
+tagline: Local MCP-first UI generation and review workspace with checked-in OpenCode-compatible bundles
+description: A local-first UI generation and review workspace that ships a canonical stdio MCP server, repo-owned OpenCode-compatible starter bundles, and proof-first delivery flows for coding-agent workspaces without overstating hosted or marketplace status.
