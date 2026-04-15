@@ -1,0 +1,8 @@
+name: Opencode Session Recall
+repo: https://github.com/rmk40/opencode-session-recall
+tagline: "Expose every stored session and project conversation to the agent"
+description: "Everything beyond the context window is still sitting in OpenCode's database. This plugin turns that inaccessible history into usable context for the agent across sessions, projects, tool outputs, and reasoning traces, with zero setup."
+scope:
+  - global
+  - project
+homepage: https://github.com/rmk40/opencode-session-recall#readme
