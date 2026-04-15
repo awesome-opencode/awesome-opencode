@@ -341,18 +341,8 @@
 </details>
 
 <details>
-  <summary><b>WSL Notifications</b> <img src="https://badgen.net/github/stars/captainmmd1304/opencode-wsl-notifications" height="14"/> - <i>Native Windows toast notifications from WSL</i></summary>
-  <blockquote>
-    Enables OpenCode running inside WSL to send native Windows toast notifications for task completion, prompts, and errors using PowerShell + BurntToast.
-    <br><br>
-    <a href="https://github.com/captainmmd1304/opencode-wsl-notifications">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
   <summary><b>OpenCode ntfy.sh</b> <img src="https://badgen.net/github/stars/lannuttia/opencode-ntfy.sh" height="14"/> - <i>Push notifications to keep you in the know, even when you're on the go.</i></summary>
   <blockquote>
-    An OpenCode plugin that adds push notifications through ntfy.sh.
     <br><br>
     <a href="https://github.com/lannuttia/opencode-ntfy.sh">🔗 <b>View Repository</b></a>
   </blockquote>
@@ -652,6 +642,15 @@
     MCP server for managing project-specific markdown notes with templates, batch edits, and ignore patterns.
     <br><br>
     <a href="https://github.com/boxpositron/with-context-mcp">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+ <details>
+  <summary><b>WSL Notifications</b> <img src="https://badgen.net/github/stars/captainmmd1304/opencode-wsl-notifications" height="14"/> - <i>Native Windows toast notifications from WSL</i></summary>
+  <blockquote>
+    Enables OpenCode running inside WSL to send native Windows toast notifications for task completion, prompts, and errors using PowerShell + BurntToast.
+    <br><br>
+    <a href="https://github.com/captainmmd1304/opencode-wsl-notifications">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
