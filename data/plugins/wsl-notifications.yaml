@@ -1,0 +1,4 @@
+name: WSL Notifications
+repo: https://github.com/captainmmd1304/opencode-wsl-notifications
+tagline: Native Windows toast notifications from WSL
+description: Enables OpenCode running inside WSL to send native Windows toast notifications for task completion, prompts, and errors using PowerShell and BurntToast.
