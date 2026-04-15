@@ -332,6 +332,15 @@
 </details>
 
 <details>
+  <summary><b>Opencode Model Scout</b> <img src="https://badgen.net/github/stars/rmk40/opencode-model-scout" height="14"/> - <i>Dynamically define local models with context limits and capabilities</i></summary>
+  <blockquote>
+    OpenAI-compatible local providers usually expose little more than model IDs. This plugin discovers available models and enriches them with real context limits, output limits, capability flags, and metadata from provider probes plus models.dev fallback, so OpenCode can use local and self-hosted models correctly without manual per-model config.
+    <br><br>
+    <a href="https://github.com/rmk40/opencode-model-scout">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Notify</b> <img src="https://badgen.net/github/stars/kdcokenny/opencode-notify" height="14"/> - <i>Native OS notifications</i></summary>
   <blockquote>
     Native OS notifications for OpenCode - know when tasks complete.
