@@ -242,6 +242,15 @@
 </details>
 
 <details>
+  <summary><b>MorningAI</b> <img src="https://badgen.net/github/stars/octo-patch/MorningAI" height="14"/> - <i>AI news tracking skill</i></summary>
+  <blockquote>
+    AI news tracking skill that monitors 80+ entities across 6 free sources (Reddit, HN, GitHub, HuggingFace, arXiv, X/Twitter). Generates scored daily reports with infographics and message digests. Works via SKILL.md — no Docker or servers required.
+    <br><br>
+    <a href="https://github.com/octo-patch/MorningAI">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Morph Fast Apply</b> <img src="https://badgen.net/github/stars/JRedeker/opencode-morph-fast-apply" height="14"/> - <i>10,500+ tokens/sec code editing</i></summary>
   <blockquote>
     Integrates Morph's Fast Apply API for faster code editing with lazy edit markers and unified diff output.
