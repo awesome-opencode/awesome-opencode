@@ -1061,6 +1061,25 @@
 </details>
 
 <br>
+<details>
+  <summary><b>Agent Shadow Brain</b> <img src="https://badgen.net/github/stars/theihtisham/agent-shadow-brain" height="14"/> - <i>AI-powered background code analysis</i></summary>
+  <blockquote>
+    AI-powered background code analysis agent with 60+ cognitive modules, infinite memory, and self-evolving intelligence. Works with AI coding agents to provide continuous code analysis.
+    <br><br>
+    <a href="https://github.com/theihtisham/agent-shadow-brain">🔗 <b>View Repository</b></a> • <a href="https://www.npmjs.com/package/@theihtisham/agent-shadow-brain">📦 npm</a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Omni Skills Forge</b> <img src="https://badgen.net/github/stars/theihtisham/omni-skills-forge" height="14"/> - <i>Universal skill manager for AI coding assistants</i></summary>
+  <blockquote>
+    Universal skill/slash-command manager for AI coding assistants. Install, manage, and share custom skills across Claude Code, Cursor, Windsurf, Opencode, and more.
+    <br><br>
+    <a href="https://github.com/theihtisham/omni-skills-forge">🔗 <b>View Repository</b></a> • <a href="https://www.npmjs.com/package/omni-skills-forge">📦 npm</a>
+  </blockquote>
+</details>
+
+<br>
 <a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ Add a Project via PR</b></a>
 </details>
 
