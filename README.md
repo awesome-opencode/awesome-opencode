@@ -377,15 +377,6 @@
 </details>
 
 <details>
-  <summary><b>Opencode Skills</b> <img src="https://badgen.net/github/stars/malhashemi/opencode-skills" height="14"/> - <i>Manage skills and capabilities</i></summary>
-  <blockquote>
-    Plugin for managing and organising opencode skills and capabilities.
-    <br><br>
-    <a href="https://github.com/malhashemi/opencode-skills">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
   <summary><b>Opencode Snippets</b> <img src="https://badgen.net/github/stars/JosXa/opencode-snippets" height="14"/> - <i>Instant inline text expansion</i></summary>
   <blockquote>
     Instant inline text expansion for OpenCode. Type #snippet anywhere in your message and watch it transform. Brings DRY principles to prompt engineering with composable, shell-enabled snippets.
