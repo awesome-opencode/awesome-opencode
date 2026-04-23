@@ -1,0 +1,9 @@
+name: SuperLocalMemory
+repo: https://github.com/qualixar/superlocalmemory
+tagline: Local-first persistent memory MCP server for OpenCode
+description: >
+  MCP memory server that works with OpenCode and any MCP-compatible tool.
+  Provides 6 MCP tools: remember, recall, search, forget, status, health.
+  Uses Fisher-Rao information geometry with 87.7% LoCoMo benchmark score.
+  Zero-cloud mode, MIT license.
+installation: npm install -g superlocalmemory && slm init && slm serve

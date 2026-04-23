@@ -1,0 +1,5 @@
+name: AnveVoice
+repo: https://github.com/anvevoice/anvevoice
+tagline: Voice AI for web apps with real DOM actions, 46 MCP tools, 50+ languages
+homepage: https://anvevoice.app
+description: AI voice assistant that adds voice interaction to any web application. Takes real DOM actions (clicks, fills forms, navigates) via voice commands with 46 MCP tools via JSON-RPC 2.0. Sub-700ms end-to-end voice latency, 50+ languages (22 Indian languages + Hinglish), WCAG 2.1 AA compliant. Works with React, Vue, Angular, Next.js. MIT-0 licensed.

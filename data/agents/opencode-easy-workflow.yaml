@@ -1,0 +1,4 @@
+name: OpenCode Easy Workflow
+repo: https://github.com/jmarceno/opencode-easy-workflow
+tagline: Kanban-style Agent Orchestration plugin for OpenCode
+description: A Kanban-style Agent Orchestration plugin for OpenCode. Provides visual workflow management for multi-agent task coordination.
