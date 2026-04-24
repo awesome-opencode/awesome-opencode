@@ -1,0 +1,4 @@
+name: OpenCode ByteRover
+repo: https://github.com/ian-pascoe/opencode-byterover
+tagline: ByteRover memory integration
+description: OpenCode plugin that connects sessions to ByteRover memory, persisting useful idle or compacted context and recalling relevant project knowledge into future prompts.

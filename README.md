@@ -305,6 +305,15 @@
 </details>
 
 <details>
+  <summary><b>OpenCode ByteRover</b> <img src="https://badgen.net/github/stars/ian-pascoe/opencode-byterover" height="14"/> - <i>ByteRover memory integration</i></summary>
+  <blockquote>
+    OpenCode plugin that connects sessions to ByteRover memory, persisting useful idle or compacted context and recalling relevant project knowledge into future prompts.
+    <br><br>
+    <a href="https://github.com/ian-pascoe/opencode-byterover">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Canvas</b> <img src="https://badgen.net/github/stars/mailshieldai/opencode-canvas" height="14"/> - <i>Interactive terminal canvases in tmux splits</i></summary>
   <blockquote>
     Interactive terminal canvases (calendars, documents, flight booking) in tmux splits. Port of claude-canvas for OpenCode.
