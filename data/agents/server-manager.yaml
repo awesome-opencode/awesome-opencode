@@ -1,5 +1,5 @@
 name: server-manager
-repo: https://github.com/workdocyeye/opencode-skills
+repo: https://github.com/workdocyeye/server-manager
 tagline: Start/stop/tail/grep local dev servers (Node/Python/Go/etc.) via PowerShell, with log tracking
 description: A skill for managing local development servers across multiple frameworks. Supports start, stop, list, health, tail, grep, and stop-all commands. Works with Node.js, Python, Go, .NET, Java, Rust, and PHP. Uses JSON for state persistence and per-project log files for error tracking.
 scope:
@@ -27,4 +27,4 @@ installation: |
   mkdir -p .opencode/skills/server-manager
   # Copy files there
   ```
-homepage: https://github.com/workdocyeye/opencode-skills/tree/main/server-manager
+homepage: https://github.com/workdocyeye/server-manager
