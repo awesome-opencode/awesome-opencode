@@ -1025,6 +1025,15 @@
 </details>
 
 <details>
+  <summary><b>Skills宝</b> - <i>Chinese AI Skills marketplace</i></summary>
+  <blockquote>
+    One-stop search and install for Claude Code, OpenCode, and more platforms, with Chinese-friendly discovery.
+    <br><br>
+    <a href="https://skilery.com">🔗 <b>Visit Website</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Qwen Code OAI Proxy</b> <img src="https://badgen.net/github/stars/aptdnfapt/qwen-code-oai-proxy" height="14"/> - <i>Qwen model proxy</i></summary>
   <blockquote>
     An OpenAI-Compatible Proxy Server for Qwen models.
