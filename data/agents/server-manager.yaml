@@ -12,19 +12,9 @@ tags:
   - powershell
   - windows
 installation: |
-  Global installation (recommended):
-  ```bash
-  # Create skill directory
-  mkdir -p ~/.config/opencode/skills/server-manager
-  # Copy all files
-  cp -r scripts/* ~/.config/opencode/skills/server-manager/
-  cp SKILL.md ~/.config/opencode/skills/server-manager/
-  ```
+  Global installation:
+  Download the entire `server-manager/` folder into `~/.config/opencode/skills/`
 
   Project-level installation:
-  ```bash
-  # Create .opencode/skills/server-manager/
-  mkdir -p .opencode/skills/server-manager
-  # Copy files there
-  ```
+  Download into `.opencode/skills/server-manager/` in your project root
 homepage: https://github.com/workdocyeye/server-manager
