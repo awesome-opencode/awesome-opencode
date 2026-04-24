@@ -761,6 +761,15 @@
 </details>
 
 <br>
+<details>
+  <summary><b>Emdash Skills</b> <img src="https://badgen.net/github/stars/megabytespace/claude-skills" height="14"/> - <i>14-category autonomous product-building OS</i></summary>
+  <blockquote>
+    Turns one-line prompts into deployed products on Cloudflare Workers. 18 specialized agents (architect, test-writer, deploy-verifier, security-reviewer, visual-qa, etc.) self-coordinate through parallel build phases. Full-stack skills covering architecture, planning, quality verification, brand, media, observability, and more. Compatible with Claude Code, OpenCode, Gemini CLI, and Windsurf.
+    <br><br>
+    <a href="https://github.com/megabytespace/claude-skills">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
 <a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ Add an Agent via PR</b></a>
 </details>
 
