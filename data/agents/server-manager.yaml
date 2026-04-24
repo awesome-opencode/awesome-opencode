@@ -1,6 +1,6 @@
 name: server-manager
 repo: https://github.com/workdocyeye/server-manager
-tagline: 在 AI 终端里运行 npm run dev 会一直占用终端，无法继续对话。本 skill 实现完全不阻塞的后台服务器管理。
+tagline: Running npm run dev in an AI terminal blocks the session. This skill adds fully non-blocking background server management.
 description: Start, track, and stop local dev servers in the background — without blocking your AI conversation. Supports Node.js, Python, Go, .NET, Java, Rust, PHP and any framework that runs a dev server. JSON state persistence, per-project log files, HTTP health checks, and log tail/grep for debugging.
 scope:
   - global
