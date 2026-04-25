@@ -1,0 +1,4 @@
+name: Agent Sessions
+repo: https://github.com/jazzyalex/agent-sessions
+tagline: macOS session browser and live cockpit
+description: Native macOS app for browsing, searching, and resuming local OpenCode sessions alongside Codex CLI, Claude Code, Gemini CLI, and other coding agents, with Agent Cockpit live monitoring for iTerm2 workflows.
