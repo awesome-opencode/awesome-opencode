@@ -1,0 +1,11 @@
+name: Sortie
+repo: https://github.com/sortie-ai/sortie
+tagline: OpenCode orchestrator for Jira and GitHub tickets
+description: Open-source orchestrator that turns Jira and GitHub tickets into isolated, parallel OpenCode sessions. Handles retries, stall detection, CI feedback, and cost tracking.
+homepage: https://docs.sortie-ai.com
+tags:
+  - orchestrator
+  - jira
+  - github
+  - workflow
+  - parallel
