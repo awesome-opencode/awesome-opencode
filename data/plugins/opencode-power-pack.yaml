@@ -1,0 +1,15 @@
+name: opencode-power-pack
+repo: https://github.com/waybarrios/opencode-power-pack
+tagline: Eleven Claude Code skills (code-review, security-review, feature-dev, etc.) ported to OpenCode
+description: |
+  Bundles eleven of Anthropic's official Claude Code skills as a single OpenCode plugin: code-review, security-review, feature-dev, frontend-design, mcp-builder, skill-creator, agents-md-improver, agents-md-revise, plus the three feature-dev sub-agents (code-explorer, code-architect, code-reviewer). Each skill is also exposed as a slash command (`/code-review`, `/security-review`, etc.). The plugin loader pattern (registering skills via `config.skills.paths.push()`) is adapted from obra/superpowers. Per-skill upstream attribution to Anthropic is in the README; the repo's contribution is the porting and packaging of Claude-Code-only commands and agents into OpenCode-native SKILL.md format.
+scope:
+  - global
+tags:
+  - claude-code
+  - skills
+  - code-review
+  - security-review
+  - feature-dev
+  - frontend-design
+  - mcp
