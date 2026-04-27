@@ -1,0 +1,4 @@
+name: Gaeta
+repo: https://github.com/aemonge/gaeta
+tagline: OpenCode-safe wrapper with phase-driven workflow control
+description: Guided Assistant Engineered Taskflow Agent — an OpenCode-safe wrapper using bubblewrap (with optional Landlock defense-in-depth) that enforces a phase-driven, methodology-disciplined workflow around OpenCode without forking its internals.
