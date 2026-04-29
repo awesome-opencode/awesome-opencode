@@ -224,6 +224,15 @@
 </details>
 
 <details>
+  <summary><b>lean-ctx</b> <img src="https://badgen.net/github/stars/yvgude/lean-ctx" height="14"/> - <i>Context runtime for AI coding agents</i></summary>
+  <blockquote>
+    Open-source context runtime for AI coding agents (https://leanctx.com). MCP server + shell hook reducing token costs by 60-99%. 46 tools, session caching, AST-aware compression. Single Rust binary. Apache-2.0.
+    <br><br>
+    <a href="https://github.com/yvgude/lean-ctx">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Micode</b> <img src="https://badgen.net/github/stars/vtemian/micode" height="14"/> - <i>Brainstorm-Plan-Implement workflow</i></summary>
   <blockquote>
     Structured workflow with session continuity, subagent orchestration, git worktree isolation, and AST-aware tools.
