@@ -1,0 +1,4 @@
+name: BRHP
+repo: https://github.com/ZanzyTHEbar/brhp
+tagline: Persistent planning state
+description: Structured, persistent planning for OpenCode with local session state, /brhp commands, bounded planner history, and a TUI sidebar.
