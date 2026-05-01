@@ -1,0 +1,10 @@
+name: opencode-sound
+repo: https://github.com/hardes11/opencode-sound
+tagline: System sound alerts for agent questions, permission requests, and response completion
+description: >-
+  Plays freedesktop system sounds when the AI agent asks for permission
+  (dialog-warning), asks a clarifying question (dialog-information), or
+  finishes a response (complete). Auto-detects PipeWire, PulseAudio, ALSA,
+  canberra, or falls back to the terminal bell. Configurable via
+  OPENCODE_SOUND_ENABLED and OPENCODE_SOUND_VOLUME environment variables.
+  Debounced to avoid sound spam.
