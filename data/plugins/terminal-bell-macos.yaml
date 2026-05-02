@@ -1,0 +1,4 @@
+name: Terminal Bell (macOS)
+repo: https://github.com/thaumkid/plugins/blob/main/plugins/opencode/terminal-bell.ts
+tagline: macOS terminal bell alerts for when OpenCode requires user attention
+description: Plays user-configurable audible alerts on OpenCode events and auto-detects window focus to suppress the alerts. Works on MacOS Terminal, iTerm2, kitty, Ghostty, WezTerm, and Alacritty.
