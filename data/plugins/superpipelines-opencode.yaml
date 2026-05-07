@@ -1,0 +1,4 @@
+name: Superpipelines
+repo: https://github.com/gustavo-meilus/superpipelines-opencode
+tagline: Multi-agent AI pipeline orchestration framework
+description: Decompose complex tasks into coordinated subagents with guaranteed spec compliance, write/review isolation, state persistence, and crash recovery. Supports 6 execution patterns (Sequential, Parallel Fan-Out, Iterative Loop, Human-Gated, Spec-Driven Dev, 4D Wrapper) and slash commands for designing, running, and auditing pipelines.
