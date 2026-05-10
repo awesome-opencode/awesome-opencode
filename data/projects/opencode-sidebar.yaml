@@ -1,0 +1,8 @@
+name: OpenCode Sidebar
+repo: https://github.com/arnavpisces/opencode-sidebar
+tagline: Tmux sidebar for managing OpenCode sessions
+description: >
+  A tmux-backed sidebar launcher for OpenCode that keeps the session list,
+  preview pane, and OpenCode TUI together in one workspace. It supports session
+  recall, background sessions, search, project folders, deletion, and sound
+  notifications.
