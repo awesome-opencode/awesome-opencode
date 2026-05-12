@@ -1,0 +1,4 @@
+name: theSaver
+repo: https://github.com/DrunkkToys/theSaver-oc
+tagline: Cost-aware delegation enforcer with model routing
+description: Three-tier model routing, prompt-cache tracking, ROI reporting in every response, trinity CLI for brain/medium/cheap slot switching, context compression, and test reminders.
