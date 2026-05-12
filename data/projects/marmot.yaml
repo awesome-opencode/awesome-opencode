@@ -1,0 +1,73 @@
+name: Marmot
+repo: https://github.com/marmot-sh/marmot
+tagline: Shell-native CLI for AI, web search, scraping, and data enrichment — one verb shape across many providers.
+description: |
+  Marmot gives OpenCode and other agent harnesses one shell-native command shape for external calls — AI generation, web search, scraping, deep research, and people/company enrichment — across many providers behind a single CLI.
+
+  Instead of teaching the agent a dozen provider CLIs, OpenCode learns Marmot's verb shape once and composes calls through shell pipes. The bundled skill (auto-symlinked to `~/.opencode/skills/marmot`) teaches OpenCode the verb shape, output formats, and provider matrix.
+
+  Features:
+  - One shape across providers: same flags across OpenRouter, Anthropic, OpenAI, Vercel AI Gateway, Cloudflare Workers AI, and Ollama for AI; Brave, Exa, Firecrawl, Parallel, Tavily for web; Apollo, Hunter, PDL, Tomba, Bouncer, Datagma, ZeroBounce, Kickbox for data.
+  - Agent-friendly output: plain-text default for piping, `--json` envelope for structured parsing, stable exit codes, stderr/stdout separation.
+  - Composable via shell pipes: `marmot search ... | marmot "summarize"`.
+  - Presets and sessions: save flag bundles, persist chat history across invocations.
+  - Optional response cache, retries, and per-provider config.
+
+tags:
+  - cli
+  - ai
+  - web-search
+  - scraping
+  - enrichment
+  - agent-tooling
+  - skill
+
+homepage: https://marmot.sh
+
+installation: |
+  ## Install the CLI
+
+  ```bash
+  npm install -g @marmot-sh/cli
+  ```
+
+  Verify with `marmot --version`. The CLI is published as `@marmot-sh/cli` (binary: `marmot`); a shorter unscoped alias `marmot-sh` is also available.
+
+  ## Set up providers
+
+  Export at least one provider API key, then run the wizard:
+
+  ```bash
+  export OPENROUTER_API_KEY=sk-or-v1-...
+  marmot setup
+  ```
+
+  The wizard walks you through default providers, env var names, the response cache, and installing the OpenCode skill bundle.
+
+  ## Install the OpenCode skill
+
+  Either run `marmot setup` and choose "Install or update agent skill", or install directly:
+
+  ```bash
+  npx skills add https://github.com/marmot-sh/marmot --skill marmot
+  ```
+
+  The skill installs to `~/.agents/skills/marmot/` with a symlink at `~/.opencode/skills/marmot` so OpenCode picks it up automatically.
+
+  ## Quickstart
+
+  ```bash
+  # text generation (default verb)
+  marmot "tell me a joke"
+
+  # search then summarize
+  marmot search "openrouter pricing 2026" | marmot "give me 5 bullet highlights"
+
+  # git diff to commit message
+  git diff | marmot --stream "commit message under 60 chars"
+
+  # enrich a person from an email
+  marmot enrich --type person --email tcook@apple.com
+  ```
+
+  Full docs at [marmot.sh/docs](https://marmot.sh/docs).
