@@ -1,0 +1,4 @@
+name: theSaver
+repo: https://github.com/DrunkkToys/theSaver-oc
+tagline: Cost-aware model routing & delegation enforcer
+description: Classifies models into brain/medium/cheap tiers and enforces delegation policy — high-tier models are warned before doing direct edits/writes that a cheaper worker could handle. Tracks per-session and lifetime savings with a footer in every response. Includes the trinity CLI for switching model slots across Claude Code and OpenCode simultaneously.
