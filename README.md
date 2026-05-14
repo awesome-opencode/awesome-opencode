@@ -80,6 +80,15 @@
 </details>
 
 <details>
+
+<details>
+  <summary><b>APort Agent Guardrails</b> <img src="https://badgen.net/github/stars/aporthq/aport-agent-guardrails" height="14"/> - <i>Pre-action authorization and runtime guardrails</i></summary>
+
+  Runtime policy guardrails for agent tool calls, with OpenClaw before-tool-call hooks, blocked-pattern checks, and local or API enforcement before risky actions proceed.
+  <br/><br/>
+  <a href="https://github.com/aporthq/aport-agent-guardrails">🔗 <b>View Repository</b></a>
+</details>
+
   <summary><b>Antigravity Auth</b> <img src="https://badgen.net/github/stars/NoeFabris/opencode-antigravity-auth" height="14"/> - <i>Google Antigravity models</i></summary>
   <blockquote>
     Use Gemini and Anthropic models for free via Google Antigravity IDE authentication.
