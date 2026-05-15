@@ -332,6 +332,17 @@
 </details>
 
 <details>
+  <summary><b>Opencode MemPalace Persistence</b> <img src="https://badgen.net/github/stars/geco/opencode-mempalace-persistence" height="14"/> - <i>Real-time memory sync to MemPalace with KG</i></summary>
+  <blockquote>
+    Auto-saves every conversation to MemPalace after every response. No cron, no background processes — pure TypeScript using OpenCode's plugin hooks. Includes auto-categorization (developer, creative, emotions, etc.) and Knowledge Graph fact extraction (decisions, milestones, problems, preferences).
+    <br><br>
+    <a href="https://github.com/geco/opencode-mempalace-persistence">🔗 <b>View Repository</b></a>
+    <br>
+    <a href="https://www.npmjs.com/package/opencode-mempalace-persistence">📦 <b>npm</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Notify</b> <img src="https://badgen.net/github/stars/kdcokenny/opencode-notify" height="14"/> - <i>Native OS notifications</i></summary>
   <blockquote>
     Native OS notifications for OpenCode - know when tasks complete.
