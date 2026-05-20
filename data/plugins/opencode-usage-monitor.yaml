@@ -1,0 +1,4 @@
+name: Opencode Usage Monitor
+repo: https://github.com/Mark1708/opencode-usage-monitor
+tagline: Real-time API usage and cost tracking sidebar
+description: TUI sidebar plugin that monitors token usage and costs across providers (OpenAI, ZAI). Collapsible tree view with per-model breakdowns, configurable refresh keybind, and read-only safe display.

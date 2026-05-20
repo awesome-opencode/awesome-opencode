@@ -1,0 +1,4 @@
+name: Opencode Agents Sidebar
+repo: https://github.com/Mark1708/opencode-agents-sidebar
+tagline: Browse and inspect available agents and their roles
+description: TUI sidebar plugin that displays all configured agents organized by category. Shows agent descriptions, models, and capabilities in a collapsible tree view for quick reference during sessions.
