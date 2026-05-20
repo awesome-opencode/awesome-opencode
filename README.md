@@ -782,6 +782,15 @@
 </details>
 
 <details>
+  <summary><b>AgentTrace</b> <img src="https://badgen.net/github/stars/luoyuctl/agenttrace" height="14"/> - <i>Local-first session analytics TUI</i></summary>
+  <blockquote>
+    Local-first TUI and report generator for OpenCode and other AI coding-agent session history, including cost, tokens, latency, failures, and slow-run diagnosis.
+    <br><br>
+    <a href="https://github.com/luoyuctl/agenttrace">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Beads</b> <img src="https://badgen.net/github/stars/steveyegge/beads" height="14"/> - <i>Project task management</i></summary>
   <blockquote>
     Steve Yegge's project/task management system for agents (with beads_viewer UI).

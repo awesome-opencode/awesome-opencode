@@ -1,0 +1,4 @@
+name: AgentTrace
+repo: https://github.com/luoyuctl/agenttrace
+tagline: Local-first session analytics TUI
+description: Local-first TUI and report generator for OpenCode and other AI coding-agent session history, including cost, tokens, latency, failures, and slow-run diagnosis.
