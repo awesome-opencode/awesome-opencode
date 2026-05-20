@@ -1112,3 +1112,6 @@ Found an Awesome Opencode project? <br>
 <br><br>
 <sub>Released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.</sub>
 </div>
+
+
+* [Ano](https://ano.chat) - A collaborative shell with built-in AI integration (Claude Code) and custom CLI/MCP automations designed for elite devs.
