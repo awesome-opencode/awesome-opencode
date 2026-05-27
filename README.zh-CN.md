@@ -19,19 +19,21 @@
 <!-- LANGUAGE SWITCHER -->
 <p>
 <a href="README.md"><img src="https://img.shields.io/badge/EN-English-blue" height="22" alt="English" /></a>
+&nbsp;&nbsp;
 <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/中文-简体-green" height="22" alt="简体中文" /></a>
+&nbsp;&nbsp;
 <a href="README.ru-RU.md"><img src="https://img.shields.io/badge/Русский-версия-orange" height="22" alt="Русский" /></a>
 </p>
 
 <br>
 
 <!-- DESCRIPTION -->
-<h3>Opencode 的插件、主题、代理和资源精选列表。</h3>
-<h3>Opencode 是终端上的 AI 编程代理，由 <a href="https://github.com/anomalyco">Anomaly</a> 团队构建。</h3>
+<h3>Opencode 插件、主题、智能体和资源的精选列表。</h3>
+<h3>Opencode 是终端上的 AI 编程智能体，由 <a href="https://github.com/anomalyco">Anomaly</a> 团队打造。</h3>
 
 <br>
 
-[**官方仓库**](#官方仓库) • [**插件**](#plugins) • [**主题**](#themes) • [**代理**](#agents) • [**项目**](#projects) • [**资源**](#resources)
+[**官方仓库**](#官方仓库) • [**插件**](#plugins) • [**主题**](#themes) • [**智能体**](#agents) • [**项目**](#projects) • [**资源**](#resources)
 
 <br>
 <hr>
@@ -46,7 +48,7 @@
 
 | 项目 | Stars | 描述 |
 | :--- | :--- | :--- |
-| **[opencode](https://github.com/anomalyco/opencode)** | ![Stars](https://badgen.net/github/stars/anomalyco/opencode) | 官方 Opencode AI 编程代理。 |
+| **[opencode](https://github.com/anomalyco/opencode)** | ![Stars](https://badgen.net/github/stars/anomalyco/opencode) | 官方 Opencode AI 编程智能体。 |
 | **[opencode-sdk-js](https://github.com/anomalyco/opencode-sdk-js)** | ![Stars](https://badgen.net/github/stars/anomalyco/opencode-sdk-js) | Opencode 官方 JavaScript/TypeScript SDK。 |
 | **[opencode-sdk-go](https://github.com/anomalyco/opencode-sdk-go)** | ![Stars](https://badgen.net/github/stars/anomalyco/opencode-sdk-go) | Opencode 官方 Go SDK。 |
 | **[opencode-sdk-python](https://github.com/anomalyco/opencode-sdk-python)** | ![Stars](https://badgen.net/github/stars/anomalyco/opencode-sdk-python) | Opencode 官方 Python SDK。 |
@@ -59,8 +61,8 @@
 <summary><strong>🧩 插件</strong></summary>
 <br>
 
-> 📖 插件列表内容由英文主 README 自动生成。
-> 请查看 [English README](README.md#plugins) 获取完整列表。
+> 📖 插件列表由英文主 README 自动生成。
+> 完整列表请查看 [English README](README.md#plugins)。
 
 <br>
 <a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ 通过 PR 添加插件</b></a>
@@ -74,8 +76,8 @@
 <summary><strong>🎨 主题</strong></summary>
 <br>
 
-> 📖 主题列表内容由英文主 README 自动生成。
-> 请查看 [English README](README.md#themes) 获取完整列表。
+> 📖 主题列表由英文主 README 自动生成。
+> 完整列表请查看 [English README](README.md#themes)。
 
 <br>
 <a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ 通过 PR 添加主题</b></a>
@@ -86,14 +88,14 @@
 <div id="agents"></div>
 
 <details>
-<summary><strong>🤖 代理</strong></summary>
+<summary><strong>🤖 智能体</strong></summary>
 <br>
 
-> 📖 代理列表内容由英文主 README 自动生成。
-> 请查看 [English README](README.md#agents) 获取完整列表。
+> 📖 智能体列表由英文主 README 自动生成。
+> 完整列表请查看 [English README](README.md#agents)。
 
 <br>
-<a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ 通过 PR 添加代理</b></a>
+<a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ 通过 PR 添加智能体</b></a>
 </details>
 
 <br>
@@ -104,8 +106,8 @@
 <summary><strong>🛠 项目</strong></summary>
 <br>
 
-> 📖 项目列表内容由英文主 README 自动生成。
-> 请查看 [English README](README.md#projects) 获取完整列表。
+> 📖 项目列表由英文主 README 自动生成。
+> 完整列表请查看 [English README](README.md#projects)。
 
 <br>
 <a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ 通过 PR 添加项目</b></a>
@@ -119,8 +121,8 @@
 <summary><strong>📚 资源</strong></summary>
 <br>
 
-> 📖 资源列表内容由英文主 README 自动生成。
-> 请查看 [English README](README.md#resources) 获取完整列表。
+> 📖 资源列表由英文主 README 自动生成。
+> 完整列表请查看 [English README](README.md#resources)。
 
 <br>
 <a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ 通过 PR 添加资源</b></a>
