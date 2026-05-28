@@ -782,6 +782,15 @@
 </details>
 
 <details>
+  <summary><b>Agent Sessions</b> <img src="https://badgen.net/github/stars/jazzyalex/agent-sessions" height="14"/> - <i>Local OpenCode session-history browser</i></summary>
+  <blockquote>
+    Local-first macOS app for browsing and full-text searching OpenCode session history. It reads local OpenCode SQLite history in read-only mode, opens old runs as readable timelines, and can resume sessions where the OpenCode CLI supports it.
+    <br><br>
+    <a href="https://github.com/jazzyalex/agent-sessions">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Beads</b> <img src="https://badgen.net/github/stars/steveyegge/beads" height="14"/> - <i>Project task management</i></summary>
   <blockquote>
     Steve Yegge's project/task management system for agents (with beads_viewer UI).
