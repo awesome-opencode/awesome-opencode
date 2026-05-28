@@ -1,0 +1,10 @@
+name: Ivy Tendril
+repo: https://github.com/Ivy-Interactive/Ivy-Tendril
+tagline: AI coding orchestrator with plan-based lifecycle and verification gates
+description: Open-source desktop app that orchestrates OpenCode, Claude Code, Codex, Antigravity, and Copilot through a structured plan-based lifecycle. Features verification gates, self-improving memory, human-in-the-loop checkpoints, and git worktree isolation. Local-first, agent-agnostic, stack-agnostic.
+homepage: https://tendril.ivy.app
+tags:
+  - orchestration
+  - multi-agent
+  - desktop
+  - worktree
