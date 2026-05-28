@@ -1,0 +1,4 @@
+name: Mem0
+repo: https://github.com/mem0ai/mem0
+tagline: Persistent memory layer for AI coding agents across sessions
+description: Adds persistent memory to OpenCode so decisions, preferences, and learnings carry over across sessions. Ships 9 MCP memory tools (add, search, get, update, delete), lifecycle hooks for automatic context capture, and 16 slash commands for memory management. Install via `opencode plugin @mem0/opencode-plugin` or connect the hosted MCP server directly.
