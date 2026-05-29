@@ -575,6 +575,15 @@
 </details>
 
 <details>
+  <summary><b>Snitch</b> <img src="https://badgen.net/github/stars/ApplauseLab/snitch" height="14"/> - <i>Local Kokoro narration for OpenCode sessions</i></summary>
+  <blockquote>
+    Snitch listens for OpenCode session activity and speaks updates through a local macOS narration service, with Kokoro TTS, queued playback, rendered audio files, and demo voiceover support.
+    <br><br>
+    <a href="https://github.com/ApplauseLab/snitch">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Subtask2</b> <img src="https://badgen.net/github/stars/spoons-and-mirrors/subtask2" height="14"/> - <i>Orchestration system</i></summary>
   <blockquote>
     Extend opencode /commands into a powerful orchestration system with granular flow control.
