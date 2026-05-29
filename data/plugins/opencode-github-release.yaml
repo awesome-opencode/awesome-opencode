@@ -1,0 +1,4 @@
+name: GitHub Release
+repo: https://github.com/amestsantim/opencode-github-release
+tagline: Automated GitHub releases
+description: Create and publish GitHub releases with semantic versioning, tag management, and auto-generated release notes.
