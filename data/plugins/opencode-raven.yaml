@@ -1,0 +1,4 @@
+name: opencode-raven
+repo: https://github.com/evilayman/opencode-raven
+tagline: Search-first subagent that blocks and reroutes all search tools through a dedicated Raven agent
+description: Intercepts grep, glob, bash search commands, and MCP search tools (Context7, Exa AI, Grep.app), rerouting them through a cheap Raven subagent. Includes raven_seek unified search tool, configurable timeout, session tree visibility, and stats tracking for context savings.
