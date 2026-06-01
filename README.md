@@ -743,6 +743,15 @@
 </details>
 
 <details>
+  <summary><b>El Primor</b> <img src="https://badgen.net/github/stars/fxMT-nx/El-Primor" height="14"/> - <i>Agente de excelencia que crece contigo</i></summary>
+  <blockquote>
+    Metodologia de 9 fases, 11 skills, auto-adaptacion y aprendizaje de errores.
+    <br><br>
+    <a href="https://github.com/fxMT-nx/El-Primor">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Agents</b> <img src="https://badgen.net/github/stars/darrenhinde/opencode-agents" height="14"/> - <i>Enhanced workflows</i></summary>
   <blockquote>
     A set of opencode configurations, prompts, agents, and plugins for enhanced development workflows.
