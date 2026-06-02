@@ -1,0 +1,4 @@
+name: Ory for OpenCode
+repo: https://www.npmjs.com/package/@ory/opencode
+tagline: Authentication, authorization, and audit for every tool call
+description: Gates the OpenCode session behind an Ory login, checks every tool invocation against Ory Permissions (Zanzibar-style relation checks, observe or enforce mode), and records structured audit spans for the whole session. Ships scaffolding skills and a one-command local Ory stack for development.
