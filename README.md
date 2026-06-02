@@ -1034,6 +1034,15 @@
 </details>
 
 <details>
+  <summary><b>Reflection-3</b> <img src="https://badgen.net/github/stars/dzianisv/opencode-plugins" height="14"/> - <i>Judge layer that catches premature agent stops</i></summary>
+  <blockquote>
+    LLM-as-judge plugin for OpenCode and Claude Code: fires on every agent stop, classifies stops as premature or legitimate using a rubric mined from 227 real sessions (78% were premature), and re-prompts the agent with targeted feedback. Enforces workflow gates (tests, CI, PRs). Implements the Reflexion self-improvement loop. Works on both OpenCode (<code>session.idle</code> event) and Claude Code (<code>Stop</code> hook).
+    <br><br>
+    <a href="https://github.com/dzianisv/opencode-plugins">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Tokscale</b> <img src="https://badgen.net/github/stars/junhoyeo/tokscale" height="14"/> - <i>Token usage tracking CLI</i></summary>
   <blockquote>
     A CLI tool for tracking token usage from OpenCode and other coding agents (Claude Code, Codex, Gemini CLI, and Cursor IDE).
