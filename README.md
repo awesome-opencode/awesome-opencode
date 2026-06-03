@@ -745,7 +745,7 @@
 <details>
   <summary><b>El Primor</b> <img src="https://badgen.net/github/stars/fxMT-nx/El-Primor" height="14"/> - <i>Agente de excelencia que crece contigo</i></summary>
   <blockquote>
-    Metodologia de 9 fases, 11 skills, auto-adaptacion y aprendizaje de errores.
+    Metodologia de 9 fases, 11 skills, persistencia multi-archivo, auto-actualizacion y aprendizaje de errores. +67% mejor puntuacion en benchmark. DeepSeek V4 Pro.
     <br><br>
     <a href="https://github.com/fxMT-nx/El-Primor">🔗 <b>View Repository</b></a>
   </blockquote>
