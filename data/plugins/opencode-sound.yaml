@@ -1,10 +1,18 @@
 name: opencode-sound
 repo: https://github.com/hardes11/opencode-sound
-tagline: System sound alerts for agent questions, permission requests, and response completion
+tagline: Minimal system sound alerts — auto-suppresses in background/CLI sessions
 description: >-
-  Plays freedesktop system sounds when the AI agent asks for permission
-  (dialog-warning), asks a clarifying question (dialog-information), or
-  finishes a response (complete). Auto-detects PipeWire, PulseAudio, ALSA,
-  canberra, or falls back to the terminal bell. Configurable via
-  OPENCODE_SOUND_ENABLED and OPENCODE_SOUND_VOLUME environment variables.
-  Debounced to avoid sound spam.
+  Plays freedesktop system sounds when the AI agent asks for permission,
+  asks a clarifying question, or finishes a response. Auto-detects
+  PipeWire, PulseAudio, ALSA, canberra, or falls back to the terminal
+  bell.
+
+  Uniquely detects non-interactive sessions (piped output, background
+  mode, scripted runs, subagents) via TTY detection and suppresses
+  sounds automatically — no other OpenCode sound plugin handles this.
+
+  Configurable via environment variables: OPENCODE_SOUND_ENABLED (on/off),
+  OPENCODE_SOUND_VOLUME (0–100), OPENCODE_SOUND_SUPPRESS_BACKGROUND
+  (auto-suppress in non-TTY mode, default on), OPENCODE_SOUND_FORCE
+  (override all suppression). Debounced to avoid sound spam. Under 105
+  lines, zero dependencies.
