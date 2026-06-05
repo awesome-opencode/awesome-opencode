@@ -1,0 +1,4 @@
+name: Open Dynamic Workflows
+repo: https://github.com/Suraj1235/open-dynamic-workflows
+tagline: Dynamic multi-agent workflows for OpenCode — plan, orchestrate, and verify with the script as the orchestrator
+description: An MIT-licensed engine bringing Claude-Code-style dynamic workflows and ultracode to OpenCode. A local daemon runs a generated orchestration script with concurrent agents, adversarial verification, and crash-resume; the OpenCode plugin adds workflow/ultracode triggers and a planning UI. Bring your own model — Anthropic, any OpenAI-compatible endpoint, or local Ollama.
