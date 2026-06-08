@@ -611,6 +611,14 @@
 </details>
 
 <details>
+  <summary><b>TWZRD Agent Intel</b> - <i>Trust scoring for AI agents on Solana via MCP</i></summary>
+  <blockquote>
+    Trust scoring and preflight verification for AI agents on Solana. Verify agent wallet identity before x402 micropayments. Zero-install streamable-http MCP: <code>{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}</code>
+    <br><br>
+    <a href="https://intel.twzrd.xyz">🔗 <b>View Website</b></a>
+  </blockquote>
+</details>
+<details>
   <summary><b>Vibe Coding Slack Notifier</b> <img src="https://badgen.net/github/stars/Wangmerlyn/vibe-coding-slack-notifier" height="14"/> - <i>Slack DM alerts for OpenCode task completion</i></summary>
   <blockquote>
     OpenCode-compatible Slack notifier plugin and toolkit for Codex, OpenCode, Claude Code, and Gemini workflows.
