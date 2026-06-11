@@ -1,0 +1,4 @@
+name: Opencode MiMo Free Plugin
+repo: https://github.com/lilyzhaun/opencode-mimo-free-plugin
+tagline: MiMo Auto free provider for OpenCode
+description: Adds the MiMo Auto free provider to OpenCode as mimo/mimo-auto using the same anonymous bootstrap flow as MiMoCode, without disabling built-in providers.
