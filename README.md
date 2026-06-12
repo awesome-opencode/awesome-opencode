@@ -1137,6 +1137,15 @@ Also available for bat and Ghostty in the same repository.
   </blockquote>
 </details>
 
+
+<details>
+  <summary><b>Generative Media Skills</b> <img src="https://badgen.net/github/stars/SamurAIGPT/Generative-Media-Skills" height="14"/> - <i>Multi-modal AI media generation skills</i></summary>
+  <blockquote>
+    13 OpenCode-native skills for image, video, and audio generation powered by 100+ AI models (FLUX, Midjourney v7, Veo3, Kling 3.0, Suno, HunyuanVideo). Includes expert skills: Cinema Director, Nano-Banana image generation, UI Designer, Logo Creator, UGC Video Factory, AI Clipping, and more. Clone the repo and skills auto-load from <code>.opencode/skills/</code>.
+    <br><br>
+    <a href="https://github.com/SamurAIGPT/Generative-Media-Skills">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 <br>
 <a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ Add a Project via PR</b></a>
 </details>
