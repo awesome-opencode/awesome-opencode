@@ -404,6 +404,15 @@
 </details>
 
 <details>
+  <summary><b>OpenCode Rotator Plugin</b> <img src="https://badgen.net/github/stars/xnnnc/opencode-rotator-plugin" height="14"/> - <i>TUI sidebar for a local ChatGPT account rotator server</i></summary>
+  <blockquote>
+    OpenCode TUI sidebar plugin that shows active account, Codex usage windows, watch status, and quick actions from a running local ChatGPT account rotator server.
+    <br><br>
+    <a href="https://github.com/xnnnc/opencode-rotator-plugin">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Sessions</b> <img src="https://badgen.net/github/stars/malhashemi/opencode-sessions" height="14"/> - <i>Session management</i></summary>
   <blockquote>
     Session management plugin for OpenCode with multi-agent collaboration support.
@@ -1053,6 +1062,15 @@ Also available for bat and Ghostty in the same repository.
     MCP server that exports OpenCode chat history to Markdown files with tool calls, reasoning, and cost summaries. Export current session, specific sessions by ID, or bulk exports. pip installable.
     <br><br>
     <a href="https://github.com/jjserenity/opencode-chat-export">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenCode ChatGPT Account Rotator</b> <img src="https://badgen.net/github/stars/xnnnc/opencode-chatgpt-account-rotator" height="14"/> - <i>Local ChatGPT account rotation and usage checks for OpenCode</i></summary>
+  <blockquote>
+    Local GUI and CLI for OpenCode users who sign in with ChatGPT and manage more than one local account on one trusted machine. It saves local auth entries, checks usage, switches accounts, and pairs with an OpenCode TUI sidebar plugin.
+    <br><br>
+    <a href="https://github.com/xnnnc/opencode-chatgpt-account-rotator">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

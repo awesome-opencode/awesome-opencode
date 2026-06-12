@@ -1,0 +1,10 @@
+name: OpenCode ChatGPT Account Rotator
+repo: https://github.com/xnnnc/opencode-chatgpt-account-rotator
+tagline: Local ChatGPT account rotation and usage checks for OpenCode
+description: Local GUI and CLI for OpenCode users who sign in with ChatGPT and manage more than one local account on one trusted machine. It saves local auth entries, checks usage, switches accounts, and pairs with an OpenCode TUI sidebar plugin.
+tags:
+  - chatgpt
+  - account-rotator
+  - gui
+  - local-tool
+homepage: https://github.com/xnnnc/opencode-chatgpt-account-rotator#readme
