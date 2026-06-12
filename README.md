@@ -731,6 +731,14 @@
     <br><br>
     <a href="https://github.com/Cluster444/agentic">🔗 <b>View Repository</b></a>
   </blockquote>
+<details>
+  <summary><b>handoff</b> <img src="https://badgen.net/github/stars/dazuiba/handoff" height="14"/> - <i>Delegate tasks to OpenCode / DeepSeek V4 right inside your Claude Code / Codex sessions.</i></summary>
+  <blockquote>
+    Cross-agent task dispatcher — hand off work to DeepSeek V4 (via OpenCode), Codex, or Claude Opus without leaving your current session. Runs in the background; result comes back automatically.
+    <br><br>
+    <a href="https://github.com/dazuiba/handoff">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 </details>
 
 <details>
