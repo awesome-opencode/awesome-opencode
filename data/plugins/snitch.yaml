@@ -1,0 +1,11 @@
+name: Snitch
+repo: https://github.com/ApplauseLab/snitch
+tagline: Local Kokoro narration for OpenCode sessions
+description: Snitch listens for OpenCode session activity and speaks updates through a local macOS narration service, with Kokoro TTS, queued playback, rendered audio files, and demo voiceover support.
+scope:
+  - global
+tags:
+  - narration
+  - tts
+  - voice
+  - macos
