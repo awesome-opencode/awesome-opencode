@@ -134,6 +134,15 @@
 </details>
 
 <details>
+  <summary><b>Command Inject</b> <img src="https://badgen.net/github/stars/shihyuho/opencode-command-inject" height="14"/> - <i>Auto-inject project commands into OpenCode</i></summary>
+  <blockquote>
+    Automatically discovers and injects Makefile targets, npm/pnpm/yarn/bun scripts, and local skills at startup. Type / to see and run all project commands.
+    <br><br>
+    <a href="https://github.com/shihyuho/opencode-command-inject">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Context Analysis</b> <img src="https://badgen.net/github/stars/IgorWarzocha/Opencode-Context-Analysis-Plugin" height="14"/> - <i>Token usage analysis</i></summary>
   <blockquote>
     An opencode plugin that provides detailed token usage analysis for your AI sessions.
@@ -211,6 +220,15 @@
     An opencode plugin that exposes a native tool for querying Google AI Mode (SGE).
     <br><br>
     <a href="https://github.com/IgorWarzocha/Opencode-Google-AI-Search-Plugin">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>GoopSpec</b> <img src="https://badgen.net/github/stars/hffmnnj/opencode-goopspec" height="14"/> - <i>Spec-driven development workflow</i></summary>
+  <blockquote>
+    Transforms AI-assisted coding with spec-driven workflows. Features 5-phase workflow (Plan, Research, Specify, Execute, Accept), contract gates for user confirmation, 12 specialized subagents, persistent memory system, wave-based execution with atomic commits, and deviation rules for handling unexpected situations.
+    <br><br>
+    <a href="https://github.com/hffmnnj/opencode-goopspec">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -548,6 +566,15 @@
 </details>
 
 <details>
+  <summary><b>PR Auto-Signature</b> <img src="https://badgen.net/github/stars/arttttt/opencode-pr-signature" height="14"/> - <i>Automatically adds AI model signature to PRs, Issues, and Commits</i></summary>
+  <blockquote>
+    Plugin that automatically appends AI model signature to Pull Requests, Issues, and git commit messages. Supports GitHub MCP tools, git CLI, and gh CLI. Recognizes 90+ AI models including Claude, GPT, Gemini, DeepSeek, Llama, Mistral, and more.
+    <br><br>
+    <a href="https://github.com/arttttt/opencode-pr-signature">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Ralph Wiggum</b> <img src="https://badgen.net/github/stars/Th0rgal/opencode-ralph-wiggum" height="14"/> - <i>Self-correcting agent loops</i></summary>
   <blockquote>
     Iterative AI development loops with self-correcting agents based on the Ralph Wiggum technique.
@@ -688,6 +715,15 @@
     MCP server for managing project-specific markdown notes with templates, batch edits, and ignore patterns.
     <br><br>
     <a href="https://github.com/boxpositron/with-context-mcp">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Worktree Memory Sync</b> <img src="https://badgen.net/github/stars/Edison-A-N/opencode-worktree-memory-sync" height="14"/> - <i>Auto-sync memory to git worktrees</i></summary>
+  <blockquote>
+    Automatically copies .opencode/memory/ from the main repository into new git worktrees on session init. Detects worktrees via the .git file, resolves the main repo, and syncs memory files only when the destination is empty — so it never overwrites your changes.
+    <br><br>
+    <a href="https://github.com/Edison-A-N/opencode-worktree-memory-sync">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

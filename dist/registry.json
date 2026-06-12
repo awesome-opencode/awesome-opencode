@@ -156,6 +156,18 @@
     "tags": []
   },
   {
+    "productId": "command-inject",
+    "type": "plugins",
+    "displayName": "Command Inject",
+    "repoUrl": "https://github.com/shihyuho/opencode-command-inject",
+    "tagline": "Auto-inject project commands into OpenCode",
+    "description": "Automatically discovers and injects Makefile targets, npm/pnpm/yarn/bun scripts, and local skills at startup. Type / to see and run all project commands.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "context-analysis",
     "type": "plugins",
     "displayName": "Context Analysis",
@@ -439,6 +451,18 @@
     "tags": []
   },
   {
+    "productId": "opencode-goopspec",
+    "type": "plugins",
+    "displayName": "GoopSpec",
+    "repoUrl": "https://github.com/hffmnnj/opencode-goopspec",
+    "tagline": "Spec-driven development workflow",
+    "description": "Transforms AI-assisted coding with spec-driven workflows. Features 5-phase workflow (Plan, Research, Specify, Execute, Accept), contract gates for user confirmation, 12 specialized subagents, persistent memory system, wave-based execution with atomic commits, and deviation rules for handling unexpected situations.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-ignore",
     "type": "plugins",
     "displayName": "Opencode Ignore",
@@ -517,6 +541,18 @@
     "repoUrl": "https://github.com/DEVtheOPS/opencode-plugin-otel",
     "tagline": "OpenTelemetry telemetry exporter for opencode sessions, mirroring Claude Code monitoring signals",
     "description": "Exports metrics, logs, and traces from opencode sessions via OTLP/gRPC to any OpenTelemetry-compatible backend (Datadog, Honeycomb, Grafana Cloud, etc.). Instruments session lifecycle, token usage, cost, tool durations, and git commits — mirroring the same signals as Claude Code's monitoring.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-pr-signature",
+    "type": "plugins",
+    "displayName": "PR Auto-Signature",
+    "repoUrl": "https://github.com/arttttt/opencode-pr-signature",
+    "tagline": "Automatically adds AI model signature to PRs, Issues, and Commits",
+    "description": "Plugin that automatically appends AI model signature to Pull Requests, Issues, and git commit messages. Supports GitHub MCP tools, git CLI, and gh CLI. Recognizes 90+ AI models including Claude, GPT, Gemini, DeepSeek, Llama, Mistral, and more.",
     "scope": [
       "global"
     ],
@@ -902,6 +938,18 @@
     "repoUrl": "https://github.com/boxpositron/with-context-mcp",
     "tagline": "Project-specific markdown notes",
     "description": "MCP server for managing project-specific markdown notes with templates, batch edits, and ignore patterns.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "worktree-memory-sync",
+    "type": "plugins",
+    "displayName": "Worktree Memory Sync",
+    "repoUrl": "https://github.com/Edison-A-N/opencode-worktree-memory-sync",
+    "tagline": "Auto-sync memory to git worktrees",
+    "description": "Automatically copies .opencode/memory/ from the main repository into new git worktrees on session init. Detects worktrees via the .git file, resolves the main repo, and syncs memory files only when the destination is empty — so it never overwrites your changes.",
     "scope": [
       "global"
     ],
