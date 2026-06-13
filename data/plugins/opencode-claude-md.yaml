@@ -1,0 +1,4 @@
+name: CLAUDE.md for opencode
+repo: https://github.com/uwuclxdy/opencode-claude-md
+tagline: Full CLAUDE.md hierarchy, the way Claude Code loads it
+description: Loads CLAUDE.md files the way Claude Code does, the full ancestor hierarchy, CLAUDE.local.md, @path imports, managed policy files, and subdirectory files attached lazily as tools touch them. Skips whatever opencode's native instruction loader already picked up so nothing reaches the model twice.
