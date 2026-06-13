@@ -1,0 +1,4 @@
+name: Opencode Token Counter
+repo: https://github.com/coldhell7/Opencode-token-counter
+tagline: Automatic token usage, cost, and provider statistics tracking
+description: "Automatically tracks token usage, cost, and provider/model statistics across all your OpenCode AI sessions. Features in-chat usage reports, interactive Chart.js dashboard, CSV export, and configurable time ranges (24h / 7d / 30d / 1y)."
