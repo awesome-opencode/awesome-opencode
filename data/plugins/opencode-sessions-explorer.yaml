@@ -1,0 +1,4 @@
+name: OpenCode Sessions Explorer
+repo: https://github.com/iamironz/opencode-sessions-explorer
+tagline: Search, recall, grep, and cost-analyze every past OpenCode session
+description: "Ask your agent: What did I work on last week? How much did that session cost? Where did this error happen before? Which tools failed most? Exposes the local OpenCode SQLite database as 18 LLM-callable tools for session recall, full-text search, grep, cost/usage analysis, tool-failure analysis, and session unarchiving."
