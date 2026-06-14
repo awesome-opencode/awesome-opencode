@@ -1,0 +1,26 @@
+name: OpenCode Goal Mode
+repo: https://github.com/devinoldenburg/opencode-goal-mode
+tagline: Mechanically enforced goal mode — review gates, a shell-tokenizer guard, and a live TUI goal banner.
+description: >-
+  Turns OpenCode's prompt-only "goal mode" into mechanical enforcement. A primary
+  `goal` agent delegates to specialist review subagents, and a `goal-guard` plugin
+  enforces discipline at the harness layer: it rewrites a premature "Goal Completed"
+  unless every required review gate has a fresh PASS, invalidates approvals when an
+  edit lands, and blocks destructive / `curl | sh` commands with a quote-aware shell
+  tokenizer (93% detection on a third-party command corpus, ~0% false positives).
+  State survives compaction and restarts. Ships an experimental TUI sidebar banner
+  that shows the active goal in yellow (or a grey "No goal") with a live gate-status
+  line. Install with `npm i -g opencode-goal-mode && opencode-goal-mode-install --global`.
+scope:
+  - global
+  - project
+tags:
+  - review-gates
+  - guardrails
+  - subagents
+  - completion-enforcement
+  - shell-guard
+  - tui
+installation: |
+  npm install -g opencode-goal-mode
+  opencode-goal-mode-install --global
