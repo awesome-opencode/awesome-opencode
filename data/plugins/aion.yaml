@@ -1,0 +1,4 @@
+name: Aion
+repo: https://github.com/ztxtech/aion
+tagline: Time-series harness for opencode
+description: "A plug that turns opencode into a time-series harness: every agent loop iteration is captured, replayed, and visualized as a first-class timeline, enabling rigorous inspection, regression testing, and post-hoc debugging of long-running coding sessions. Built around a well-engineered outer loop that coordinates planning, execution, verification, and self-correction cycles without leaking state between turns."
