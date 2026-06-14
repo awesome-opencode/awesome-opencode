@@ -80,6 +80,15 @@
 </details>
 
 <details>
+  <summary><b>Aion Plug</b> <img src="https://badgen.net/github/stars/ztxtech/aion" height="14"/> - <i>Time-series harness for opencode</i></summary>
+  <blockquote>
+    A plug that turns opencode into a time-series harness: every agent loop iteration is captured, replayed, and visualized as a first-class timeline, enabling rigorous inspection, regression testing, and post-hoc debugging of long-running coding sessions. Built around a well-engineered outer loop that coordinates planning, execution, verification, and self-correction cycles without leaking state between turns.
+    <br><br>
+    <a href="https://github.com/ztxtech/aion">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Antigravity Auth</b> <img src="https://badgen.net/github/stars/NoeFabris/opencode-antigravity-auth" height="14"/> - <i>Google Antigravity models</i></summary>
   <blockquote>
     Use Gemini and Anthropic models for free via Google Antigravity IDE authentication.
