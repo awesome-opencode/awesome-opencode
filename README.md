@@ -485,6 +485,15 @@
 </details>
 
 <details>
+  <summary><b>opencode-lens</b> <img src="https://badgen.net/github/stars/wuxiaoqiang12/opencode-lens" height="14"/> - <i>TUI bridge and MCP toolkit for inspecting and controlling live opencode sessions</i></summary>
+  <blockquote>
+    opencode-lens is an opencode TUI plugin plus MCP server that lets external agents inspect running opencode instances, send prompts, read messages/diffs/todos, handle permission and question prompts, and monitor session completion through a local Unix socket bridge.
+    <br><br>
+    <a href="https://github.com/wuxiaoqiang12/opencode-lens">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>opencode-mystatus</b> <img src="https://badgen.net/github/stars/vbgate/opencode-mystatus" height="14"/> - <i>Check AI subscription quotas</i></summary>
   <blockquote>
     Check all your AI subscription quotas in one command. Supports OpenAI (Plus/Pro/Codex, etc.), Zhipu AI, Google Antigravity, and more.
