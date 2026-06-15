@@ -431,6 +431,15 @@
 </details>
 
 <details>
+  <summary><b>RoleCraft</b> <img src="https://badgen.net/github/stars/sametcelikbicak/rolecraft" height="14"/> - <i>Zero-dependency CLI to install AI agent skills from any source</i></summary>
+  <blockquote>
+    Install skills as roles & behaviors from local folders or GitHub repos. Works with opencode, claude-code, cursor, and all spec-compliant agents.
+    <br><br>
+    <a href="https://github.com/sametcelikbicak/rolecraft">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Snippets</b> <img src="https://badgen.net/github/stars/JosXa/opencode-snippets" height="14"/> - <i>Instant inline text expansion</i></summary>
   <blockquote>
     Instant inline text expansion for OpenCode. Type #snippet anywhere in your message and watch it transform. Brings DRY principles to prompt engineering with composable, shell-enabled snippets.
