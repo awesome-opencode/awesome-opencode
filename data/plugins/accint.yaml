@@ -1,0 +1,4 @@
+name: AccInt
+repo: https://github.com/maxbaluev/accreted-intelligence
+tagline: Local Work Model memory for OpenCode agents
+description: Accreted scored memory for OpenCode sessions with MCP retrieval and action verbs, lifecycle hooks, and cross-project acc.db continuity for agent work.
