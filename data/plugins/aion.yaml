@@ -1,0 +1,17 @@
+name: AION
+repo: https://github.com/ztxtech/aion
+tagline: Time-series harness with multi-agent review, skills, tools, and hooks
+description: A compiled TypeScript OpenCode plugin that turns OpenCode into a time-series research harness. Bundles six specialized agents (orchestrator, requirements analyst, information collector, coder, and two critic roles), seventeen skills, twenty-plus tools, and eight coordination protocols into one self-contained bundle installed via a one-command CLI. Enforces a four-layer model (task, workspace, execution, review) with hard gates for data-leakage detection, ablation-backed statistical rigor, and dual-critic governance before any output ships.
+homepage: https://github.com/ztxtech/aion
+scope:
+  - project
+min_version: 0.9.0
+tags:
+  - agents
+  - time-series
+  - research
+  - review
+  - governance
+  - skills
+  - tools
+  - multi-agent
