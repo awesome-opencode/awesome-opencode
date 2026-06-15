@@ -431,6 +431,15 @@
 </details>
 
 <details>
+  <summary><b>RoleCraft</b> <img src="https://badgen.net/github/stars/sametcelikbicak/rolecraft" height="14"/> - <i>Zero-dependency CLI to install AI agent skills from any source</i></summary>
+  <blockquote>
+    Install skills as roles & behaviors from local folders or GitHub repos. Works with opencode, claude-code, cursor, and all spec-compliant agents.
+    <br><br>
+    <a href="https://github.com/sametcelikbicak/rolecraft">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Snippets</b> <img src="https://badgen.net/github/stars/JosXa/opencode-snippets" height="14"/> - <i>Instant inline text expansion</i></summary>
   <blockquote>
     Instant inline text expansion for OpenCode. Type #snippet anywhere in your message and watch it transform. Brings DRY principles to prompt engineering with composable, shell-enabled snippets.
@@ -847,6 +856,15 @@ Also available for bat and Ghostty in the same repository.
 <br>
 
 <details>
+  <summary><b>Coverage Guard</b> <img src="https://badgen.net/github/stars/sametcelikbicak/coverage-guard" height="14"/> - <i>Enforces 100% test coverage</i></summary>
+  <blockquote>
+    An AI agent skill that enforces 100% test coverage for any JavaScript/TypeScript project. Works with Vitest, Jest, react-scripts, and other test runners. Compatible with opencode, Claude Code, Cursor, Windsurf, and GitHub Copilot.
+    <br><br>
+    <a href="https://github.com/sametcelikbicak/coverage-guard">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Agentic</b> <img src="https://badgen.net/github/stars/Cluster444/agentic" height="14"/> - <i>Modular AI agents</i></summary>
   <blockquote>
     Modular AI agents and commands for structured software development with opencode.
@@ -865,11 +883,29 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>Flaky Test Detector</b> <img src="https://badgen.net/github/stars/sametcelikbicak/flaky-test-detector" height="14"/> - <i>Detect and fix flaky tests</i></summary>
+  <blockquote>
+    An AI agent skill that identifies non-deterministic test failures, categorizes root causes, and applies targeted fixes. Works with Vitest, Jest, Playwright, Cypress, and more. Compatible with opencode, Claude Code, Cursor, Windsurf, and GitHub Copilot.
+    <br><br>
+    <a href="https://github.com/sametcelikbicak/flaky-test-detector">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Agents</b> <img src="https://badgen.net/github/stars/darrenhinde/opencode-agents" height="14"/> - <i>Enhanced workflows</i></summary>
   <blockquote>
     A set of opencode configurations, prompts, agents, and plugins for enhanced development workflows.
     <br><br>
     <a href="https://github.com/darrenhinde/opencode-agents">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Task Decomposer</b> <img src="https://badgen.net/github/stars/sametcelikbicak/task-decomposer" height="14"/> - <i>Decompose complex requests</i></summary>
+  <blockquote>
+    An AI agent skill that helps developers decompose complex requests into structured, AI-friendly task sequences. Optimizes context window usage, manages multi-session workflows, and produces better results from fewer, more focused prompts. Compatible with opencode, Claude Code, Cursor, Windsurf, and GitHub Copilot.
+    <br><br>
+    <a href="https://github.com/sametcelikbicak/task-decomposer">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

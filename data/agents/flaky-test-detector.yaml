@@ -1,0 +1,4 @@
+name: Flaky Test Detector
+repo: https://github.com/sametcelikbicak/flaky-test-detector
+tagline: Detect and fix flaky tests
+description: An AI agent skill that identifies non-deterministic test failures, categorizes root causes, and applies targeted fixes. Works with Vitest, Jest, Playwright, Cypress, and more. Compatible with opencode, Claude Code, Cursor, Windsurf, and GitHub Copilot.
