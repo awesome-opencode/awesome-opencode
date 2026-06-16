@@ -1,0 +1,12 @@
+name: opencode-smartsnip
+repo: https://github.com/carson2222/opencode-smartsnip
+tagline: Cut shell-output tokens by safely wrapping commands with snip
+description: Reduces shell-output tokens in opencode by routing each bash command through snip's filters, wrapping only the segments that are safe to filter and leaving everything else byte-identical. Cuts git/test/build noise (~70% on git output) without breaking pipes, heredocs, subshells, or chained commands. Validated against 23k+ real bash commands.
+scope:
+  - global
+  - project
+tags:
+  - tokens
+  - context
+  - snip
+  - shell
