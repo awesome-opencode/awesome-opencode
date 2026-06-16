@@ -1,0 +1,4 @@
+name: Setup Chat Workflows
+repo: https://github.com/Zaradacht/setup-chat-workflows
+tagline: Workflow-aware chat session intake
+description: Adds modular workflow-aware /setup-chat-workflows and /new-session commands backed by plug-and-play project, workflow, and post-intake action files.
