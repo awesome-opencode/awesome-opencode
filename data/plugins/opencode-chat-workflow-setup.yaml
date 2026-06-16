@@ -1,0 +1,4 @@
+name: OpenCode Chat Workflow Setup
+repo: https://github.com/Zaradacht/opencode-chat-workflow-setup
+tagline: Configure chat workflows and reusable templates before skills run
+description: Adds /setup-chat-workflows, /start-session, and /workflow-template commands. Workflows collect context, scope, gates, review modes, and reusable template choices before handing off to skills or actions.

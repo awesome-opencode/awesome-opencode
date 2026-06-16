@@ -1,4 +1,0 @@
-name: Setup Chat Workflows
-repo: https://github.com/Zaradacht/setup-chat-workflows
-tagline: Configure chat workflows that gather context before skills run
-description: Adds /setup-chat-workflows and /start-session commands. Workflows collect the right context, scope, gates, and subworkflow choice before handing off to skills for known tasks.

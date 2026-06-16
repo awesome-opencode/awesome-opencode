@@ -314,6 +314,15 @@
 </details>
 
 <details>
+  <summary><b>OpenCode Chat Workflow Setup</b> <img src="https://badgen.net/github/stars/Zaradacht/opencode-chat-workflow-setup" height="14"/> - <i>Configure chat workflows and reusable templates before skills run</i></summary>
+  <blockquote>
+    Adds /setup-chat-workflows, /start-session, and /workflow-template commands. Workflows collect context, scope, gates, review modes, and reusable template choices before handing off to skills or actions.
+    <br><br>
+    <a href="https://github.com/Zaradacht/opencode-chat-workflow-setup">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Ignore</b> <img src="https://badgen.net/github/stars/lgladysz/opencode-ignore" height="14"/> - <i>Ignore files based on pattern</i></summary>
   <blockquote>
     Plugin to ignore directory/file based on pattern.
