@@ -1,0 +1,4 @@
+name: Opencode Workflow Intake
+repo: https://github.com/Zaradacht/opencode-workflow-intake
+tagline: Workflow-aware session intake
+description: Adds modular workflow-aware /setup-workflows and /new-session commands backed by plug-and-play project, workflow, and post-intake action files.
