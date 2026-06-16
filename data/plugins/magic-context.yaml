@@ -1,0 +1,4 @@
+name: Magic Context
+repo: https://github.com/cortexkit/magic-context
+tagline: Unbounded context and self-managing memory for one lifelong session
+description: The hippocampus for coding agents. A background historian compresses old history into tiered compartments so sessions run with no compaction pauses, while lifting durable knowledge into cross-session project memory. An overnight dreamer consolidates, verifies, and prunes memories, and the agent can recall across memories, past conversations, and git history on demand.
