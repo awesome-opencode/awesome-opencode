@@ -359,6 +359,15 @@
 </details>
 
 <details>
+  <summary><b>OpenChamber Mobile Bridge</b> <img src="https://badgen.net/github/stars/Zaradacht/opencode-openchamber-mobile-bridge" height="14"/> - <i>Expose devcontainer OpenChamber sessions over Tailscale</i></summary>
+  <blockquote>
+    Starts OpenChamber inside devcontainers, creates a host bridge, and serves each project on a stable private Tailscale URL for mobile and desktop clients.
+    <br><br>
+    <a href="https://github.com/Zaradacht/opencode-openchamber-mobile-bridge">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Ignore</b> <img src="https://badgen.net/github/stars/lgladysz/opencode-ignore" height="14"/> - <i>Ignore files based on pattern</i></summary>
   <blockquote>
     Plugin to ignore directory/file based on pattern.
