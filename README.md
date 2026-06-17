@@ -377,6 +377,15 @@
 </details>
 
 <details>
+  <summary><b>Opencode MiMo Free Plugin</b> <img src="https://badgen.net/github/stars/lilyzhaun/opencode-mimo-free-plugin" height="14"/> - <i>MiMo Auto free provider for OpenCode</i></summary>
+  <blockquote>
+    Adds the MiMo Auto free provider to OpenCode as mimo/mimo-auto using the same anonymous bootstrap flow as MiMoCode, without disabling built-in providers.
+    <br><br>
+    <a href="https://github.com/lilyzhaun/opencode-mimo-free-plugin">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Notify</b> <img src="https://badgen.net/github/stars/kdcokenny/opencode-notify" height="14"/> - <i>Native OS notifications</i></summary>
   <blockquote>
     Native OS notifications for OpenCode - know when tasks complete.
