@@ -1,0 +1,4 @@
+name: Opencode Goal Plugin
+repo: https://github.com/willytop8/OpenCode-goal-plugin
+tagline: Session-scoped /goal command
+description: Experimental /goal command plugin for OpenCode that keeps an objective in session context, auto-continues on idle, and stops on completion markers, blockers, or safety limits.
