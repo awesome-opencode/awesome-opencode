@@ -1,0 +1,5 @@
+name: Opencode Model Scout
+repo: https://github.com/rmk40/opencode-model-scout
+tagline: Dynamically define local models with context limits and capabilities
+description: OpenAI-compatible local providers usually expose little more than model IDs. This plugin discovers available models and enriches them with real context limits, output limits, capability flags, and metadata from provider probes plus models.dev fallback, so OpenCode can use local and self-hosted models correctly without manual per-model config.
+homepage: https://github.com/rmk40/opencode-model-scout#readme
