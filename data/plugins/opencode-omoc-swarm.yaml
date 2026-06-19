@@ -1,0 +1,14 @@
+name: opencode-omoc-swarm
+repo: https://github.com/Delqhi/opencode-omoc-swarm
+tagline: Tmux-first subagent workflows with fan-out, messaging, and MAX-mode git worktrees.
+description: Subagent workflow plugin for OpenCode with tmux side-by-side sessions, agent messaging, parallel fan-out, and MAX-mode best-of-n editing via isolated git worktrees. Built in the OpenSIN ecosystem.
+scope:
+  - global
+  - project
+tags:
+  - orchestration
+  - tmux
+  - git-worktree
+  - subagents
+  - opensin
+homepage: https://opensin.ai

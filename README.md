@@ -494,6 +494,15 @@
 </details>
 
 <details>
+  <summary><b>opencode-omoc-swarm</b> <img src="https://badgen.net/github/stars/Delqhi/opencode-omoc-swarm" height="14"/> - <i>Tmux-first subagent workflows with fan-out, messaging, and MAX-mode git worktrees.</i></summary>
+  <blockquote>
+    Subagent workflow plugin for OpenCode with tmux side-by-side sessions, agent messaging, parallel fan-out, and MAX-mode best-of-n editing via isolated git worktrees. Built in the OpenSIN ecosystem.
+    <br><br>
+    <a href="https://github.com/Delqhi/opencode-omoc-swarm">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>opencode-plugin-otel</b> <img src="https://badgen.net/github/stars/DEVtheOPS/opencode-plugin-otel" height="14"/> - <i>OpenTelemetry telemetry exporter for opencode sessions, mirroring Claude Code monitoring signals</i></summary>
   <blockquote>
     Exports metrics, logs, and traces from opencode sessions via OTLP/gRPC to any OpenTelemetry-compatible backend (Datadog, Honeycomb, Grafana Cloud, etc.). Instruments session lifecycle, token usage, cost, tool durations, and git commits — mirroring the same signals as Claude Code's monitoring.
