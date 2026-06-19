@@ -1,0 +1,7 @@
+name: Opencode Helper
+repo: https://github.com/v587d/opencode-helper
+tagline: Cleanup, analysis & visualization CLI for OpenCode
+description: >
+  Zero-dependency Python CLI that cleans old sessions and temp files,
+  analyzes model/tool/MCP/skill usage patterns with AI interpretation,
+  and generates visual workflow diagrams. pip install opencode-helper.
