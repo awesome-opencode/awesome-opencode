@@ -1,0 +1,4 @@
+name: Opencode Models Discovery
+repo: https://github.com/yuhp/opencode-models-discovery
+tagline: Configurable model discovery and filtering without long manual config
+description: OpenCode plugin for discovering models from OpenAI-compatible providers and API gateways, with provider and model filtering so users can avoid maintaining large configs or loading every model at once.
