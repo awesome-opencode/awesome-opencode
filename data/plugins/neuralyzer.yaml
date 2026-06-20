@@ -5,4 +5,3 @@ description: >
   Gives the agent a neuralyzer tool to wipe all session messages and restart
   from the first message — Men in Black style. Eliminates context rot in long
   loops by giving the agent a fresh start without external loop controllers.
-  Supports pi and OpenCode.
