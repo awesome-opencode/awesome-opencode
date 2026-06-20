@@ -60,6 +60,27 @@
     "tags": []
   },
   {
+    "productId": "server-manager",
+    "type": "agents",
+    "displayName": "server-manager",
+    "repoUrl": "https://github.com/workdocyeye/server-manager",
+    "tagline": "Non-blocking background server management — start, track, and stop local dev servers without blocking your AI session.",
+    "description": "Start, track, and stop local dev servers in the background — without blocking your AI conversation. Supports Node.js, Python, Go, .NET, Java, Rust, PHP and any framework that runs a dev server. JSON state persistence, per-project log files, HTTP health checks, and log tail/grep for debugging.",
+    "scope": [
+      "global",
+      "project"
+    ],
+    "tags": [
+      "server",
+      "devops",
+      "management",
+      "powershell",
+      "windows"
+    ],
+    "homepageUrl": "https://github.com/workdocyeye/server-manager",
+    "installation": "Download the entire `server-manager/` folder into your AI coding tool's skills directory:\n- OpenCode: `~/.config/opencode/skills/server-manager/`\n- Claude Code: `~/.claude/skills/server-manager/`\n- Project-level: `.opencode/skills/` or `.claude/skills/` in your project root\n"
+  },
+  {
     "productId": "agent-memory",
     "type": "plugins",
     "displayName": "Agent Memory",
@@ -300,6 +321,18 @@
     "tags": []
   },
   {
+    "productId": "harness-memory",
+    "type": "plugins",
+    "displayName": "Harness Memory",
+    "repoUrl": "https://github.com/smc2315/harness-memory",
+    "tagline": "Persistent project memory - 73 percent fewer tokens than CLAUDE.md, with human review",
+    "description": "Auto-captures evidence from tool interactions and materializes memories through a multi-gate pipeline. 4-layer activation engine selects the right memories per context. Replaces CLAUDE.md with structured, searchable, reviewable project memory. Local-first (sql.js WASM), zero cloud dependency.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "kibi-opencode",
     "type": "plugins",
     "displayName": "kibi-opencode",
@@ -328,6 +361,25 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "lemma",
+    "type": "plugins",
+    "displayName": "Lemma",
+    "repoUrl": "https://github.com/xenitV1/lemma",
+    "tagline": "Persistent memory layer for LLMs via MCP - local, zero-dependency, works on all clients",
+    "description": "Biological memory model for AI coding agents. Features confidence decay/boost, Fuse.js fuzzy dedup, guide system with usage tracking, cross-references, cumulative backup, virtual session tracking, and universal memory injection via tool descriptions (works on Claude Desktop, Cursor, VS Code, Gemini CLI, opencode, and any MCP client). No API keys, no cloud, fully local JSONL storage. 20 MCP tools, 110 tests, MIT licensed.\n",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "memory",
+      "mcp",
+      "persistence",
+      "context",
+      "claude",
+      "cursor"
+    ]
   },
   {
     "productId": "magic-context",
@@ -517,6 +569,18 @@
     "tags": []
   },
   {
+    "productId": "opencode-arise",
+    "type": "plugins",
+    "displayName": "@bluelovers/opencode-arise",
+    "repoUrl": "https://github.com/bluelovers/opencode-arise",
+    "tagline": "「⚔️ ARISE!」　A Solo Leveling themed orchestrator harness for OpenCode",
+    "description": "A lightweight, token-efficient orchestrator layer. Enables parallel background task execution in OpenCode. Launch AI agents to work simultaneously on exploration and research while continuing with other tasks. Allows specifying custom models for each_agent via configuration.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-ascii",
     "type": "plugins",
     "displayName": "opencode-ascii",
@@ -529,12 +593,36 @@
     "tags": []
   },
   {
+    "productId": "opencode-bmad-workflow",
+    "type": "plugins",
+    "displayName": "opencode-bmad-workflow",
+    "repoUrl": "https://github.com/Alex-stack-cell/opencode-bmad-workflow",
+    "tagline": "BMAD workflow plugin — automates epic, feature, sprint and code review workflows using specialized AI agents",
+    "description": "Brings the BMAD (Breakthrough Method of Agile AI-Driven Development) methodology to OpenCode. Provides specialized agents for product management, architecture, development, and QA roles. Automates epic planning, feature breakdown, sprint workflows, and code reviews through a structured multi-agent pipeline.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-canvas",
     "type": "plugins",
     "displayName": "Opencode Canvas",
     "repoUrl": "https://github.com/mailshieldai/opencode-canvas",
     "tagline": "Interactive terminal canvases in tmux splits",
     "description": "Interactive terminal canvases (calendars, documents, flight booking) in tmux splits. Port of claude-canvas for OpenCode.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-ccs-sync",
+    "type": "plugins",
+    "displayName": "Claude Code Switch (CCS) OpenCode Sync",
+    "repoUrl": "https://github.com/JasonLandbridge/opencode-ccs-sync",
+    "tagline": "Claude Code Switch (CCS) to OpenCode sync",
+    "description": "An OpenCode plugin that reads your Claude Code Switch (CCS) configuration and automatically syncs the providers into your OpenCode config.",
     "scope": [
       "global"
     ],
@@ -638,6 +726,18 @@
     "repoUrl": "https://github.com/nigel-dev/opencode-mission-control",
     "tagline": "Command center for parallel agents — worktree isolation, DAG plans, merge train, PRs",
     "description": "Orchestrates parallel OpenCode agents in tmux-isolated git worktrees with live inspection (capture/attach/diff), a dashboard overview, agent status reporting, and in-chat notifications. Supports DAG-based plans with autopilot/copilot/supervisor modes and a merge train with test gating and automatic rollback.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-models-discovery",
+    "type": "plugins",
+    "displayName": "Opencode Models Discovery",
+    "repoUrl": "https://github.com/yuhp/opencode-models-discovery",
+    "tagline": "Configurable model discovery and filtering without long manual config",
+    "description": "OpenCode plugin for discovering models from OpenAI-compatible providers and API gateways, with provider and model filtering so users can avoid maintaining large configs or loading every model at once.",
     "scope": [
       "global"
     ],
@@ -1324,6 +1424,18 @@
     "tags": []
   },
   {
+    "productId": "agentdeals",
+    "type": "projects",
+    "displayName": "AgentDeals",
+    "repoUrl": "https://github.com/robhunter/agentdeals",
+    "tagline": "MCP server aggregating free tiers, credits, and referral codes across 1,500+ developer tools",
+    "description": "Remote MCP server that surfaces free tiers, credits, trials, and referral codes for developer infrastructure — Railway, Vercel, Fly, OpenAI, Anthropic, and 1,500+ other vendors. Exposes four tools (search_deals, plan_stack, compare_vendors, track_changes) so an agent can find the cheapest way to ship a given stack. Works with opencode via remote URL (https://agentdeals-production.up.railway.app/mcp). Also tracks pricing changes over time.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "agenttrace",
     "type": "projects",
     "displayName": "agenttrace",
@@ -1697,6 +1809,23 @@
     "tags": []
   },
   {
+    "productId": "opencode-profile-router",
+    "type": "projects",
+    "displayName": "Opencode Profile Router",
+    "repoUrl": "https://github.com/leolaurindo/opencode-profile-router",
+    "tagline": "Profile router for auth and selective config isolation",
+    "description": "Shell wrapper for OpenCode that selects named profiles by path and can isolate provider login state, config directories, and data roots selectively and independently per profile.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "cli",
+      "profiles",
+      "auth",
+      "routing"
+    ]
+  },
+  {
     "productId": "opencode-session",
     "type": "projects",
     "displayName": "Opencode Session Manager",
@@ -1822,6 +1951,18 @@
     "repoUrl": "https://github.com/aptdnfapt/qwen-code-oai-proxy",
     "tagline": "Qwen model proxy",
     "description": "An OpenAI-Compatible Proxy Server for Qwen models.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "swarmvault",
+    "type": "projects",
+    "displayName": "SwarmVault",
+    "repoUrl": "https://github.com/swarmclawai/swarmvault",
+    "tagline": "Local-first RAG knowledge base compiler with bundled skill and MCP server",
+    "description": "Turns raw docs, research, and code into a persistent markdown wiki, knowledge graph, and hybrid SQLite FTS + embeddings search. Ships a bundled skill (schema-first, graph-query-first conventions) and an MCP server, so it works with OpenCode, Claude Code, and Codex. Offline heuristic provider by default; optional Ollama for local embeddings.",
     "scope": [
       "global"
     ],

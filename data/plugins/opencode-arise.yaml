@@ -1,4 +1,4 @@
-name: @bluelovers/opencode-arise
+name: "@bluelovers/opencode-arise"
 repo: https://github.com/bluelovers/opencode-arise
 tagline: 「⚔️ ARISE!」　A Solo Leveling themed orchestrator harness for OpenCode
 description: A lightweight, token-efficient orchestrator layer. Enables parallel background task execution in OpenCode. Launch AI agents to work simultaneously on exploration and research while continuing with other tasks. Allows specifying custom models for each_agent via configuration.
