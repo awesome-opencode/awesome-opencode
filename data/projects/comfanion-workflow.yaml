@@ -1,0 +1,4 @@
+name: Comfanion Workflow
+repo: https://github.com/Comfanion/workflow
+tagline: AI-assisted development workflow with agents, skills, and semantic search
+description: Complete workflow system for AI-assisted development. Includes specialized agents (analyst, PM, architect, developer), reusable skills, slash commands, semantic code search with local vectorizer, and sprint management with Jira integration.
