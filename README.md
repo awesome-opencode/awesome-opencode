@@ -107,6 +107,15 @@
 </details>
 
 <details>
+  <summary><b>Autotitle</b> <img src="https://badgen.net/github/stars/pawelma/opencode-autotitle" height="14"/> - <i>AI-powered automatic session naming</i></summary>
+  <blockquote>
+    Two-phase session titling - instant keyword titles on user message, refined AI titles after response. Auto-selects cheapest model (flash/haiku/fast), respects custom titles, zero configuration needed.
+    <br><br>
+    <a href="https://github.com/pawelma/opencode-autotitle">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Background</b> <img src="https://badgen.net/github/stars/zenobi-us/opencode-background" height="14"/> - <i>Background process management</i></summary>
   <blockquote>
     Background process management plugin for opencode.
@@ -256,6 +265,15 @@
     Adds Kilo Gateway provider support to OpenCode.
     <br><br>
     <a href="https://github.com/JungHoonGhae/opencode-kilo-auth">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Manage Skills</b> <img src="https://badgen.net/github/stars/Randroids-Dojo/ManageSkills" height="14"/> - <i>Wizard-driven skills management for OpenCode.</i></summary>
+  <blockquote>
+    Modal-based skill install, remove, list, and update workflow that avoids ANSI prompts while wrapping the skills CLI inside OpenCode.
+    <br><br>
+    <a href="https://github.com/Randroids-Dojo/ManageSkills">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1206,6 +1224,15 @@ Also available for bat and Ghostty in the same repository.
     Wraps bash commands to execute inside the DDEV container (Docker-based PHP development environments).
     <br><br>
     <a href="https://github.com/JUVOJustin/opencode-ddev">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode History Search</b> <img src="https://badgen.net/github/stars/joeyism/opencode-history-search" height="14"/> - <i>Search OpenCode conversations with keyword, regex, and fuzzy search</i></summary>
+  <blockquote>
+    Search through your OpenCode conversation history with powerful keyword, regex, and fuzzy search capabilities. Features date filtering, multiple match types (titles, messages, tools, file paths), and fast performance (<50ms queries).
+    <br><br>
+    <a href="https://github.com/joeyism/opencode-history-search">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

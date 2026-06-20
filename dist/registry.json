@@ -96,6 +96,18 @@
     "tags": []
   },
   {
+    "productId": "autotitle",
+    "type": "plugins",
+    "displayName": "Autotitle",
+    "repoUrl": "https://github.com/pawelma/opencode-autotitle",
+    "tagline": "AI-powered automatic session naming",
+    "description": "Two-phase session titling - instant keyword titles on user message, refined AI titles after response. Auto-selects cheapest model (flash/haiku/fast), respects custom titles, zero configuration needed.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "background",
     "type": "plugins",
     "displayName": "Background",
@@ -282,6 +294,18 @@
     "repoUrl": "https://github.com/JungHoonGhae/opencode-kilo-auth",
     "tagline": "Kilo Gateway provider",
     "description": "Adds Kilo Gateway provider support to OpenCode.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "managed-skills",
+    "type": "plugins",
+    "displayName": "Manage Skills",
+    "repoUrl": "https://github.com/Randroids-Dojo/ManageSkills",
+    "tagline": "Wizard-driven skills management for OpenCode.",
+    "description": "Modal-based skill install, remove, list, and update workflow that avoids ANSI prompts while wrapping the skills CLI inside OpenCode.",
     "scope": [
       "global"
     ],
@@ -1420,6 +1444,18 @@
     "repoUrl": "https://github.com/JUVOJustin/opencode-ddev",
     "tagline": "DDEV container wrapper",
     "description": "Wraps bash commands to execute inside the DDEV container (Docker-based PHP development environments).",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-history-search",
+    "type": "projects",
+    "displayName": "Opencode History Search",
+    "repoUrl": "https://github.com/joeyism/opencode-history-search",
+    "tagline": "Search OpenCode conversations with keyword, regex, and fuzzy search",
+    "description": "Search through your OpenCode conversation history with powerful keyword, regex, and fuzzy search capabilities. Features date filtering, multiple match types (titles, messages, tools, file paths), and fast performance (<50ms queries).",
     "scope": [
       "global"
     ],
