@@ -1,7 +1,6 @@
 name: Neuralyzer
 repo: https://github.com/gintasz/neuralyzer
-tagline: Wipe session context for clean Ralph loops
+tagline: Easier Ralph loop inside harness
 description: >
-  Gives the agent a neuralyzer tool to wipe all session messages and restart
-  from the first message — Men in Black style. Eliminates context rot in long
-  loops by giving the agent a fresh start without external loop controllers.
+  Allow agent to wipe its own session context and re-run the first message.
+  This allows easier and more ergonomic Ralph loop engineering.
