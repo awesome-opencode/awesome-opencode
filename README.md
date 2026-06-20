@@ -188,6 +188,15 @@
 </details>
 
 <details>
+  <summary><b>Crawl4AI</b> <img src="https://badgen.net/github/stars/ckanthony/opencode-crawl4ai" height="14"/> - <i>Web scraping, crawling, and structured extraction</i></summary>
+  <blockquote>
+    OpenCode plugin for <a href="https://crawl4ai.com">Crawl4AI</a> — gives your AI agent reliable web scraping, deep crawling, LLM-powered extraction, and structured data via the Crawl4AI CLI.
+    <br><br>
+    <a href="https://github.com/ckanthony/opencode-crawl4ai">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Devcontainers</b> <img src="https://badgen.net/github/stars/athal7/opencode-devcontainers" height="14"/> - <i>Multi-branch devcontainers</i></summary>
   <blockquote>
     Plugin for running multiple devcontainer instances with auto-assigned ports and branch-based isolation.
