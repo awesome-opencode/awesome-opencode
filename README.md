@@ -426,6 +426,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
 </details>
 
 <details>
+  <summary><b>OpenToken</b> <img src="https://badgen.net/github/stars/MrGray17/opentoken" height="14"/> - <i>Token-saving companion — 42 compression layers for input AND output</i></summary>
+  <blockquote>
+    Cuts token usage 70–90% on tool outputs and compresses model responses — 35 input layers (AST skeletons, key aliasing, TOON, LTSC/LZW, family-specific filters) + 7 output layers (conciseness directive, budget cap, boilerplate elimination). Zero risk on every stage: if output grew, original is returned. No behavioral changes, no "caveman speak." Production-proven: 862,301 tokens saved in a single 22-hour session.
+    <br><br>
+    <a href="https://github.com/MrGray17/opentoken">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OpenCode Agent Tmux</b> <img src="https://badgen.net/github/stars/AnganSamadder/opencode-agent-tmux" height="14"/> - <i>Real-time tmux panes for OpenCode agents with auto-launch, streaming, and cleanup.</i></summary>
   <blockquote>
     Smart tmux integration for OpenCode that auto-spawns panes to stream agent output, supports flexible layouts and multi-port setups, and cleans up when sessions finish.
