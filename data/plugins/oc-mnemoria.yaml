@@ -1,0 +1,4 @@
+name: oc-mnemoria
+repo: https://github.com/one-bit/oc-mnemoria
+tagline: Persistent shared memory (hive mind) for OpenCode agents across sessions
+description: Gives all OpenCode agents a shared persistent memory store where every agent can read and write. Each entry is tagged with the creating agent (plan, build, ask, review) so no context is lost between roles. Powered by the mnemoria Rust engine with hybrid BM25 + semantic search, CRC32 checksum chains, and an append-only binary format. Includes 7 tools and /mn-* slash commands.
