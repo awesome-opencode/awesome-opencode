@@ -62,6 +62,24 @@
 </details>
 
 <details>
+  <summary><b>@openstellar/mcp-adapter</b> <img src="https://badgen.net/github/stars/open-stl/openstellar-mcp-adapter" height="14"/> - <i>Connect any MCP server to OpenCode with clean, token-efficient schemas and robust conversions</i></summary>
+  <blockquote>
+    A reliable bridge connecting stdio/SSE MCP servers to OpenCode. Converts complex JSON Schema inputs to Zod validation objects, flattens heavy multimedia responses (like base64 images and audio) into short, token-saving plain text placeholders, and includes robust runtime timeout guards to prevent frozen sessions.
+    <br><br>
+    <a href="https://github.com/open-stl/openstellar-mcp-adapter">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>@openstellar/tool-search</b> <img src="https://badgen.net/github/stars/open-stl/openstellar-tool-search" height="14"/> - <i>Save context by deferring tool descriptions with local BM25 + semantic search</i></summary>
+  <blockquote>
+    A context-saving plugin for OpenCode that defers heavy tool descriptions to save substantial token usage. Automatically prunes registered tool descriptions to a short placeholder tag (like '[d]'), records the full metadata locally, and exposes powerful local search tools (BM25 + Semantic Search using @xenova/paraphrase-multilingual-MiniLM-L12-v2) for the agent to retrieve full schemas dynamically on demand. Must be used with @openstellar/mcp-adapter.
+    <br><br>
+    <a href="https://github.com/open-stl/openstellar-tool-search">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>aerovato/opencode-quotes-plugin</b> <img src="https://badgen.net/github/stars/aerovato/opencode-quotes-plugin" height="14"/> - <i>Display inspirational quotes instead of tips</i></summary>
   <blockquote>
     Replaces the default home-page tips with inspirational quotes for a more motivating OpenCode experience.
