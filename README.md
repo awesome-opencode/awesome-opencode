@@ -717,6 +717,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
 </details>
 
 <details>
+  <summary><b>opencode-rtl</b> <img src="https://badgen.net/github/stars/razavioo/opencode-rtl" height="14"/> - <i>RTL language support for Persian, Arabic, Hebrew and other right-to-left languages</i></summary>
+  <blockquote>
+    Automatic RTL text detection, bidi isolation, and alignment for Persian/Arabic/Hebrew workflows in OpenCode's terminal and web UI.
+    <br><br>
+    <a href="https://github.com/razavioo/opencode-rtl">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>opencode-snip</b> <img src="https://badgen.net/github/stars/VincentHardouin/opencode-snip" height="14"/> - <i>OpenCode plugin that prefixes shell commands with snip to reduce LLM token consumption by 60-90%</i></summary>
   <blockquote>
     Automatically prefixes supported shell commands (git, go, cargo, npm, docker, etc.) with snip to filter output before it reaches your LLM context window.
