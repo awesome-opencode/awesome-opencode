@@ -1124,6 +1124,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>El Primor</b> <img src="https://badgen.net/github/stars/fxMT-nx/El-Primor" height="14"/> - <i>Agente de excelencia que crece contigo</i></summary>
+  <blockquote>
+    Metodologia de 9 fases, 11 skills, Modo Plan/Build, persistencia multi-archivo, aprendizaje de errores y auto-actualizacion. +87% mejor puntuacion en benchmark. DeepSeek V4 Pro. Tambien disponible para Claude Code, Hermes, OpenClaw y Gemini CLI.
+    <br><br>
+    <a href="https://github.com/fxMT-nx/El-Primor">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Agents</b> <img src="https://badgen.net/github/stars/darrenhinde/opencode-agents" height="14"/> - <i>Enhanced workflows</i></summary>
   <blockquote>
     A set of opencode configurations, prompts, agents, and plugins for enhanced development workflows.
