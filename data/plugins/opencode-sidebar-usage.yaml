@@ -1,0 +1,17 @@
+name: Sidebar Usage
+repo: https://github.com/HunkYuan/opencode-sidebar-usage
+tagline: TUI sidebar showing per-turn and session-cumulative token usage, cache hit rate, and cost
+description: |
+  Adds a collapsible "Usage" block to the opencode TUI sidebar showing token
+  breakdown (input, output, reasoning, cache read, cache write), cache hit
+  percentage, context window usage, and session cost. Updates reactively as
+  new assistant messages arrive.
+scope:
+  - global
+tags:
+  - sidebar
+  - tokens
+  - tui
+  - cost
+  - cache
+min_version: 1.17.9
