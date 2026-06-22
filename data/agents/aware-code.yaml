@@ -1,0 +1,4 @@
+name: AwareCode
+repo: https://github.com/Wudi12317/aware-code
+tagline: Documentation-aware coding protocol for OpenCode
+description: A 5-phase meta-skill that enforces documentation-first coding. Scans project docs before writing code, remembers root causes of errors, reviews code quality and security, synchronizes docs after changes, and outputs structured summaries. Designed for OpenCode's skill system.
