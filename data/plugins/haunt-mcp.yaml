@@ -1,0 +1,5 @@
+name: Haunt MCP
+repo: https://github.com/Darko893/mcp-server
+tagline: Web extraction MCP for permitted public pages, returning clean JSON or Markdown
+description: Adds Haunt API to agent workflows via MCP. Extract structured JSON, clean Markdown, article fields, metadata, and usage from permitted public pages with a no-key demo and clear blocked-page errors.
+homepage: https://hauntapi.com
