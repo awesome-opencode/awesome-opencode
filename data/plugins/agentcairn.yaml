@@ -1,0 +1,4 @@
+name: agentcairn
+repo: https://github.com/ccf/agentcairn
+tagline: Local-first memory — your agent's memory as plain Markdown in an Obsidian vault you own.
+description: A native OpenCode plugin (recall-at-start + capture-at-end) backed by agentcairn. Memories live as plain-Markdown notes in an Obsidian vault you can read, edit, and grep, with hybrid BM25 + vector + graph recall — shared across Claude Code, Codex, Cursor, and Hermes. Local-first, secret-redacted; install with `cairn install opencode`.
