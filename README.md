@@ -328,6 +328,15 @@ Key features:
 </details>
 
 <details>
+  <summary><b>GPT Imagegen</b> <img src="https://badgen.net/github/stars/yuji-hatakeyama/opencode-gpt-imagegen" height="14"/> - <i>gpt-image-2 in OpenCode — no API cost when using your ChatGPT subscription</i></summary>
+  <blockquote>
+    Brings gpt-image-2 (ChatGPT Images 2) image generation to OpenCode. When you sign into OpenCode with your ChatGPT account, generations are billed against your existing Plus / Pro / Business plan — no per-image API cost. An OpenAI API key path is also planned. Supports reference images for style guidance and edits.
+    <br><br>
+    <a href="https://github.com/yuji-hatakeyama/opencode-gpt-imagegen">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Handoff</b> <img src="https://badgen.net/github/stars/joshuadavidthomas/opencode-handoff" height="14"/> - <i>Session handoff prompts</i></summary>
   <blockquote>
     Creates focused handoff prompts for continuing work in a new session.
@@ -544,6 +553,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
     OpenCode browser automation for Chromium-based browsers using a readable Manifest V3 extension, Node.js native messaging host, and OpenCode-native tools. Supports Chrome, Edge, Brave, Chromium, screenshots, CDP commands, DOM actions, downloads, console/network inspection, and controlled tab sessions.
     <br><br>
     <a href="https://github.com/DJOCKER-FACE/opencode-chromium-browser-plugin">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenCode Claude Memory</b> <img src="https://badgen.net/github/stars/kuitos/opencode-claude-memory" height="14"/> - <i>Claude Code-compatible memory</i></summary>
+  <blockquote>
+    Share persistent Markdown memory between OpenCode and Claude Code using Claude Code-compatible paths and file formats.
+    <br><br>
+    <a href="https://github.com/kuitos/opencode-claude-memory">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -841,6 +859,15 @@ startup.
     Exports metrics, logs, and traces from opencode sessions via OTLP/gRPC to any OpenTelemetry-compatible backend (Datadog, Honeycomb, Grafana Cloud, etc.). Instruments session lifecycle, token usage, cost, tool durations, and git commits — mirroring the same signals as Claude Code's monitoring.
     <br><br>
     <a href="https://github.com/DEVtheOPS/opencode-plugin-otel">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>opencode-review</b> <img src="https://badgen.net/github/stars/sun-praise/opencode-review" height="14"/> - <i>Automatic structured code review with configurable dimensions and auto-fix</i></summary>
+  <blockquote>
+    An automatic code review plugin for OpenCode CLI. Reviews staged changes when session goes idle, with configurable cooldown, multi-dimension analysis (code quality, security, performance, testing, documentation), severity levels, and auto-fix chain support.
+    <br><br>
+    <a href="https://github.com/sun-praise/opencode-review">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1693,6 +1720,21 @@ Also available for bat and Ghostty in the same repository.
     Web interface for opencode - browser-based access to AI coding agent.
     <br><br>
     <a href="https://github.com/kcrommett/opencode-web">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>opencode-agent for Cowork</b> <img src="https://badgen.net/github/stars/MekaretEriker/opencode-agent-for-cowork" height="14"/> - <i>Cowork plugin that turns Claude into an intelligent orchestrator for OpenCode sessions</i></summary>
+  <blockquote>
+    A Cowork (Claude desktop) plugin that bridges natural language conversations with OpenCode.
+Handles agent routing (build/plan/@general), stall detection, result validation (diff
+coherence, tests, build, semantic alignment), per-project operational memory, provider
+fallback chain (anthropic → openrouter → openai), and MCP composability with existing
+user tools. Ships 8 orchestration skills, 3 scheduled-task recipes, and 1 custom agent
+template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
+
+    <br><br>
+    <a href="https://github.com/MekaretEriker/opencode-agent-for-cowork">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

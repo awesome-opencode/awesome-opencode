@@ -769,6 +769,18 @@
     "homepageUrl": "https://github.com/DJOCKER-FACE/opencode-chromium-browser-plugin"
   },
   {
+    "productId": "opencode-claude-memory",
+    "type": "plugins",
+    "displayName": "OpenCode Claude Memory",
+    "repoUrl": "https://github.com/kuitos/opencode-claude-memory",
+    "tagline": "Claude Code-compatible memory",
+    "description": "Share persistent Markdown memory between OpenCode and Claude Code using Claude Code-compatible paths and file formats.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-ensemble",
     "type": "plugins",
     "displayName": "OpenCode Ensemble",
@@ -810,6 +822,28 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "opencode-gpt-imagegen",
+    "type": "plugins",
+    "displayName": "GPT Imagegen",
+    "repoUrl": "https://github.com/yuji-hatakeyama/opencode-gpt-imagegen",
+    "tagline": "gpt-image-2 in OpenCode — no API cost when using your ChatGPT subscription",
+    "description": "Brings gpt-image-2 (ChatGPT Images 2) image generation to OpenCode. When you sign into OpenCode with your ChatGPT account, generations are billed against your existing Plus / Pro / Business plan — no per-image API cost. An OpenAI API key path is also planned. Supports reference images for style guidance and edits.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "openai",
+      "gpt-image-2",
+      "gpt-image",
+      "image-generation",
+      "image-editing",
+      "text-to-image",
+      "chatgpt",
+      "chatgpt-images",
+      "chatgpt-oauth"
+    ]
   },
   {
     "productId": "opencode-hooks-plugin",
@@ -1060,6 +1094,18 @@
     "repoUrl": "https://github.com/saim-x/opencode-research-papers",
     "tagline": "Search arXiv and OpenAlex for research papers with recency and citation filtering",
     "description": "OpenCode plugin that adds a research_papers tool for searching scholarly literature. Uses arXiv for fresh preprints and OpenAlex for broader metadata, citation counts, and open-access links. Supports filtering by latest, trending, or top-cited papers.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-review",
+    "type": "plugins",
+    "displayName": "opencode-review",
+    "repoUrl": "https://github.com/sun-praise/opencode-review",
+    "tagline": "Automatic structured code review with configurable dimensions and auto-fix",
+    "description": "An automatic code review plugin for OpenCode CLI. Reviews staged changes when session goes idle, with configurable cooldown, multi-dimension analysis (code quality, security, performance, testing, documentation), severity levels, and auto-fix chain support.",
     "scope": [
       "global"
     ],
@@ -1949,6 +1995,24 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "opencode-agent-for-cowork",
+    "type": "projects",
+    "displayName": "opencode-agent for Cowork",
+    "repoUrl": "https://github.com/MekaretEriker/opencode-agent-for-cowork",
+    "tagline": "Cowork plugin that turns Claude into an intelligent orchestrator for OpenCode sessions",
+    "description": "A Cowork (Claude desktop) plugin that bridges natural language conversations with OpenCode.\nHandles agent routing (build/plan/@general), stall detection, result validation (diff\ncoherence, tests, build, semantic alignment), per-project operational memory, provider\nfallback chain (anthropic → openrouter → openai), and MCP composability with existing\nuser tools. Ships 8 orchestration skills, 3 scheduled-task recipes, and 1 custom agent\ntemplate (cowork-with-github). Install: drag-and-drop .plugin into Cowork.\n",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "cowork",
+      "orchestration",
+      "claude",
+      "multi-session",
+      "plugin"
+    ]
   },
   {
     "productId": "opencode-chat-export",
