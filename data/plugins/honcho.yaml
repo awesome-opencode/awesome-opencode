@@ -1,0 +1,4 @@
+name: Honcho
+repo: https://github.com/plastic-labs/opencode-honcho
+tagline: AI-native long-term memory for OpenCode
+description: Give OpenCode persistent memory that survives context wipes, session restarts, and fresh chats. Honcho remembers what you're working on, durable preferences, and prior context across projects. Supports cloud and self-hosted deployments with configurable session strategies.
