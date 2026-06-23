@@ -333,6 +333,18 @@
     "tags": []
   },
   {
+    "productId": "honcho",
+    "type": "plugins",
+    "displayName": "Honcho",
+    "repoUrl": "https://github.com/plastic-labs/opencode-honcho",
+    "tagline": "AI-native long-term memory for OpenCode",
+    "description": "Give OpenCode persistent memory that survives context wipes, session restarts, and fresh chats. Honcho remembers what you're working on, durable preferences, and prior context across projects. Supports cloud and self-hosted deployments with configurable session strategies.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "kibi-opencode",
     "type": "plugins",
     "displayName": "kibi-opencode",
@@ -527,6 +539,18 @@
     "repoUrl": "https://github.com/numman-ali/opencode-openai-codex-auth",
     "tagline": "ChatGPT Plus/Pro OAuth",
     "description": "This plugin enables opencode to use OpenAI's Codex backend via ChatGPT Plus/Pro OAuth authentication.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-adaptive-thinking",
+    "type": "plugins",
+    "displayName": "OpenCode Adaptive Thinking",
+    "repoUrl": "https://github.com/ian-pascoe/opencode-adaptive-thinking",
+    "tagline": "Adaptive reasoning-effort control",
+    "description": "OpenCode plugin that lets agents actively adjust model reasoning effort during a session, with configurable system guidance and a tool for switching between valid reasoning-effort variants.",
     "scope": [
       "global"
     ],
@@ -1266,6 +1290,18 @@
     "repoUrl": "https://github.com/ramtinJ95/opencode-tokenscope",
     "tagline": "Token analysis & cost tracking",
     "description": "Tokenscope, Comprehensive token usage analysis and cost tracking for opencode sessions.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "toon-config",
+    "type": "plugins",
+    "displayName": "toon-config",
+    "repoUrl": "https://github.com/mmynsted/opencode-toon-config-plugin",
+    "tagline": "Loads TOON based, AGENTS.toon rather than Markdown",
+    "description": "Use TOON based agent instructions. Command to analyize and improve agent instructions.",
     "scope": [
       "global"
     ],

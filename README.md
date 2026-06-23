@@ -287,6 +287,15 @@
 </details>
 
 <details>
+  <summary><b>Honcho</b> <img src="https://badgen.net/github/stars/plastic-labs/opencode-honcho" height="14"/> - <i>AI-native long-term memory for OpenCode</i></summary>
+  <blockquote>
+    Give OpenCode persistent memory that survives context wipes, session restarts, and fresh chats. Honcho remembers what you're working on, durable preferences, and prior context across projects. Supports cloud and self-hosted deployments with configurable session strategies.
+    <br><br>
+    <a href="https://github.com/plastic-labs/opencode-honcho">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>kibi-opencode</b> <img src="https://badgen.net/github/stars/Looted/kibi" height="14"/> - <i>Repo-local, branch-scoped knowledge and traceability for OpenCode</i></summary>
   <blockquote>
     Plugin-first entry point into the Kibi stack for OpenCode users. It adds context-aware
@@ -422,6 +431,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
     This plugin enables opencode to use OpenAI's Codex backend via ChatGPT Plus/Pro OAuth authentication.
     <br><br>
     <a href="https://github.com/numman-ali/opencode-openai-codex-auth">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenCode Adaptive Thinking</b> <img src="https://badgen.net/github/stars/ian-pascoe/opencode-adaptive-thinking" height="14"/> - <i>Adaptive reasoning-effort control</i></summary>
+  <blockquote>
+    OpenCode plugin that lets agents actively adjust model reasoning effort during a session, with configurable system guidance and a tool for switching between valid reasoning-effort variants.
+    <br><br>
+    <a href="https://github.com/ian-pascoe/opencode-adaptive-thinking">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -929,6 +947,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
     Tokenscope, Comprehensive token usage analysis and cost tracking for opencode sessions.
     <br><br>
     <a href="https://github.com/ramtinJ95/opencode-tokenscope">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>toon-config</b> <img src="https://badgen.net/github/stars/mmynsted/opencode-toon-config-plugin" height="14"/> - <i>Loads TOON based, AGENTS.toon rather than Markdown</i></summary>
+  <blockquote>
+    Use TOON based agent instructions. Command to analyize and improve agent instructions.
+    <br><br>
+    <a href="https://github.com/mmynsted/opencode-toon-config-plugin">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
