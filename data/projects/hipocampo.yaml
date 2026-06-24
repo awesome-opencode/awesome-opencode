@@ -1,0 +1,4 @@
+name: Hipocampo
+repo: https://github.com/carrasquelalex1/hipocampo
+tagline: Dual memory system with BIRE search for AI agents
+description: A dual-memory system (PostgreSQL + pgvector + Gemini Embeddings) for AI coding agents. Implements the BIRE algorithm (Búsqueda Integrada por Relevancia Expansiva) — unified semantic + lexical search with auto-tagging, hybrid scoring, GIN trigram indexes, and cross-system 768d embeddings. Ships as an opencode skill with SKILL.md, Python scripts, and full DDL schema.
