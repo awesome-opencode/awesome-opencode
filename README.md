@@ -1544,6 +1544,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>MonadicSharp</b> <img src="https://badgen.net/github/stars/Danny4897/MonadicSharp-OpenCode" height="14"/> - <i>Railway-Oriented Programming for C#</i></summary>
+  <blockquote>
+    MCP server + Green Code Agent + MonadicForge CLI analyzer for C#/.NET. Includes 5 MonadicSharp resources, 21 code generation scenarios, inline ROP compliance review, and skills for green-code-advisor and saas-module-design. .NET 8+, MIT license.
+    <br><br>
+    <a href="https://github.com/Danny4897/MonadicSharp-OpenCode">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OC Context (occtx)</b> <img src="https://badgen.net/github/stars/hungthai1401/occtx" height="14"/> - <i>Switch contexts quickly</i></summary>
   <blockquote>
     A command-line tool for switching between different opencode contexts quickly.
