@@ -1,0 +1,4 @@
+name: opencode-personality
+repo: https://github.com/joostvanwollingen/opencode-personality
+tagline: A configurable personality and mood system plugin for OpenCode.
+description: Give your AI assistant a distinct personality with customizable moods that drift over time.

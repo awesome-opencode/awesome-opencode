@@ -1,0 +1,4 @@
+name: Open Conclave
+repo: https://github.com/martinzokov/open-conclave
+tagline: Multi-agent debates, moderated by a captain agent until they reach consensus
+description: In the style of Grok 4.20, multiple agents are dispatched to answer the same query. Each one has a different system prompt (logical, creative, research-focused) and have to reach a consensus for the final output. The user can specify which provider/model they want to use and override the system prompt of each agent via config.

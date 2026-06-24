@@ -1,0 +1,4 @@
+name: Opencode Actions
+repo: https://github.com/Svtter/opencode-actions
+tagline: Reusable GitHub Actions for installing and running OpenCode in CI/CD workflows
+description: A collection of reusable GitHub Actions that make it easy to integrate OpenCode into your CI/CD pipelines. Includes actions for PR review, architecture review, spec coverage checking, and one-step opencode setup and execution. Supports caching, retry logic, and multiple LLM providers.

@@ -1,0 +1,5 @@
+name: TypeUI
+repo: https://github.com/bergside/typeui
+tagline: Design systems, UI prompts, and layout variation guidance
+description: 'Open-source design layer for OpenCode that provides curated design skills, UI prompts, and layout variation guidance so agents can generate more consistent interfaces. Includes an <a href="https://www.typeui.sh/docs/guides/opencode">OpenCode setup guide</a>.'
+homepage: https://www.typeui.sh/docs/guides/opencode

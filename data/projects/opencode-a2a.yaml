@@ -1,0 +1,4 @@
+name: Opencode A2A
+repo: https://github.com/Intelligent-Internet/opencode-a2a
+tagline: Full A2A Protocol support for OpenCode.
+description: A production-ready A2A Protocol implementation that exposes OpenCode as a standardized Agent-to-Agent service, enabling seamless cross-agent collaboration and automated workflows.

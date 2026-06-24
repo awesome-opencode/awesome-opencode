@@ -1,0 +1,4 @@
+name: OpenCode Adaptive Thinking
+repo: https://github.com/ian-pascoe/opencode-adaptive-thinking
+tagline: Adaptive reasoning-effort control
+description: OpenCode plugin that lets agents actively adjust model reasoning effort during a session, with configurable system guidance and a tool for switching between valid reasoning-effort variants.

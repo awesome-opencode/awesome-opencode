@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: auto-generate-readme-main
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -30,16 +34,36 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Generate README
-        run: node scripts/generate-readme.js
+      - name: Generate and push README/registry
+        run: |
+          set -euo pipefail
 
-      - name: Generate registry JSON
-        run: node scripts/export-json.js --pretty --output dist/registry.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "docs: auto-regenerate README and registry data"
-          file_pattern: "README.md dist/registry.json"
-          commit_user_name: "github-actions[bot]"
-          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4 5; do
+            echo "Generation attempt ${attempt}"
+            git fetch origin main
+            git reset --hard origin/main
+
+            node scripts/generate-readme.js
+            node scripts/export-json.js --pretty --output dist/registry.json
+
+            if git diff --quiet -- README.md dist/registry.json; then
+              echo "README.md and dist/registry.json are already current."
+              exit 0
+            fi
+
+            git add README.md dist/registry.json
+            git commit -m "docs: auto-regenerate README and registry data"
+
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "Push raced with another main update; retrying..."
+            sleep 2
+          done
+
+          echo "Failed to push regenerated README/registry after retries" >&2
+          exit 1

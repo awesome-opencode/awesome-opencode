@@ -1,0 +1,11 @@
+name: agent-harness
+repo: https://github.com/ar27111994/agent-harness
+tagline: Reusable agent asset lifecycle for OpenCode workspaces
+description: A Node.js CLI for discovering, curating, staging, activating, and wiring reusable AI-agent assets into developer workspaces, including OpenCode.
+tags:
+  - cli
+  - agent-assets
+  - workspace
+  - discovery
+  - opencode
+homepage: https://www.npmjs.com/package/@ar27111994/agent-harness

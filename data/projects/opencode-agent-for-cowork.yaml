@@ -1,0 +1,16 @@
+name: opencode-agent for Cowork
+repo: https://github.com/MekaretEriker/opencode-agent-for-cowork
+tagline: Cowork plugin that turns Claude into an intelligent orchestrator for OpenCode sessions
+description: |
+  A Cowork (Claude desktop) plugin that bridges natural language conversations with OpenCode.
+  Handles agent routing (build/plan/@general), stall detection, result validation (diff
+  coherence, tests, build, semantic alignment), per-project operational memory, provider
+  fallback chain (anthropic → openrouter → openai), and MCP composability with existing
+  user tools. Ships 8 orchestration skills, 3 scheduled-task recipes, and 1 custom agent
+  template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
+tags:
+  - cowork
+  - orchestration
+  - claude
+  - multi-session
+  - plugin

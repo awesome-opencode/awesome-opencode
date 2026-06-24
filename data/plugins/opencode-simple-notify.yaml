@@ -1,0 +1,4 @@
+name: Simple Notify
+repo: https://github.com/Yusuzhan/opencode-simple-notify
+tagline: Native desktop notifications with near-zero dependencies
+description: Lightweight desktop notification plugin for OpenCode. Sends native OS notifications via dbus (Linux) and osascript (macOS) when sessions complete, error, need approval, or wait for input. Shows project name, elapsed time, and message preview.

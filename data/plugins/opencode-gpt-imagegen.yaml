@@ -1,0 +1,14 @@
+name: GPT Imagegen
+repo: https://github.com/yuji-hatakeyama/opencode-gpt-imagegen
+tagline: gpt-image-2 in OpenCode — no API cost when using your ChatGPT subscription
+description: Brings gpt-image-2 (ChatGPT Images 2) image generation to OpenCode. When you sign into OpenCode with your ChatGPT account, generations are billed against your existing Plus / Pro / Business plan — no per-image API cost. An OpenAI API key path is also planned. Supports reference images for style guidance and edits.
+tags:
+  - openai
+  - gpt-image-2
+  - gpt-image
+  - image-generation
+  - image-editing
+  - text-to-image
+  - chatgpt
+  - chatgpt-images
+  - chatgpt-oauth

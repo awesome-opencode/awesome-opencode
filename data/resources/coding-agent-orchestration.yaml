@@ -1,0 +1,4 @@
+name: Coding Agent Orchestration
+repo: https://github.com/evermeer/CodingAgentOrchestration
+tagline: OpenCode Setup Guide / Orchestration
+description: An opinionated but practical handbook that argues for treating AI coding tools as a composable, multi-agent system rather than a single assistant, and then walks through how to implement that mindset using OpenCode's CLI, configuration system, and ecosystem (agents, tools, skills, and plugins). 

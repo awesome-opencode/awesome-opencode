@@ -1,0 +1,4 @@
+name: OpenCode Claude Memory
+repo: https://github.com/kuitos/opencode-claude-memory
+tagline: Claude Code-compatible memory
+description: Share persistent Markdown memory between OpenCode and Claude Code using Claude Code-compatible paths and file formats.

@@ -1,0 +1,4 @@
+name: Autotitle
+repo: https://github.com/pawelma/opencode-autotitle
+tagline: AI-powered automatic session naming
+description: Two-phase session titling - instant keyword titles on user message, refined AI titles after response. Auto-selects cheapest model (flash/haiku/fast), respects custom titles, zero configuration needed.

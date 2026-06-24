@@ -1,0 +1,4 @@
+name: Harness Memory
+repo: https://github.com/smc2315/harness-memory
+tagline: Persistent project memory - 73 percent fewer tokens than CLAUDE.md, with human review
+description: Auto-captures evidence from tool interactions and materializes memories through a multi-gate pipeline. 4-layer activation engine selects the right memories per context. Replaces CLAUDE.md with structured, searchable, reviewable project memory. Local-first (sql.js WASM), zero cloud dependency.

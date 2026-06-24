@@ -1,0 +1,7 @@
+name: OpenCode Workaholic
+repo: https://github.com/RoderickQiu/opencode-workaholic
+tagline: Enforce mandatory working time and prevents premature "done" responses
+description: |
+  - AI has an early-exit problem: it says "done" at 30 seconds while edge cases are untested, bugs remain, and docs are missing. 
+  - Workaholic enforces mandatory working time for AI until the timer hits zero.
+  - Blocks premature "done" responses until timer expire, and require AI to call checkout() to end the task.

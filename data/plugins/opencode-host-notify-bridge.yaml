@@ -1,0 +1,27 @@
+name: Opencode Host Notify Bridge
+repo: https://github.com/Zaradacht/opencode-host-notify-bridge
+homepage: https://github.com/Zaradacht/opencode-host-notify-bridge
+tagline: Devcontainer notifications bridged back to the host
+description: OpenCode plugin and host helper that forward permission, question, and idle notifications from devcontainers to the host machine for desktop alerts and sound.
+scope:
+  - global
+tags:
+  - devcontainer
+  - notifications
+  - zed
+  - macos
+installation: |
+  Add the plugin to `~/.config/opencode/opencode.json`:
+
+  ```json
+  {
+    "$schema": "https://opencode.ai/config.json",
+    "plugin": ["opencode-host-notify-bridge"]
+  }
+  ```
+
+  Then configure `host-notify-bridge.json` and start the host helper:
+
+  ```bash
+  opencode-host-notify-server
+  ```

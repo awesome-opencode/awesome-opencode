@@ -1,0 +1,4 @@
+name: Unship
+repo: https://github.com/mbenhard/unship
+tagline: Compare AI-made UI variants locally
+description: Local CLI and browser picker for comparing temporary UI variants created by coding agents like OpenCode, then keeping one and cleaning up the rest.

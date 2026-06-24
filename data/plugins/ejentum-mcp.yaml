@@ -1,0 +1,5 @@
+name: Ejentum
+repo: https://github.com/ejentum/ejentum-mcp
+tagline: MCP server with reasoning, code, anti-deception, and memory tools for AI agents
+description: MCP server with four tools (harness_reasoning, harness_code, harness_anti_deception, harness_memory) that AI agents can call on demand. Each tool returns a structured prompt the calling agent ingests before generating.
+homepage: https://ejentum.com

@@ -1,0 +1,4 @@
+name: OpenCode Token Tracker
+repo: https://github.com/eserete/opencode-token-tracker
+tagline: Real-time token usage, cost, and latency tracking for every AI request in OpenCode
+description: Displays a toast after each AI response with input/output tokens, cache hits, reasoning tokens, response latency, per-message cost, cumulative session cost, model identifier, and request count. Automatically aggregates tokens from subagent sessions spawned via the Task tool. Zero config — drop the file in and it works.

@@ -1,0 +1,4 @@
+name: opencode-review
+repo: https://github.com/sun-praise/opencode-review
+tagline: Automatic structured code review with configurable dimensions and auto-fix
+description: An automatic code review plugin for OpenCode CLI. Reviews staged changes when session goes idle, with configurable cooldown, multi-dimension analysis (code quality, security, performance, testing, documentation), severity levels, and auto-fix chain support.

@@ -1,0 +1,19 @@
+name: Opencode LiteLLM
+repo: https://github.com/yuseferi/opencode-litellm
+tagline: Auto-discover models from a LiteLLM proxy
+description: |
+  Drop-in LiteLLM provider for OpenCode with zero configuration. Auto-detects a running
+  LiteLLM proxy on common ports (4000, 8000, 8080), pulls every model from /v1/models,
+  and registers them in OpenCode automatically — no model lists to hand-maintain. Smart
+  name formatting, modality categorization (chat/embedding/image/audio), provider
+  extraction, optional API-key auth, and a 5-second timeout so a slow proxy never blocks
+  startup.
+scope:
+  - global
+  - project
+tags:
+  - litellm
+  - provider
+  - openai-compatible
+  - llm-proxy
+  - model-discovery

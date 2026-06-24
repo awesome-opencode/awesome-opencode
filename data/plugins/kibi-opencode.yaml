@@ -1,0 +1,28 @@
+name: kibi-opencode
+repo: https://github.com/Looted/kibi
+tagline: Repo-local, branch-scoped knowledge and traceability for OpenCode
+description: |
+  Plugin-first entry point into the Kibi stack for OpenCode users. It adds context-aware
+  guidance, routes durable code comments toward Kibi artifacts, runs non-blocking background
+  sync and targeted validation checks, and helps keep repo knowledge branch-local and queryable.
+scope:
+  - project
+tags:
+  - opencode
+  - plugin
+  - mcp
+  - traceability
+installation: |
+  ## Install
+  Add the plugin to your project `opencode.json`:
+
+  ```json
+  {
+    "$schema": "https://opencode.ai/config.json",
+    "plugin": ["kibi-opencode"]
+  }
+  ```
+
+  OpenCode installs npm plugins declared in `plugin` automatically at startup.
+
+  After startup, run `/init-kibi` in the repository to bootstrap the Kibi knowledge base.

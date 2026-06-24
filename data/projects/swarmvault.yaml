@@ -1,0 +1,4 @@
+name: SwarmVault
+repo: https://github.com/swarmclawai/swarmvault
+tagline: Local-first RAG knowledge base compiler with bundled skill and MCP server
+description: Turns raw docs, research, and code into a persistent markdown wiki, knowledge graph, and hybrid SQLite FTS + embeddings search. Ships a bundled skill (schema-first, graph-query-first conventions) and an MCP server, so it works with OpenCode, Claude Code, and Codex. Offline heuristic provider by default; optional Ollama for local embeddings.

@@ -1,0 +1,4 @@
+name: Dodo Payments
+repo: https://github.com/dodopayments/dodo-agent-plugin
+tagline: Payments, subscriptions, webhooks, and billing for OpenCode agents
+description: Official Dodo Payments plugin for OpenCode (also Claude Code, Codex, Cursor). Bundles eight integration skills (checkout, subscriptions, webhooks, usage-based billing, credits, license keys, BillingSDK, best practices) plus two MCP servers — a live API server with browser OAuth and a documentation search server. Distributed via npm as @dodopayments/opencode-plugin.

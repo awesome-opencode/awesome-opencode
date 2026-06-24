@@ -1,0 +1,4 @@
+name: AgentDeals
+repo: https://github.com/robhunter/agentdeals
+tagline: MCP server aggregating free tiers, credits, and referral codes across 1,500+ developer tools
+description: Remote MCP server that surfaces free tiers, credits, trials, and referral codes for developer infrastructure — Railway, Vercel, Fly, OpenAI, Anthropic, and 1,500+ other vendors. Exposes four tools (search_deals, plan_stack, compare_vendors, track_changes) so an agent can find the cheapest way to ship a given stack. Works with opencode via remote URL (https://agentdeals-production.up.railway.app/mcp). Also tracks pricing changes over time.

@@ -1,0 +1,9 @@
+name: Opencode Profile Router
+repo: https://github.com/leolaurindo/opencode-profile-router
+tagline: Profile router for auth and selective config isolation
+description: Shell wrapper for OpenCode that selects named profiles by path and can isolate provider login state, config directories, and data roots selectively and independently per profile.
+tags:
+  - cli
+  - profiles
+  - auth
+  - routing

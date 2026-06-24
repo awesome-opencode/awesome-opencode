@@ -1,0 +1,4 @@
+name: Opencode TTS
+repo: https://github.com/StefanoChiodino/opencode-tts
+tagline: Voice summaries for idle responses
+description: Speaks assistant responses aloud when a session goes idle, with summary or full-text modes and local TTS backends.

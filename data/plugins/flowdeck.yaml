@@ -1,0 +1,49 @@
+name: FlowDeck
+repo: https://github.com/DVNghiem/FlowDeck
+tagline: AI-powered multi-agent workflow orchestration with built-in safety intelligence
+description: |
+  FlowDeck adds a structured, multi-agent development workflow to OpenCode. It coordinates 25 specialist agents through a four-phase cycle — discuss, plan, execute, review — with persistent state that survives session restarts.
+
+  Key features:
+  - 25 specialist agents (architect, planner, coder, reviewer, tester, debugger, risk-analyst, policy-enforcer, and more)
+  - 24 reusable workflow skills (TDD, security scan, deploy check, code review, and more)
+  - 17 workflow commands for all project operations
+  - 15 pre-built orchestration flows including Spec-Driven Development (SDD)
+  - Persistent state via `.planning/STATE.md` — resume exactly where you left off
+  - Wave-based parallel execution for independent tasks
+  - AI Safety layer: patch trust scoring, edit gates, phase gating, arch constraint enforcement, failure replay, and regression prediction
+  - Deep System Hooks: context monitoring, session idle summaries, shell environment injection
+  - Built-in MCPs: Context7 (docs), Exa (web search), Grep.app (code search)
+  - Ensemble Reasoning via `/fd-council` for synthesized consensus from multiple agents
+  - Persistent Memory with SQLite for tool executions and session summaries
+scope:
+  - global
+tags:
+  - workflow
+  - orchestration
+  - multi-agent
+  - planning
+  - security
+  - TDD
+  - skills
+  - commands
+min_version: "1.0.0"
+homepage: https://github.com/DVNghiem/FlowDeck#readme
+installation: |
+  ### Method 1: curl (recommended)
+  ```bash
+  curl -fsSL https://raw.githubusercontent.com/DVNghiem/flowdeck/main/install.sh | bash
+  ```
+
+  ### Method 2: npx
+  ```bash
+  npx @dv.nghiem/flowdeck install
+  ```
+
+  Core workflow commands:
+  - `/fd-new-project` — Bootstrap a new project with PROJECT.md, ROADMAP.md, STATE.md
+  - `/fd-discuss` — Pre-planning structured Q&A to capture decisions
+  - `/fd-plan` — Generate a wave-structured execution plan from decisions
+  - `/fd-new-feature` — Implement a feature with TDD discipline and parallel agents
+  - `/fd-checkpoint` — Save a session checkpoint to STATE.md
+  - `/fd-resume` — Reload STATE.md and PLAN.md to continue interrupted session

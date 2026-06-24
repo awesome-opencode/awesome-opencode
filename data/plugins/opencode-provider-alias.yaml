@@ -1,0 +1,4 @@
+name: OpenCode Provider Alias
+repo: https://github.com/baranwang/opencode-provider-alias
+tagline: Alias and curate OpenCode providers with model metadata from models.dev.
+description: Lets users define local OpenCode provider and model aliases hydrated from existing models.dev metadata.

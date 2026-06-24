@@ -1,0 +1,4 @@
+name: Subagent Reporter
+repo: https://github.com/raisbecka/opencode-subagent-output
+tagline: See exactly what your subagents are up to (in the terminal) when invoked during an `opencode run _____` session.
+description: When opencode run <prompt> is invoked normally, the actions of the primary agent are visible in the terminal, but subagent actions are not. This makes it difficult to follow progress on the prompt, and makes it very difficult to use `opencode run` as part of an unattended process or script. This plugin pipes subagent actions/events directly to stdout, prefixes them with the subagents name, and enumerates subagents when run in parallel for easy identification. This allows the user to follow along in realtime when subagents are running, and effectively trace execution at a later time. 

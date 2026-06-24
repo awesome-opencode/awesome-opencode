@@ -1,0 +1,4 @@
+name: OpenCode Throughput
+repo: https://github.com/Howardzhangdqs/opencode-throughput
+tagline: Real-time LLM performance monitoring
+description: Real-time LLM performance monitoring plugin for OpenCode. Tracks TTFT, TPS, latency, token usage, and cost per model with toast notifications and a TUI sidebar display.

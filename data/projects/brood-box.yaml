@@ -1,0 +1,4 @@
+name: brood-box
+repo: https://github.com/stacklok/brood-box
+tagline: Hardware-isolated microVMs for coding agents
+description: Run AI coding agents (Claude Code, Codex, OpenCode) inside hardware-isolated microVMs with snapshot isolation, egress control, and MCP authorization.

@@ -1,0 +1,4 @@
+name: Opencode Usage Monitor
+repo: https://github.com/Mark1708/opencode-usage-monitor
+tagline: Monitor OpenAI and Z.AI usage quotas in the TUI
+description: OpenCode sidebar plugin that displays API usage quotas for OpenAI and Z.AI providers with per-model breakdowns, spend tracking, and configurable refresh controls.

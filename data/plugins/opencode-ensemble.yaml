@@ -1,0 +1,11 @@
+name: OpenCode Ensemble
+repo: https://github.com/hueyexe/opencode-ensemble
+tagline: Parallel agent teams for OpenCode
+description: Coordinate parallel OpenCode agents with peer messaging, a shared task board, git worktree isolation, and a live dashboard.
+homepage: https://www.npmjs.com/package/@hueyexe/opencode-ensemble
+tags:
+  - agents
+  - multi-agent
+  - orchestration
+  - worktrees
+  - dashboard

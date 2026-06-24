@@ -1,0 +1,15 @@
+name: Akephalos
+repo: https://github.com/sunnja69/akephalos
+tagline: Local-first markdown passport for portable agent context and memory
+description: A local-first, markdown-first `.akephalos` passport for portable
+  agent preferences, tool notes, rules, project context, and durable memories.
+  It uses plain files and Git so MCP-capable coding-agent workflows can inspect
+  and carry context across tools and machines without hosted sync.
+scope:
+  - project
+tags:
+  - mcp-server
+  - memory
+  - context
+  - local-first
+  - markdown

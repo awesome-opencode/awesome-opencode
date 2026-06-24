@@ -1,0 +1,4 @@
+name: opencode-bmad-workflow
+repo: https://github.com/Alex-stack-cell/opencode-bmad-workflow
+tagline: BMAD workflow plugin — automates epic, feature, sprint and code review workflows using specialized AI agents
+description: Brings the BMAD (Breakthrough Method of Agile AI-Driven Development) methodology to OpenCode. Provides specialized agents for product management, architecture, development, and QA roles. Automates epic planning, feature breakdown, sprint workflows, and code reviews through a structured multi-agent pipeline.

@@ -1,0 +1,9 @@
+name: Charcoal
+repo: https://github.com/VyomJain6904/charcoal-theme
+tagline: "Deep-black grayscale theme for OpenCode — no hues, all shades of gray"
+description: |
+  Charcoal is a pure grayscale theme for OpenCode with a near-black (#0d0d0d) background.
+  All 56 theme color keys use shades of gray — no hues anywhere. Designed to match a
+  minimal dark terminal aesthetic.
+
+  Also available for bat and Ghostty in the same repository.

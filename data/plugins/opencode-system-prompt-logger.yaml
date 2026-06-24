@@ -1,0 +1,4 @@
+name: System Prompt Logger
+repo: https://github.com/tlinhart/opencode-system-prompt-logger
+tagline: System prompt logger
+description: OpenCode plugin that intercepts the system prompt before it's sent to the LLM and logs it.

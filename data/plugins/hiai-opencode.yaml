@@ -1,0 +1,4 @@
+name: hiai-opencode
+repo: https://github.com/HiAi-gg/hiai-opencode
+tagline: Canonical 12-agent model with bundled skills, MCP, LSP, and ralph-loop
+description: Unified plugin shipping 10 visible agents (Bob, Coder, Strategist, Critic, Guard, Researcher, Designer, Manager, Brainstormer, Vision) plus hidden Sub and Agent Skills. Bundles MCP wiring (playwright, stitch, sequential-thinking, firecrawl, rag, mempalace, context7, websearch, grep_app), LSP, skill materialization, and a multi-layer continuation system (todo enforcer, ralph-loop, ULTRAWORK auto-start) in one install.

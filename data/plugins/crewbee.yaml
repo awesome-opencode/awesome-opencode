@@ -1,0 +1,4 @@
+name: CrewBee
+repo: https://github.com/CrewBeeLab/CrewBee
+tagline: Task-specific Agent Teams for OpenCode
+description: CrewBee is an independent Agent Team framework for OpenCode. It lets users define reusable task/project-specific Agent Teams, project them into OpenCode agents, and switch between single-agent execution and multi-agent collaboration based on task complexity. It also includes built-in Team templates such as a Coding Team with review flow and completion criteria.

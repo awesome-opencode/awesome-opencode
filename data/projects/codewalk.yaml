@@ -1,0 +1,4 @@
+name: CodeWalk
+repo: https://github.com/verseles/codewalk
+tagline: Native cross-platform Flutter client for OpenCode server mode
+description: A fast, native Flutter client for OpenCode server mode with realtime streaming chat, speech-to-text on all platforms, multi-server profiles, model selection, and a Material 3 responsive UI for Linux, macOS, Windows, Web, and Android.

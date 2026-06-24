@@ -1,0 +1,4 @@
+name: kickstart.opencode
+repo: https://github.com/orionpax1997/kickstart.opencode
+tagline: A heavily commented OpenCode starter config that teaches you what everything does.
+description: Inspired by kickstart.nvim. A minimal, well-commented OpenCode configuration designed as a starting point, not a framework. Every decision is explained. Includes free-only models and MCPs, a plan/execute workflow with interview-style clarification, and a careful agent for supervised AI execution. Read it, understand it, make it yours.

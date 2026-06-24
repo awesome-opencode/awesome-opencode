@@ -1,0 +1,4 @@
+name: Opencode Log Sanitizer
+repo: https://github.com/errhythm/opencode-log-sanitizer
+tagline: Sanitizes pasted logs by redacting long strings, JWTs, bcrypt hashes, and base64 blobs
+description: Sanitizes pasted logs before sending them to AI by redacting long quoted strings, JWT tokens, bcrypt hashes, and base64 blobs to reduce token usage and remove irrelevant noise.

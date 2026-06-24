@@ -1,0 +1,4 @@
+name: toon-config
+repo: https://github.com/mmynsted/opencode-toon-config-plugin
+tagline: Loads TOON based, AGENTS.toon rather than Markdown
+description: Use TOON based agent instructions. Command to analyize and improve agent instructions. 

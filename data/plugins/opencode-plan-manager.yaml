@@ -1,0 +1,4 @@
+name: OpenCode Plan Manager
+repo: https://github.com/yurihbm/opencode-plan-manager
+tagline: AI-Native Implementation Planning for Modern Agentic Workflows
+description: High-performance, minimalist plugin designed to bridge the gap between complex implementation strategies and autonomous execution. Selective context loading, zero-hallucination schemas, visible filesystem kanban.

@@ -1,0 +1,4 @@
+name: Opencode History Search
+repo: https://github.com/joeyism/opencode-history-search
+tagline: Search OpenCode conversations with keyword, regex, and fuzzy search
+description: Search through your OpenCode conversation history with powerful keyword, regex, and fuzzy search capabilities. Features date filtering, multiple match types (titles, messages, tools, file paths), and fast performance (<50ms queries).

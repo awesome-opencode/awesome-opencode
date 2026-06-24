@@ -1,0 +1,8 @@
+name: jailoc
+repo: https://github.com/seznam/jailoc
+tagline: Sandboxed Docker environments for OpenCode agents
+description: >
+  CLI tool that wraps OpenCode agents in isolated Docker Compose environments
+  with file isolation (bind-mounted workspaces only), network isolation
+  (private subnets blocked by default with host allowlisting), and a
+  per-workspace DinD sidecar. Zero config to start.

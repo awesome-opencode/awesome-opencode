@@ -1,0 +1,4 @@
+name: Magic Context
+repo: https://github.com/cortexkit/opencode-magic-context
+tagline: Lossless context management with background compression
+description: Cache-aware context management that keeps long sessions productive. Background historian compresses old conversation into structured compartments while you keep working. Includes cross-session project memory, unified search across history/memories/facts, overnight dreamer for memory maintenance, and prompt-cache-safe deferred operations.

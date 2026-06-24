@@ -1,0 +1,4 @@
+name: Opencode Agents Sidebar
+repo: https://github.com/Mark1708/opencode-agents-sidebar
+tagline: Browse configured OhMyOpenAgent agents in the TUI
+description: OpenCode sidebar plugin that displays configured OhMyOpenAgent agents with lifecycle-based categories, collapsible sections, descriptions, and model information.

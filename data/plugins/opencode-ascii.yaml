@@ -1,0 +1,4 @@
+name: opencode-ascii
+repo: https://github.com/d3vv3/opencode-ascii
+tagline: Strip unicode characters from output and replace them by their ASCII equivalents
+description: Substitute unicode characters for ASCII. Em-dash (—) and en-dash (–) for hyphens (-); right arrow (→) for (->) and so on.

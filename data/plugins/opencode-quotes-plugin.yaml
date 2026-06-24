@@ -1,0 +1,4 @@
+name: aerovato/opencode-quotes-plugin
+repo: https://github.com/aerovato/opencode-quotes-plugin
+tagline: Display inspirational quotes instead of tips
+description: Replaces the default home-page tips with inspirational quotes for a more motivating OpenCode experience.

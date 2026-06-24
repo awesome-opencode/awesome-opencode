@@ -1,0 +1,13 @@
+name: OrgX OpenCode Plugin
+repo: https://github.com/useorgx/orgx-opencode-plugin
+tagline: OrgX Work Graph peer for task dispatch, receipts, deviations, and passive reconciliation
+description: OrgX OpenCode Plugin connects OpenCode sessions to the OrgX execution control plane. It receives OrgX task dispatches, drives the user's local OpenCode session, posts execution receipts and deviations back to OrgX, and writes compact Work Graph events for later audit-first reconciliation.
+scope:
+  - global
+tags:
+  - agent-orchestration
+  - work-graph
+  - task-dispatch
+  - receipts
+  - mcp
+homepage: https://github.com/useorgx/orgx-opencode-plugin#readme

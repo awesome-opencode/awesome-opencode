@@ -1,0 +1,4 @@
+name: opencode-short-term-memory
+repo: https://github.com/andrejtonev/opencode-short-term-memory
+tagline: Maintain user instructions and preferences throughout long sessions. No more repeating yourself.
+description: Automatically summarizes conversation context into structured session memory and injects it back into the system prompt every few turns — preserving user instructions, project context, decisions, and active references across long chats and compactions.

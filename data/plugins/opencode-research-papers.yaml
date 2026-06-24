@@ -1,0 +1,4 @@
+name: Research Papers
+repo: https://github.com/saim-x/opencode-research-papers
+tagline: Search arXiv and OpenAlex for research papers with recency and citation filtering
+description: OpenCode plugin that adds a research_papers tool for searching scholarly literature. Uses arXiv for fresh preprints and OpenAlex for broader metadata, citation counts, and open-access links. Supports filtering by latest, trending, or top-cited papers.

@@ -1,0 +1,4 @@
+name: bx
+repo: https://github.com/holtwick/bx-mac
+tagline: macOS file-system sandbox for AI coding agents
+description: Launch OpenCode, VSCode, Claude Code, or any command in a macOS sandbox (sandbox-exec). Dynamically blocks access to everything except the project directory — no containers, no VMs, just one command.

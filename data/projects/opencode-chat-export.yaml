@@ -1,0 +1,4 @@
+name: Opencode Chat Export
+repo: https://github.com/jjserenity/opencode-chat-export
+tagline: MCP server to export chat history to Markdown
+description: MCP server that exports OpenCode chat history to Markdown files with tool calls, reasoning, and cost summaries. Export current session, specific sessions by ID, or bulk exports. pip installable.

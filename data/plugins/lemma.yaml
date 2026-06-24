@@ -1,0 +1,19 @@
+name: Lemma
+repo: https://github.com/xenitV1/lemma
+tagline: Persistent memory layer for LLMs via MCP - local, zero-dependency, works on all clients
+description: >
+  Biological memory model for AI coding agents. Features confidence decay/boost,
+  Fuse.js fuzzy dedup, guide system with usage tracking, cross-references,
+  cumulative backup, virtual session tracking, and universal memory injection
+  via tool descriptions (works on Claude Desktop, Cursor, VS Code, Gemini CLI,
+  opencode, and any MCP client). No API keys, no cloud, fully local JSONL storage.
+  20 MCP tools, 110 tests, MIT licensed.
+scope:
+  - global
+tags:
+  - memory
+  - mcp
+  - persistence
+  - context
+  - claude
+  - cursor

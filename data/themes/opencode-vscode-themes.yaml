@@ -1,0 +1,4 @@
+name: VS Code Themes
+repo: https://github.com/regen45t/opencode-vscode-themes
+tagline: Ports of all built-in VS Code themes (Modern, Plus, VS, High Contrast).
+description: OpenCode ports of all built-in VS Code themes from the vscode.theme-defaults extension. Includes vscode-modern, vscode-plus, vscode-vs, and vscode-hc with automatic dark/light variant selection. One-line install script included.

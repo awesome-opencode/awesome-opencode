@@ -1,0 +1,4 @@
+name: SwarmClaw
+repo: https://github.com/swarmclawai/swarmclaw
+tagline: Self-hosted multi-agent runtime with first-class OpenCode delegation
+description: Self-hosted runtime for autonomous AI agents with heartbeats, schedules, delegation, memory, runtime skills, and reviewed conversation-to-skill learning. Orchestrates OpenCode alongside Claude Code, Codex, Gemini CLI, Copilot CLI, Cursor Agent, Goose, Qwen Code, Droid, and 20+ LLM providers. Ships as an Electron desktop app, CLI, and Docker image. MCP-native (server and client). MIT, TypeScript.

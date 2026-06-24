@@ -1,0 +1,4 @@
+name: supamem
+repo: https://github.com/dzmitrys-dev/supamem/
+tagline: Project-agnostic dual-memory MCP CLI for OpenCode
+description: Adds semantic memory (Qdrant tuned hybrid retrieval — RRF fusion of dense MiniLM + sparse BM25) and structural memory hooks to OpenCode via MCP. Ships an installer that wires `qdrant-find` / `qdrant-store` tools and a snapshot hook into your project's OpenCode config. Python 3.12+, MIT, on PyPI as `supamem`.
