@@ -36,6 +36,18 @@
     "tags": []
   },
   {
+    "productId": "nerv",
+    "type": "agents",
+    "displayName": "NERV",
+    "repoUrl": "https://github.com/juanmanueldaza/nerv",
+    "tagline": "Invisible engineering infrastructure for AI agents",
+    "description": "Spec-Driven Development pipeline, A2A task delegation hub, persistent semantic memory (MAGI), and 9 specialized subagents for OpenCode. Scaffolds 45+ files via `nerv init` including SDD skills, slash commands, MCP servers, and lifecycle plugins.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-agents",
     "type": "agents",
     "displayName": "Opencode Agents",
@@ -1352,6 +1364,25 @@
     "tags": []
   },
   {
+    "productId": "orgx-opencode-plugin",
+    "type": "plugins",
+    "displayName": "OrgX OpenCode Plugin",
+    "repoUrl": "https://github.com/useorgx/orgx-opencode-plugin",
+    "tagline": "OrgX Work Graph peer for task dispatch, receipts, deviations, and passive reconciliation",
+    "description": "OrgX OpenCode Plugin connects OpenCode sessions to the OrgX execution control plane. It receives OrgX task dispatches, drives the user's local OpenCode session, posts execution receipts and deviations back to OrgX, and writes compact Work Graph events for later audit-first reconciliation.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "agent-orchestration",
+      "work-graph",
+      "task-dispatch",
+      "receipts",
+      "mcp"
+    ],
+    "homepageUrl": "https://github.com/useorgx/orgx-opencode-plugin#readme"
+  },
+  {
     "productId": "pilot",
     "type": "plugins",
     "displayName": "Pilot",
@@ -1865,6 +1896,18 @@
     "tags": []
   },
   {
+    "productId": "hipocampo",
+    "type": "projects",
+    "displayName": "Hipocampo",
+    "repoUrl": "https://github.com/carrasquelalex1/hipocampo",
+    "tagline": "Dual memory system with BIRE search for AI agents",
+    "description": "A dual-memory system (PostgreSQL + pgvector + Gemini Embeddings) for AI coding agents. Implements the BIRE algorithm (Búsqueda Integrada por Relevancia Expansiva) — unified semantic + lexical search with auto-tagging, hybrid scoring, GIN trigram indexes, and cross-system 768d embeddings. Ships as an opencode skill with SKILL.md, Python scripts, and full DDL schema.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "jailoc",
     "type": "projects",
     "displayName": "jailoc",
@@ -2003,6 +2046,18 @@
     "repoUrl": "https://github.com/Intelligent-Internet/opencode-a2a",
     "tagline": "Full A2A Protocol support for OpenCode.",
     "description": "A production-ready A2A Protocol implementation that exposes OpenCode as a standardized Agent-to-Agent service, enabling seamless cross-agent collaboration and automated workflows.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-actions",
+    "type": "projects",
+    "displayName": "Opencode Actions",
+    "repoUrl": "https://github.com/Svtter/opencode-actions",
+    "tagline": "Reusable GitHub Actions for installing and running OpenCode in CI/CD workflows",
+    "description": "A collection of reusable GitHub Actions that make it easy to integrate OpenCode into your CI/CD pipelines. Includes actions for PR review, architecture review, spec coverage checking, and one-step opencode setup and execution. Supports caching, retry logic, and multiple LLM providers.",
     "scope": [
       "global"
     ],

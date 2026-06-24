@@ -926,6 +926,15 @@ startup.
 </details>
 
 <details>
+  <summary><b>OrgX OpenCode Plugin</b> <img src="https://badgen.net/github/stars/useorgx/orgx-opencode-plugin" height="14"/> - <i>OrgX Work Graph peer for task dispatch, receipts, deviations, and passive reconciliation</i></summary>
+  <blockquote>
+    OrgX OpenCode Plugin connects OpenCode sessions to the OrgX execution control plane. It receives OrgX task dispatches, drives the user's local OpenCode session, posts execution receipts and deviations back to OrgX, and writes compact Work Graph events for later audit-first reconciliation.
+    <br><br>
+    <a href="https://github.com/useorgx/orgx-opencode-plugin">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Pilot</b> <img src="https://badgen.net/github/stars/athal7/opencode-pilot" height="14"/> - <i>Automation daemon</i></summary>
   <blockquote>
     Automation daemon that polls for work from GitHub issues and Linear tickets.
@@ -1306,6 +1315,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>NERV</b> <img src="https://badgen.net/github/stars/juanmanueldaza/nerv" height="14"/> - <i>Invisible engineering infrastructure for AI agents</i></summary>
+  <blockquote>
+    Spec-Driven Development pipeline, A2A task delegation hub, persistent semantic memory (MAGI), and 9 specialized subagents for OpenCode. Scaffolds 45+ files via `nerv init` including SDD skills, slash commands, MCP servers, and lifecycle plugins.
+    <br><br>
+    <a href="https://github.com/juanmanueldaza/nerv">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Agents</b> <img src="https://badgen.net/github/stars/darrenhinde/opencode-agents" height="14"/> - <i>Enhanced workflows</i></summary>
   <blockquote>
     A set of opencode configurations, prompts, agents, and plugins for enhanced development workflows.
@@ -1516,6 +1534,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>Hipocampo</b> <img src="https://badgen.net/github/stars/carrasquelalex1/hipocampo" height="14"/> - <i>Dual memory system with BIRE search for AI agents</i></summary>
+  <blockquote>
+    A dual-memory system (PostgreSQL + pgvector + Gemini Embeddings) for AI coding agents. Implements the BIRE algorithm (Búsqueda Integrada por Relevancia Expansiva) — unified semantic + lexical search with auto-tagging, hybrid scoring, GIN trigram indexes, and cross-system 768d embeddings. Ships as an opencode skill with SKILL.md, Python scripts, and full DDL schema.
+    <br><br>
+    <a href="https://github.com/carrasquelalex1/hipocampo">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>jailoc</b> <img src="https://badgen.net/github/stars/seznam/jailoc" height="14"/> - <i>Sandboxed Docker environments for OpenCode agents</i></summary>
   <blockquote>
     CLI tool that wraps OpenCode agents in isolated Docker Compose environments with file isolation (bind-mounted workspaces only), network isolation (private subnets blocked by default with host allowlisting), and a per-workspace DinD sidecar. Zero config to start.
@@ -1621,6 +1648,15 @@ Also available for bat and Ghostty in the same repository.
     A production-ready A2A Protocol implementation that exposes OpenCode as a standardized Agent-to-Agent service, enabling seamless cross-agent collaboration and automated workflows.
     <br><br>
     <a href="https://github.com/Intelligent-Internet/opencode-a2a">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode Actions</b> <img src="https://badgen.net/github/stars/Svtter/opencode-actions" height="14"/> - <i>Reusable GitHub Actions for installing and running OpenCode in CI/CD workflows</i></summary>
+  <blockquote>
+    A collection of reusable GitHub Actions that make it easy to integrate OpenCode into your CI/CD pipelines. Includes actions for PR review, architecture review, spec coverage checking, and one-step opencode setup and execution. Supports caching, retry logic, and multiple LLM providers.
+    <br><br>
+    <a href="https://github.com/Svtter/opencode-actions">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
