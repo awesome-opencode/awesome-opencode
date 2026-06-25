@@ -743,6 +743,15 @@ startup.
 </details>
 
 <details>
+  <summary><b>Opencode Telemetry</b> <img src="https://badgen.net/github/stars/agostinilabsrl/opencode-telemetry" height="14"/> - <i>Passive cross-session telemetry to local SQLite; cost rollups across agent orchestration chains</i></summary>
+  <blockquote>
+    Logs every opencode session to a local SQLite database automatically — tokens, tool calls, skills, per-turn cost. Aggregates costs across orchestration chains (conductor + child sessions), offers turn-by-turn forensic inspection, and ships an `octm` CLI for reports without spending model tokens. Zero cloud, zero network, no message bodies stored.
+    <br><br>
+    <a href="https://github.com/agostinilabsrl/opencode-telemetry">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OpenCode Throughput</b> <img src="https://badgen.net/github/stars/Howardzhangdqs/opencode-throughput" height="14"/> - <i>Real-time LLM performance monitoring</i></summary>
   <blockquote>
     Real-time LLM performance monitoring plugin for OpenCode. Tracks TTFT, TPS, latency, token usage, and cost per model with toast notifications and a TUI sidebar display.
@@ -895,6 +904,21 @@ startup.
     Automatically prefixes supported shell commands (git, go, cargo, npm, docker, etc.) with snip to filter output before it reaches your LLM context window.
     <br><br>
     <a href="https://github.com/VincentHardouin/opencode-snip">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenCodeRAG</b> <img src="https://badgen.net/github/stars/MrDoe/OpenCodeRAG" height="14"/> - <i>Local-first RAG plugin for semantic code search with tree-sitter chunking and LanceDB</i></summary>
+  <blockquote>
+    A local-first Retrieval-Augmented Generation plugin for OpenCode that enables semantic code
+search across your workspace. Features AST-aware chunking via tree-sitter (19 languages),
+incremental indexing with file-change detection, watch mode for live re-indexing, and
+configurable embeddings via Ollama (default) or OpenAI. Includes a CLI (index, query, status,
+clear) and an OpenCode plugin with a chunk retrieval tool + automatic chat.message file
+suggestions. All processing stays local by default — no data leaves the machine.
+
+    <br><br>
+    <a href="https://github.com/MrDoe/OpenCodeRAG">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1311,6 +1335,15 @@ Also available for bat and Ghostty in the same repository.
     Comprehensive reference repository for production-ready Claude Code subagents.
     <br><br>
     <a href="https://github.com/VoltAgent/awesome-claude-code-subagents">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>deliberation</b> <img src="https://badgen.net/github/stars/antonbabenko/deliberation" height="14"/> - <i>Ask GPT, Gemini, Grok, or OpenRouter for a second opinion or a fix, as expert subagents over MCP</i></summary>
+  <blockquote>
+    Get a delegated second opinion or an actual fix from GPT (Codex), Gemini, Grok (xAI), or OpenRouter. Seven expert subagents - Architect, Plan Reviewer, Scope Analyst, Code Reviewer, Security Analyst, Researcher, and Debugger - plus the ask-gpt, ask-gemini, ask-grok, ask-openrouter, ask-all, and consensus commands. Each one can advise (read-only) or implement. ask-all asks every model at once and compares the answers; consensus runs an arbiter loop until the models agree.
+    <br><br>
+    <a href="https://github.com/antonbabenko/deliberation">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

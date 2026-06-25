@@ -24,6 +24,25 @@
     "tags": []
   },
   {
+    "productId": "deliberation",
+    "type": "agents",
+    "displayName": "deliberation",
+    "repoUrl": "https://github.com/antonbabenko/deliberation",
+    "tagline": "Ask GPT, Gemini, Grok, or OpenRouter for a second opinion or a fix, as expert subagents over MCP",
+    "description": "Get a delegated second opinion or an actual fix from GPT (Codex), Gemini, Grok (xAI), or OpenRouter. Seven expert subagents - Architect, Plan Reviewer, Scope Analyst, Code Reviewer, Security Analyst, Researcher, and Debugger - plus the ask-gpt, ask-gemini, ask-grok, ask-openrouter, ask-all, and consensus commands. Each one can advise (read-only) or implement. ask-all asks every model at once and compares the answers; consensus runs an arbiter loop until the models agree.",
+    "scope": [
+      "global",
+      "project"
+    ],
+    "tags": [
+      "mcp",
+      "subagents",
+      "second-opinion",
+      "code-review",
+      "multi-model"
+    ]
+  },
+  {
     "productId": "gem-team",
     "type": "agents",
     "displayName": "Gem Team",
@@ -1100,6 +1119,18 @@
     "tags": []
   },
   {
+    "productId": "opencode-rag",
+    "type": "plugins",
+    "displayName": "OpenCodeRAG",
+    "repoUrl": "https://github.com/MrDoe/OpenCodeRAG",
+    "tagline": "Local-first RAG plugin for semantic code search with tree-sitter chunking and LanceDB",
+    "description": "A local-first Retrieval-Augmented Generation plugin for OpenCode that enables semantic code\nsearch across your workspace. Features AST-aware chunking via tree-sitter (19 languages),\nincremental indexing with file-change detection, watch mode for live re-indexing, and\nconfigurable embeddings via Ollama (default) or OpenAI. Includes a CLI (index, query, status,\nclear) and an OpenCode plugin with a chunk retrieval tool + automatic chat.message file\nsuggestions. All processing stays local by default — no data leaves the machine.\n",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-research-papers",
     "type": "plugins",
     "displayName": "Research Papers",
@@ -1230,6 +1261,25 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "opencode-telemetry",
+    "type": "plugins",
+    "displayName": "Opencode Telemetry",
+    "repoUrl": "https://github.com/agostinilabsrl/opencode-telemetry",
+    "tagline": "Passive cross-session telemetry to local SQLite; cost rollups across agent orchestration chains",
+    "description": "Logs every opencode session to a local SQLite database automatically — tokens, tool calls, skills, per-turn cost. Aggregates costs across orchestration chains (conductor + child sessions), offers turn-by-turn forensic inspection, and ships an `octm` CLI for reports without spending model tokens. Zero cloud, zero network, no message bodies stored.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "telemetry",
+      "observability",
+      "cost-tracking",
+      "sqlite",
+      "local-first",
+      "orchestration"
+    ]
   },
   {
     "productId": "opencode-throughput",
