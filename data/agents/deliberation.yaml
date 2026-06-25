@@ -1,0 +1,19 @@
+name: deliberation
+repo: https://github.com/antonbabenko/deliberation
+tagline: Ask GPT, Gemini, Grok, or OpenRouter for a second opinion or a fix, as expert subagents over MCP
+description: >-
+  Get a delegated second opinion or an actual fix from GPT (Codex), Gemini, Grok (xAI),
+  or OpenRouter. Seven expert subagents - Architect, Plan Reviewer, Scope Analyst, Code
+  Reviewer, Security Analyst, Researcher, and Debugger - plus the ask-gpt, ask-gemini,
+  ask-grok, ask-openrouter, ask-all, and consensus commands. Each one can advise
+  (read-only) or implement. ask-all asks every model at once and compares the answers;
+  consensus runs an arbiter loop until the models agree.
+scope:
+  - global
+  - project
+tags:
+  - mcp
+  - subagents
+  - second-opinion
+  - code-review
+  - multi-model
