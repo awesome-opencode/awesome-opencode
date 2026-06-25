@@ -1,0 +1,13 @@
+name: Opencode Telemetry
+repo: https://github.com/agostinilabsrl/opencode-telemetry
+tagline: Passive cross-session telemetry to local SQLite; cost rollups across agent orchestration chains
+description: Logs every opencode session to a local SQLite database automatically — tokens, tool calls, skills, per-turn cost. Aggregates costs across orchestration chains (conductor + child sessions), offers turn-by-turn forensic inspection, and ships an `octm` CLI for reports without spending model tokens. Zero cloud, zero network, no message bodies stored.
+scope:
+  - global
+tags:
+  - telemetry
+  - observability
+  - cost-tracking
+  - sqlite
+  - local-first
+  - orchestration
