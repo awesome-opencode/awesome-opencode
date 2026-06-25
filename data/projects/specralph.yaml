@@ -1,0 +1,5 @@
+name: SpecRalph
+repo: https://github.com/iyaki/specralph
+tagline: Spec-Driven Ralph-Wiggum AI coding automation CLI
+description: AI Loops runner for OpenCode and other agent CLIs.
+  Enables spec-driven development workflows with structured prompt engineering and loop automation for AI coding agents.
