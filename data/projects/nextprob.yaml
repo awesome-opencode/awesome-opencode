@@ -1,4 +1,4 @@
-name: ToutKit
-repo: https://github.com/toutkit/toutkit
-tagline: Desktop note-taking app for HTML notes, edited by your local AI coding-agent CLI (OpenCode and others)
+name: NextProb
+repo: https://github.com/NextProb/nextprob
+tagline: Desktop notebook for vibe-coded websites, edited by your local AI coding-agent CLI (OpenCode and others)
 description: Electron desktop app that turns a workspace folder of plain .html files into an AI-editable notebook. Agent-agnostic — edit notes with OpenCode or any other agent CLI in an embedded terminal. Notes are real HTML pages. Each note is a self-contained folder that can include a SQLite database, key/value store, attached files, and scripts — so it can grow from a static page into a sortable table, interactive dashboard, or research tool.
