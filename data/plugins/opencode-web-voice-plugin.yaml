@@ -1,0 +1,4 @@
+name: OpenCode Web Voice Plugin
+repo: https://github.com/Flickwire-Agent/opencode-web-voice-plugin
+tagline: Voice input for OpenCode Web through Lens
+description: Adds a microphone button to the OpenCode Web prompt composer using the Web Speech API. Record speech, insert transcripts directly into the prompt editor, and send naturally. Requires Lens to load.
