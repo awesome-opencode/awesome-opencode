@@ -1,0 +1,15 @@
+name: PatchWarden
+repo: https://github.com/jiezeng2004-design/PatchWarden
+tagline: Local-first MCP safety layer for OpenCode and other AI coding agents
+description: PatchWarden is a local-first MCP safety and verification layer for AI coding agents. It provides workspace confinement, command allowlists, scope-violation detection, and auditable task evidence for OpenCode and other MCP clients.
+tags:
+  - mcp
+  - security
+  - verification
+  - local-first
+  - opencode
+homepage: https://github.com/jiezeng2004-design/PatchWarden#readme
+installation: |
+  ```bash
+  npx -y patchwarden@0.6.1
+  ```
