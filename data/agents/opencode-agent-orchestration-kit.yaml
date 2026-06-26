@@ -1,0 +1,4 @@
+name: OpenCode Agent Orchestration Kit
+repo: https://github.com/jcarlosrodicio/opencode-agent-orchestration-kit
+tagline: Structured product-development workflows
+description: A reproducible OpenCode configuration kit with specialized agents, structured handoffs for research, design, specification, implementation, and review, plus local skills, validation checks, safe installation, and optional design integrations.
