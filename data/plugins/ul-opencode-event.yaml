@@ -16,13 +16,3 @@ tags:
   - token-tracking
   - usage-analytics
 homepage: https://www.npmjs.com/package/@ulthon/ul-opencode-event
-installation: |
-  Add to your `opencode.json`:
-
-  ```json
-  {
-    "plugin": ["@ulthon/ul-opencode-event"]
-  }
-  Then create config at ~/.config/opencode/ul-opencode-event.json, see README (https://gitee.com/ulthon/ul-opencode-event) for details.
-  Quick test:
-npx @ulthon/ul-opencode-event test
