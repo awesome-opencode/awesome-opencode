@@ -1555,6 +1555,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>EGC</b> <img src="https://badgen.net/github/stars/Fmarzochi/EGC" height="14"/> - <i>Persistent cross-session memory MCP server for 13+ AI coding tools including OpenCode</i></summary>
+  <blockquote>
+    Local-first MCP runtime with persistent SQLite-backed memory that survives context resets. Keeps Claude Code, Cursor, Gemini CLI, Codex, Windsurf, Amp, Kiro, VS Code Copilot, Trae, OpenCode, and more in sync across sessions. Install: <code>npm install -g @egchq/egc</code>
+    <br><br>
+    <a href="https://github.com/Fmarzochi/EGC">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Gemini CLI to API</b> <img src="https://badgen.net/github/stars/gzzhongqi/geminicli2api" height="14"/> - <i>Gemini proxy</i></summary>
   <blockquote>
     A proxy that converts the Gemini CLI tool into OpenAI-compatible endpoints.
