@@ -1,0 +1,4 @@
+name: opencode-trace
+repo: https://github.com/aixmoyu/opencode-trace
+tagline: Automatic tracing, visualization, and replay for OpenCode AI conversations with token and latency metrics
+description: A comprehensive tool suite that automatically records every interaction between OpenCode and AI Providers (OpenAI, Anthropic), including complete request/response payloads, token usage, and latency metrics. Features a real-time Web Viewer for conversation history and statistics, per-session tracing control via slash commands and agent tools, CLI for export/query, and support for both global and project-level storage.
