@@ -1,0 +1,4 @@
+name: Lens
+repo: https://github.com/Flickwire-Agent/opencode-lens
+tagline: Plugin injection framework for OpenCode Web
+description: A local reverse proxy that loads web plugins and injects them into the OpenCode Web HTML response. Adds script injection, an integrated settings UI for toggling plugins, and a simple manifest format for building browser-side OpenCode Web plugins. Enables extending the OpenCode Web UI with custom JavaScript modules, HTML injection, and interactive controls.

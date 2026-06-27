@@ -1,0 +1,4 @@
+name: Image Preview
+repo: https://github.com/Flickwire-Agent/opencode-lens-image-preview
+tagline: Inline image previews from URLs in OpenCode Web
+description: A Lens plugin that renders images from URLs inline in OpenCode Web chat. Supports markdown image syntax (\![alt](url)) and raw image URLs. Features click-to-expand, lazy loading, code block protection, and error fallbacks.
