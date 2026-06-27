@@ -1,0 +1,4 @@
+name: OpenAI Native Compaction
+repo: https://github.com/partment/opencode-openai-compact
+tagline: Use OpenAI's official Responses API compaction in OpenCode
+description: Routes OpenCode session compaction for OpenAI providers through `/responses/compact`, stores the returned compacted output locally, and injects it into the next Responses request so long sessions use OpenAI's native compaction instead of a prompt-written summary.
