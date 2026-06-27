@@ -649,6 +649,18 @@
     "tags": []
   },
   {
+    "productId": "open-dynamic-workflows",
+    "type": "plugins",
+    "displayName": "Open Dynamic Workflows",
+    "repoUrl": "https://github.com/Suraj1235/open-dynamic-workflows",
+    "tagline": "Dynamic multi-agent workflows for OpenCode — plan, orchestrate, and verify with the script as the orchestrator",
+    "description": "An MIT-licensed engine bringing Claude-Code-style dynamic workflows and ultracode to OpenCode. A local daemon runs a generated orchestration script with concurrent agents, adversarial verification, and crash-resume; the OpenCode plugin adds workflow/ultracode triggers and a planning UI. Bring your own model — Anthropic, any OpenAI-compatible endpoint, or local Ollama.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "open-plan-annotator",
     "type": "plugins",
     "displayName": "open-plan-annotator",
@@ -1930,6 +1942,18 @@
     "homepageUrl": "https://deck.cofy-x.space"
   },
   {
+    "productId": "eval-harness",
+    "type": "projects",
+    "displayName": "eval-harness",
+    "repoUrl": "https://github.com/nano-step/eval-harness",
+    "tagline": "Behavior-regression testing for OpenCode skills",
+    "description": "Detects when an OpenCode skill's behavior drifts from a baseline, attributes the cause across 4 classes (skill change / fixture stale / model change / unknown drift), and emits a 6-field FAIL schema with transcript-span and env-delta evidence. Ships a git pre-push hook, a composite GitHub Action, and a $-cost hard ceiling for CI safety. Bash + jq + python3 stdlib only; no daemon, no SaaS. MIT.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "gemini-cli-to-api",
     "type": "projects",
     "displayName": "Gemini CLI to API",
@@ -2224,6 +2248,23 @@
     "tags": []
   },
   {
+    "productId": "opencode-mobile",
+    "type": "projects",
+    "displayName": "OpenCode Mobile",
+    "repoUrl": "https://github.com/dzianisv/opencode-mobile",
+    "tagline": "Android client for OpenCode — drive your self-hosted agent from your phone",
+    "description": "Free, open-source (MIT) Android app that connects to an opencode server you run yourself. Stream coding sessions in real time, review file diffs, and approve tool calls from your phone. Install via the F-Droid repo or a signed APK.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "android",
+      "mobile",
+      "client"
+    ],
+    "homepageUrl": "https://dzianisv.github.io/opencode-mobile/"
+  },
+  {
     "productId": "opencode-neovim",
     "type": "projects",
     "displayName": "Opencode Neovim",
@@ -2352,6 +2393,26 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "opentab",
+    "type": "projects",
+    "displayName": "OpenTab",
+    "repoUrl": "https://github.com/hamidi-dev/opentab",
+    "tagline": "Terminal UI for browsing your OpenCode spend by month, day, project, session, and model",
+    "description": "A terminal UI that reads OpenCode's local SQLite database (read-only) to show where your tokens and money went — by month, day, project, session, and model, with spend-over-time trends and drill-down into your most expensive sessions (model mix and subagent costs included). Standard-library Python only, offline by default. Also reads Claude Code, Codex, the Copilot CLI, and more.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "cost",
+      "tokens",
+      "usage",
+      "tui",
+      "analytics",
+      "sqlite"
+    ],
+    "installation": "Python 3.9+, standard library only. PyPI package is `opentab-ai`; the command\nis `opentab`.\n\n```bash\npipx install opentab-ai\n```\n\nOr Homebrew / the install script:\n\n```bash\nbrew install hamidi-dev/tap/opentab\ncurl -fsSL https://raw.githubusercontent.com/hamidi-dev/opentab/main/install.sh | bash\n```\n\nThen run `opentab`, or `opentab --demo` for an anonymized demo.\n"
   },
   {
     "productId": "openwork",

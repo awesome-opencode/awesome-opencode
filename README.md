@@ -494,6 +494,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
 </details>
 
 <details>
+  <summary><b>Open Dynamic Workflows</b> <img src="https://badgen.net/github/stars/Suraj1235/open-dynamic-workflows" height="14"/> - <i>Dynamic multi-agent workflows for OpenCode — plan, orchestrate, and verify with the script as the orchestrator</i></summary>
+  <blockquote>
+    An MIT-licensed engine bringing Claude-Code-style dynamic workflows and ultracode to OpenCode. A local daemon runs a generated orchestration script with concurrent agents, adversarial verification, and crash-resume; the OpenCode plugin adds workflow/ultracode triggers and a planning UI. Bring your own model — Anthropic, any OpenAI-compatible endpoint, or local Ollama.
+    <br><br>
+    <a href="https://github.com/Suraj1235/open-dynamic-workflows">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>open-plan-annotator</b> <img src="https://badgen.net/github/stars/ndom91/open-plan-annotator" height="14"/> - <i>Annotate LLM plans like a Google Doc!</i></summary>
   <blockquote>
     A fully local agentic coding plugin that intercepts plan mode and opens an annotation UI in your browser. Select text to strikethrough, replace, insert, or comment — then approve the plan or request changes
@@ -1555,6 +1564,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>eval-harness</b> <img src="https://badgen.net/github/stars/nano-step/eval-harness" height="14"/> - <i>Behavior-regression testing for OpenCode skills</i></summary>
+  <blockquote>
+    Detects when an OpenCode skill's behavior drifts from a baseline, attributes the cause across 4 classes (skill change / fixture stale / model change / unknown drift), and emits a 6-field FAIL schema with transcript-span and env-delta evidence. Ships a git pre-push hook, a composite GitHub Action, and a $-cost hard ceiling for CI safety. Bash + jq + python3 stdlib only; no daemon, no SaaS. MIT.
+    <br><br>
+    <a href="https://github.com/nano-step/eval-harness">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Gemini CLI to API</b> <img src="https://badgen.net/github/stars/gzzhongqi/geminicli2api" height="14"/> - <i>Gemini proxy</i></summary>
   <blockquote>
     A proxy that converts the Gemini CLI tool into OpenAI-compatible endpoints.
@@ -1754,6 +1772,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>OpenCode Mobile</b> <img src="https://badgen.net/github/stars/dzianisv/opencode-mobile" height="14"/> - <i>Android client for OpenCode — drive your self-hosted agent from your phone</i></summary>
+  <blockquote>
+    Free, open-source (MIT) Android app that connects to an opencode server you run yourself. Stream coding sessions in real time, review file diffs, and approve tool calls from your phone. Install via the F-Droid repo or a signed APK.
+    <br><br>
+    <a href="https://github.com/dzianisv/opencode-mobile">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Neovim</b> <img src="https://badgen.net/github/stars/NickvanDyke/opencode.nvim" height="14"/> - <i>Neovim plugin</i></summary>
   <blockquote>
     Neovim plugin for making convenient editor-aware prompts.
@@ -1864,6 +1891,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     Spec-driven development with opencode - structured specification management.
     <br><br>
     <a href="https://github.com/Fission-AI/OpenSpec">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenTab</b> <img src="https://badgen.net/github/stars/hamidi-dev/opentab" height="14"/> - <i>Terminal UI for browsing your OpenCode spend by month, day, project, session, and model</i></summary>
+  <blockquote>
+    A terminal UI that reads OpenCode's local SQLite database (read-only) to show where your tokens and money went — by month, day, project, session, and model, with spend-over-time trends and drill-down into your most expensive sessions (model mix and subagent costs included). Standard-library Python only, offline by default. Also reads Claude Code, Codex, the Copilot CLI, and more.
+    <br><br>
+    <a href="https://github.com/hamidi-dev/opentab">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
