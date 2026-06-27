@@ -413,6 +413,18 @@
     "tags": []
   },
   {
+    "productId": "antigravity-auth",
+    "type": "plugins",
+    "displayName": "Antigravity Auth",
+    "repoUrl": "https://github.com/anthonyhaussman/opencode-agy-auth",
+    "tagline": "Google Antigravity account auth",
+    "description": "Authenticate the Opencode CLI with your Google account so you can use your existing Antigravity plan.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "google-ai-search",
     "type": "plugins",
     "displayName": "Google AI Search",

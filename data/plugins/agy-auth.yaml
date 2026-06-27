@@ -1,0 +1,4 @@
+name: OpenCode Antigravity CLI Auth
+repo: https://github.com/anthonyhaussman/opencode-agy-auth
+tagline: Google Antigravity account auth
+description: Authenticate the Opencode CLI with your Google account so you can use your existing Antigravity plan.
