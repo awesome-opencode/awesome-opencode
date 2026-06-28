@@ -1,0 +1,4 @@
+name: opencode-handoff-p2p
+repo: https://github.com/Eldorado-ling/opencode-handoff-p2p
+tagline: Transfer OpenCode session share URLs P2P via private GitHub inbox repos
+description: An OpenCode skill that transfers session share URLs between machines or collaborators peer-to-peer using personal GitHub private inbox repositories. Features a 5-tier verification pipeline (filename regex, trusted-sender allowlist, byte-level content validation, GitHub commit author+committer attribution, GPG signature), transactional fetch-before-delete (URL fetch failure preserves the inbox file for retry), and a Chinese-language trust-boundary preamble that prevents fetched share content from autonomously triggering local actions. Each user owns one private inbox repo; senders push directly into it via collaborator access. Includes a reference Python verification script for deterministic cross-shell behavior.
