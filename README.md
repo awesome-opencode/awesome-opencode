@@ -98,6 +98,15 @@
 </details>
 
 <details>
+  <summary><b>AIRIS MCP Gateway</b> <img src="https://badgen.net/github/stars/agiletec-inc/airis-mcp-gateway" height="14"/> - <i>Docker MCP multiplexer with Dynamic MCP</i></summary>
+  <blockquote>
+    Docker-based MCP multiplexer that aggregates 60+ tools behind 7 meta-tools (airis-find, airis-exec, airis-schema, etc.) for 97% token reduction. Features lazy server loading, idle-kill, circuit breaker, API key auth, and auto-enable on first use. Works with Claude Code, Cursor, and any MCP client via SSE.
+    <br><br>
+    <a href="https://github.com/agiletec-inc/airis-mcp-gateway">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Antigravity Auth</b> <img src="https://badgen.net/github/stars/NoeFabris/opencode-antigravity-auth" height="14"/> - <i>Google Antigravity models</i></summary>
   <blockquote>
     Use Gemini and Anthropic models for free via Google Antigravity IDE authentication.
