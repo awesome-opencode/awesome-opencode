@@ -1244,6 +1244,15 @@ suggestions. All processing stays local by default — no data leaves the machin
 </details>
 
 <details>
+  <summary><b>Helium MCP</b> <img src="https://badgen.net/github/stars/connerlambden/helium-mcp" height="14"/> - <i>News bias scoring, live markets & ML options pricing</i></summary>
+  <blockquote>
+    Remote MCP server with 9 tools — real-time news search with bias scoring across 5,000+ sources, live stock/ETF/crypto data with AI bull/bear cases, ML options pricing, balanced news synthesis, and meme search. Free tier, no API key needed. Works with OpenCode, Claude Code, Cursor, Codex, Gemini CLI, and any MCP client.
+    <br><br>
+    <a href="https://github.com/connerlambden/helium-mcp">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Zellij Namer</b> <img src="https://badgen.net/github/stars/24601/opencode-zellij-namer" height="14"/> - <i>Auto-rename Zellij sessions</i></summary>
   <blockquote>
     Keeps your Zellij session name in sync with your work.
