@@ -1,0 +1,7 @@
+name: StringRay
+repo: https://github.com/htafolla/StringRay
+tagline: OpenCode orchestration framework with AI agents
+description: >-
+  A production-ready orchestration framework for OpenCode with multi-agent coordination,
+  enforcement pipeline, codex compliance, and intelligent task routing. Includes 21
+  built-in processors, 60+ codex validators, and autonomous reporting.
