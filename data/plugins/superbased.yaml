@@ -1,0 +1,60 @@
+name: SuperBased
+repo: https://github.com/marmutapp/superbased-opencode-plugin
+tagline: Screen capture, AI vision, OCR, and full GUI automation — 72 MCP tools
+description: |
+  SuperBased connects OpenCode to your screen AND your desktop via 72 MCP tools.
+  Capture screenshots (fullscreen / window / region), run AI vision and local
+  OCR, record sessions for visual regression testing, transcribe voice via
+  microphone, AND drive the full desktop with GUI automation primitives — click,
+  type, hotkey, scroll, drag, hover, form-fill, sequence, dialog handling, tab
+  management, virtual desktops — with humanization v2 (sin-shaped velocity
+  envelope, gaussian click-target jitter, gamma-distributed pre-click dwell,
+  per-process cross-session salt) and proactive CAPTCHA-solving guidance for
+  reCAPTCHA / Cloudflare Turnstile / drag puzzles / rotation puzzles. Hybrid
+  plugin: npm `superbased-opencode-plugin` ships TypeScript lifecycle hooks
+  (pre-flight safety checks, post-flight telemetry, audit-log surfacing); the
+  72 tools live in the SuperBased MCP server (`superbased mcp`) configured
+  separately in `opencode.json`. Skills, commands, and agents bundled as
+  reference markdown.
+scope:
+  - global
+tags:
+  - mcp
+  - screenshot
+  - screen-capture
+  - ocr
+  - ai-vision
+  - screen-recording
+  - visual-testing
+  - gui-automation
+  - click-automation
+  - form-fill
+  - captcha
+  - humanization
+  - dictation
+  - voice
+homepage: https://superbased.app
+installation: |
+  ```bash
+  npm install -g superbased-opencode-plugin superbased
+  ```
+
+  Then add to `opencode.json`:
+
+  ```json
+  {
+    "$schema": "https://opencode.ai/config.json",
+    "plugin": ["superbased-opencode-plugin"],
+    "mcp": {
+      "superbased": {
+        "type": "local",
+        "command": ["superbased", "mcp"],
+        "enabled": true
+      }
+    }
+  }
+  ```
+
+  Optional: install the SuperBased desktop app from
+  [superbased.app](https://superbased.app) for a GUI to browse captures
+  and configure providers — the headless CLI works standalone.
