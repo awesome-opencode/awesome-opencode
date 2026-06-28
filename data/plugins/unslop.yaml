@@ -1,0 +1,4 @@
+name: unslop
+repo: https://github.com/MohamedAbdallah-14/unslop
+tagline: Strip AI writing patterns before publishing
+description: Claude Code plugin and CLI that removes sycophantic openers, stock vocabulary, hedging stacks, and em-dash overuse from AI-generated output. Engineers sentence burstiness. Code, URLs, and technical terms pass through unchanged. Pipe mode for scripting.
