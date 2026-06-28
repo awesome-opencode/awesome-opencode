@@ -355,6 +355,15 @@ Key features:
 </details>
 
 <details>
+  <summary><b>Haunt MCP</b> <img src="https://badgen.net/github/stars/Darko893/mcp-server" height="14"/> - <i>Web extraction MCP for permitted public pages, returning clean JSON or Markdown</i></summary>
+  <blockquote>
+    Adds Haunt API to agent workflows via MCP. Extract structured JSON, clean Markdown, article fields, metadata, and usage from permitted public pages with a no-key demo and clear blocked-page errors.
+    <br><br>
+    <a href="https://github.com/Darko893/mcp-server">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>hiai-opencode</b> <img src="https://badgen.net/github/stars/HiAi-gg/hiai-opencode" height="14"/> - <i>Canonical 12-agent model with bundled skills, MCP, LSP, and ralph-loop</i></summary>
   <blockquote>
     Unified plugin shipping 10 visible agents (Bob, Coder, Strategist, Critic, Guard, Researcher, Designer, Manager, Brainstormer, Vision) plus hidden Sub and Agent Skills. Bundles MCP wiring (playwright, stitch, sequential-thinking, firecrawl, rag, mempalace, context7, websearch, grep_app), LSP, skill materialization, and a multi-layer continuation system (todo enforcer, ralph-loop, ULTRAWORK auto-start) in one install.
