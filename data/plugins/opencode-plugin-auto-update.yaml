@@ -1,0 +1,4 @@
+name: Opencode Auto Update
+repo: https://github.com/AnganSamadder/opencode-plugin-auto-update
+tagline: Automatically updates OpenCode plugins in the background on startup.
+description: Automatically updates OpenCode plugins in the background on startup. No prompts, no blocking IO, and minimal logging by default.
