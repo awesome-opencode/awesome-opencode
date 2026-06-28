@@ -1,0 +1,4 @@
+name: Semantic Anchors
+repo: https://github.com/JensGrote/opencode-semantic-anchors
+tagline: Runtime contract enforcement for safe, traceable AI agents
+description: Runtime steering plugin that enforces behavioral contracts via plugin hooks. Monitors chat messages and tool calls against configurable rules, supports BLOCK/WARN modes, built-in profiles (socratic, architecture), step confirmation intervals, override mechanism, dynamic role switching, and Zod-validated YAML configuration.
