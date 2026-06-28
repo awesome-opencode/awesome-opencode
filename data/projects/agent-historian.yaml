@@ -1,0 +1,4 @@
+name: agent-historian
+repo: https://github.com/adlternative/agent-historian
+tagline: Search and read past AI coding-agent sessions from the CLI
+description: A read-only CLI (ochist) plus an Agent Skill so OpenCode and other agents can search and re-read their own past conversation history before redoing research. Reads transcripts the agents already persist locally — no memory layer, embeddings, index, daemon, or network. Project- or global-scoped, subagent-aware, zero runtime dependencies.
