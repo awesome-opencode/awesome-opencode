@@ -1,0 +1,4 @@
+name: EchoesVault
+repository: https://github.com/psinetron/echoes-vault-opencode
+tagline: Persistent, Obsidian-style file-based memory plugin for OpenCode.
+description: EchoesVault solves the short-term memory problem for AI agents by implementing an autonomous, Google OKF-compliant knowledge base directly within your repository. It automatically tracks session state, logs context switches, and ensures zero context loss across IDE restarts.
