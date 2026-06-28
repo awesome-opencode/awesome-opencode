@@ -1,0 +1,8 @@
+name: RunAPI MCP
+repo: https://github.com/runapi-ai/mcp
+tagline: MCP server for model API jobs
+description: RunAPI MCP lets coding agents discover models, check pricing, and create image, video, music/audio, text-to-speech, and LLM tasks through RunAPI.
+tags:
+  - mcp-server
+  - model-api
+  - media-generation
