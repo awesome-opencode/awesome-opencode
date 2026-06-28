@@ -16,6 +16,16 @@
 <a href="https://github.com/anomalyco/opencode"><img src="https://img.shields.io/github/stars/anomalyco/opencode?style=social" height="28" alt="Opencode Stars" /></a>
 </p>
 
+<!-- LANGUAGE SWITCHER -->
+<p>
+<a href="README.md"><img src="https://img.shields.io/badge/EN-English-blue" height="22" alt="English" /></a>
+&nbsp;&nbsp;
+<a href="README.zh-CN.md"><img src="https://img.shields.io/badge/中文-简体-green" height="22" alt="简体中文" /></a>
+&nbsp;&nbsp;
+<a href="README.ru-RU.md"><img src="https://img.shields.io/badge/Русский-версия-orange" height="22" alt="Русский" /></a>
+</p>
+
+
 <br>
 
 <!-- DESCRIPTION -->
