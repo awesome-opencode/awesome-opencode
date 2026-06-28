@@ -1,0 +1,7 @@
+name: OpenKilo
+repo: https://github.com/AnganSamadder/openkilo
+tagline: Access frontier open-source AI models for free with zero config
+description: >-
+  Provides instant access to frontier OSS AI models (GLM 5, Kimi K2.5, DeepSeek v3.2, 
+  Llama, Qwen, and more) through Kilo's OpenRouter-compatible gateway. No API key 
+  required for free models. Optional OAuth/API key for 350+ paid models.
