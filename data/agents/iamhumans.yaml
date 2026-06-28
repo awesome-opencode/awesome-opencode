@@ -1,0 +1,4 @@
+name: iamhumans
+repo: https://github.com/hoainho/iamhumans
+tagline: Teaches Claude to stop performing empathy and start being present. 99/100 on a 100-case eval.
+description: An opencode skill (~200 lines) that removes sycophancy, lecturing, and performed empathy from Claude's emotional responses. Teaches the shape of human conversation — when to be short, when to sit with something, when the right reply is "oh." Ships with a 100-case eval corpus and a baseline comparison showing +89.4 point skill delta over default Claude (1/20 PASS baseline vs 99/100 with skill). Load for human-shaped conversations (grief, decisions, vent, small talk). Don't load for code generation.
