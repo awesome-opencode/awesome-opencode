@@ -1447,6 +1447,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>Agent Sessions</b> <img src="https://badgen.net/github/stars/jazzyalex/agent-sessions" height="14"/> - <i>Local OpenCode session-history browser</i></summary>
+  <blockquote>
+    Local-first macOS app for browsing and full-text searching OpenCode session history. It reads local OpenCode SQLite history in read-only mode, opens old runs as readable timelines, and can resume sessions where the OpenCode CLI supports it.
+    <br><br>
+    <a href="https://github.com/jazzyalex/agent-sessions">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>agent-dotfiles</b> <img src="https://badgen.net/github/stars/saqibameen/agent-dotfiles" height="14"/> - <i>Write AI coding rules once, sync to every agent</i></summary>
   <blockquote>
     Write AI coding rules once, sync to every agent. Supports Command Code, Claude Code, Cursor, Copilot, Codex, and OpenCode.
