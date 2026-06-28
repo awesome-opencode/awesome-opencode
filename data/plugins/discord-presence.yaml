@@ -1,0 +1,4 @@
+name: Discord Presence
+repo: https://github.com/Puri12/opencode-discord-presence
+tagline: Discord Rich Presence with multi-agent tracking
+description: Display your OpenCode session in Discord Rich Presence. Multi-agent state machine tracks busy/idle across all sessions with optional mainAgentOnly filter to hide sub-agent (task tool) flicker. Live file spotlight, todo mission board, session recap card, Korean particle handling (을/를, 은/는) built-in.
