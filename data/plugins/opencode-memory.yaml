@@ -1,0 +1,4 @@
+name: opencode-memory
+repo: https://github.com/YOUR_USERNAME/opencode-memory
+tagline: Persistent memory plugin for OpenCode that learns from sessions.
+description: Ported from pi-memory, this plugin automatically learns your corrections, project patterns, and preferences from sessions and injects them into future conversations contextually. Features include smart global/project scopes and full-text searching.
