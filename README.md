@@ -24,7 +24,7 @@
 
 <br>
 
-[**OFFICIAL**](#official) • [**PLUGINS**](#plugins) • [**THEMES**](#themes) • [**AGENTS**](#agents) • [**PROJECTS**](#projects) • [**RESOURCES**](#resources)
+[**OFFICIAL**](#official) • [**PLUGINS**](#plugins) • [**THEMES**](#themes) • [**AGENTS**](#agents) • [**PROJECTS**](#projects) • [**SKILLS**](#skills) • [**RESOURCES**](#resources)
 
 <br>
 <hr>
@@ -1995,6 +1995,54 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
 
 <br>
 <a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ Add a Project via PR</b></a>
+</details>
+
+<br>
+
+<div id="skills"></div>
+
+<details>
+<summary><strong>🧠 SKILLS</strong></summary>
+<br>
+
+<details>
+  <summary><b>opencode-mcp-registry</b> <img src="https://badgen.net/github/stars/LDLZM/opencode-mcp-registry" height="14"/> - <i>Register MCP servers in opencode</i></summary>
+  <blockquote>
+    Guides agents through installing and registering MCP (Model Context Protocol) servers. Supports pre-built binaries, pip, npm, Docker, and remote HTTP endpoints with proper auth handling.
+    <br><br>
+    <a href="https://github.com/LDLZM/opencode-mcp-registry">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>uv-skill</b> <img src="https://badgen.net/github/stars/LDLZM/uv-skill" height="14"/> - <i>Use uv for all Python package management</i></summary>
+  <blockquote>
+    Mandates using uv for ALL Python dependency, virtual environment, and project management tasks. Replaces pip, poetry, pipx, pyenv, and virtualenv.
+    <br><br>
+    <a href="https://github.com/LDLZM/uv-skill">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>crowdsource-debugger</b> <img src="https://badgen.net/github/stars/LDLZM/crowdsource-debugger" height="14"/> - <i>Debug stubborn errors with community help</i></summary>
+  <blockquote>
+    Stops agents from going in circles. When stuck on the same error 3+ times, guides searching Stack Overflow, GitHub Issues, Reddit, and Discourse forums for vetted solutions.
+    <br><br>
+    <a href="https://github.com/LDLZM/crowdsource-debugger">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>sensitive-operations</b> <img src="https://badgen.net/github/stars/LDLZM/sensitive-operations-skill" height="14"/> - <i>Gatekeeper for privileged operations</i></summary>
+  <blockquote>
+    Detects sensitive operations (passwords, sudo, tokens, destructive commands) and delegates them to the user for manual execution with verification.
+    <br><br>
+    <a href="https://github.com/LDLZM/sensitive-operations-skill">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<br>
+<a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ Add a Skill via PR</b></a>
 </details>
 
 <br>
