@@ -1,0 +1,4 @@
+name: Global Chat
+repo: https://github.com/pumanitro/global-chat
+tagline: Cross-protocol AI agent discovery with MCP server
+description: Discovery layer for AI agents — a protocol-agnostic directory that aggregates agents across MCP, A2A, agents.txt, and 9+ other protocols. Ships an MCP server (@global-chat/mcp-server) for programmatic access from opencode and other MCP clients. Includes a searchable directory of 100,000+ agents and a free agents.txt validator.
