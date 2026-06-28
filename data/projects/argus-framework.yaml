@@ -1,0 +1,16 @@
+name: Argus
+repo: https://github.com/tecnosor/argus-framework
+tagline: Banking compliance SDLC framework for AI agents
+description: Agent-agnostic framework that installs a complete banking compliance SDLC into any codebase. Deploys 5 specialized agents (Guardian, Compliance, Builder, Tester, Reviewer) to enforce GDPR, DORA, MiCA, PSD2, PCI-DSS and other regulations across the entire software lifecycle.
+homepage: https://github.com/tecnosor/argus-framework
+tags:
+  - compliance
+  - banking
+  - security
+  - agents
+  - sdlc
+  - opencode
+  - cursor
+  - windsurf
+  - cline
+  - aider
