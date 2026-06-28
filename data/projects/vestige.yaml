@@ -1,0 +1,18 @@
+name: Vestige
+repo: https://github.com/samvallad33/vestige
+tagline: Local persistent memory for OpenCode agents
+description: Adds local and project-scoped MCP memory to OpenCode, so agents can remember decisions, preferences, architecture context, and previous fixes across sessions.
+scope:
+  - global
+  - project
+tags:
+  - mcp
+  - memory
+  - local-first
+  - opencode
+  - ai-agents
+min_version: 1.16.2
+homepage: https://github.com/samvallad33/vestige
+installation: |
+  npm install -g vestige-mcp-server@latest
+  npx @vestige/init
