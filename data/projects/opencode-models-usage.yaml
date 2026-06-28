@@ -1,0 +1,4 @@
+name: OpenCode Models Usage
+repo: https://github.com/Jo0oJO/opencode-models-usage
+tagline: Live model usage, TPS, tokens, and cost
+description: Shows per-model usage across the current OpenCode session tree in the sidebar, including live TPS, context/session tokens, cached tokens, and total cost.
