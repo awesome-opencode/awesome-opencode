@@ -1,0 +1,6 @@
+name: Clarvia
+repo: https://github.com/clarvia-project/scanner
+tagline: AEO quality scanner for MCP tools and AI agents
+homepage: https://clarvia.art
+description: An open-source AI tool discovery platform that scores MCP servers for Agent Engine Optimization (AEO) quality. Scan any MCP server for AEO quality score (0-100), search 27,906+ indexed AI tools by capability, and compare MCP servers head-to-head. MIT license, self-hostable backend.
+installation: npm install -g clarvia-mcp-server

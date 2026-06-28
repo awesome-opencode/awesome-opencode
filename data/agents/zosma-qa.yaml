@@ -1,0 +1,5 @@
+name: Zosma QA
+repo: https://github.com/zosmaai/zosma-qa
+tagline: Zero-config QA platform with OpenCode agents for Playwright, Appium, and k6
+description: Zero-config QA platform that generates four OpenCode agent prompts (test planner, generator, healer, analyzer) for Playwright web tests, Appium mobile tests, and k6 load tests. Run `npx zosma-qa agents init --loop opencode` to scaffold agent definitions directly into `.opencode/prompts/`.
+installation: npx zosma-qa agents init --loop opencode
