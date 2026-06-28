@@ -1,0 +1,8 @@
+name: Opencode Skill Stats
+repo: https://github.com/Vcza5/opencode-skill-stats
+tagline: Track skill invocation frequency with ASCII bar charts
+description: Track and visualize every skill() call across your OpenCode sessions. Features flexible time windows (today/week/month/all/last:Nd), auto-discovery of installed skills, removal detection for deleted skills, and zero-config operation. Data persisted to rolling JSONL log with auto-trim.
+tags:
+  - statistics
+  - monitoring
+  - telemetry

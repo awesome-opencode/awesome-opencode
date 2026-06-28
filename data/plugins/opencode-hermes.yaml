@@ -1,0 +1,9 @@
+name: Opencode Hermes
+repo: https://github.com/Vcza5/opencode-hermes
+tagline: Progressive-disclosure reflector that auto-discovers patterns and generates skills
+description: Automatically analyzes OpenCode conversations to discover reusable workflows, domain knowledge, and behavioral patterns. Uses a two-pass AI analysis (lightweight scan then deep extraction) to generate SKILL.md files and rules. Features manual (/reflect) and weekly batch modes. All proposals go to a staging directory for human review — never auto-installs.
+tags:
+  - knowledge-management
+  - reflection
+  - automation
+  - skill-generation

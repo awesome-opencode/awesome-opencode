@@ -1,0 +1,9 @@
+name: Opencode Auto OCR Image
+repo: https://github.com/Vcza5/opencode-auto-ocr-image
+tagline: Intelligent image handler — keeps FileParts for multimodal models, auto-OCR for text-only
+description: Intercepts pasted images and PDFs in OpenCode chat. For multimodal models (GPT-5, Claude 4, Gemini 3, etc.) it preserves the native FilePart so the model sees the image directly. For text-only models it runs built-in OCR via tesseract.js (auto-downloads language data on first use, zero system dependencies). Features !test-ocr diagnostic command and env-var language override.
+tags:
+  - ocr
+  - multimodal
+  - vision
+  - image
