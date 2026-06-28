@@ -1,0 +1,14 @@
+name: MiMo-Code
+repo: https://github.com/shin4/mimo-code
+tagline: Voice-driven multimodal desktop coding agent for MiMo
+description: A native desktop coding agent for the MiMo model family — Windows & macOS, no TUI — built on the OpenCode harness and adapted to be MiMo-first. Adds native multimodal understanding (image, PDF, video) plus voice dictation (ASR) and speech synthesis (TTS), with cost-aware model selection.
+homepage: https://shin4.github.io/mimo-code/
+tags:
+  - desktop
+  - gui
+  - opencode
+  - multimodal
+  - voice
+  - asr
+  - tts
+  - mimo
