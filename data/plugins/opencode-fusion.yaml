@@ -1,0 +1,4 @@
+name: OpenCode Fusion
+repo: https://github.com/kevinfaveri/opencode-fusion
+tagline: Multi-model deliberation with structured judge analysis
+description: Sends complex questions to a configurable panel of AI models in parallel, each answering independently with full tool access, then a judge produces structured analysis mapping consensus, contradictions, unique insights, and blind spots. Works out of the box with Opus, GPT-5.5, and DeepSeek.
