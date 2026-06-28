@@ -671,6 +671,15 @@ startup.
 </details>
 
 <details>
+  <summary><b>Opencode Preview</b> <img src="https://badgen.net/github/stars/Edison-A-N/opencode-preview" height="14"/> - <i>Instant multi-format file preview with live reload</i></summary>
+  <blockquote>
+    Auto-starts a preview server for Markdown, DrawIO, HTML, CSV, and 40+ code languages. Features live reload via WebSocket, dark mode, multi-project support, file browser with sidebar navigation, and TUI integration. Zero config — one line of JSON to install.
+    <br><br>
+    <a href="https://github.com/Edison-A-N/opencode-preview">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OpenCode ntfy.sh</b> <img src="https://badgen.net/github/stars/lannuttia/opencode-ntfy.sh" height="14"/> - <i>Push notifications to keep you in the know, even when you're on the go.</i></summary>
   <blockquote>
     An OpenCode plugin that adds push notifications through ntfy.sh.
