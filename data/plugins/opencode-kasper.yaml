@@ -1,0 +1,4 @@
+name: Kasper
+repo: https://github.com/andrejtonev/opencode-kasper
+tagline: Watches your agents, judges them, and quietly refines their prompts.
+description: Watches every agent session, scores it on five dimensions (instruction following, completeness, proactiveness, code quality, communication) via an LLM-as-judge, detects recurring weaknesses, and writes the fixes back into AGENTS.md and each agent's system prompt.
