@@ -1,0 +1,13 @@
+name: OpenCode Rotator Plugin
+repo: https://github.com/xnnnc/opencode-rotator-plugin
+tagline: TUI sidebar for a local ChatGPT account rotator server
+description: OpenCode TUI sidebar plugin that shows active account, Codex usage windows, watch status, and quick actions from a running local ChatGPT account rotator server.
+scope:
+  - global
+  - project
+tags:
+  - tui
+  - chatgpt
+  - account-rotator
+  - local-tool
+homepage: https://github.com/xnnnc/opencode-rotator-plugin#readme
