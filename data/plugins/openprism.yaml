@@ -1,0 +1,4 @@
+name: OpenPrism
+repo: https://github.com/SOAR-Robotics-Lab/OpenPrism
+tagline: Multi-tier drawing plugin for OpenCode
+description: Adds Mermaid diagrams, Matplotlib plots, Plotly interactive charts, and built-in AIGC image generation workflows to OpenCode.
