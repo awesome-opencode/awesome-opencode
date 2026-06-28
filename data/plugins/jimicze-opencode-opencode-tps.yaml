@@ -1,0 +1,19 @@
+name: "@jimicze-opencode/opencode-tps"
+repo: https://github.com/jimicze/opencode-plugin-tps
+tagline: Real-time PP and TG token speed metrics in the sidebar
+description: |
+  A TUI plugin that displays real-time Prompt Processing (PP) and Token Generation (TG) speed metrics in the OpenCode sidebar. Accumulates session-wide token totals including cache and reasoning tokens. Handles subagent nesting, connection drops, and rapid reconnects.
+
+  Features:
+  - Live PP/TG speeds during generation, averaged on completion
+  - Session totals for input, output, cache, and reasoning tokens
+  - Subagent tokens accumulate without corrupting main thread speeds
+  - Chaos-resilient event handling with dual fallback chain
+  - Configurable display (toggle metrics, refresh interval)
+  - No build step — loaded directly by OpenCode at runtime
+
+  Install via `npm` or add to your `tui.json`:
+  ```json
+  { "plugin": ["@jimicze-opencode/opencode-tps"] }
+  ```
+  Or via CLI: `opencode plugin @jimicze-opencode/opencode-tps`
