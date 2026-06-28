@@ -1,0 +1,4 @@
+name: Git Trailers
+repo: https://github.com/lannuttia/opencode-git-trailers
+tagline: Automate and standardize Git trailers
+description: Automatically adds git trailers to commits made through OpenCode using configurable templates with variable interpolation for model, provider, timestamp, and user information.
