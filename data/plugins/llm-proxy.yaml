@@ -1,0 +1,4 @@
+name: LLM Proxy
+repo: https://github.com/KochC/opencode-llm-proxy
+tagline: OpenAI / Anthropic / Gemini API gateway
+description: Starts a local HTTP server that proxies OpenAI, Anthropic, and Google Gemini API requests to any model configured in OpenCode. Use Open WebUI, LangChain, the OpenAI SDK, or any other tool without reconfiguring your models.
