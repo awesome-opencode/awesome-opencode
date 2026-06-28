@@ -1,0 +1,4 @@
+name: Session Coherence
+repo: https://github.com/OutcomeFocusAi/session-coherence
+tagline: Cross-tool session memory for AI coding assistants
+description: Cross-tool session memory for AI coding assistants. One markdown chronicle shared by 9 tools (Claude Code, Cursor, Codex, Gemini CLI, Aider, and more). Zero dependencies, ~300 token fixed cost, 100% local.
