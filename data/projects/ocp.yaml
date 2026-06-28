@@ -1,0 +1,4 @@
+name: OCP
+repo: https://github.com/xterr/ocp
+tagline: Isolated OpenCode profiles
+description: Juggling work and personal OpenCode accounts means hand-swapping env vars and clobbering your sessions. ocp gives each project its own auth, session history, and config — and switches automatically based on the directory you're in. Think direnv for OpenCode.
