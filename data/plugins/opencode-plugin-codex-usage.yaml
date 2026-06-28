@@ -1,0 +1,4 @@
+name: opencode-plugin-codex-usage
+repo: https://github.com/anaskhan96/opencode-plugin-codex-usage
+tagline: Live Codex quota in the OpenCode sidebar
+description: OpenCode TUI plugin that shows live Codex usage buckets, remaining percentage, and reset times directly in the right sidebar.
