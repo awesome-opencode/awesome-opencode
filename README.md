@@ -716,6 +716,15 @@ startup.
 </details>
 
 <details>
+  <summary><b>Opencode Session Recall</b> <img src="https://badgen.net/github/stars/rmk40/opencode-session-recall" height="14"/> - <i>Expose every stored session and project conversation to the agent</i></summary>
+  <blockquote>
+    Everything beyond the context window is still sitting in OpenCode's database. This plugin turns that inaccessible history into usable context for the agent across sessions, projects, tool outputs, and reasoning traces, with zero setup.
+    <br><br>
+    <a href="https://github.com/rmk40/opencode-session-recall">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Sessions</b> <img src="https://badgen.net/github/stars/malhashemi/opencode-sessions" height="14"/> - <i>Session management</i></summary>
   <blockquote>
     Session management plugin for OpenCode with multi-agent collaboration support.
