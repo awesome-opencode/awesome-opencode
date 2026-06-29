@@ -2006,6 +2006,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
 <br>
 
 <details>
+  <summary><b>AI Agent Automations</b> <img src="https://badgen.net/github/stars/ChmaraX/ai-agent-automations" height="14"/> - <i>Automation prompts for OpenCode, Codex, Claude Code, and Cursor workflows</i></summary>
+  <blockquote>
+    A curated collection of agent automation prompts for real-world engineering and operations workflows. Covers OpenCode, Codex, Claude Code, and Cursor patterns for code maintenance, security reviews, research, support, billing, and work triage.
+    <br><br>
+    <a href="https://github.com/ChmaraX/ai-agent-automations">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Akephalos</b> <img src="https://badgen.net/github/stars/sunnja69/akephalos" height="14"/> - <i>Local-first markdown passport for portable agent context and memory</i></summary>
   <blockquote>
     A local-first, markdown-first `.akephalos` passport for portable agent preferences, tool notes, rules, project context, and durable memories. It uses plain files and Git so MCP-capable coding-agent workflows can inspect and carry context across tools and machines without hosted sync.
