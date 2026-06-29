@@ -1,0 +1,4 @@
+name: Claudescope
+repo: https://github.com/vladar107/claudescope
+tagline: Local, read-only web UI to browse, search, and analyze OpenCode (and other agents') sessions
+description: Local-first CLI that serves a web UI to browse, read, search, and analyze AI coding-agent transcripts — OpenCode sessions alongside Claude Code, Codex, Junie, pi, and Copilot CLI. Sessions are merged by working directory; includes DuckDB full-text search and token-cost analytics. Read-only and cross-platform, distributed as a single npm package (MIT).
