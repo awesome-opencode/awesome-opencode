@@ -1,0 +1,10 @@
+name: djimitflo
+repo: https://github.com/djimit/djimitflo
+tagline: Djimit Agentic OS control plane with verified OpenCode executor integration
+description: A TypeScript monorepo control plane for goal-driven autonomous loops, governance gates, and multi-runtime execution. Includes a verified OpenCode executor runtime, loop lifecycle management, maker/checker/security leases, and a dashboard for tracking goals and loop runs.
+tags:
+  - agentic-os
+  - control-plane
+  - loops
+  - governance
+  - opencode
