@@ -1,0 +1,9 @@
+name: Roborev
+repo: https://github.com/kenn-io/roborev
+tagline: Background code review agent with OpenCode agent-hook support
+description: A multi-agent background commit-review tool that runs automated code reviews and exposes a $roborev-fix skill via OpenCode's agent hook. Useful for catching issues before they land while keeping the review loop inside the OpenCode workflow.
+tags:
+  - code-review
+  - background-agent
+  - git
+  - opencode
