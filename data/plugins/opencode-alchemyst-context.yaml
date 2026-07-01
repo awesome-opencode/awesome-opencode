@@ -1,0 +1,4 @@
+name: OpenCode Alchemyst Context
+repo: https://github.com/alchemyst-ai/opencode-alchemyst-context
+tagline: Connect your coding agents with your business operational intelligence.
+description: "A plugin that brings your organization's operational intelligence into opencode. Business decisions, product specs, API documentation, team conventions, and reference material stored in the AlchemystAI Context Layer (https://getalchemystai.com) become searchable and queryable by opencode agents during coding sessions. Includes semantic search over stored documents, grounded Q&A that synthesizes answers from your knowledge base, and tools to add and manage context — so your coding agents never work in isolation from the business reality they're building for."
