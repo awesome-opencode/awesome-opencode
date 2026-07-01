@@ -1,0 +1,23 @@
+name: liter-llm
+repo: https://github.com/xberg-io/plugins
+tagline: Universal LLM API client for 143 providers
+description: OpenCode plugin exposing liter-llm tools for chat, streaming, embeddings, and an OpenAI-compatible proxy across 143 providers.
+scope:
+  - global
+  - project
+tags:
+  - llm
+  - openai
+  - proxy
+  - cli
+homepage: https://www.npmjs.com/package/@xberg-io/opencode-liter-llm
+installation: |
+  Add the package to `opencode.json`:
+
+  ```json
+  {
+    "plugin": ["@xberg-io/opencode-liter-llm"]
+  }
+  ```
+
+  Requires the `liter-llm` CLI.

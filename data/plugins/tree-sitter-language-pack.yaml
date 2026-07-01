@@ -1,0 +1,23 @@
+name: Tree-sitter Language Pack
+repo: https://github.com/xberg-io/plugins
+tagline: Code intelligence for 300+ languages
+description: OpenCode plugin exposing tree-sitter-language-pack tools for parsing and extracting structure, imports, and symbols from 300+ languages.
+scope:
+  - global
+  - project
+tags:
+  - tree-sitter
+  - parsing
+  - code
+  - cli
+homepage: https://www.npmjs.com/package/@xberg-io/opencode-tree-sitter-language-pack
+installation: |
+  Add the package to `opencode.json`:
+
+  ```json
+  {
+    "plugin": ["@xberg-io/opencode-tree-sitter-language-pack"]
+  }
+  ```
+
+  Requires the `tree-sitter-language-pack` CLI.
