@@ -1,0 +1,4 @@
+name: Juhe Skills
+repo: https://github.com/Boluo2101/juhe-skills
+tagline: Juhe MCP 深度调研与快速查询 skill 集
+description: 提供两个 AI agent skill：juhe-deep-researcher（四档可选深度调研分析，支持轻量/标准/深度/旗舰）和 juhe-quick-researcher（快速全网资讯搜索）。配合 Juhe MCP 远程服务使用，支持 RSS 订阅源检索、文章全文获取、AI 摘要、趋势分析等功能。适用于 OpenCode、Claude Code、Cursor 等支持技能和 MCP 协议的编码 agent。
