@@ -1,0 +1,12 @@
+name: SpriteCook MCP
+repo: https://github.com/SpriteCook/opencode-plugin
+homepage: https://spritecook.ai
+tagline: Generate 2D game assets from OpenCode with SpriteCook
+description: Connect OpenCode to SpriteCook to generate game assets with AI, including sprites, pixel art, icons, tilesets, characters, and animations.
+tags:
+  - mcp
+  - game-assets
+  - pixel-art
+  - sprites
+  - image-generation
+  - game-dev
