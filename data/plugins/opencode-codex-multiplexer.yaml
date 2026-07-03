@@ -1,0 +1,4 @@
+name: OpenCode Codex Multiplexer
+repo: https://github.com/ter-net-in/codexmx
+tagline: Switch Codex/OpenAI auth profiles and view usage windows in OpenCode
+description: OpenCode TUI plugin for saving and switching Codex/OpenAI auth profiles, showing selected auth info, and displaying Codex usage windows directly in the OpenCode sidebar.
