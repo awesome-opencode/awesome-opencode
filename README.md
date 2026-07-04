@@ -20,6 +20,7 @@
 
 <!-- DESCRIPTION -->
 <h3>A curated list of plugins, themes, agents, and resources for <a href="https://opencode.ai/">Opencode</a>.</h3>
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — 5 Claude Code / agent skills + 4 Personal Context Artifact templates. Context amnesia solved: one-command install, MIT licensed.
 <h3>The AI coding agent for the terminal, built by the team at <a href="https://github.com/anomalyco">Anomaly</a>.</h3>
 
 <br>
