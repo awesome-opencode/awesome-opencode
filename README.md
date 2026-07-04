@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/awesome-opencode-awesome-opencode-badge.png)](https://mseep.ai/app/awesome-opencode-awesome-opencode)
+
 <!-- HEADER -->
 <div align="center">
 
