@@ -1,0 +1,4 @@
+name: Team RAM Harness
+repo: https://github.com/Allura-Ecosystem/allura-team-ram
+tagline: Surgical-team multi-agent harness — 10 specialists, governed memory, HITL gates
+description: Portable multi-agent orchestration harness for opencode with 10 role-based specialist agents (architect, intent gate, builder, recon, interface review, refactor, diagnostics, performance, data, devops), deterministic role-first model routing over Ollama Cloud, 35+ workflow commands, 26+ skills, and optional dual-store persistent memory (PostgreSQL + Neo4j) with HITL promotion governance. A single-source agent sync generates matching Claude Code and Codex mirrors from the opencode definitions.
