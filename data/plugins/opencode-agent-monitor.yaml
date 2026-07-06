@@ -1,0 +1,4 @@
+name: opencode-agent-monitor
+repo: https://github.com/AlvaroVFon/opencode-agent-monitor
+tagline: Agent monitoring and session logging
+description: Opencode plugin that provides real time TUI monitoring of agent activity and session logging. It includes a TUI interface for monitoring agent activity, a CLI for exporting session logs, and a tool for querying session logs via the SDK. The plugin is designed to help developers and researchers understand agent behavior and performance during multi-agent sessions.
