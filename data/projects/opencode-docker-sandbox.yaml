@@ -1,0 +1,4 @@
+name: OpenCode Docker Sandbox
+repo: https://github.com/mhommen/OpenCode-Docker-Sandbox
+tagline: Run OpenCode in a Docker sandbox while using local or remote Ollama models.
+description: A Docker-based sandbox for running OpenCode with local or remote Ollama models while limiting direct access to the host system. Useful for experimenting with local AI coding agents in a more controlled environment.
