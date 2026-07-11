@@ -1,0 +1,4 @@
+name: opencode Todo Progress
+repo: https://github.com/satas20/opencode-todo-progress
+tagline: Persistent todo progress bar for the opencode TUI, shown next to the model name.
+description: Shows a compact progress indicator on the session prompt's agent/model row that updates live as todos are created and completed. Amber while in progress, green when done, and hidden when there are no todos. Installable via npm (opencode-todo-progress).
