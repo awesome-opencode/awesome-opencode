@@ -143,6 +143,15 @@
 </details>
 
 <details>
+  <summary><b>Background Tasks</b> <img src="https://badgen.net/github/stars/AutomatorAlex/opencode-background-tasks" height="14"/> - <i>Multi-agent background task orchestration</i></summary>
+  <blockquote>
+    Fan out complex work across multiple agents running in parallel with git worktree isolation, target-based overlap detection, and parent-session question relay.
+    <br><br>
+    <a href="https://github.com/AutomatorAlex/opencode-background-tasks">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Beads Plugin</b> <img src="https://badgen.net/github/stars/joshuadavidthomas/opencode-beads" height="14"/> - <i>Beads issue tracker integration</i></summary>
   <blockquote>
     Integration for Steve Yegge's beads issue tracker with /bd-* commands.
