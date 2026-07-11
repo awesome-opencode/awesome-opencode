@@ -1,0 +1,4 @@
+name: Hindsight Auto-Memory
+repo: https://github.com/Everyday-Workflows/opencode-hindsight
+tagline: Proactive invisible context retrieval and retention
+description: A magical auto-memory plugin that silently integrates with Hindsight to give OpenCode perfect recall. It proactively injects relevant past context into the chat and automatically summarizes and retains key decisions when the session goes idle.
