@@ -1,0 +1,5 @@
+name: OpenCode Model Fallback
+repo: https://github.com/ShutovKS/opencode-model-fallback
+tagline: Retry failed sessions with fallback models
+description: Keeps a session alive when the current model fails with rate limits, quota exhaustion, overloads, or temporary provider errors. Retries the last user message in the same session with the next configured fallback model.
+scope: [global, project]
