@@ -1,0 +1,4 @@
+name: opencode Usage Bar
+repo: https://github.com/satas20/opencode-usage-bar
+tagline: AI subscription usage gauge for the opencode TUI (Claude Pro/Max, ChatGPT Plus/Pro).
+description: Shows how much of your coding-plan quota you've used and how long until it resets, in a full-width row below the session footer. Supports Claude Pro/Max and ChatGPT Plus/Pro (Codex), each with per-window toggles (5h session, 7d weekly, per-model). Color-coded mini-bars escalate green/amber/red with usage, countdowns tick live, and last known values are cached so the bar appears instantly on restart. Credentials are read-only from the vendors' own CLI logins or opencode's auth store. Installable via npm (@satas/opencode-usage-bar).
