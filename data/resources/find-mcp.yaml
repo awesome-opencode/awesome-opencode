@@ -1,0 +1,8 @@
+name: Find MCP
+repo: https://github.com/agentage/find-mcp
+tagline: Search 17,000+ MCP servers from the official MCP registry
+description: Find MCP is an MCP server for discovering other MCP servers. It searches the agentage MCP Catalog, which syncs 17,000+ servers from the official MCP registry (registry.modelcontextprotocol.io), through the mcp_search, mcp_get, and mcp_categories tools. Works with OpenCode as a generic MCP server, either remote over Streamable HTTP (https://catalog.agentage.io/mcp, no auth needed for search) or stdio via npx -y @agentage/find-mcp.
+tags:
+  - mcp-server
+  - discovery
+  - registry
