@@ -1,0 +1,4 @@
+name: DOSM - Dirty Ol' Session Manager
+repo: https://github.com/krumpstead/opencode-dosm
+tagline: OpenCode TUI plugin for browsing, filtering, sorting, and managing sessions across all projects from a unified interactive interface.
+description: View sessions from every project, not just the current working directory. The list is sortable by each field - Date, Input/Output Tokens, Cost and Model. Single or batch delete sessions with confirmation (active sessions protected). Runs VACUUM on the opencode.db so it shrinks the size of the database on the next client startup.
