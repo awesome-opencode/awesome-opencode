@@ -1,0 +1,4 @@
+name: opencode-hypa
+repo: https://github.com/kipyin/opencode-hypa
+tagline: Hardwire Hypa into OpenCode — local bash output compression, no MCP required
+description: OpenCode plugin that intercepts bash/shell tool calls and rewrites them through hypa rewrite --json before execution. Compresses noisy command output locally and deterministically so agents keep errors, warnings, failing tests, and exit codes without flooding context.
