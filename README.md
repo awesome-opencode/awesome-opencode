@@ -575,6 +575,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
 </details>
 
 <details>
+  <summary><b>opencode-rmux</b> <img src="https://badgen.net/github/stars/shiyouming/opencode-rmux" height="14"/> - <i>Cross-platform RMUX terminal multiplexer plugin: subagent pane management and AI RMUX control tools. Windows/macOS/Linux native.</i></summary>
+  <blockquote>
+    The only cross-platform opencode plugin for RMUX terminal multiplexer. Automatically creates RMUX panes to display subagent work in real-time, with 5 AI-invokable RMUX control tools (list_sessions, create_session, send_keys, capture, wait_for_text). Uses the official @rmux/sdk TypeScript SDK. Native Windows support without WSL.
+    <br><br>
+    <a href="https://github.com/shiyouming/opencode-rmux">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Agents Sidebar</b> <img src="https://badgen.net/github/stars/Mark1708/opencode-agents-sidebar" height="14"/> - <i>Browse configured OhMyOpenAgent agents in the TUI</i></summary>
   <blockquote>
     OpenCode sidebar plugin that displays configured OhMyOpenAgent agents with lifecycle-based categories, collapsible sections, descriptions, and model information.
