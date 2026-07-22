@@ -1,0 +1,5 @@
+name: opencode-rmux
+repo: https://github.com/shiyouming/opencode-rmux
+tagline: Cross-platform RMUX subagent pane management and AI RMUX control tools. Windows/macOS/Linux native.
+description: |
+  The only cross-platform opencode plugin for RMUX terminal multiplexer. Automatically creates RMUX panes to display subagent work in real-time, with 5 AI-invokable RMUX control tools. Uses the official @rmux/sdk TypeScript SDK. Native Windows support without WSL.
