@@ -1,0 +1,4 @@
+name: autoqq
+repo: https://github.com/Migiht/autoqq
+tagline: Linux systemd timer that pre-warms opencode/Claude Code/Codex CLI rate-limit windows
+description: A Linux CLI that schedules a systemd user timer to send a keep-alive ping to opencode, Claude Code, or Codex CLI before the workday starts, so the 5h rate-limit window is already fresh instead of only starting when the user opens their laptop.
