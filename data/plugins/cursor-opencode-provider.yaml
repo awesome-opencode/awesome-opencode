@@ -1,0 +1,4 @@
+name: Cursor Provider
+repo: https://github.com/oakimov/cursor-opencode-provider
+tagline: Run Cursor subscription models from OpenCode
+description: AI SDK provider and OpenCode plugin that speaks Cursor's native Connect-RPC agent protocol — not a generic chat-completions API. Handles authentication (OAuth PKCE / API key), model discovery, streaming, tool calls (exec-server, subagent, read/bash/edit/write/grep/find/ls), and thinking deltas.
