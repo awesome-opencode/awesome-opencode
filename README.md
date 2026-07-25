@@ -355,11 +355,11 @@ Key features:
 </details>
 
 <details>
-  <summary><b>Haunt MCP</b> <img src="https://badgen.net/github/stars/Darko893/mcp-server" height="14"/> - <i>Web extraction MCP for permitted public pages, returning clean JSON or Markdown</i></summary>
+  <summary><b>Haunt MCP</b> <img src="https://badgen.net/github/stars/Darko893/haunt-mcp-server" height="14"/> - <i>Web extraction for agents, plus Reddit without a Reddit app, company profiles from a URL, and GitHub repo data</i></summary>
   <blockquote>
-    Adds Haunt API to agent workflows via MCP. Extract structured JSON, clean Markdown, article fields, metadata, and usage from permitted public pages with a no-key demo and clear blocked-page errors.
+    Adds Haunt to agent workflows via MCP. Turn any permitted public page into structured JSON or clean Markdown from a plain-English prompt, including Cloudflare-protected and bot-walled pages. Also reads Reddit posts and comment threads with no Reddit app or OAuth, builds a company profile from a website URL, and pulls GitHub repo data. Login walls and CAPTCHAs return a typed error instead of fabricated data, and failed calls are not charged. No-key demo tool, free tier, no card.
     <br><br>
-    <a href="https://github.com/Darko893/mcp-server">🔗 <b>View Repository</b></a>
+    <a href="https://github.com/Darko893/haunt-mcp-server">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
