@@ -1,0 +1,15 @@
+name: OpenCode Caffeinate Windows
+repo: https://github.com/jkirsch-code/opencode-caffeinate-win32
+tagline: Prevents Windows sleep/hibernate during active OpenCode processing
+description: |
+  Uses Windows Power Request API (PowerCreateRequest/PowerSetRequest) via Bun FFI
+  to register DISPLAY and SYSTEM power requests only while OpenCode is actively
+  processing (session.status: busy). Cleanly deactivates on idle/error.
+scope:
+  - global
+tags:
+  - windows
+  - sleep-prevention
+  - power-management
+  - productivity
+min_version: "1.0.0"
