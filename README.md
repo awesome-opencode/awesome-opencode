@@ -770,6 +770,15 @@ startup.
 </details>
 
 <details>
+  <summary><b>OpenCode Session Manager</b> <img src="https://badgen.net/github/stars/EnerJizeIT/opencode-session-manager" height="14"/> - <i>Pin, back up, restore &amp; auto-cleanup opencode AI sessions</i></summary>
+  <blockquote>
+    Never lose a valuable AI conversation. Pin important sessions, back them up to JSON, restore from backup, and auto-clean old ones &mdash; all through natural language. Backup-then-delete cleanup with protected (pinned/orphaned) sessions. Configurable retention and migration support.
+    <br><br>
+    <a href="https://github.com/EnerJizeIT/opencode-session-manager">&num;&nbsp;<b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OpenCode Swarm</b> <img src="https://badgen.net/github/stars/zaxbysauce/opencode-swarm" height="14"/> - <i>Verification-gated swarm with architect, review, test, and security agents</i></summary>
   <blockquote>
     Verification-gated OpenCode swarm with architect planning, independent review, test engineering, security checks, and resumable evidence.
