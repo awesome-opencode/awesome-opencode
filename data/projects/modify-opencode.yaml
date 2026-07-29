@@ -1,0 +1,4 @@
+name: Modify for OpenCode
+repo: https://github.com/wildematt/modify-opencode
+tagline: Implement browser-side visual edits with an optional /modify command and skill
+description: Installs an optional /modify command and modify-frontend skill for implementing structured visual-change prompts exported by Modify. It maps selectors and before-and-after values back to the existing codebase without a background browser-to-terminal connection.
