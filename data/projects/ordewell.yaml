@@ -1,0 +1,12 @@
+name: Ordewell
+repo: https://github.com/ordewell/ordewell
+tagline: Plan-first CLI/TUI that turns one goal into an ordered plan of coding-agent tasks
+description: Open-source (Apache-2.0) terminal tool that orchestrates coding agents (Claude Code, Codex, OpenCode) as an ordered plan of tasks. A read-only planner reads the repo and returns a plan; each task carries its own runner, model, effort and mode, runs as one agent session, and is marked done only when its own completion marker appears. Writes are refused until the plan is approved.
+tags:
+  - cli
+  - tui
+  - orchestration
+  - coding-agents
+  - claude-code
+  - codex
+  - opencode
