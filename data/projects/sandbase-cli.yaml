@@ -1,0 +1,4 @@
+name: SandBase CLI
+repo: https://github.com/sandbaseai/cli
+tagline: Connect OpenCode to 2,000+ AI models and APIs through MCP
+description: Runs an OAuth device flow, stores credentials locally with restricted permissions, installs an owned MCP bridge, and updates OpenCode's global JSONC configuration without discarding comments. The `doctor` and `unregister` commands verify exact ownership before changing or removing the integration.
