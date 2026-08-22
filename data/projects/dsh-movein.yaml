@@ -1,7 +1,7 @@
 name: dsh-movein
 repo: https://github.com/sjh9714/dsh-movein
-tagline: Safely move Claude Code instructions, commands, agents, and MCP config into OpenCode
-description: Preview and migrate global and project Claude Code setup into OpenCode. Keeps native skills in place, preserves JSONC comments and environment placeholders, skips existing destinations and plaintext secrets, and never copies sessions.
+tagline: Safely move Claude Code instructions, rules, commands, agents, and MCP config into OpenCode
+description: Preview and migrate global and project Claude Code instructions, unconditional rules, commands, subagents, and MCP config into OpenCode. Keeps native skills in place, preserves JSONC comments and environment placeholders, skips existing destinations and plaintext secrets, and never copies sessions.
 scope:
   - global
   - project
