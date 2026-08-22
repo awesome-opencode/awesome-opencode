@@ -1,7 +1,7 @@
 name: claude-to-opencode
 repo: https://github.com/sjh9714/claude-to-opencode
-tagline: Safely move Claude Code memory, command hooks, rules, agents, and MCP config into OpenCode
-description: Preview and migrate Claude Code auto memory, instructions, unconditional rules, commands, subagents, MCP config, and PreToolUse or PostToolUse command hooks into OpenCode. Keeps memory, skills, and hook commands in their original Claude files, preserves JSONC comments and environment placeholders, skips existing destinations and plaintext secrets, and never copies sessions.
+tagline: Keep Claude Code memory and command guardrails when switching to OpenCode
+description: Preview and migrate Claude Code auto memory, instructions, rules, commands, subagents, MCP config, and PreToolUse or PostToolUse command hooks into OpenCode. A hooks-only route installs the command guardrail bridge without touching the rest of an existing OpenCode setup. Hook commands stay in the original Claude settings, existing destinations and plaintext secrets are skipped, and sessions are never copied.
 scope:
   - global
   - project
