@@ -1,0 +1,4 @@
+name: opencode-claude-code-hooks
+repo: https://github.com/sjh9714/claude-to-opencode
+tagline: Run existing Claude Code command guardrails in OpenCode
+description: Reads global and project Claude settings at every tool call. Preserves PreToolUse and PostToolUse command matchers, exit code 2 blocking, structured deny results, updated input, and post-tool feedback. Maps OpenCode tool names to Claude matcher names and leaves unsupported hook semantics explicit.
