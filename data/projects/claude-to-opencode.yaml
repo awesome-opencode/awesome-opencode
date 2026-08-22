@@ -1,7 +1,7 @@
 name: claude-to-opencode
 repo: https://github.com/sjh9714/claude-to-opencode
-tagline: Safely move Claude Code memory, rules, commands, agents, and MCP config into OpenCode
-description: Preview and migrate Claude Code auto memory, global and project instructions, unconditional rules, commands, subagents, and MCP config into OpenCode. Keeps memory and native skills in place, preserves JSONC comments and environment placeholders, skips existing destinations and plaintext secrets, and never copies sessions.
+tagline: Safely move Claude Code memory, command hooks, rules, agents, and MCP config into OpenCode
+description: Preview and migrate Claude Code auto memory, instructions, unconditional rules, commands, subagents, MCP config, and PreToolUse or PostToolUse command hooks into OpenCode. Keeps memory, skills, and hook commands in their original Claude files, preserves JSONC comments and environment placeholders, skips existing destinations and plaintext secrets, and never copies sessions.
 scope:
   - global
   - project
@@ -12,3 +12,4 @@ tags:
   - skills
   - agents
   - claude-code
+  - hooks
