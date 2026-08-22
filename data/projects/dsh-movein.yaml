@@ -1,9 +1,14 @@
 name: dsh-movein
 repo: https://github.com/sjh9714/dsh-movein
-tagline: Move OpenCode skills, agents, commands, and MCP config into DeepSeek Harness
-description: Preview and migrate global and project OpenCode configuration into DeepSeek Harness. Handles JSONC precedence, singular and plural asset directories, inline agents and commands, local and remote MCP servers, disabled entries, and environment placeholders without copying secret values.
+tagline: Safely move Claude Code instructions, commands, agents, and MCP config into OpenCode
+description: Preview and migrate global and project Claude Code setup into OpenCode. Keeps native skills in place, preserves JSONC comments and environment placeholders, skips existing destinations and plaintext secrets, and never copies sessions.
+scope:
+  - global
+  - project
 tags:
   - migration
   - configuration
   - mcp
   - skills
+  - agents
+  - claude-code
