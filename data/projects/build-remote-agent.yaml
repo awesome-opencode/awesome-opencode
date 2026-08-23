@@ -1,0 +1,37 @@
+name: Build Remote Agent
+repo: https://github.com/LinespottingOrg/GrokBuildRemote-Agents
+tagline: Phone spectator for an OpenCode desktop session via gbr-agent (gbr/1)
+description: >
+  Pair a phone running Build Remote Agent to an OpenCode session on your PC.
+  Install free MIT gbr-agent (v0.6.0+), run `gbr-agent pair` (QR and 8-char
+  code) then `gbr-agent run`. Attach only at http://127.0.0.1:8788 or MCP
+  stdio gbr-mcp. Phone is spectator and veto, not orchestrator. Independent
+  product; not affiliated with xAI or SpaceX.
+homepage: https://grokbuildremote.com/
+tags:
+  - pairing
+  - mobile
+  - mcp
+  - spectator
+installation: |
+  ```bash
+  curl -fsSL https://grokbuildremote.com/install.sh | bash
+  gbr-agent version    # need v0.6.0+
+  gbr-agent pair && gbr-agent run
+  ```
+
+  OpenCode MCP (`opencode.json`):
+
+  ```json
+  {
+    "mcp": {
+      "gbr": {
+        "type": "local",
+        "command": ["node", "GrokBuildRemote-Agents/mcp/gbr-mcp/bin/gbr-mcp.js"]
+      }
+    }
+  }
+  ```
+
+  Never put mailbox keys in git. Phone Settings → Bot API is the only place
+  the relay key is copied.
