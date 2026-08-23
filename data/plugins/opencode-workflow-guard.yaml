@@ -1,0 +1,4 @@
+name: OpenCode Workflow Guard
+repo: https://github.com/ultus-net/opencode-workflow-guard
+tagline: Deterministic workflow discipline, branch protection, test verification gates, and secret redaction
+description: Enforces workflow discipline and deterministic safety boundaries for OpenCode agents through hard TypeScript plugin hooks. Protects main/master from direct edits or pushes, enforces passing test verification before task completion, blocks credential leakage and secret-file reads, prevents silent task deletion, and intercepts destructive operations.
