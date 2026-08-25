@@ -1,0 +1,4 @@
+name: OpenCode Workflow Guard
+repo: https://github.com/ultus-net/opencode-workflow-guard
+tagline: Deterministic workflow and safety policy enforcement for OpenCode
+description: An OpenCode plugin that enforces workflow and safety invariants through deterministic plugin hooks rather than prompt instructions.
