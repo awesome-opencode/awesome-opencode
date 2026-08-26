@@ -1,0 +1,4 @@
+name: opencode-fleet-kit
+repo: https://github.com/aniripsaretro-max/opencode-fleet-kit
+tagline: Run unattended fleets of OpenCode agents on one box, with a dead-man switch
+description: Templates sanitized from a production setup that runs five OpenCode loops continuously on one VPS — continuous supervisor with no idle gaps, per-tick runner (flock locking, hard timeouts, per-tick prompt snapshots and JSONL logs), FLEET_STOP kill switch, shared FLEET_STATE.md file, systemd user units — plus a session.idle heartbeat plugin so silent loop death (crash, hang, provider outage, dead box) fires an alert instead of going unnoticed for days. Includes an unattended-fleet guide covering grace periods and a fire drill for testing death detection.
