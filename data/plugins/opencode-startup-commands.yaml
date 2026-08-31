@@ -1,0 +1,4 @@
+name: OpenCode Startup Commands
+repo: https://github.com/PixelWinner/opencode-startup-commands
+tagline: Launch trusted background commands when OpenCode initializes a project or directory.
+description: An OpenCode plugin that loads trusted global and project command definitions and launches them in the background when a project or directory initializes.
