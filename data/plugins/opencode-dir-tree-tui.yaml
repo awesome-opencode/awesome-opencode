@@ -1,0 +1,4 @@
+name: Dir Tree TUI
+repo: https://github.com/aihaipeng/opencode-dir-tree-tui
+tagline: VS Code-style file tree in the sidebar
+description: Adds a VS Code-style file tree to the OpenCode sidebar. Click directories to expand/collapse, right-click (or Ctrl+click) to open files and folders with the system default program, and files are colored by their git status. Refreshes automatically on file changes.
