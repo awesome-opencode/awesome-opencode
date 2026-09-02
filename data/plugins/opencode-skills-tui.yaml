@@ -1,0 +1,4 @@
+name: Skills TUI
+repo: https://github.com/aihaipeng/opencode-skills-tui
+tagline: Skills panel in the sidebar with loaded-state tracking
+description: Adds a Skills section to the OpenCode sidebar listing every skill OpenCode can see. Skills loaded in the current session are marked green and moved to the top, right-click any skill to read its full SKILL.md, and /skills-toggle narrows the list to loaded skills only.
