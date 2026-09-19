@@ -1,0 +1,4 @@
+name: OCSM - OpenCode Session Manager
+repo: https://github.com/evil-qq-intestine/OpenCode-Session-Manager
+tagline: Standalone CLI for OpenCode session management — list, search, resume, export, and backup sessions from any directory without launching OpenCode.
+description: OCSM is a standalone CLI tool that reads OpenCode's SQLite database directly. It lets you list, search, resume, export, and backup sessions from any directory, with Chinese and English support, without needing to launch OpenCode first.
