@@ -1,0 +1,4 @@
+name: BytesBrains Cruise
+repo: https://github.com/bytesbrains/cruise-opencode
+tagline: Cruise gateway routing with live models, budgets, spend visibility, and MCP tools
+description: Routes OpenCode through Cruise with live model discovery, gateway-side budgets and spend visibility, and MCP tools.
