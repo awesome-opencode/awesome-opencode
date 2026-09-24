@@ -1,0 +1,16 @@
+name: OpenCode Workflow
+repo: https://github.com/alexeyco/opencode-workflow
+tagline: Workflow orchestrator (drive) + 9 role-scoped subagents
+description: >-
+  Adds a workflow orchestrator agent (drive) and 9 role-scoped subagents
+  to OpenCode.
+license: MIT
+min_version: 2.0.0
+scope:
+  - global
+tags:
+  - agents
+  - multi-agent
+  - orchestration
+  - workflow
+  - subagent
