@@ -1,0 +1,9 @@
+name: Paper Reader
+repo: https://github.com/DuwSpace/obsidian-paper-reader
+tagline: Read papers in Obsidian with equation/image selection, streamed answers, and linked explanation notes.
+description: >-
+  An independent desktop Obsidian plugin that connects to a local OpenCode server
+  for streaming Markdown and math. Select text, formulas and local images, then
+  archive explanations and unverified research ideas with source backlinks.
+  Includes configurable paper folders, model variants, bounded context, task
+  cancellation, and an alternative Codex backend.
