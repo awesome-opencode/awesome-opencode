@@ -1,0 +1,10 @@
+name: Looker Report Helper
+repo: https://github.com/DavidNoguera1/looker-report-helper
+tagline: Connect OpenCode to Google Looker Studio with executable chart, source, layout and color workflows.
+description: >-
+  A local MCP action server and reusable skill for creating and editing Google
+  Looker Studio dashboards through the user's Chrome session. Includes 13
+  Looker tools, checkpointed chart creation, source and field discovery, exact
+  placement, chart palettes, a compact tool mode, and setup instructions for
+  OpenCode, Claude Code and Codex. Requires Python, Node.js and Playwright
+  Extension; validation evidence and unsupported operations are documented.
