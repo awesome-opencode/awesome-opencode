@@ -1,0 +1,4 @@
+name: opencode-context-indicator
+repo: https://github.com/VladSmr/opencode-context-indicator
+tagline: Real-time context-window usage indicator with per-category token breakdown and an optional TUI sidebar
+description: An opencode plugin that tells you how full the current model's context window is and what is filling it - system prompt, tool schemas, user/assistant text, reasoning, and tool args. Dual V1 + V2 entry with /context and /context-breakdown slash commands, subagent session tracking, and an optional TUI sidebar.
