@@ -1,0 +1,12 @@
+name: OpenCode Courier
+repo: https://github.com/ivopogace/opencode-courier
+tagline: "Multi-session orchestration for OpenCode 2: spawn children, get woken by their reports and questions, wake on webhooks"
+description: Lets an OpenCode session hand work to other sessions, end its turn, and be woken when they report back, with no polling. Tools spawn child sessions (optionally in their own git worktree), message any session, schedule messages, relay a child's permission requests or questions to the user, and subscribe a session to GitHub or generic webhooks. Built on the OpenCode V2 plugin API and tested end-to-end against a live OpenCode server.
+homepage: https://www.npmjs.com/package/opencode-courier
+tags:
+  - multi-agent
+  - orchestration
+  - sessions
+  - worktrees
+  - webhooks
+min_version: "2.0.24"
