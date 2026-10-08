@@ -1,0 +1,15 @@
+name: Tale
+repo: https://github.com/tale-project/tale
+tagline: Shared project knowledge and organization models for OpenCode
+description: >-
+  Self-hosted workspace with documented OpenCode configurations for an
+  organization-scoped model provider and remote MCP knowledge retrieval and
+  automation tools. Connect your own Tale deployment with an API key and
+  organization slug. Community is MIT-licensed; infrastructure and model costs
+  are separate.
+homepage: https://docs.tale.dev/develop/use-tale-from-your-editor
+tags:
+  - opencode
+  - mcp
+  - knowledge
+  - self-hosted
