@@ -1,0 +1,6 @@
+name: homie
+repo: https://github.com/prashanthgit19/homie
+tagline: Four-level chat-voice personality layer — same code, different voice (off / yo / dawg / mafa)
+description: A prompt-injection personality layer that changes how the agent talks in prose while leaving technical answers, code, and commands identical. Ships yo, dawg, and mafa registers plus an off switch, set with /homie. Same package also runs on Claude Code, Codex, and Pi.
+scope: [global]
+tags: [personality, voice, prompt, hooks, fun]
