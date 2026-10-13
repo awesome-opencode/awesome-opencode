@@ -1,0 +1,16 @@
+name: open-toolbox
+repo: https://github.com/Bandonker/open-toolbox
+tagline: "19 plugins for opencode Desktop v2, installed in one go"
+description: >-
+  A pack of 19 plugins for opencode Desktop v2, installed with a single npm command. It
+  covers the things that come up every session: child sessions and handoffs, a decision
+  log and error journal, memory, plan mode, deep research, code review, context pruning,
+  secret redaction, and a dashboard that adds up tokens and cost. Each plugin is also
+  its own npm package, so you can take the whole pack or just the parts you want.
+  Everything runs locally on SQLite.
+scope: [global, project]
+min_version: "2.0.0"
+tags: [plugin-pack, orchestration, memory, planning, context, security, code-review, usage-stats, local-first]
+installation: >-
+  Quick start is in the [README](https://github.com/Bandonker/open-toolbox#getting-started).
+  All 19 plugins are on npm under `@bandonker/opencode-*`.
