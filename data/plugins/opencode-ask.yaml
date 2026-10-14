@@ -1,0 +1,5 @@
+name: opencode-ask
+repo: https://github.com/dhkimxx/opencode-ask
+tagline: Multi-turn /btw-style side chat that never adds to your session
+description: Ask follow-up side questions about the current session in a full-screen view. Switch to the main conversation and back with shift+arrows, and close the side chat to forget it. Built for OpenCode 2.
+min_version: "2.0.27"
