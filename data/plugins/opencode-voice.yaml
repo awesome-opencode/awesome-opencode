@@ -1,0 +1,26 @@
+name: OpenCode Voice
+repo: https://github.com/JuliusKB/opencode-voice
+tagline: Local-first push-to-talk voice dictation. Whisper runs on your machine; nothing leaves it.
+description: Press F9, speak, press F9 again, and your words appear as an editable draft in the chat you recorded from. Transcription runs locally in-process via sherpa-onnx Whisper, with no cloud APIs, accounts, or telemetry; the only network use is downloading models from GitHub on request. Includes a sidebar panel with a live level meter, a model manager for curated Whisper models, voice activity detection that turns pauses into line breaks, a filter for noise annotations, and a safety net that keeps the last take on disk until its draft is safely delivered. Linux only for now.
+scope:
+  - global
+tags:
+  - voice
+  - speech-to-text
+  - dictation
+  - whisper
+  - local
+  - offline
+  - privacy
+  - tui
+min_version: "2.0.31"
+installation: |
+  Add the package to `~/.config/opencode/opencode.json`:
+  ```json
+  {
+    "plugins": ["@juliuskb/opencode-voice"]
+  }
+  ```
+  OpenCode installs it on next start. Press F9 to pick and download a model, then F9 to record.
+
+  Requires Linux with `pw-record` (PipeWire), `arecord` (ALSA), or `ffmpeg` for capture.
