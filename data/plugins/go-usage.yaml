@@ -1,0 +1,19 @@
+name: Go Usage
+repo: https://github.com/ZhaoPengpeng1116/opencode-go-usage-v2
+tagline: Show your OpenCode Go / Go Plus plan usage (rolling 5h / weekly / monthly) live in the sidebar
+description: A zero-config sidebar plugin for OpenCode v2 that shows your Go / Go Plus plan usage — percent used, progress bar, and time until reset for the rolling 5-hour, weekly, and monthly windows. It reuses your existing OpenCode Console login (no extra API key needed) and refreshes automatically every 2 minutes, with a /gousage command for manual refreshes. Readings come from the official read-only usage endpoint, so checking your usage never consumes quota. Tested with OpenCode 2.0.32.
+scope:
+  - global
+tags:
+  - usage
+  - quota
+  - go
+  - sidebar
+installation: |
+  Clone the repository into your global plugins directory and restart OpenCode:
+
+  ```bash
+  git clone https://github.com/ZhaoPengpeng1116/opencode-go-usage-v2 ~/.config/opencode/plugins/go-usage
+  ```
+
+  The plugin picks up your existing OpenCode Console login automatically. Type `/gousage` to refresh on demand.
