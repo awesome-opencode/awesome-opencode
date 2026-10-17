@@ -1,0 +1,5 @@
+name: agentvcr
+repo: https://github.com/tojacob03/agentvcr
+tagline: Turn an opencode session into a replay you can watch, send as a link or paste into a pull request
+description: Run `opencode export <id> > session.json`, then `npx agentvcr-cli session.json` for one self-contained HTML replay with a timeline, prompts, tool calls with output, diffs and token usage. Secrets are masked on your machine first; `--share` uploads the replay as a secret gist and prints a link, and `-o session.md` writes a Markdown transcript for pull requests. Also reads Claude Code, Codex, Cursor and Gemini CLI sessions. Zero dependencies, MIT.
+homepage: https://tojacob03.github.io/agentvcr/
