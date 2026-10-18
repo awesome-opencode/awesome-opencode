@@ -1,0 +1,4 @@
+name: OpenCode Muse Multi Auth
+repo: https://github.com/yuefdev/opencode-muse-multi-auth
+tagline: Muse Code accounts, quota-aware switching and usage limits
+description: Manage isolated Muse Code account profiles with browser sign-in, optional quota-aware account switching, project preferences and usage limits. Includes an OpenCode plugin, a quota status line and the standalone muse-auth CLI.
