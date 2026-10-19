@@ -1,0 +1,26 @@
+name: Firedrill
+repo: https://github.com/firedrill-tools/firedrill-plugin
+tagline: Simulate AI agents with native remote MCP and reusable workflow skills
+description: >-
+  Native OpenCode setup for Firedrill, a free simulation platform for AI agents.
+  Connect over remote MCP with browser OAuth to prepare scenarios, configure
+  synthetic dependencies, and inspect retained runs and evidence. Includes
+  project-scoped configuration, optional workflow-skill installation, safe
+  removal, and the handoff to a customer-owned CLI or SDK runner for executing
+  the actual application. No local MCP adapter, hook, or bundled credentials.
+homepage: https://github.com/firedrill-tools/firedrill-plugin/tree/main/opencode
+scope:
+  - project
+tags:
+  - mcp-server
+  - simulation
+  - agent-testing
+  - skills
+installation: |-
+  Merge `opencode/opencode.json` from the repository into your application's
+  OpenCode configuration without replacing existing settings. Then run
+  `opencode mcp auth firedrill` and approve the intended Firedrill organization
+  in your browser. Check the connection with `opencode mcp list`.
+  Optional instructions: `npx skills add firedrill-tools/firedrill-skills --skill firedrill --agent opencode`.
+  Actual local target execution uses `npx firedrill-run init` in the application
+  repository; MCP does not launch a local application by itself.
