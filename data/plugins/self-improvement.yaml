@@ -1,0 +1,10 @@
+name: Self-Improvement
+repo: https://github.com/abogartz/opencode-self-improvement
+tagline: Durable memory with 4-gate write validation against your actual repo
+description: >-
+  Every memory passes 4 gates before it sticks: code references are verified
+  against your live repo, near-duplicates collapse, and contradictions with
+  superseded memories are rejected. Blocked writes are logged with reasons,
+  nothing is ever deleted (supersede + snapshot undo), and injection is
+  epoch-frozen under a hard character budget so the provider prompt cache
+  stays warm. Zero infra, zero required dependencies.
