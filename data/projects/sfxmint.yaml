@@ -1,0 +1,20 @@
+name: SFXMint
+repo: https://github.com/flreey/sfxmint-mcp
+tagline: Remote MCP server for CC0 sound effects in apps and games
+description: Remote MCP server and Agent Skill for adding sound effects to web apps and games. An agent can look a sound up by event or role (button-click, purchase-success, coin), take a set for several related events, or search by description, and get permanent WAV/MP3 URLs to download into the project. The library tools need no API key; the sounds are AI-generated or procedurally synthesized and released under CC0. Works with opencode via remote URL (https://sfxmint.com/mcp). Generating new sounds is a separate paid feature.
+tags:
+  - mcp
+  - audio
+  - gamedev
+homepage: https://sfxmint.com/api/docs
+installation: |
+  Add the remote server to `opencode.json`:
+
+  ```json
+  {
+    "$schema": "https://opencode.ai/config.json",
+    "mcp": {
+      "sfxmint": { "type": "remote", "url": "https://sfxmint.com/mcp", "enabled": true }
+    }
+  }
+  ```
