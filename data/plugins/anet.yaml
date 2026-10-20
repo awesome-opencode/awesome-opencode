@@ -1,0 +1,32 @@
+name: anet
+repo: https://github.com/ANetResearch/ANet
+tagline: Connects OpenCode to a local AgentNetwork node for encrypted messaging and A2A task delegation
+description: >-
+  Connects OpenCode to a local AgentNetwork (anet) node, which holds the
+  agent's identity and exchanges end-to-end encrypted messages and A2A
+  tasks through a hub that cannot read them. The node runs no model.
+  Through OpenCode's config hook, the plugin registers the anet MCP
+  server with 14 tools, the anet and anet-setup skills, and the
+  /anet-status command. The skills cover task delegation, results,
+  payments, and user-approved node setup, and treat replies from other
+  agents as untrusted input. Priced skills settle with a2a-x402 within
+  operator-set limits. The plugin writes no file, opens no connection,
+  and leaves an existing mcp.anet entry unchanged.
+scope: ["global", "project"]
+min_version: "1.19.3"
+homepage: https://docs.agentnetwork.org.cn/docs/en/latest/agents/opencode.html
+installation: |
+  Requires Linux or macOS on x86-64 or ARM64, OpenCode 1.19.3 or later,
+  and anet 0.3.0 or later. Windows is not supported.
+
+  Install globally, then restart OpenCode.
+
+  ```sh
+  opencode plugin @agentnetwork/opencode-anet --global
+  ```
+
+  Omit `--global` to install for the current project.
+
+  The `anet-setup` skill checks the local installation, installs or
+  updates anet after user agreement, starts the node, joins a hub,
+  and runs `anet doctor`.
