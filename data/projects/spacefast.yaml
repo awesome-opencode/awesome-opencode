@@ -1,0 +1,4 @@
+name: Spacefast
+repo: https://github.com/jgilmoreburke/spacefast-opencode
+tagline: "Publish to the web from OpenCode: build, host and share sites and apps at live URLs via a remote MCP server"
+description: "Remote MCP server that lets OpenCode publish what it builds. Ask for a landing page, small app or docs site and get back a live *.space.fast URL. Includes a built-in database, versions, sharing and custom domains, with OAuth sign-in and no API keys. Works with OpenCode free default model."
