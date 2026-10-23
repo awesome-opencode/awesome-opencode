@@ -1,0 +1,4 @@
+name: wippaAGENT
+repo: https://github.com/wippa-studios/wippaAGENT
+tagline: One orchestrator, twelve specialists, three MCP servers — the install-once OpenCode setup.
+description: Installable agent configuration for OpenCode. A primary agent plans, delegates, and verifies each task, twelve specialists take the delegated work, and every change routes through audit and review passes before it is reported. Three MCP servers and a bounded verify tool back the loop, and the installer wires the roster into a project in one command.
