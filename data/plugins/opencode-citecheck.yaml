@@ -1,0 +1,4 @@
+name: opencode-citecheck
+repo: https://github.com/Xtardy/opencode-citecheck
+tagline: Flags fabricated, unresolved and retracted references in the agent loop
+description: Checks the DOIs and arXiv IDs of the bibliography whenever the agent writes a .tex, .md or .bib file, using Crossref, OpenAlex and DataCite (no API key). Problems are appended to the tool result, so the agent sees them in the same turn and fixes them. Also catches retracted papers (Retraction Watch via Crossref) and DOIs that point at a different paper. Never edits files. Ships a CLI for CI.
