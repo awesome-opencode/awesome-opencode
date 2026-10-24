@@ -1,0 +1,5 @@
+name: "pitwall"
+repo: "https://github.com/quanticstudios/pitwall"
+tagline: "Desktop terminal with live OpenCode state, grouped workers and persistent sessions"
+description: "MIT-licensed desktop terminal from Quantic Studios for running OpenCode alongside other coding agents. Its OpenCode plugin reports agent activity to the sidebar; sessions can resume, and worker tabs can use separate git worktrees. OpenCode must be installed and authenticated separately."
+homepage: "https://quanticstudios.github.io/pitwall/"
