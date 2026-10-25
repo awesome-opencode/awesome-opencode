@@ -1,0 +1,30 @@
+name: OpenCode Attention Inbox
+repo: https://github.com/YidiDev/opencode-attention-inbox
+tagline: Native OpenCode V2 sidebar inbox for permissions, questions, and unread completions
+description: >-
+  Independent, navigation-only OpenCode V2 TUI plugin that shows pending
+  permissions, questions, and successful unread completions as compact sidebar
+  rows. Click a row to navigate to its session without approving requests or
+  answering questions. Supports current-project/worktree or connected-server-wide
+  scope. Verified with OpenCode 2.1.4 on Linux x64; other combinations are unverified.
+scope:
+  - global
+tags:
+  - tui
+  - sidebar
+  - sessions
+  - attention
+installation: |
+  Merge the following package into the plugins array in global
+  ~/.config/opencode/cli.json (or $XDG_CONFIG_HOME/opencode/cli.json),
+  preserving existing plugins and settings:
+
+  ```json
+  {
+    "$schema": "https://opencode.ai/v2/cli.json",
+    "plugins": ["opencode-attention-inbox@1.0.0"]
+  }
+  ```
+
+  This is a V2 CLI plugin, not a V1 server plugin. See the source README for
+  configuration options and compatibility details.
