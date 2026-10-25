@@ -1,0 +1,43 @@
+name: Webly
+repo: https://github.com/Webly-AI/webly-plugin
+tagline: Website hosting for agents. Publish a site or share files at a live URL in seconds, no account needed
+description: >-
+  Lets OpenCode publish a website, or share files and folders, at a live URL in
+  seconds with no account. When the person wants to keep it, they sign in once
+  and claim it; from then on the agent edits it over Webly's hosted MCP server
+  and publishes drafts the person approves. Typed React sites are built through
+  a quality gate, with custom domains and version history. Ships as an agent
+  skill (with a small Node helper) and a remote MCP server using OAuth with
+  dynamic client registration, or a bearer API key.
+scope:
+  - global
+tags:
+  - mcp
+  - skills
+  - hosting
+  - publishing
+  - websites
+  - sharing
+homepage: https://webly.ai
+installation: |
+  MCP server (remote, OAuth):
+
+  ```json
+  {
+    "mcp": {
+      "webly": {
+        "type": "remote",
+        "url": "https://api.webly.ai/v1/mcp",
+        "enabled": true
+      }
+    }
+  }
+  ```
+
+  Then run `opencode mcp auth webly` to sign in.
+
+  Skill (publish without an account, Node 18+):
+
+  ```bash
+  npx skills add Webly-AI/webly-plugin --skill webly -g
+  ```
