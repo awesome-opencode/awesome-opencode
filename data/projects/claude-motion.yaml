@@ -1,0 +1,4 @@
+name: claude-motion
+repo: https://github.com/TheOnlyFusionCube/claude-motion
+tagline: Deterministic 60 FPS 2D/3D motion graphics runtime and video renderer
+description: Launch-quality motion films and physics simulations in code. Combines deterministic DOM + Three.js film runtime with headless Playwright frame capture and FFmpeg hardware-accelerated video export for coding agents.
