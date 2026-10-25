@@ -566,6 +566,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
 </details>
 
 <details>
+  <summary><b>OpenCode Agent Plus</b> <img src="https://badgen.net/github/stars/Anooshiravan/opencode-agent-plus" height="14"/> - <i>Safe-command auto-allow and agent frontmatter settings</i></summary>
+  <blockquote>
+    Auto-allows read-only tool calls and safe shell commands (deterministic, quote-aware checks, no model calls) so they skip the permission window; only escalates ask to allow, never overrides deny. Also sets per-agent settings like temperature from agent frontmatter, shown in a sidebar.
+    <br><br>
+    <a href="https://github.com/Anooshiravan/opencode-agent-plus">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OpenCode Agent Tmux</b> <img src="https://badgen.net/github/stars/AnganSamadder/opencode-agent-tmux" height="14"/> - <i>Real-time tmux panes for OpenCode agents with auto-launch, streaming, and cleanup.</i></summary>
   <blockquote>
     Smart tmux integration for OpenCode that auto-spawns panes to stream agent output, supports flexible layouts and multi-port setups, and cleans up when sessions finish.
