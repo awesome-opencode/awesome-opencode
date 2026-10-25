@@ -1,0 +1,31 @@
+name: OpenCode Native Dictate
+repo: https://github.com/davegarvey/opencode-native-dictate
+tagline: Offline macOS voice dictation for OpenCode, transcribed locally with NVIDIA Parakeet.
+description: >-
+  A native OpenCode v2 plugin for Apple Silicon Macs. It captures microphone audio through macOS and transcribes locally with NVIDIA Parakeet TDT 0.6B, with Qwen3-ASR as an optional backend. The transcript is inserted at the prompt cursor for review; audio is not sent to a transcription service and the prompt is never submitted automatically. Model and runtime downloads require internet during setup.
+scope:
+  - global
+tags:
+  - dictation
+  - voice
+  - speech-to-text
+  - offline
+  - parakeet
+  - macos
+min_version: "2.1.4"
+installation: |
+  ## Requirements
+
+  - Apple Silicon Mac running macOS
+  - OpenCode 2.1.4
+  - Node.js 20+, npm, `uv`, and Xcode Command Line Tools
+  - Microphone permission for the terminal running OpenCode
+
+  ## Install
+
+  ```sh
+  opencode plugin add opencode-native-dictate@0.1.0
+  npx --yes --package opencode-native-dictate@0.1.0 native-dictate setup
+  ```
+
+  Restart OpenCode. Focus the normal prompt and press **Ctrl+X**, then **D** to start dictation. Press **Enter** to stop and transcribe, or **Escape** to cancel. Review the inserted text before submitting the prompt.
