@@ -1,0 +1,14 @@
+name: OpenIntercept
+repo: https://github.com/asucodes/OpenIntercept
+tagline: Burp Suite for OpenCode tool calls. Hold, inspect, edit, spoof, or drop any call before the model sees it.
+description: >
+  An OpenCode plugin plus a local sidecar that puts the model's trust in its
+  tools under your control. Matching calls pause before the tool runs or before
+  the result reaches the model; from a pure-black local panel you decide what
+  happens: run, edit arguments, spoof the result (schema-correct, invisible to
+  the model), or drop, with the honest original always preserved in a local
+  audit log. Includes a rules engine (tool, stage, args and result regex,
+  templates, import/export), an intercept queue with countdowns and timeout
+  policy, opt-in model HTTP capture with credential redaction, and a
+  plaintext-only HTTP proxy (HTTPS is tunnelled, never decrypted). No
+  telemetry, no cloud. One-click install for Windows, macOS and Linux.
