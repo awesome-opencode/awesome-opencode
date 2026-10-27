@@ -593,6 +593,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
 </details>
 
 <details>
+  <summary><b>OpenCode Browser Agent</b> <img src="https://badgen.net/github/stars/BTF-Kabir-2020/opencode-browser-agent" height="14"/> - <i>Policy-first browser automation via agent-browser with persistent sessions, dev tools and cross-platform installers</i></summary>
+  <blockquote>
+    OpenCode plugin for agent-browser. Reuses the user's real Chrome (never kills it), policy-first skill, opt-in Obscura backend, Windows/Linux/macOS installers, security hardening. Supports all agent-browser versions.
+    <br><br>
+    <a href="https://github.com/BTF-Kabir-2020/opencode-browser-agent"><b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OpenCode Chromium Browser Plugin</b> <img src="https://badgen.net/github/stars/DJOCKER-FACE/opencode-chromium-browser-plugin" height="14"/> - <i>Browser automation for Chromium browsers with a readable extension and native host</i></summary>
   <blockquote>
     OpenCode browser automation for Chromium-based browsers using a readable Manifest V3 extension, Node.js native messaging host, and OpenCode-native tools. Supports Chrome, Edge, Brave, Chromium, screenshots, CDP commands, DOM actions, downloads, console/network inspection, and controlled tab sessions.
