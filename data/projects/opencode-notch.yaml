@@ -1,0 +1,48 @@
+name: OpenCode Notch
+repo: https://github.com/fraches05/opencode-notch
+tagline: Windows notch overlay for OpenCode: approvals, forms, live activity
+description: |
+  A macOS-style notch for Windows that keeps your OpenCode sessions in view
+  without alt-tabbing. The collapsed pill shows a status dot per session
+  (working, needs you, done); hovering expands a panel with elapsed time, the
+  tool call in flight, and context usage.
+
+  Approve or reject permission requests directly from the notch, answer agent
+  forms with real inputs, send a quick reply or interrupt a run, and see a
+  finish card with duration, cost and tokens when a run ends. The session
+  center adds project tabs, grouping, search, rename, archive/restore, and
+  opening a project in the OpenCode TUI, plus a Ctrl/Cmd+K command palette.
+
+  It is a standalone Electron app that talks to the local OpenCode server the
+  same way the TUI does — no plugin, no hooks, no API keys.
+tags:
+  - windows
+  - desktop
+  - overlay
+  - notch
+  - approvals
+  - session-manager
+  - electron
+homepage: https://fraches05.github.io/opencode-notch/
+installation: |
+  ## Install
+
+  Download `OpenCodeNotch-Setup-0.3.1.exe` from the
+  [latest release](https://github.com/fraches05/opencode-notch/releases/latest)
+  and run it. It installs for the current user only (no admin prompt) and adds
+  Start-menu and desktop shortcuts. A portable zip is available on the same
+  release page.
+
+  ## Requirements
+
+  - Windows 10 or 11
+  - A running OpenCode installation (the app connects to the local server)
+
+  ## Build from source
+
+  ```bash
+  git clone https://github.com/fraches05/opencode-notch
+  cd opencode-notch
+  npm install
+  npm start
+  ```
