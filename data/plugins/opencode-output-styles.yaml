@@ -1,0 +1,20 @@
+name: Output Styles
+repo: https://github.com/felipeverse/opencode-output-styles
+tagline: Change how the agent communicates without duplicating agents
+description: Opt-in output styles injected into the system prompt via the experimental system transform hook. Ships a learning mode ported from Claude Code and discovers custom Markdown styles from a global or project styles directory. Styles stay orthogonal to agents, so changing tone or approach does not require cloning build or plan. Only a tuple config activates a style; a bare install is a no-op.
+homepage: https://www.npmjs.com/package/opencode-output-styles
+min_version: 1.18.0
+scope:
+  - global
+  - project
+tags:
+  - output-styles
+  - system-prompt
+  - learning
+  - custom-prompts
+installation: |
+  Add the tuple to `opencode.json` or `~/.config/opencode/opencode.jsonc`:
+
+  ```json
+  { "plugin": [["opencode-output-styles", { "style": "learning" }]] }
+  ```
