@@ -1,0 +1,4 @@
+name: opencode-temporal
+repo: https://github.com/MehdiZare/opencode-temporal
+tagline: Temporal Cloud schedules and workflows — OAuth login via the temporal CLI, no static API keys
+description: Temporal tools for OpenCode — list and describe schedules and workflow executions, and pause, unpause or trigger schedules. Every call runs through the official temporal CLI, authenticating with the OAuth login stored by `temporal cloud login` (browser sign-in, CLI-managed token refresh): no static API keys in any config or environment, and access is scoped to the logged-in identity's RBAC role. Mutating tools route through OpenCode permission rules (`temporal.schedule.pause` / `.unpause` / `.trigger`), so paid or destructive operations can require confirmation per schedule. Distributed via npm as opencode-temporal; install with `opencode plugin add opencode-temporal`.
