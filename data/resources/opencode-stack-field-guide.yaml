@@ -1,0 +1,15 @@
+name: OpenCode Stack Field Guide
+repo: https://github.com/rafaabou/opencode-stack-guide
+tagline: A 25-page field guide to running OpenCode with five companion tools as one workflow
+description: >-
+  A practical guide to running OpenCode alongside oh-my-opencode-slim, OpenSpec,
+  Ponytail, OpenWolf and Herdr as a single workflow. Covers install, commands,
+  config paths, a security and permissions chapter, copy-paste templates, and
+  four worked scenarios from a one-line fix to parallel worktree lanes.
+scope:
+  - project
+tags:
+  - guide
+  - workflow
+  - devops
+  - security
