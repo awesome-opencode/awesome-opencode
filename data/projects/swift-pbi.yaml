@@ -1,0 +1,10 @@
+name: swift-pbi
+repo: https://github.com/C-Kapsalis/swift-pbi
+tagline: Power BI model prototyping, TMDL checks, template drift, and chart styling.
+description: An agent skill suite and open-source CLI tools for prototyping Power BI semantic models, linting and repairing TMDL, reconciling client models against a template, and standardizing report canvases. Includes a reproducible demo and hand-off workflow.
+tags:
+  - power-bi
+  - tmdl
+  - semantic-models
+  - agent-skills
+homepage: https://github.com/C-Kapsalis/swift-pbi
