@@ -1,0 +1,32 @@
+name: OpenCode Copilot
+repo: https://github.com/andyzasl/opencode-copilot
+tagline: Shows GitHub Copilot quota and real-time chat costs in the TUI sidebar
+description: "Displays your remaining GitHub Copilot quota (credits/requests) and per-session usage directly under the sidebar Context block. Secure by design: zero runtime dependencies, strictly reads only the Copilot OAuth token from auth.json, and never leaks environment tokens."
+scope:
+  - global
+  - project
+tags:
+  - copilot
+  - github-copilot
+  - tui
+  - quota
+  - token-usage
+  - monitoring
+min_version: "2.0.0"
+installation: |
+  ## Installation
+
+  ### Via OpenCode CLI
+  ```bash
+  opencode plugin add andyzasl/opencode-copilot
+  ```
+
+  ### Via opencode.json
+  Add to your `~/.config/opencode/opencode.json`:
+  ```json
+  {
+    "plugin": [
+      "andyzasl/opencode-copilot"
+    ]
+  }
+  ```
