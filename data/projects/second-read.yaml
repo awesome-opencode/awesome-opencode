@@ -1,0 +1,10 @@
+name: Second Read
+repo: https://github.com/C-Kapsalis/second-read
+tagline: Reader-first, quote-anchored editing and proofreading for agent-written drafts.
+description: A portable agent skill that reads a draft in sequence, proposes the smallest claim-preserving edits against exact source text, and checks the accepted revision again. It supports documentation, marketing copy, essays, reports, and other writing, with an optional offline review editor.
+tags:
+  - writing
+  - editing
+  - proofreading
+  - agent-skills
+homepage: https://github.com/C-Kapsalis/second-read
