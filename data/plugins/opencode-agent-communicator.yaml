@@ -1,0 +1,54 @@
+name: OpenCode Agent Communicator
+repo: https://github.com/YidiDev/opencode-agent-communicator
+tagline: Durable cross-session messaging, requests, and advisory locks for OpenCode agents
+description: |
+  Native OpenCode V2 plugin for workspace-scoped communication between independent
+  root agent sessions, with durable asks and milestone waits, recoverable request
+  results, and advisory coordination locks backed by a private SQLite store.
+  Peer messages are advisory input, not authorization. Supports Linux x64 and
+  stable OpenCode >=2.1.3 <2.3.0; packed live tests cover 2.1.3 and 2.2.2.
+  Context delivery and session stopping are unsupported on the current public host
+  API. Extended 48-hour soak validation remains outstanding; release 1.0.1 uses
+  a documented owner exception rather than claiming a passing soak.
+scope:
+  - global
+  - project
+tags:
+  - multi-agent
+  - communication
+  - coordination
+  - sqlite
+min_version: "2.1.3"
+installation: |
+  Requires Linux x64, a local filesystem suitable for SQLite WAL, and a stable
+  OpenCode version >=2.1.3 <2.3.0. Bun 1.4.0 is required for development and
+  release verification, not as a separate production installation prerequisite.
+
+  Merge this entry into the existing plugins array in your global
+  ~/.config/opencode/opencode.json or project opencode.json; preserve other
+  settings. OpenCode installs the exact public npm package.
+
+  ```json
+  {
+    "plugins": [
+      {
+        "package": "opencode-agent-communicator@1.0.1",
+        "options": {
+          "policies": {
+            "message": "allow",
+            "ask": "allow",
+            "wait": "allow",
+            "readCrossSession": "deny",
+            "start": "deny",
+            "stop": "deny"
+          }
+        }
+      }
+    ]
+  }
+  ```
+
+  Verify loading with `opencode plugin list`. See the repository README for private
+  state-directory requirements, tool workflows, capability limits, and removal.
+  To stop loading the plugin, remove only its entry from the plugins array;
+  removing the entry does not delete its persisted state.
