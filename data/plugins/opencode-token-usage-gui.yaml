@@ -1,0 +1,4 @@
+name: OpenCode Token Usage (Desktop)
+repo: https://github.com/AquariusCZ/opencode-token-usage-gui
+tagline: Per-turn token, cache and RMB cost footer for OpenCode Desktop
+description: Adds a live footer under every reply in OpenCode Desktop with input, output, cache read, cache hit rate, total tokens and cost in RMB (USD optional). Includes a detailed tooltip, revert-aware totals, compact and detailed modes, and a bilingual UI. Zero runtime dependencies; no network calls.
