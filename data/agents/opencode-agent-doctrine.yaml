@@ -1,0 +1,4 @@
+name: OpenCode Agent Doctrine
+repo: https://github.com/AquariusCZ/opencode-agent-doctrine
+tagline: A minimal, auditable multi-agent doctrine for OpenCode V2.
+description: Eight agents and one doctrine for OpenCode V2. A read-only orchestrator that must delegate, a verifier that owns tests, independent correctness and adversarial reviewers with risk-proportional A/B review, and git-gated worktree parallelism. No plugin, no runtime code.
