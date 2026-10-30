@@ -1,0 +1,9 @@
+name: value-pricing
+repo: https://github.com/C-Kapsalis/value-pricing
+tagline: Evidence-led value pricing research, buyer studies, and package design.
+description: An agent skill and plugin for a structured value-based pricing study. It gathers evidence about an offer, compares market and feature value, models costs and contribution, and prepares research to validate price hypotheses with real buyers. Its default panel runner uses Claude CLI.
+tags:
+  - pricing
+  - market-research
+  - agent-skills
+homepage: https://github.com/C-Kapsalis/value-pricing
