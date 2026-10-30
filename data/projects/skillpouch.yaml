@@ -1,0 +1,15 @@
+name: SkillPouch
+repo: https://github.com/skillpouch/skillpouch
+tagline: End-to-end encrypted sync of your OpenCode setup across computers
+description: Keeps agents, skills, commands, instructions, MCP servers and plugins in sync across machines with end-to-end encryption. Also works with Claude Code, Codex, Cursor, Gemini CLI and others, converting formats between them. Background daemon, conflicts resolved in a web app, free plan, self-hostable (AGPL-3.0).
+scope:
+  - global
+tags:
+  - sync
+  - config
+  - dotfiles
+homepage: https://skillpouch.net
+installation: |
+  ```bash
+  npm i -g skillpouch && skillpouch
+  ```
