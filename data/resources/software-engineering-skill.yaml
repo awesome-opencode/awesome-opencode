@@ -1,0 +1,4 @@
+name: Software Engineering Skill
+repo: https://github.com/GAUSS-TPAC/software-engineering-skill
+tagline: Agent skill for SOLID, GoF design patterns, clean architecture and code review
+description: An Agent Skill that makes OpenCode (and Claude Code, Codex, Gemini CLI) design, refactor and review code with method. It covers SOLID, GRASP, the 23 GoF patterns, architectural styles, components and services, testing and code smells, with an installer for ~/.config/opencode/skills.
