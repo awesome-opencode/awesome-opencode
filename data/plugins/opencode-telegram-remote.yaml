@@ -1,0 +1,4 @@
+name: OpenCode Telegram Remote
+repo: https://github.com/HenryYannis/opencode-telegram-remote
+tagline: Telegram remote control with bidirectional desktop sync and model switching
+description: A native OpenCode V2 plugin for Telegram remote control. Chat with any session from your phone, attach to the desktop's active window with /current, switch models and sessions via inline buttons, and receive real-time desktop replies pushed back automatically.
