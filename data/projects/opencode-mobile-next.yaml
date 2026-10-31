@@ -1,0 +1,9 @@
+name: OpenCode Mobile (opencode-mobile-next)
+repo: https://github.com/Eslamasabry/opencode-mobile-next
+tagline: Independent Android app that runs OpenCode 2 on the phone itself, or connects to your server
+description: Independent, unofficial, MIT-licensed Android app (8+, 64-bit). It installs its own Ubuntu (proot) with Git and Node inside the app and runs OpenCode 2 on the phone with no computer and no Termux, and can also connect to an OpenCode 2 server on your computer. Streaming chat, approve or reject tool requests from a notification or home-screen widget, steer a running task, diff review, in-app preview of the dev server, a built-in terminal and Git from the chat. Also runs Claude Code, Codex, Gemini CLI and other agents. APK from GitHub releases or Obtainium. Not affiliated with OpenCode or anomaly; built with substantial AI assistance.
+homepage: https://eslamasabry.github.io/opencode-mobile-next/
+tags:
+  - android
+  - mobile
+  - client
