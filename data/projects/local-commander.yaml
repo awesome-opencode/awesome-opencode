@@ -1,0 +1,4 @@
+name: Local Commander
+repo: https://github.com/netbka/local-commander-mcp-agent
+tagline: Let OpenCode and other AI clients run tasks on your own computers over MCP, even from a phone
+description: MCP server that lets OpenCode, Claude, ChatGPT, Codex, Cursor, Cline or a local model (LM Studio, Ollama) run commands, read, write and search files, use Git and take screenshots on your own Windows, macOS or Linux computers. Start it with npx local-commander-mcp-agent --stdio <folder>; the computer needs no AI client installed. The hosted edition at localcmd.app reaches several computers from one chat, including from a phone.
