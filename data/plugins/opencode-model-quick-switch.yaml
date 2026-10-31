@@ -1,0 +1,22 @@
+name: OpenCode Model Quick Switch
+repo: https://github.com/thejohnd0e/opencode-model-quick-switch
+tagline: One-click switching between native Recent models from the TUI sidebar
+description: >-
+  Adds a clickable Recent models section at the bottom of the terminal sidebar,
+  following the native history order and marking the current provider/model.
+  Restores supported saved reasoning or the default without an extra dialog and
+  preserves unsent drafts. TUI-only, currently verified and enabled exclusively
+  on OpenCode 2.2.5; other versions disable switching until compatibility is
+  checked. Uses the native model picker without sending model requests.
+scope:
+  - global
+tags:
+  - tui
+  - sidebar
+  - models
+min_version: 2.2.5
+installation: >-
+  Requires exactly OpenCode 2.2.5. Add "opencode-model-quick-switch" to the
+  plugins array in global ~/.config/opencode/cli.json (not opencode.json),
+  preserving existing entries. Use /reload if needed. Available on npm;
+  see the repository README for local-source installation and limitations.
