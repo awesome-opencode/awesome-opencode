@@ -1,0 +1,4 @@
+name: Token Speed Counter
+repo: https://github.com/Kxrbx/opencode-token-speed-counter
+tagline: Live tokens-per-second counter for OpenCode Desktop (macOS)
+description: ComposerPill for OpenCode Desktop 2.2.1+ showing live tok/s during generation and the final average on completion. Click the pill for output/reasoning tokens, duration, model, and measurement source. EN/FR, light/dark themes. No extra API keys, requests, or telemetry — reads data Desktop already syncs.
