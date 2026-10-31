@@ -1,0 +1,15 @@
+name: OpenCode Subagents Sidebar
+repo: https://github.com/andy-takker/opencode-plugin-subagents-sidebar
+tagline: Track live subagent trees, task status, and execution time in the OpenCode terminal sidebar
+description: >-
+  OpenCode V2 TUI plugin for monitoring running and completed subagent sessions.
+  Displays nested task trees, execution durations, and confirmed permission or
+  input requests in a collapsible sidebar. Includes Active/All filters, clickable
+  session navigation, and a searchable keyboard chooser via /subagents.
+scope:
+  - global
+tags:
+  - subagents
+  - monitoring
+  - sidebar
+  - tui
