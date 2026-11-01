@@ -115,19 +115,6 @@
     "tags": []
   },
   {
-    "productId": "zosma-qa",
-    "type": "agents",
-    "displayName": "Zosma QA",
-    "repoUrl": "https://github.com/zosmaai/zosma-qa",
-    "tagline": "Zero-config QA platform with OpenCode agents for Playwright, Appium, and k6",
-    "description": "Zero-config QA platform that generates four OpenCode agent prompts (test planner, generator, healer, analyzer) for Playwright web tests, Appium mobile tests, and k6 load tests. Run `npx zosma-qa agents init --loop opencode` to scaffold agent definitions directly into `.opencode/prompts/`.",
-    "scope": [
-      "global"
-    ],
-    "tags": [],
-    "installation": "npx zosma-qa agents init --loop opencode"
-  },
-  {
     "productId": "aerovato-operator-memory",
     "type": "plugins",
     "displayName": "@aerovato/operator-memory",
@@ -1252,19 +1239,6 @@
       "global"
     ],
     "tags": []
-  },
-  {
-    "productId": "opencode-remote-control",
-    "type": "plugins",
-    "displayName": "OpenCode Remote Control",
-    "repoUrl": "https://github.com/ceociocto/opencode-remote-control",
-    "tagline": "Control OpenCode from anywhere via Telegram, Feishu, or WeChat",
-    "description": "Multi-platform remote control for OpenCode via Telegram, Feishu (Lark), and WeChat. No tunnel requirements — Feishu uses WebSocket long connection, WeChat uses official API with QR code login + long-polling. Privacy-first, all data processing happens locally. Features session management, diff preview, approve/reject, file tracking. Interactive configuration wizard with `opencode-remote config`.",
-    "scope": [
-      "global"
-    ],
-    "tags": [],
-    "installation": "npm install -g opencode-remote-control@latest && opencode-remote config"
   },
   {
     "productId": "opencode-research-papers",
@@ -2875,6 +2849,18 @@
     ]
   },
   {
+    "productId": "sandbase-cli",
+    "type": "projects",
+    "displayName": "SandBase CLI",
+    "repoUrl": "https://github.com/sandbaseai/cli",
+    "tagline": "AI CLI and local MCP server that connects your coding agent to 2,000+ models",
+    "description": "Open-source AI CLI and local MCP server that connects OpenCode and 25 other clients to 2,000+ models and APIs, with OAuth and rollback.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "self-host",
     "type": "projects",
     "displayName": "self-host",
@@ -3202,6 +3188,18 @@
     ]
   },
   {
+    "productId": "qmenpowers",
+    "type": "resources",
+    "displayName": "Qi Men Dun Jia",
+    "repoUrl": "https://github.com/skyfiredao/qmenpowers",
+    "tagline": "Pure-Bash Qi Men Dun Jia plate engine, installed as OpenCode skills",
+    "description": "Zero-dependency Bash engine for Qi Men Dun Jia charting and analysis. Installs as sub-skills in the OpenCode skills directory, and lists OpenCode as the recommended agent to run it.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "runapi-mcp",
     "type": "resources",
     "displayName": "RunAPI MCP",
@@ -3216,19 +3214,6 @@
       "model-api",
       "media-generation"
     ]
-  },
-  {
-    "productId": "super-local-memory",
-    "type": "resources",
-    "displayName": "SuperLocalMemory",
-    "repoUrl": "https://github.com/qualixar/superlocalmemory",
-    "tagline": "Local-first persistent memory MCP server for OpenCode",
-    "description": "MCP memory server that works with OpenCode and any MCP-compatible tool. Provides 6 MCP tools: remember, recall, search, forget, status, health. Uses Fisher-Rao information geometry with 87.7% LoCoMo benchmark score. Zero-cloud mode, MIT license.\n",
-    "scope": [
-      "global"
-    ],
-    "tags": [],
-    "installation": "npm install -g superlocalmemory && slm init && slm serve"
   },
   {
     "productId": "tapetide-mcp",
