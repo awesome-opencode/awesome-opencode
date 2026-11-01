@@ -53,6 +53,15 @@
 <br>
 
 <details>
+  <summary><b>@aerovato/operator-memory</b> <img src="https://badgen.net/github/stars/aerovato/operator-memory" height="14"/> - <i>Durable context for agent-driven development</i></summary>
+  <blockquote>
+    Operator Memory gives the agent durable memory made of ordinary Markdown: specs, decisions, standards, and research, kept across private, shared, and user partitions. Every file is yours to read, correct, or remove, and new sessions start from that knowledge. No embeddings, no vector database, no hosted service.
+    <br><br>
+    <a href="https://github.com/aerovato/operator-memory">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>@bluelovers/opencode-arise</b> <img src="https://badgen.net/github/stars/bluelovers/opencode-arise" height="14"/> - <i>「⚔️ ARISE!」　A Solo Leveling themed orchestrator harness for OpenCode</i></summary>
   <blockquote>
     A lightweight, token-efficient orchestrator layer. Enables parallel background task execution in OpenCode. Launch AI agents to work simultaneously on exploration and research while continuing with other tasks. Allows specifying custom models for each_agent via configuration.
@@ -1596,6 +1605,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>agent-manager</b> <img src="https://badgen.net/github/stars/YoanWai/agent-manager" height="14"/> - <i>Terminal UI that runs OpenCode and other coding-agent CLIs side by side in persistent tmux sessions</i></summary>
+  <blockquote>
+    Terminal UI that runs OpenCode alongside Claude Code, Codex and other coding-agent CLIs, each in its own persistent tmux session. It launches the installed OpenCode CLI unmodified, so login, config and MCP servers carry over. One list shows every session's live status, prompts go into a pane without attaching, a session can spawn into its own git worktree, and a full-file diff review sends line comments back to the agent. Runs on macOS, Linux and Windows via WSL2. Apache-2.0.
+    <br><br>
+    <a href="https://github.com/YoanWai/agent-manager">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>AgentDeals</b> <img src="https://badgen.net/github/stars/robhunter/agentdeals" height="14"/> - <i>MCP server aggregating free tiers, credits, and referral codes across 1,500+ developer tools</i></summary>
   <blockquote>
     Remote MCP server that surfaces free tiers, credits, trials, and referral codes for developer infrastructure — Railway, Vercel, Fly, OpenAI, Anthropic, and 1,500+ other vendors. Exposes four tools (search_deals, plan_stack, compare_vendors, track_changes) so an agent can find the cheapest way to ship a given stack. Works with opencode via remote URL (https://agentdeals-production.up.railway.app/mcp). Also tracks pricing changes over time.
@@ -1655,6 +1673,15 @@ Also available for bat and Ghostty in the same repository.
     Launch OpenCode, VSCode, Claude Code, or any command in a macOS sandbox (sandbox-exec). Dynamically blocks access to everything except the project directory — no containers, no VMs, just one command.
     <br><br>
     <a href="https://github.com/holtwick/bx-mac">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Claudexor</b> <img src="https://badgen.net/github/stars/razzant/claudexor" height="14"/> - <i>Run OpenCode alongside Claude Code, Codex, and Cursor in one local-first control plane</i></summary>
+  <blockquote>
+    A local-first control plane that runs OpenCode alongside Claude Code, Codex, and Cursor while keeping one Claudexor thread across harness lanes. Adds isolated workspaces, Best-of-N runs, cross-model review, and typed apply gates; quota-aware multi-subscription rotation is available for Claude Code and Codex.
+    <br><br>
+    <a href="https://github.com/razzant/claudexor">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

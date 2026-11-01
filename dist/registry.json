@@ -124,6 +124,26 @@
     "installation": "Download the entire `server-manager/` folder into your AI coding tool's skills directory:\n- OpenCode: `~/.config/opencode/skills/server-manager/`\n- Claude Code: `~/.claude/skills/server-manager/`\n- Project-level: `.opencode/skills/` or `.claude/skills/` in your project root\n"
   },
   {
+    "productId": "aerovato-operator-memory",
+    "type": "plugins",
+    "displayName": "@aerovato/operator-memory",
+    "repoUrl": "https://github.com/aerovato/operator-memory",
+    "tagline": "Durable context for agent-driven development",
+    "description": "Operator Memory gives the agent durable memory made of ordinary Markdown: specs, decisions, standards, and research, kept across private, shared, and user partitions. Every file is yours to read, correct, or remove, and new sessions start from that knowledge. No embeddings, no vector database, no hosted service.",
+    "scope": [
+      "global",
+      "project"
+    ],
+    "tags": [
+      "memory",
+      "context",
+      "documentation",
+      "markdown"
+    ],
+    "homepageUrl": "https://www.npmjs.com/package/@aerovato/operator-opencode",
+    "installation": "Install the Helper globally:\n\n```sh\nnpm install --global @aerovato/operator-helper\n```\n\nThen install the plugin for OpenCode:\n\n```sh\noperator-helper install opencode\n```\n"
+  },
+  {
     "productId": "agent-memory",
     "type": "plugins",
     "displayName": "Agent Memory",
@@ -2016,6 +2036,19 @@
     "homepageUrl": "https://www.npmjs.com/package/@ar27111994/agent-harness"
   },
   {
+    "productId": "agent-manager",
+    "type": "projects",
+    "displayName": "agent-manager",
+    "repoUrl": "https://github.com/YoanWai/agent-manager",
+    "tagline": "Terminal UI that runs OpenCode and other coding-agent CLIs side by side in persistent tmux sessions",
+    "description": "Terminal UI that runs OpenCode alongside Claude Code, Codex and other coding-agent CLIs, each in its own persistent tmux session. It launches the installed OpenCode CLI unmodified, so login, config and MCP servers carry over. One list shows every session's live status, prompts go into a pane without attaching, a session can spawn into its own git worktree, and a full-file diff review sends line comments back to the agent. Runs on macOS, Linux and Windows via WSL2. Apache-2.0.",
+    "scope": [
+      "global"
+    ],
+    "tags": [],
+    "homepageUrl": "https://agent-manager.dev/docs/"
+  },
+  {
     "productId": "agent-of-empires",
     "type": "projects",
     "displayName": "Agent of Empires",
@@ -2142,6 +2175,26 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "claudexor",
+    "type": "projects",
+    "displayName": "Claudexor",
+    "repoUrl": "https://github.com/razzant/claudexor",
+    "tagline": "Run OpenCode alongside Claude Code, Codex, and Cursor in one local-first control plane",
+    "description": "A local-first control plane that runs OpenCode alongside Claude Code, Codex, and Cursor while keeping one Claudexor thread across harness lanes. Adds isolated workspaces, Best-of-N runs, cross-model review, and typed apply gates; quota-aware multi-subscription rotation is available for Claude Code and Codex.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "orchestration",
+      "multi-agent",
+      "local-first",
+      "code-review",
+      "opencode"
+    ],
+    "homepageUrl": "https://razzant.github.io/claudexor/",
+    "installation": "npm install -g claudexor\nclaudexor doctor\n"
   },
   {
     "productId": "cli-proxy-api",
