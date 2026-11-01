@@ -1,0 +1,11 @@
+name: Agent Teams AI
+repo: https://github.com/777genius/agent-teams-ai
+tagline: Multi-team control plane for OpenCode and other coding agents
+description: Open-source orchestration platform for autonomous coding-agent teams with first-class OpenCode support. Agents manage Kanban tasks, message each other, review work, and coordinate across teams while users steer with high-level commands. Also supports Codex, Claude Code, Cursor, Grok, GitHub Copilot, Kiro, and other providers.
+homepage: https://agentteams.live/
+tags:
+  - multi-agent
+  - opencode
+  - orchestration
+  - kanban
+  - code-review
