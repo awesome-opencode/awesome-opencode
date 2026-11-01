@@ -1,0 +1,4 @@
+name: UIZZE
+repo: https://github.com/uizze/uizze
+tagline: UI quality workflow for OpenCode with an optional authenticated MCP
+description: Help OpenCode avoid generic UI with a free anti-UI-slop Agent Skill and an optional authenticated UIZZE MCP for focused UI references from 800,000+ real web and iOS screens.
