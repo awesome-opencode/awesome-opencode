@@ -44,11 +44,21 @@ Open a Pull Request on GitHub.
 
 ## Entry Requirements
 
-- [ ] **Relevant** - Directly related to OpenCode
-- [ ] **Public** - Repository is publicly accessible
-- [ ] **Maintained** - Active commits within the last 6 months
-- [ ] **Unique** - Not a duplicate of existing entry
-- [ ] **Complete** - All required fields included
+Every PR is checked against these rules. A PR that fails any rule is closed.
+
+1. **Format** - One valid YAML file in the right `data/` folder. Do not edit README.md. README is generated.
+2. **Relevant** - OpenCode is a real, documented target. We say no to "also works with OpenCode" tools with no OpenCode setup docs.
+3. **Public** - The repo is public and works. No dead links.
+4. **Maintained** - The repo is not archived and has a commit in the last 90 days.
+5. **Traction** - At least 25 stars, and the repo is at least 30 days old.
+6. **Unique** - Not already in the list and not a duplicate of another open PR.
+7. **Complete** - All required fields are present and the tagline is 120 characters or less.
+
+## List Maintenance
+
+We audit the whole list from time to time. Entries are removed when the repo is deleted, archived, or has no commits for 6 months.
+
+This keeps the list useful. It is not a judgement on the project. If your project is active again, feel free to submit it once more.
 
 ## What Happens After PR?
 
