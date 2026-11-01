@@ -1,0 +1,14 @@
+name: Heym
+repo: https://github.com/heymrun/heym
+tagline: Visual AI workflows with OpenCode coding agents and Go usage tracking
+description: >-
+  Heym is a source available AI workflow platform you can self host.
+  Its OpenCode Go node runs the OpenCode CLI against GitHub repositories
+  and can return patches or open pull requests. It also provides native
+  OpenCode Go credentials, live model selection, and subscription usage tracking.
+homepage: https://heym.run/
+tags:
+  - workflows
+  - automation
+  - coding-agents
+  - self-hosted
