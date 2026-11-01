@@ -1,0 +1,11 @@
+name: SonarQube
+repo: https://github.com/SonarSource/sonarqube-agent-plugins
+tagline: Automatically enforce SonarQube code quality and security in the agent coding loop
+description: "SonarQube is the AI code quality and security verification platform used by millions of developers to catch bugs, vulnerabilities, and leaked secrets. This plugin enforces those standards in the agent coding loop: 7,500+ distinct issue types, secrets scanning, agentic analysis, and quality gates across 40+ languages."
+tags:
+  - sonarqube
+  - code-quality
+  - static-analysis
+  - security
+  - secrets
+min_version: "2.0.0"
