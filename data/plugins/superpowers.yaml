@@ -1,0 +1,4 @@
+name: Superpowers
+repo: https://github.com/obra/superpowers
+tagline: Complete software development methodology with composable skills for coding agents
+description: Gives your coding agent a structured methodology - brainstorm specs, write plans, run TDD, dispatch subagents, and review work. Skills trigger automatically across Claude Code, OpenCode, Codex, Gemini CLI, Cursor, and GitHub Copilot CLI.
