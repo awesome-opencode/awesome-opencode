@@ -1,0 +1,4 @@
+name: Qi Men Dun Jia
+repo: https://github.com/skyfiredao/qmenpowers
+tagline: Pure-Bash Qi Men Dun Jia plate engine, installed as OpenCode skills
+description: Zero-dependency Bash engine for Qi Men Dun Jia charting and analysis. Installs as sub-skills in the OpenCode skills directory, and lists OpenCode as the recommended agent to run it.

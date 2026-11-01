@@ -1,0 +1,4 @@
+name: SandBase CLI
+repo: https://github.com/sandbaseai/cli
+tagline: AI CLI and local MCP server that connects your coding agent to 2,000+ models
+description: Open-source AI CLI and local MCP server that connects OpenCode and 25 other clients to 2,000+ models and APIs, with OAuth and rollback.

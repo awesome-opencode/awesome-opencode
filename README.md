@@ -746,15 +746,6 @@ startup.
 </details>
 
 <details>
-  <summary><b>OpenCode Remote Control</b> <img src="https://badgen.net/github/stars/ceociocto/opencode-remote-control" height="14"/> - <i>Control OpenCode from anywhere via Telegram, Feishu, or WeChat</i></summary>
-  <blockquote>
-    Multi-platform remote control for OpenCode via Telegram, Feishu (Lark), and WeChat. No tunnel requirements — Feishu uses WebSocket long connection, WeChat uses official API with QR code login + long-polling. Privacy-first, all data processing happens locally. Features session management, diff preview, approve/reject, file tracking. Interactive configuration wizard with `opencode-remote config`.
-    <br><br>
-    <a href="https://github.com/ceociocto/opencode-remote-control">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
   <summary><b>Opencode Snippets</b> <img src="https://badgen.net/github/stars/JosXa/opencode-snippets" height="14"/> - <i>Instant inline text expansion</i></summary>
   <blockquote>
     Instant inline text expansion for OpenCode. Type #snippet anywhere in your message and watch it transform. Brings DRY principles to prompt engineering with composable, shell-enabled snippets.
@@ -1307,15 +1298,6 @@ Also available for bat and Ghostty in the same repository.
     an Opencode agent that simplifies Minecraft plugin development and deployment.
     <br><br>
     <a href="https://github.com/BackGwa/Redstone">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>Zosma QA</b> <img src="https://badgen.net/github/stars/zosmaai/zosma-qa" height="14"/> - <i>Zero-config QA platform with OpenCode agents for Playwright, Appium, and k6</i></summary>
-  <blockquote>
-    Zero-config QA platform that generates four OpenCode agent prompts (test planner, generator, healer, analyzer) for Playwright web tests, Appium mobile tests, and k6 load tests. Run `npx zosma-qa agents init --loop opencode` to scaffold agent definitions directly into `.opencode/prompts/`.
-    <br><br>
-    <a href="https://github.com/zosmaai/zosma-qa">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -2050,6 +2032,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
 </details>
 
 <details>
+  <summary><b>SandBase CLI</b> <img src="https://badgen.net/github/stars/sandbaseai/cli" height="14"/> - <i>AI CLI and local MCP server that connects your coding agent to 2,000+ models</i></summary>
+  <blockquote>
+    Open-source AI CLI and local MCP server that connects OpenCode and 25 other clients to 2,000+ models and APIs, with OAuth and rollback.
+    <br><br>
+    <a href="https://github.com/sandbaseai/cli">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>self-host</b> <img src="https://badgen.net/github/stars/ajnart/self-host" height="14"/> - <i>Lets your agent install self-hosted apps and set them up, asking before each step.</i></summary>
   <blockquote>
     Lets your agent install self-hosted apps on your own hardware and set them up (admin accounts, API keys, apps connected to each other), asking before each step.
@@ -2270,21 +2261,20 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
 </details>
 
 <details>
+  <summary><b>Qi Men Dun Jia</b> <img src="https://badgen.net/github/stars/skyfiredao/qmenpowers" height="14"/> - <i>Pure-Bash Qi Men Dun Jia plate engine, installed as OpenCode skills</i></summary>
+  <blockquote>
+    Zero-dependency Bash engine for Qi Men Dun Jia charting and analysis. Installs as sub-skills in the OpenCode skills directory, and lists OpenCode as the recommended agent to run it.
+    <br><br>
+    <a href="https://github.com/skyfiredao/qmenpowers">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>RunAPI MCP</b> <img src="https://badgen.net/github/stars/runapi-ai/mcp" height="14"/> - <i>MCP server for model API jobs</i></summary>
   <blockquote>
     RunAPI MCP lets coding agents discover models, check pricing, and create image, video, music/audio, text-to-speech, and LLM tasks through RunAPI.
     <br><br>
     <a href="https://github.com/runapi-ai/mcp">🔗 <b>View Repository</b></a>
-  </blockquote>
-</details>
-
-<details>
-  <summary><b>SuperLocalMemory</b> <img src="https://badgen.net/github/stars/qualixar/superlocalmemory" height="14"/> - <i>Local-first persistent memory MCP server for OpenCode</i></summary>
-  <blockquote>
-    MCP memory server that works with OpenCode and any MCP-compatible tool. Provides 6 MCP tools: remember, recall, search, forget, status, health. Uses Fisher-Rao information geometry with 87.7% LoCoMo benchmark score. Zero-cloud mode, MIT license.
-
-    <br><br>
-    <a href="https://github.com/qualixar/superlocalmemory">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
