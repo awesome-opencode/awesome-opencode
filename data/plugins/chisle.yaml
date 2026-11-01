@@ -1,0 +1,12 @@
+name: Chisle
+repo: https://github.com/JayPokale/Chisle
+tagline: Cuts token use with terse answers, smallest-code-that-works rules and tool-output compression
+description: Installs a ruleset for terse answers that keep every decisive fact and a "smallest code that works" ladder, Chisle skills, and a compression plugin that trims oversized tool output before it re-enters the context. The same ruleset ships for Claude Code, Cursor, Codex and Gemini CLI. Install with `npx chisle --only opencode`. MIT, zero dependencies, benchmarks with raw transcripts in the repository.
+scope:
+  - global
+homepage: https://chisle.jaypokale.me
+tags:
+  - tokens
+  - cost
+  - context
+  - productivity
