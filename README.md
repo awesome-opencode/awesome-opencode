@@ -1528,6 +1528,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>Agent Teams AI</b> <img src="https://badgen.net/github/stars/777genius/agent-teams-ai" height="14"/> - <i>Multi-team control plane for OpenCode and other coding agents</i></summary>
+  <blockquote>
+    Open-source orchestration platform for autonomous coding-agent teams with first-class OpenCode support. Agents manage Kanban tasks, message each other, review work, and coordinate across teams while users steer with high-level commands. Also supports Codex, Claude Code, Cursor, Grok, GitHub Copilot, Kiro, and other providers.
+    <br><br>
+    <a href="https://github.com/777genius/agent-teams-ai">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>agent-dotfiles</b> <img src="https://badgen.net/github/stars/saqibameen/agent-dotfiles" height="14"/> - <i>Write AI coding rules once, sync to every agent</i></summary>
   <blockquote>
     Write AI coding rules once, sync to every agent. Supports Command Code, Claude Code, Cursor, Copilot, Codex, and OpenCode.
@@ -1614,6 +1623,15 @@ Also available for bat and Ghostty in the same repository.
     A proxy server providing compatible API interfaces for multiple model CLIs.
     <br><br>
     <a href="https://github.com/router-for-me/CLIProxyAPI">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>CodeNomad</b> <img src="https://badgen.net/github/stars/NeuralNomadsAI/CodeNomad" height="14"/> - <i>Open-source desktop and mobile client for OpenCode V2, with multi-agent Missions and Remote Control</i></summary>
+  <blockquote>
+    A desktop (Windows, macOS, Linux) and mobile client built on the shared OpenCode service, so conversations stay available to the terminal and other clients. Missions coordinate native sessions and subagents toward an objective, including a blind, scored comparison of two models. Remote Control pairs a phone or another desktop over OpenTunnel without opening an inbound port, and agent questions and permissions stay answerable from any device. Native plugins add full-history search and timeline navigation, agents can operate browser previews to check their work, and a Files/Git panel, panel extensions and signed auto-updates complete the workspace.
+    <br><br>
+    <a href="https://github.com/NeuralNomadsAI/CodeNomad">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -2044,6 +2062,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     An OpenAI-Compatible Proxy Server for Qwen models.
     <br><br>
     <a href="https://github.com/aptdnfapt/qwen-code-oai-proxy">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>qwen-audio-agent</b> <img src="https://badgen.net/github/stars/QwenAudio/qwen-audio-agent" height="14"/> - <i>Full-duplex voice runtime for OpenCode and other ACP agents</i></summary>
+  <blockquote>
+    Realtime full-duplex voice interface that connects to OpenCode natively over ACP, with one-click install and DashScope configuration. Conversations keep going while OpenCode runs tasks in the background, and task results flow back into the same voice conversation. Also supports Claude Code, Codex, Kimi Code, and more. Ships a macOS desktop app, terminal TUI, and web UI.
+    <br><br>
+    <a href="https://github.com/QwenAudio/qwen-audio-agent">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
