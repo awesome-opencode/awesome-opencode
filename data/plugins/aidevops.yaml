@@ -1,0 +1,5 @@
+name: AIDevOps
+repo: https://github.com/marcusquinn/aidevops
+homepage: https://aidevops.sh
+tagline: AI DevOps framework and OpenCode plugin
+description: OpenCode-first AI DevOps framework with agents, skills, workflows, safety hooks, memory, GitHub worker dispatch, and integrations for code, infrastructure, content, SEO, and operations.
