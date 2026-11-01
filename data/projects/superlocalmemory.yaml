@@ -1,0 +1,4 @@
+name: SuperLocalMemory
+repo: https://github.com/qualixar/superlocalmemory
+tagline: The governed memory brain for every AI agent. It lives on your machine.
+description: Local-first memory for AI agents, added to OpenCode as an MCP server in opencode.json. It recalls what was saved, keeps it true over time, and answers that it does not have the answer instead of guessing.
