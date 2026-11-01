@@ -1,0 +1,9 @@
+name: Open Walnut
+repo: https://github.com/EvanZhang008/open-walnut
+tagline: Self-hosted web console that runs OpenCode next to Claude Code and Codex, every session in one page
+description: A local daemon starts OpenCode over ACP (`opencode acp`) and owns the session, so it keeps going when you close the browser. One page, phone included, shows every OpenCode, Claude Code and Codex session and which ones wait for you, with tasks and notes alongside. Claude Code sessions also get a per-session diff and can run on remote dev boxes over SSH. MIT.
+tags:
+  - web-ui
+  - self-hosted
+  - multi-agent
+  - acp
