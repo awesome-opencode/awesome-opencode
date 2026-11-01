@@ -1,0 +1,29 @@
+name: "@aerovato/operator-memory"
+repo: https://github.com/aerovato/operator-memory
+tagline: Durable context for agent-driven development
+description: >-
+  Operator Memory gives the agent durable memory made of ordinary Markdown:
+  specs, decisions, standards, and research, kept across private, shared, and user partitions.
+  Every file is yours to read, correct, or remove, and new sessions start from that knowledge.
+  No embeddings, no vector database, no hosted service.
+scope:
+  - global
+  - project
+tags:
+  - memory
+  - context
+  - documentation
+  - markdown
+homepage: https://www.npmjs.com/package/@aerovato/operator-opencode
+installation: |
+  Install the Helper globally:
+
+  ```sh
+  npm install --global @aerovato/operator-helper
+  ```
+
+  Then install the plugin for OpenCode:
+
+  ```sh
+  operator-helper install opencode
+  ```
