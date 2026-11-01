@@ -1,0 +1,10 @@
+name: showagent
+repo: https://github.com/aytzey/showagent
+tagline: Browse OpenCode history and copy conversation messages between coding agents.
+description: >-
+  A terminal picker, CLI, and MCP server for local coding-agent sessions.
+  Browse OpenCode sessions alongside Codex, Claude Code, Gemini CLI, jcode,
+  and Pi; preview message transfers and create new native sessions.
+  OpenCode operations use the installed OpenCode CLI. Transfers preserve
+  original sessions and copy extracted user and assistant messages,
+  excluding tool and runtime state.
