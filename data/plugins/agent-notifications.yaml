@@ -1,0 +1,4 @@
+name: Agent Notifications
+repo: https://github.com/777genius/agent-notifications
+tagline: Desktop and webhook alerts for OpenCode sessions
+description: Desktop and optional webhook notifications for OpenCode root-session completion, questions, permissions, and errors on macOS, Linux, and Windows.
