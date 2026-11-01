@@ -2909,6 +2909,24 @@
     "tags": []
   },
   {
+    "productId": "heym",
+    "type": "projects",
+    "displayName": "Heym",
+    "repoUrl": "https://github.com/heymrun/heym",
+    "tagline": "Visual AI workflows with OpenCode coding agents and Go usage tracking",
+    "description": "Heym is a source available AI workflow platform you can self host. Its OpenCode Go node runs the OpenCode CLI against GitHub repositories and can return patches or open pull requests. It also provides native OpenCode Go credentials, live model selection, and subscription usage tracking.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "workflows",
+      "automation",
+      "coding-agents",
+      "self-hosted"
+    ],
+    "homepageUrl": "https://heym.run/"
+  },
+  {
     "productId": "hipocampo",
     "type": "projects",
     "displayName": "Hipocampo",
@@ -3492,6 +3510,18 @@
     "repoUrl": "https://github.com/johannesjo/parallel-code",
     "tagline": "Orchestrate multiple AI coding agents simultaneously",
     "description": "Desktop app for orchestrating multiple AI coding agents (Claude Code, Codex CLI, Gemini CLI) simultaneously in isolated git worktrees. Run agents in parallel, each in their own branch, and merge results when ready.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "qualitylayer",
+    "type": "projects",
+    "displayName": "QualityLayer",
+    "repoUrl": "https://github.com/maxritter/qualitylayer",
+    "tagline": "Puts the engineer back in the loop of your coding agent, OpenCode included. You approve the plan before code exists.",
+    "description": "Even the best coding models don't build software like an experienced engineer. QualityLayer puts the engineer back in the loop of your coding agent, and it works with OpenCode. Each change goes through Discuss, Research, Plan, Outline, Implement, Verify and Review. You approve the plan before any code exists. The agent builds it in test-first slices. An agent that did not write the code checks the finished change against every agreed point, with evidence. Then you approve the change, and it opens the pull request. Plans and evidence are Markdown files in your repo.",
     "scope": [
       "global"
     ],

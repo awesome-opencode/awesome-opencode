@@ -2153,6 +2153,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>Heym</b> <img src="https://badgen.net/github/stars/heymrun/heym" height="14"/> - <i>Visual AI workflows with OpenCode coding agents and Go usage tracking</i></summary>
+  <blockquote>
+    Heym is a source available AI workflow platform you can self host. Its OpenCode Go node runs the OpenCode CLI against GitHub repositories and can return patches or open pull requests. It also provides native OpenCode Go credentials, live model selection, and subscription usage tracking.
+    <br><br>
+    <a href="https://github.com/heymrun/heym">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Hipocampo</b> <img src="https://badgen.net/github/stars/carrasquelalex1/hipocampo" height="14"/> - <i>Dual memory system with BIRE search for AI agents</i></summary>
   <blockquote>
     A dual-memory system (PostgreSQL + pgvector + Gemini Embeddings) for AI coding agents. Implements the BIRE algorithm (Búsqueda Integrada por Relevancia Expansiva) — unified semantic + lexical search with auto-tagging, hybrid scoring, GIN trigram indexes, and cross-system 768d embeddings. Ships as an opencode skill with SKILL.md, Python scripts, and full DDL schema.
@@ -2552,6 +2561,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     Desktop app for orchestrating multiple AI coding agents (Claude Code, Codex CLI, Gemini CLI) simultaneously in isolated git worktrees. Run agents in parallel, each in their own branch, and merge results when ready.
     <br><br>
     <a href="https://github.com/johannesjo/parallel-code">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>QualityLayer</b> <img src="https://badgen.net/github/stars/maxritter/qualitylayer" height="14"/> - <i>Puts the engineer back in the loop of your coding agent, OpenCode included. You approve the plan before code exists.</i></summary>
+  <blockquote>
+    Even the best coding models don't build software like an experienced engineer. QualityLayer puts the engineer back in the loop of your coding agent, and it works with OpenCode. Each change goes through Discuss, Research, Plan, Outline, Implement, Verify and Review. You approve the plan before any code exists. The agent builds it in test-first slices. An agent that did not write the code checks the finished change against every agreed point, with evidence. Then you approve the change, and it opens the pull request. Plans and evidence are Markdown files in your repo.
+    <br><br>
+    <a href="https://github.com/maxritter/qualitylayer">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
