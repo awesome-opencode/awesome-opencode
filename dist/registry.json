@@ -1105,6 +1105,18 @@
     "homepageUrl": "https://github.com/DJOCKER-FACE/opencode-chromium-browser-plugin"
   },
   {
+    "productId": "opencode-claude-code-plugin",
+    "type": "plugins",
+    "displayName": "OpenCode Claude Code Plugin",
+    "repoUrl": "https://github.com/khalilgharbaoui/opencode-claude-code-plugin",
+    "tagline": "Claude models through the official Claude Code CLI, using the login you already have",
+    "description": "Runs Anthropic's Claude models in opencode through the official claude CLI as a subprocess, so opencode uses whatever the CLI is logged in as and no token is ever read or replayed. Bash, Edit and Write are proxied back to opencode's own permissions, with several accounts, per-subagent models, and one package for opencode 1.x and 2.x.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-claude-memory",
     "type": "plugins",
     "displayName": "OpenCode Claude Memory",
@@ -2296,6 +2308,18 @@
     "homepageUrl": "https://www.aionui.com"
   },
   {
+    "productId": "ax",
+    "type": "projects",
+    "displayName": "ax",
+    "repoUrl": "https://github.com/Necmttn/ax",
+    "tagline": "Local telemetry graph for AI coding agents",
+    "description": "Local-first telemetry and taste graph for AI coding agents. Ingests OpenCode, Claude Code, Codex, Cursor, and Pi session data plus OTLP, then exposes recall, cost, skill/hook usage, churn, and workflow-extraction views through a CLI, dashboard, and MCP server.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "beads",
     "type": "projects",
     "displayName": "Beads",
@@ -2574,6 +2598,18 @@
     "repoUrl": "https://github.com/persiyanov/herdr-reviewr",
     "tagline": "Review your coding agent's diff in a terminal pane and send line comments back to OpenCode",
     "description": "A terminal code-review pane that runs beside OpenCode in herdr. Read the agent's diff, comment on lines or ranges, and send the comments straight back to the agent's input. Also works with Claude Code, Codex and Pi.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "hexis",
+    "type": "projects",
+    "displayName": "Hexis",
+    "repoUrl": "https://github.com/Bevel-Software/Hexis",
+    "tagline": "Git-backed skills, tools, and context for OpenCode",
+    "description": "Manages shared agent skills, tool access, and context in Git, then makes approved resources available to OpenCode through a remote OAuth MCP connection.",
     "scope": [
       "global"
     ],

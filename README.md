@@ -716,6 +716,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
 </details>
 
 <details>
+  <summary><b>OpenCode Claude Code Plugin</b> <img src="https://badgen.net/github/stars/khalilgharbaoui/opencode-claude-code-plugin" height="14"/> - <i>Claude models through the official Claude Code CLI, using the login you already have</i></summary>
+  <blockquote>
+    Runs Anthropic's Claude models in opencode through the official claude CLI as a subprocess, so opencode uses whatever the CLI is logged in as and no token is ever read or replayed. Bash, Edit and Write are proxied back to opencode's own permissions, with several accounts, per-subagent models, and one package for opencode 1.x and 2.x.
+    <br><br>
+    <a href="https://github.com/khalilgharbaoui/opencode-claude-code-plugin">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OpenCode Claude Memory</b> <img src="https://badgen.net/github/stars/kuitos/opencode-claude-memory" height="14"/> - <i>Claude Code-compatible memory</i></summary>
   <blockquote>
     Share persistent Markdown memory between OpenCode and Claude Code using Claude Code-compatible paths and file formats.
@@ -1763,6 +1772,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>ax</b> <img src="https://badgen.net/github/stars/Necmttn/ax" height="14"/> - <i>Local telemetry graph for AI coding agents</i></summary>
+  <blockquote>
+    Local-first telemetry and taste graph for AI coding agents. Ingests OpenCode, Claude Code, Codex, Cursor, and Pi session data plus OTLP, then exposes recall, cost, skill/hook usage, churn, and workflow-extraction views through a CLI, dashboard, and MCP server.
+    <br><br>
+    <a href="https://github.com/Necmttn/ax">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Beads</b> <img src="https://badgen.net/github/stars/steveyegge/beads" height="14"/> - <i>Project task management</i></summary>
   <blockquote>
     Steve Yegge's project/task management system for agents (with beads_viewer UI).
@@ -1948,6 +1966,15 @@ Also available for bat and Ghostty in the same repository.
     A terminal code-review pane that runs beside OpenCode in herdr. Read the agent's diff, comment on lines or ranges, and send the comments straight back to the agent's input. Also works with Claude Code, Codex and Pi.
     <br><br>
     <a href="https://github.com/persiyanov/herdr-reviewr">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Hexis</b> <img src="https://badgen.net/github/stars/Bevel-Software/Hexis" height="14"/> - <i>Git-backed skills, tools, and context for OpenCode</i></summary>
+  <blockquote>
+    Manages shared agent skills, tool access, and context in Git, then makes approved resources available to OpenCode through a remote OAuth MCP connection.
+    <br><br>
+    <a href="https://github.com/Bevel-Software/Hexis">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
