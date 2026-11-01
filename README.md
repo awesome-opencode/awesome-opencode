@@ -458,6 +458,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
 </details>
 
 <details>
+  <summary><b>Mem0 OpenCode Plugin</b> <img src="https://badgen.net/github/stars/mem0ai/mem0" height="14"/> - <i>Persistent memory plugin so your agent remembers across sessions</i></summary>
+  <blockquote>
+    OpenCode plugin that gives your agent persistent memory powered by Mem0. Includes 9 MCP memory tools, 16 slash commands, and lifecycle hooks that auto-capture decisions, search prior context at session start, and pre-fetch error memories on failures. Install with `opencode plugin @mem0/opencode-plugin`.
+    <br><br>
+    <a href="https://github.com/mem0ai/mem0">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Micode</b> <img src="https://badgen.net/github/stars/vtemian/micode" height="14"/> - <i>Brainstorm-Plan-Implement workflow</i></summary>
   <blockquote>
     Structured workflow with session continuity, subagent orchestration, git worktree isolation, and AST-aware tools.
@@ -1157,6 +1166,15 @@ suggestions. All processing stays local by default — no data leaves the machin
 </details>
 
 <details>
+  <summary><b>Superpowers</b> <img src="https://badgen.net/github/stars/obra/superpowers" height="14"/> - <i>Complete software development methodology with composable skills for coding agents</i></summary>
+  <blockquote>
+    Gives your coding agent a structured methodology - brainstorm specs, write plans, run TDD, dispatch subagents, and review work. Skills trigger automatically across Claude Code, OpenCode, Codex, Gemini CLI, Cursor, and GitHub Copilot CLI.
+    <br><br>
+    <a href="https://github.com/obra/superpowers">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Swarm Plugin</b> <img src="https://badgen.net/github/stars/joelhooks/opencode-swarm-plugin" height="14"/> - <i>Swarm intelligence</i></summary>
   <blockquote>
     Swarm plugin for opencode enabling swarm-based agent coordination.
@@ -1542,6 +1560,15 @@ Also available for bat and Ghostty in the same repository.
     Local-first Bubble Tea TUI and report CLI for inspecting OpenCode and other AI coding-agent logs with cost, tokens, latency, tool failures, anomalies, health gates, diffs, and reports.
     <br><br>
     <a href="https://github.com/luoyuctl/agenttrace">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>AionUi</b> <img src="https://badgen.net/github/stars/iOfficeAI/AionUi" height="14"/> - <i>Free, open-source multi-agent desktop client that gives OpenCode (and other CLIs) a GUI.</i></summary>
+  <blockquote>
+    Cross-platform (macOS/Windows/Linux) desktop app that wraps OpenCode and other agent CLIs in a chat-based GUI. Supports any API key and multiple LLM providers with API-key polling, multi-session and multi-agent workflows, MCP and ACP protocols, file management and preview, code diff view, scheduled tasks, local data storage, and remote WebUI access.
+    <br><br>
+    <a href="https://github.com/iOfficeAI/AionUi">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

@@ -618,6 +618,18 @@
     "tags": []
   },
   {
+    "productId": "mem0",
+    "type": "plugins",
+    "displayName": "Mem0 OpenCode Plugin",
+    "repoUrl": "https://github.com/mem0ai/mem0",
+    "tagline": "Persistent memory plugin so your agent remembers across sessions",
+    "description": "OpenCode plugin that gives your agent persistent memory powered by Mem0. Includes 9 MCP memory tools, 16 slash commands, and lifecycle hooks that auto-capture decisions, search prior context at session start, and pre-fetch error memories on failures. Install with `opencode plugin @mem0/opencode-plugin`.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "micode",
     "type": "plugins",
     "displayName": "Micode",
@@ -1673,6 +1685,18 @@
     "tags": []
   },
   {
+    "productId": "superpowers",
+    "type": "plugins",
+    "displayName": "Superpowers",
+    "repoUrl": "https://github.com/obra/superpowers",
+    "tagline": "Complete software development methodology with composable skills for coding agents",
+    "description": "Gives your coding agent a structured methodology - brainstorm specs, write plans, run TDD, dispatch subagents, and review work. Skills trigger automatically across Claude Code, OpenCode, Codex, Gemini CLI, Cursor, and GitHub Copilot CLI.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "swarm-plugin",
     "type": "plugins",
     "displayName": "Swarm Plugin",
@@ -1955,6 +1979,25 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "aionui",
+    "type": "projects",
+    "displayName": "AionUi",
+    "repoUrl": "https://github.com/iOfficeAI/AionUi",
+    "tagline": "Free, open-source multi-agent desktop client that gives OpenCode (and other CLIs) a GUI.",
+    "description": "Cross-platform (macOS/Windows/Linux) desktop app that wraps OpenCode and other agent CLIs in a chat-based GUI. Supports any API key and multiple LLM providers with API-key polling, multi-session and multi-agent workflows, MCP and ACP protocols, file management and preview, code diff view, scheduled tasks, local data storage, and remote WebUI access.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "gui",
+      "desktop",
+      "client",
+      "multi-agent",
+      "cross-platform"
+    ],
+    "homepageUrl": "https://www.aionui.com"
   },
   {
     "productId": "beads",
