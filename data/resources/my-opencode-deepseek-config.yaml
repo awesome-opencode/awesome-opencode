@@ -1,0 +1,22 @@
+name: my-opencode-deepseek-config
+repo: https://github.com/znlgis/my-opencode-deepseek-config
+tagline: Optimal DeepSeek V4 dual-model config — 11 agents, 15 skills, 25 commands
+description: >
+  A pure-config, zero-dependency OpenCode configuration optimized for DeepSeek V4
+  dual-model (Pro + Flash). Includes an orchestrator with 17 intent-gate patterns,
+  delegation decision table, and cost-aware routing; 11 specialized subagents
+  (planner, deep-worker, oracle, reviewer, consultant, ui-builder, explore,
+  librarian, light-orchestrator, generalist); 15 on-demand skills (code-review,
+  spec-workflow, deepwork, reflect, and more); and 25 slash commands. Designed
+  for maximum token efficiency with model-isolated routing, background dispatch,
+  read-only isolation for analysis agents, and execution-only discipline for
+  worker agents. Iterated across 14 versions, continuously incorporating best
+  practices from 6 upstream reference projects.
+scope:
+  - global
+tags:
+  - config
+  - deepseek
+  - agents
+  - skills
+  - token-efficient
