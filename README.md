@@ -926,6 +926,15 @@ startup.
 </details>
 
 <details>
+  <summary><b>OpenCode Pollinations Plugin</b> <img src="https://badgen.net/github/stars/fkom13/opencode-pollinations-plugin" height="14"/> - <i>Full Pollinations.ai integration — free unlimited AI models, 17+ multimodal tools, hourly free tiers & Safety Net.</i></summary>
+  <blockquote>
+    The ultimate bridge between OpenCode and the Pollinations.ai ecosystem. Access 30+ free and enterprise AI models (OpenAI, Gemini, Mistral, Claude...) with hourly Pollen resets. Includes 17+ agent tools (image, video, audio, music generation, background removal, web search, transcription, QR codes, diagrams). Features a robust Safety Net with auto-fallback, Cost Guard for agent spending control, API Explorer V4, and full i18n support (EN/FR/ES/DE/IT/ZH). ~20K NPM downloads, cross-platform (Windows/macOS/Linux).
+    <br><br>
+    <a href="https://github.com/fkom13/opencode-pollinations-plugin">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OpenCode Provider Alias</b> <img src="https://badgen.net/github/stars/baranwang/opencode-provider-alias" height="14"/> - <i>Alias and curate OpenCode providers with model metadata from models.dev.</i></summary>
   <blockquote>
     Lets users define local OpenCode provider and model aliases hydrated from existing models.dev metadata.
