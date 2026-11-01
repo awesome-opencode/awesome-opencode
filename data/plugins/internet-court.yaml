@@ -1,0 +1,15 @@
+name: Internet Court
+repo: https://github.com/internet-court/internet-court-skill
+tagline: "Trust layer for agent-to-agent commerce: mandates, payments, escrow, dispute resolution."
+description: The trust layer for agent-to-agent commerce — natural-language mandates, delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all skill. By the Internet Court Consortium (internetcourt.org). MIT licensed.
+homepage: https://internetcourt.org
+tags:
+  - agent-payments
+  - x402
+  - erc-7710
+  - erc-8004
+  - escrow
+  - genlayer
+  - dispute-resolution
+  - a2a
+  - agentic-commerce
