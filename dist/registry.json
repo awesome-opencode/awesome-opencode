@@ -2032,6 +2032,18 @@
     "tags": []
   },
   {
+    "productId": "rehydra",
+    "type": "plugins",
+    "displayName": "Rehydra",
+    "repoUrl": "https://github.com/rehydra-ai/rehydra-sdk",
+    "tagline": "Prevent your coding agent from leaking secrets to LLM providers",
+    "description": "Intercepts the conversation between OpenCode and the LLM, replacing secrets from .env files and detected API keys, tokens, and credentials with placeholders before they leave your machine. Secrets are transparently restored before any tool executes locally. Supports pattern-based detection for Stripe, OpenAI, AWS, GitHub, Slack, and more.\n",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "ring-a-bell-example",
     "type": "plugins",
     "displayName": "Ring a Bell Example",
@@ -3678,6 +3690,18 @@
     ],
     "tags": [],
     "homepageUrl": "https://self-host.fyi"
+  },
+  {
+    "productId": "showagent",
+    "type": "projects",
+    "displayName": "showagent",
+    "repoUrl": "https://github.com/aytzey/showagent",
+    "tagline": "Browse OpenCode history and copy conversation messages between coding agents.",
+    "description": "A terminal picker, CLI, and MCP server for local coding-agent sessions. Browse OpenCode sessions alongside Codex, Claude Code, Gemini CLI, jcode, and Pi; preview message transfers and create new native sessions. OpenCode operations use the installed OpenCode CLI. Transfers preserve original sessions and copy extracted user and assistant messages, excluding tool and runtime state.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
   },
   {
     "productId": "squirrelscan",

@@ -1323,6 +1323,16 @@ suggestions. All processing stays local by default — no data leaves the machin
 </details>
 
 <details>
+  <summary><b>Rehydra</b> <img src="https://badgen.net/github/stars/rehydra-ai/rehydra-sdk" height="14"/> - <i>Prevent your coding agent from leaking secrets to LLM providers</i></summary>
+  <blockquote>
+    Intercepts the conversation between OpenCode and the LLM, replacing secrets from .env files and detected API keys, tokens, and credentials with placeholders before they leave your machine. Secrets are transparently restored before any tool executes locally. Supports pattern-based detection for Stripe, OpenAI, AWS, GitHub, Slack, and more.
+
+    <br><br>
+    <a href="https://github.com/rehydra-ai/rehydra-sdk">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Research Papers</b> <img src="https://badgen.net/github/stars/saim-x/opencode-research-papers" height="14"/> - <i>Search arXiv and OpenAlex for research papers with recency and citation filtering</i></summary>
   <blockquote>
     OpenCode plugin that adds a research_papers tool for searching scholarly literature. Uses arXiv for fresh preprints and OpenAlex for broader metadata, citation counts, and open-access links. Supports filtering by latest, trending, or top-cited papers.
@@ -2651,6 +2661,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     Lets your agent install self-hosted apps on your own hardware and set them up (admin accounts, API keys, apps connected to each other), asking before each step.
     <br><br>
     <a href="https://github.com/ajnart/self-host">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>showagent</b> <img src="https://badgen.net/github/stars/aytzey/showagent" height="14"/> - <i>Browse OpenCode history and copy conversation messages between coding agents.</i></summary>
+  <blockquote>
+    A terminal picker, CLI, and MCP server for local coding-agent sessions. Browse OpenCode sessions alongside Codex, Claude Code, Gemini CLI, jcode, and Pi; preview message transfers and create new native sessions. OpenCode operations use the installed OpenCode CLI. Transfers preserve original sessions and copy extracted user and assistant messages, excluding tool and runtime state.
+    <br><br>
+    <a href="https://github.com/aytzey/showagent">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
