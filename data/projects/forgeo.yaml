@@ -1,0 +1,11 @@
+name: Forgeo
+repo: https://github.com/lucaGazzola/forgeo
+tagline: Scheduled software factory that runs your coding agent on a backlog
+description: A scheduled, agent-driven software factory for a repository. Keep a plain JSON backlog of tasks and Forgeo runs your configured coding agent (opencode, Claude Code, Codex, or any CLI) on each one, commits the result to the default branch, and runs a refactoring pass when the backlog is empty. Pauses and writes BLOCKER.md when the agent needs a human decision, with a web dashboard for every instance.
+tags:
+  - orchestration
+  - automation
+  - backlog
+  - scheduling
+  - cli
+homepage: https://forgeo.org
