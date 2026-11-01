@@ -1,0 +1,4 @@
+name: Crit
+repo: https://github.com/tomasz-tomczyk/crit
+tagline: Review OpenCode plans and diffs in a local browser UI and send comments back to the agent.
+description: Crit opens agent plans, code diffs, HTML artifacts and a running dev server in a browser review UI. You leave inline comments and they go back to the agent as structured feedback. Ships an OpenCode plugin (v1 and v2) and skills. Runs locally as a single binary.
