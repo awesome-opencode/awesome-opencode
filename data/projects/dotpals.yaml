@@ -1,0 +1,23 @@
+name: dotpals
+repo: https://github.com/Rikinshah787/dotpals
+tagline: A desktop pal and notch that shows what your OpenCode sessions did, in plain words
+description: >-
+  An open-source desktop companion that follows OpenCode through an OpenCode plugin and
+  integrates with Claude Code, Codex, Cursor, Gemini CLI, and Copilot CLI through their
+  respective hooks or local logs. Each request becomes a few readable
+  with a live view of the file being edited in a notch at the top of the screen, and flags
+  for .env changes, force-pushes and two agents editing the same file. Runs locally, no
+  telemetry.
+scope:
+  - global
+tags:
+  - plugin
+  - desktop
+  - activity
+  - monitoring
+  - multi-agent
+installation: |
+  ```bash
+  npx --allow-git=all github:rikinshah787/dotpals setup
+  ```
+  Then open the dashboard (`dotpals dashboard`) → **Agents** → **OpenCode** → **Connect**, which adds a small plugin to `~/.config/opencode/plugins/`. Restart OpenCode to load it.
