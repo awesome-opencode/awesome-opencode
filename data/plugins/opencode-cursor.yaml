@@ -1,0 +1,4 @@
+name: Cursor Auth
+repo: https://github.com/ephraimduncan/opencode-cursor
+tagline: Use your Cursor subscription models in OpenCode via OAuth
+description: Connects Cursor's API to OpenCode via OAuth login, automatic model discovery, and a local OpenAI-compatible proxy — use the models included in your Cursor subscription directly from OpenCode.
