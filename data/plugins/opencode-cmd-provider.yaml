@@ -1,0 +1,16 @@
+name: Opencode CMD Provider
+repo: https://github.com/rashidrazak/opencode-cmd-provider
+tagline: Use CommandCode plans (Go, GOAT, Pro, Max) as an OpenCode provider.
+description: |
+  OpenCode provider plugin for the CommandCode Provider API. Authenticate via
+  /connect browser flow or COMMANDCODE_API_KEY, auto-registers all CommandCode
+  models ([CMD] prefix) with offline snapshot, pricing display, and per-plan
+  deals/allowance intelligence in the sidebar and cmd_plan_summary tool.
+scope:
+  - global
+  - project
+tags:
+  - provider
+  - commandcode
+  - model-discovery
+  - auth
