@@ -1,0 +1,4 @@
+name: QualityLayer
+repo: https://github.com/maxritter/qualitylayer
+tagline: "Puts the engineer back in the loop of your coding agent, OpenCode included. You approve the plan before code exists."
+description: Even the best coding models don't build software like an experienced engineer. QualityLayer puts the engineer back in the loop of your coding agent, and it works with OpenCode. Each change goes through Discuss, Research, Plan, Outline, Implement, Verify and Review. You approve the plan before any code exists. The agent builds it in test-first slices. An agent that did not write the code checks the finished change against every agreed point, with evidence. Then you approve the change, and it opens the pull request. Plans and evidence are Markdown files in your repo.
