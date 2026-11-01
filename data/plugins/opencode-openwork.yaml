@@ -1,0 +1,16 @@
+name: OpenWork for OpenCode
+repo: https://github.com/different-ai/openwork/tree/dev/packages/opencode-plugin
+tagline: Official OpenWork plugin to deploy AI models, skills, and MCPs to your team's OpenCode
+description: >-
+  The official plugin from OpenWork. Centrally deploy AI models, skills, and
+  MCP servers to your whole team. Admins add a model provider, skill, or MCP
+  connection once and choose who gets it; everyone receives it in OpenCode
+  after a single sign-in. No shared API keys, no copying MCP configs between
+  machines, and access changes apply on the next refresh. Works without the
+  OpenWork desktop app.
+homepage: https://openworklabs.com/docs/model-context-protocol/opencode-plugin
+installation: |-
+  Requires OpenCode 2.
+
+  `opencode plugin add opencode-openwork`
+  `opencode auth login openwork`
