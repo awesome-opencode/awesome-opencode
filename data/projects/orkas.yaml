@@ -1,0 +1,4 @@
+name: Orkas
+repo: https://github.com/Orkas-AI/Orkas
+tagline: Local-first multi-agent desktop workspace with OpenCode orchestration
+description: Orkas is an open-source desktop AI workforce whose Commander coordinates specialist agents and can run OpenCode alongside Claude Code, Codex, and Cline from one chat. Conversations, files, agent configurations, and model keys stay local.
