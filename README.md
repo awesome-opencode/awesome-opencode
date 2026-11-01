@@ -215,6 +215,20 @@
 </details>
 
 <details>
+  <summary><b>deja</b> <img src="https://badgen.net/github/stars/vshulcz/deja-vu" height="14"/> - <i>Recall what you already did in your other coding agents</i></summary>
+  <blockquote>
+    opencode remembers its own sessions. deja answers the other question: what you did in Claude Code, Codex, Cursor, Gemini CLI, Zed and fifteen more agents on this machine — including the months before you installed anything.
+
+A local Go binary indexes the transcripts those agents already wrote to disk, and the plugin gives the model six tools over that index: recall past sessions by error or symbol, read the digest of one session, see which sessions discussed a file before you edit it, ask what this machine actually ran after a given error, and store a decision worth keeping. Recall also arrives unasked — once per session on the system prompt, and a relevance pass per prompt that stays silent when history has no answer.
+
+BM25 over local files. No LLM, no embeddings, no network. Credentials are redacted at index time.
+
+    <br><br>
+    <a href="https://github.com/vshulcz/deja-vu">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Devcontainers</b> <img src="https://badgen.net/github/stars/athal7/opencode-devcontainers" height="14"/> - <i>Multi-branch devcontainers</i></summary>
   <blockquote>
     Plugin for running multiple devcontainer instances with auto-assigned ports and branch-based isolation.
@@ -1663,6 +1677,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>Crit</b> <img src="https://badgen.net/github/stars/tomasz-tomczyk/crit" height="14"/> - <i>Review OpenCode plans and diffs in a local browser UI and send comments back to the agent.</i></summary>
+  <blockquote>
+    Crit opens agent plans, code diffs, HTML artifacts and a running dev server in a browser review UI. You leave inline comments and they go back to the agent as structured feedback. Ships an OpenCode plugin (v1 and v2) and skills. Runs locally as a single binary.
+    <br><br>
+    <a href="https://github.com/tomasz-tomczyk/crit">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Cupcake</b> <img src="https://badgen.net/github/stars/eqtylab/cupcake" height="14"/> - <i>Policy enforcement layer</i></summary>
   <blockquote>
     A native policy-layer for AI coding agents built on OPA/Rego with native OpenCode plugin support.
@@ -2080,6 +2103,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     A feature-rich opencode fork with dual-interface (TUI terminal + GUI desktop), built-in MCP ecosystem (CodeGraph, TypeGraph, jCodeMunch, Browser, Vision, Web Search), automated memory system, AI personality system, skill extensions, and 3-tier permission guardrails. Privacy-first design with personal data fully separated from public templates.
     <br><br>
     <a href="https://github.com/JiaHuiRed/RedCode">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>self-host</b> <img src="https://badgen.net/github/stars/ajnart/self-host" height="14"/> - <i>Lets your agent install self-hosted apps and set them up, asking before each step.</i></summary>
+  <blockquote>
+    Lets your agent install self-hosted apps on your own hardware and set them up (admin accounts, API keys, apps connected to each other), asking before each step.
+    <br><br>
+    <a href="https://github.com/ajnart/self-host">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

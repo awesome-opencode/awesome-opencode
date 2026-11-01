@@ -312,6 +312,25 @@
     "tags": []
   },
   {
+    "productId": "deja",
+    "type": "plugins",
+    "displayName": "deja",
+    "repoUrl": "https://github.com/vshulcz/deja-vu",
+    "tagline": "Recall what you already did in your other coding agents",
+    "description": "opencode remembers its own sessions. deja answers the other question: what you did in Claude Code, Codex, Cursor, Gemini CLI, Zed and fifteen more agents on this machine — including the months before you installed anything.\n\nA local Go binary indexes the transcripts those agents already wrote to disk, and the plugin gives the model six tools over that index: recall past sessions by error or symbol, read the digest of one session, see which sessions discussed a file before you edit it, ask what this machine actually ran after a given error, and store a decision worth keeping. Recall also arrives unasked — once per session on the system prompt, and a relevance pass per prompt that stays silent when history has no answer.\n\nBM25 over local files. No LLM, no embeddings, no network. Credentials are redacted at index time.\n",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "memory",
+      "recall",
+      "search",
+      "cross-agent",
+      "session-history"
+    ],
+    "installation": "```json\n{\n  \"$schema\": \"https://opencode.ai/config.json\",\n  \"plugin\": [\"opencode-deja\"]\n}\n```\n\nThen index once: `deja index`. The plugin ships the binary, but a deja you installed yourself (`brew install vshulcz/tap/deja-vu`, `go install`, or the install script) always wins.\n"
+  },
+  {
     "productId": "devcontainers",
     "type": "plugins",
     "displayName": "Devcontainers",
@@ -2142,6 +2161,18 @@
     "tags": []
   },
   {
+    "productId": "crit",
+    "type": "projects",
+    "displayName": "Crit",
+    "repoUrl": "https://github.com/tomasz-tomczyk/crit",
+    "tagline": "Review OpenCode plans and diffs in a local browser UI and send comments back to the agent.",
+    "description": "Crit opens agent plans, code diffs, HTML artifacts and a running dev server in a browser review UI. You leave inline comments and they go back to the agent as structured feedback. Ships an OpenCode plugin (v1 and v2) and skills. Runs locally as a single binary.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "cupcake",
     "type": "projects",
     "displayName": "Cupcake",
@@ -2741,6 +2772,19 @@
       "memory",
       "ai-agent"
     ]
+  },
+  {
+    "productId": "self-host",
+    "type": "projects",
+    "displayName": "self-host",
+    "repoUrl": "https://github.com/ajnart/self-host",
+    "tagline": "Lets your agent install self-hosted apps and set them up, asking before each step.",
+    "description": "Lets your agent install self-hosted apps on your own hardware and set them up (admin accounts, API keys, apps connected to each other), asking before each step.",
+    "scope": [
+      "global"
+    ],
+    "tags": [],
+    "homepageUrl": "https://self-host.fyi"
   },
   {
     "productId": "supamem",
