@@ -2444,6 +2444,25 @@
     "tags": []
   },
   {
+    "productId": "agent-sessions",
+    "type": "projects",
+    "displayName": "Agent Sessions",
+    "repoUrl": "https://github.com/jazzyalex/agent-sessions",
+    "tagline": "Local OpenCode session-history browser",
+    "description": "Local-first macOS app for browsing and full-text searching OpenCode session history. It reads local OpenCode SQLite history in read-only mode, opens old runs as readable timelines, and can resume sessions where the OpenCode CLI supports it.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "session-history",
+      "transcript-search",
+      "macos",
+      "gui",
+      "sqlite"
+    ],
+    "homepageUrl": "https://jazzyalex.github.io/agent-sessions"
+  },
+  {
     "productId": "agent-teams",
     "type": "projects",
     "displayName": "Agent Teams AI",
@@ -2615,6 +2634,18 @@
     ],
     "homepageUrl": "https://callmemcp.com",
     "installation": "Install the /call-me iPhone app and open My Number. Then add the remote MCP server to `opencode.json` (or `~/.config/opencode/opencode.json`):\n```json\n{\n  \"mcp\": {\n    \"call-me\": {\n      \"type\": \"remote\",\n      \"url\": \"https://callmemcp.com/mcp\",\n      \"enabled\": true\n    }\n  }\n}\n```\nTell the agent your 10-digit /call-me number, or ask it to call the `setup` tool.\n"
+  },
+  {
+    "productId": "calyx",
+    "type": "projects",
+    "displayName": "Calyx",
+    "repoUrl": "https://github.com/yuuichieguchi/Calyx",
+    "tagline": "Native macOS terminal for running and supervising OpenCode and other coding agents in parallel",
+    "description": "Calyx is an MIT-licensed native macOS terminal built on libghostty. It runs OpenCode alongside Claude Code, Codex, Hermes, Grok, and pi in parallel panes, shows each agent's status and subagents in a sidebar, lets you review diffs and send line comments back to the OpenCode pane, and provides a built-in MCP server for cross-pane messaging.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
   },
   {
     "productId": "caprock",
@@ -3514,6 +3545,28 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "ppt-design-skill",
+    "type": "projects",
+    "displayName": "PPT Design Skill",
+    "repoUrl": "https://github.com/sunchaokun/PPT-Design-Skill",
+    "tagline": "One-liner PPT generation 鈥?40,000+ styles, AI images, fully editable .pptx",
+    "description": "AI-powered PPT generation skill for OpenCode, Claude Code, Codex, Cursor, and 13+ AI coding platforms. Three modes: FreeStyle (one-liner quick generation), Build Script (pixel-perfect delivery with python-pptx), and VI Build (enterprise template compliance). Features 40,000+ style combinations via natural language (--style \"dark cyberpunk\"), 5 AI image engines (Seedream/GPT Image/DALL-E/Wanx/Kimi), 10 diagram types, 28 design quality upgrades, advanced effects (3D shapes, gradient text, frosted glass, morph transitions), and CJK font support. Outputs fully editable .pptx files directly 鈥?356x faster than HTML-to-screenshot approaches. Includes a component library with 5,500+ SmartArt/GroupShape templates and one-command installation for all platforms.",
+    "scope": [
+      "project",
+      "global"
+    ],
+    "tags": [
+      "ppt",
+      "presentation",
+      "design",
+      "python-pptx",
+      "ai-images",
+      "skill",
+      "productivity",
+      "diagram"
+    ]
   },
   {
     "productId": "qualitylayer",

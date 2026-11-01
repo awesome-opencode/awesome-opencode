@@ -1838,6 +1838,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>Agent Sessions</b> <img src="https://badgen.net/github/stars/jazzyalex/agent-sessions" height="14"/> - <i>Local OpenCode session-history browser</i></summary>
+  <blockquote>
+    Local-first macOS app for browsing and full-text searching OpenCode session history. It reads local OpenCode SQLite history in read-only mode, opens old runs as readable timelines, and can resume sessions where the OpenCode CLI supports it.
+    <br><br>
+    <a href="https://github.com/jazzyalex/agent-sessions">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Agent Teams AI</b> <img src="https://badgen.net/github/stars/777genius/agent-teams-ai" height="14"/> - <i>Multi-team control plane for OpenCode and other coding agents</i></summary>
   <blockquote>
     Open-source orchestration platform for autonomous coding-agent teams with first-class OpenCode support. Agents manage Kanban tasks, message each other, review work, and coordinate across teams while users steer with high-level commands. Also supports Codex, Claude Code, Cursor, Grok, GitHub Copilot, Kiro, and other providers.
@@ -1960,6 +1969,15 @@ Also available for bat and Ghostty in the same repository.
     Launch OpenCode, VSCode, Claude Code, or any command in a macOS sandbox (sandbox-exec). Dynamically blocks access to everything except the project directory — no containers, no VMs, just one command.
     <br><br>
     <a href="https://github.com/holtwick/bx-mac">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Calyx</b> <img src="https://badgen.net/github/stars/yuuichieguchi/Calyx" height="14"/> - <i>Native macOS terminal for running and supervising OpenCode and other coding agents in parallel</i></summary>
+  <blockquote>
+    Calyx is an MIT-licensed native macOS terminal built on libghostty. It runs OpenCode alongside Claude Code, Codex, Hermes, Grok, and pi in parallel panes, shows each agent's status and subagents in a sidebar, lets you review diffs and send line comments back to the OpenCode pane, and provides a built-in MCP server for cross-pane messaging.
+    <br><br>
+    <a href="https://github.com/yuuichieguchi/Calyx">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -2561,6 +2579,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     Desktop app for orchestrating multiple AI coding agents (Claude Code, Codex CLI, Gemini CLI) simultaneously in isolated git worktrees. Run agents in parallel, each in their own branch, and merge results when ready.
     <br><br>
     <a href="https://github.com/johannesjo/parallel-code">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>PPT Design Skill</b> <img src="https://badgen.net/github/stars/sunchaokun/PPT-Design-Skill" height="14"/> - <i>One-liner PPT generation 鈥?40,000+ styles, AI images, fully editable .pptx</i></summary>
+  <blockquote>
+    AI-powered PPT generation skill for OpenCode, Claude Code, Codex, Cursor, and 13+ AI coding platforms. Three modes: FreeStyle (one-liner quick generation), Build Script (pixel-perfect delivery with python-pptx), and VI Build (enterprise template compliance). Features 40,000+ style combinations via natural language (--style "dark cyberpunk"), 5 AI image engines (Seedream/GPT Image/DALL-E/Wanx/Kimi), 10 diagram types, 28 design quality upgrades, advanced effects (3D shapes, gradient text, frosted glass, morph transitions), and CJK font support. Outputs fully editable .pptx files directly 鈥?356x faster than HTML-to-screenshot approaches. Includes a component library with 5,500+ SmartArt/GroupShape templates and one-command installation for all platforms.
+    <br><br>
+    <a href="https://github.com/sunchaokun/PPT-Design-Skill">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
