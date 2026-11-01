@@ -1,0 +1,20 @@
+name: CodeNomad
+repo: https://github.com/NeuralNomadsAI/CodeNomad
+tagline: Open-source desktop and mobile client for OpenCode V2, with multi-agent Missions and Remote Control
+description: A desktop (Windows, macOS, Linux) and mobile client built on the shared OpenCode service, so conversations stay available to the terminal and other clients. Missions coordinate native sessions and subagents toward an objective, including a blind, scored comparison of two models. Remote Control pairs a phone or another desktop over OpenTunnel without opening an inbound port, and agent questions and permissions stay answerable from any device. Native plugins add full-history search and timeline navigation, agents can operate browser previews to check their work, and a Files/Git panel, panel extensions and signed auto-updates complete the workspace.
+homepage: https://neuralnomadsai.github.io/CodeNomad/
+min_version: "2.1.2"
+tags:
+  - desktop
+  - mobile
+  - gui
+  - remote-control
+  - multi-agent
+installation: |
+  Download the desktop build for your platform from the
+  [latest release](https://github.com/NeuralNomadsAI/CodeNomad/releases/latest),
+  or run it as a server and open it in a browser:
+
+  ```bash
+  npx @neuralnomads/codenomad --password "your-password" --launch
+  ```
