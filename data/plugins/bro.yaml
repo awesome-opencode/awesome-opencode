@@ -1,0 +1,4 @@
+name: bro
+repo: https://github.com/luchasarie/bro-skill
+tagline: Re-explains the last reply in plain language
+description: One-file Agent Skill that re-explains the assistant's last reply (or pasted text) in plain language when it was too dense. The installer adds a `/bro` command for OpenCode (`~/.config/opencode/skills/bro/SKILL.md` plus a command wrapper); also works in Claude Code, Codex, Cursor and Hermes.
