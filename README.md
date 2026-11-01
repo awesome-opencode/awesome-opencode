@@ -269,6 +269,15 @@
 </details>
 
 <details>
+  <summary><b>Cursor Auth</b> <img src="https://badgen.net/github/stars/ephraimduncan/opencode-cursor" height="14"/> - <i>Use your Cursor subscription models in OpenCode via OAuth</i></summary>
+  <blockquote>
+    Connects Cursor's API to OpenCode via OAuth login, automatic model discovery, and a local OpenAI-compatible proxy — use the models included in your Cursor subscription directly from OpenCode.
+    <br><br>
+    <a href="https://github.com/ephraimduncan/opencode-cursor">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>deja</b> <img src="https://badgen.net/github/stars/vshulcz/deja-vu" height="14"/> - <i>Recall what you already did in your other coding agents</i></summary>
   <blockquote>
     opencode remembers its own sessions. deja answers the other question: what you did in Claude Code, Codex, Cursor, Gemini CLI, Zed and fifteen more agents on this machine — including the months before you installed anything.
@@ -2180,6 +2189,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
 </details>
 
 <details>
+  <summary><b>OrcaReplay</b> <img src="https://badgen.net/github/stars/Continuum-AI-Corp/OrcaReplay" height="14"/> - <i>Record an OpenCode run, replay it offline with the network off, fork it onto another model</i></summary>
+  <blockquote>
+    Records an OpenCode session without modifying it, then replays that run with the network off and reproduces it with the network off, or forks it from any step so the model is the only thing that changed. Because OpenCode keeps its provider origin in opencode.json rather than an environment variable, there is nothing to redirect: the adapter terminates the TLS OpenCode opened itself using a per-run CA that only the launched process trusts and that is deleted when the run ends, and your config is left untouched. Alongside the model traffic it records shell exit codes and timing, per-turn file changes and MCP calls, all on one timeline. Apache-2.0, Node 20+, and the trace format is a published spec so other readers can be written against it.
+    <br><br>
+    <a href="https://github.com/Continuum-AI-Corp/OrcaReplay">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Orkas</b> <img src="https://badgen.net/github/stars/Orkas-AI/Orkas" height="14"/> - <i>Local-first multi-agent desktop workspace with OpenCode orchestration</i></summary>
   <blockquote>
     Orkas is an open-source desktop AI workforce whose Commander coordinates specialist agents and can run OpenCode alongside Claude Code, Codex, and Cline from one chat. Conversations, files, agent configurations, and model keys stay local.
@@ -2248,6 +2266,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     Adds semantic memory (Qdrant tuned hybrid retrieval — RRF fusion of dense MiniLM + sparse BM25) and structural memory hooks to OpenCode via MCP. Ships an installer that wires `qdrant-find` / `qdrant-store` tools and a snapshot hook into your project's OpenCode config. Python 3.12+, MIT, on PyPI as `supamem`.
     <br><br>
     <a href="https://github.com/dzmitrys-dev/supamem/">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>SuperLocalMemory</b> <img src="https://badgen.net/github/stars/qualixar/superlocalmemory" height="14"/> - <i>The governed memory brain for every AI agent. It lives on your machine.</i></summary>
+  <blockquote>
+    Local-first memory for AI agents, added to OpenCode as an MCP server in opencode.json. It recalls what was saved, keeps it true over time, and answers that it does not have the answer instead of guessing.
+    <br><br>
+    <a href="https://github.com/qualixar/superlocalmemory">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
