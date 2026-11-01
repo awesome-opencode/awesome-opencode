@@ -1,0 +1,32 @@
+name: ContextStream
+repo: https://github.com/contextstream/mcp-server
+tagline: Shared project context for OpenCode, Cursor, Claude Code, Codex, and Grok via MCP
+description: >
+  Hosted MCP server that keeps coding agents on shared project context across
+  sessions and teammates. Works with OpenCode and other MCP-compatible clients.
+  Endpoint https://mcp.contextstream.io/mcp — Intelligence isn’t the bottleneck. Context is.
+homepage: https://contextstream.io
+scope:
+  - global
+tags:
+  - mcp
+  - context
+  - productivity
+  - collaboration
+installation: |
+  ## Hosted MCP (recommended)
+
+  Add to your OpenCode MCP config:
+
+  ```json
+  {
+    "mcp": {
+      "contextstream": {
+        "url": "https://mcp.contextstream.io/mcp"
+      }
+    }
+  }
+  ```
+
+  Site: https://contextstream.io
+  OSS server: https://github.com/contextstream/mcp-server
