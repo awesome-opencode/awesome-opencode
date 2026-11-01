@@ -1,0 +1,5 @@
+name: OpenCode Remote Control
+repo: https://github.com/ceociocto/opencode-remote-control
+tagline: Control OpenCode from anywhere via Telegram, Feishu, or WeChat
+description: Multi-platform remote control for OpenCode via Telegram, Feishu (Lark), and WeChat. No tunnel requirements — Feishu uses WebSocket long connection, WeChat uses official API with QR code login + long-polling. Privacy-first, all data processing happens locally. Features session management, diff preview, approve/reject, file tracking. Interactive configuration wizard with `opencode-remote config`.
+installation: npm install -g opencode-remote-control@latest && opencode-remote config

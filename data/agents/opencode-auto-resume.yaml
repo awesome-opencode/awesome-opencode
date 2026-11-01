@@ -1,0 +1,4 @@
+name: OpenCode Auto Resume
+repo: https://github.com/Mte90/opencode-auto-resume
+tagline: Automatically resume interrupted OpenCode sessions
+description: Automatically resume interrupted OpenCode sessions. Prevents lost work when sessions crash or disconnect.
