@@ -590,6 +590,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
 </details>
 
 <details>
+  <summary><b>Oh My Cassette</b> <img src="https://badgen.net/github/stars/Cassette-Editor/oh-my-cassette" height="14"/> - <i>Chat your raw clips into a finished cut</i></summary>
+  <blockquote>
+    Adds a local stdio MCP server that turns a chat message into an edited video: beat-synced cuts, auto-matched background music, subtitles, transitions, and picture-in-picture. Ingest local clips, then drive a persistent multi-turn editing thread — every turn returns a timeline delta and a contact-sheet preview, so an edit can be reviewed before anything renders. Editing and rendering run on the hosted Cassette service, which requires an account; the plugin, skills, and MCP server are MIT licensed.
+    <br><br>
+    <a href="https://github.com/Cassette-Editor/oh-my-cassette">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Oh My Opencode</b> <img src="https://badgen.net/github/stars/code-yeongyu/oh-my-opencode" height="14"/> - <i>Agents & Pre-built tools</i></summary>
   <blockquote>
     Background agents, pre-built tools (LSP/AST/MCP), curated agents, and a Claude Code compatible layer.
@@ -1904,6 +1913,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>LoopTroop</b> <img src="https://badgen.net/github/stars/looptroop-ai/LoopTroop" height="14"/> - <i>Local GUI orchestrator for autonomous AI coding using multi-model planning councils and isolated worktrees</i></summary>
+  <blockquote>
+    Local-first, open-source GUI orchestrator that runs long-running AI coding tickets end-to-end. An LLM Council plans the work, tasks are decomposed into atomic units (Beads) executed in isolated git worktrees, and a Ralph Loop recovers from errors with a fresh context. Built on OpenCode.
+    <br><br>
+    <a href="https://github.com/looptroop-ai/LoopTroop">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>MCP Voice Interface</b> <img src="https://badgen.net/github/stars/shantur/mcp-voice-interface" height="14"/> - <i>Talk to AI assistants</i></summary>
   <blockquote>
     Talk to AI assistants using your voice through a web browser. Compatible with Claude Desktop and opencode.
@@ -2386,6 +2404,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     A simple command-line tool that turns your CLI tools, like opencode, into web applications.
     <br><br>
     <a href="https://github.com/sorenisanerd/gotty">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Jev Social</b> <img src="https://badgen.net/github/stars/socai-io/jev-social" height="14"/> - <i>Browser-grounded social research with Jev and the local socai CLI</i></summary>
+  <blockquote>
+    An OpenCode-compatible Agent Skill that routes an Instagram, TikTok, or LinkedIn research goal through Jev, runs read-only searches with the user's local socai CLI and existing browser session, and returns source-linked evidence plus a Markdown report. Requires Node 20+, a current socai CLI, a browser session, and either OpenRouter Jev or a local System One-compatible endpoint.
+    <br><br>
+    <a href="https://github.com/socai-io/jev-social">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

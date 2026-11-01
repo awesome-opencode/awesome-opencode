@@ -806,6 +806,25 @@
     "tags": []
   },
   {
+    "productId": "oh-my-cassette",
+    "type": "plugins",
+    "displayName": "Oh My Cassette",
+    "repoUrl": "https://github.com/Cassette-Editor/oh-my-cassette",
+    "tagline": "Chat your raw clips into a finished cut",
+    "description": "Adds a local stdio MCP server that turns a chat message into an edited video: beat-synced cuts, auto-matched background music, subtitles, transitions, and picture-in-picture. Ingest local clips, then drive a persistent multi-turn editing thread — every turn returns a timeline delta and a contact-sheet preview, so an edit can be reviewed before anything renders. Editing and rendering run on the hosted Cassette service, which requires an account; the plugin, skills, and MCP server are MIT licensed.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "mcp",
+      "video",
+      "video-editing",
+      "media"
+    ],
+    "homepageUrl": "https://trycassette.online",
+    "installation": "```bash\ncurl -fsSL https://raw.githubusercontent.com/Cassette-Editor/oh-my-cassette/release/scripts/install_opencode.py | python3 -\n```\n\nWrites the `cassette` MCP server into `~/.config/opencode/opencode.json`, installs the\nhost-neutral skills into `~/.config/opencode/skills/`, and adds `/cassette-model` to\n`~/.config/opencode/commands/`. Re-run the same command to update. Requires Python\n3.11–3.13 on the machine and a Cassette account.\n"
+  },
+  {
     "productId": "oh-my-opencode",
     "type": "plugins",
     "displayName": "Oh My Opencode",
@@ -2504,6 +2523,25 @@
     "tags": []
   },
   {
+    "productId": "looptroop",
+    "type": "projects",
+    "displayName": "LoopTroop",
+    "repoUrl": "https://github.com/looptroop-ai/LoopTroop",
+    "tagline": "Local GUI orchestrator for autonomous AI coding using multi-model planning councils and isolated worktrees",
+    "description": "Local-first, open-source GUI orchestrator that runs long-running AI coding tickets end-to-end. An LLM Council plans the work, tasks are decomposed into atomic units (Beads) executed in isolated git worktrees, and a Ralph Loop recovers from errors with a fresh context. Built on OpenCode.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "orchestration",
+      "multi-agent",
+      "context-engineering",
+      "local-first",
+      "opencode"
+    ],
+    "homepageUrl": "https://www.looptroop.ovh/"
+  },
+  {
     "productId": "mcp-voice-interface",
     "type": "projects",
     "displayName": "MCP Voice Interface",
@@ -3205,6 +3243,24 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "jev-social",
+    "type": "resources",
+    "displayName": "Jev Social",
+    "repoUrl": "https://github.com/socai-io/jev-social",
+    "tagline": "Browser-grounded social research with Jev and the local socai CLI",
+    "description": "An OpenCode-compatible Agent Skill that routes an Instagram, TikTok, or LinkedIn research goal through Jev, runs read-only searches with the user's local socai CLI and existing browser session, and returns source-linked evidence plus a Markdown report. Requires Node 20+, a current socai CLI, a browser session, and either OpenRouter Jev or a local System One-compatible endpoint.",
+    "scope": [
+      "project"
+    ],
+    "tags": [
+      "agent-skill",
+      "social-research",
+      "browser-automation",
+      "jev"
+    ],
+    "installation": "npx skills add https://github.com/socai-io/jev-social/tree/v0.1.10/skills/jev-social --agent opencode"
   },
   {
     "productId": "kickstart-opencode",
