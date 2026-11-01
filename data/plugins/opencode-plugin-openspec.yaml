@@ -1,4 +1,0 @@
-name: OpenSpec
-repo: https://github.com/Octane0411/opencode-plugin-openspec
-tagline: Add Architecture planning and specification agent for OpenSpec
-description: An OpenCode plugin that integrates OpenSpec, providing a dedicated agent for planning and specifying software architecture.

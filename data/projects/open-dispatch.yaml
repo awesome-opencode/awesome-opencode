@@ -1,4 +1,0 @@
-name: Open Dispatch
-repo: https://github.com/bobum/open-dispatch
-tagline: Control agents from Slack, Teams, or Discord — locally or via Fly.io Sprites
-description: Bridge app connecting chat platforms (Slack/Teams/Discord) to AI coding assistants. Run agents locally or spin up isolated Fly.io Sprites for parallel execution. Supports 75+ AI providers via OpenCode, Claude CLI, real-time output streaming, session persistence, and smart message routing.

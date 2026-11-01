@@ -1,4 +1,0 @@
-name: Opencode DDEV
-repo: https://github.com/JUVOJustin/opencode-ddev
-tagline: DDEV container wrapper
-description: Wraps bash commands to execute inside the DDEV container (Docker-based PHP development environments).

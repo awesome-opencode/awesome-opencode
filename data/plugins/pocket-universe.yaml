@@ -1,4 +1,0 @@
-name: Pocket Universe
-repo: https://github.com/spoons-and-mirrors/pocket-universe
-tagline: A subagent driven pocket universe for your primary agent
-description: Async agents can be powerful, but orchestration is at best finicky; they fire and forget, orphan work, lose context, waste time... and tokens. This plugin extends the native opencode subagent paradigm to provide closed loop, resilient, async agents, blocking main thread execution. A "pocket universe". This ships with three tools creating a robust system for parallel subagents to communicate and coordinate work

@@ -1,0 +1,4 @@
+name: Godmode
+repo: https://github.com/arbazkhan971/godmode
+tagline: "Discipline layer: measure → modify → verify → keep/revert"
+description: Skill plugin with 135 skills and 7 subagents that adds a measure → modify → verify → keep/revert discipline loop to AI coding agents. Works with OpenCode alongside Claude Code, Codex, Cursor, and Gemini CLI.
