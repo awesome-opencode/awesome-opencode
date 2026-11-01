@@ -1,0 +1,16 @@
+name: PPT Design Skill
+repo: https://github.com/sunchaokun/PPT-Design-Skill
+tagline: One-liner PPT generation 鈥?40,000+ styles, AI images, fully editable .pptx
+description: "AI-powered PPT generation skill for OpenCode, Claude Code, Codex, Cursor, and 13+ AI coding platforms. Three modes: FreeStyle (one-liner quick generation), Build Script (pixel-perfect delivery with python-pptx), and VI Build (enterprise template compliance). Features 40,000+ style combinations via natural language (--style \"dark cyberpunk\"), 5 AI image engines (Seedream/GPT Image/DALL-E/Wanx/Kimi), 10 diagram types, 28 design quality upgrades, advanced effects (3D shapes, gradient text, frosted glass, morph transitions), and CJK font support. Outputs fully editable .pptx files directly 鈥?356x faster than HTML-to-screenshot approaches. Includes a component library with 5,500+ SmartArt/GroupShape templates and one-command installation for all platforms."
+tags:
+  - ppt
+  - presentation
+  - design
+  - python-pptx
+  - ai-images
+  - skill
+  - productivity
+  - diagram
+scope:
+  - project
+  - global
