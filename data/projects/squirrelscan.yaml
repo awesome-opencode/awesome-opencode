@@ -1,0 +1,15 @@
+name: squirrelscan
+repo: https://github.com/squirrelscan/squirrelscan
+tagline: Website audit CLI, MCP server and skill for coding agents (SEO, performance, security, accessibility)
+description: CLI website audit tool built for coding agents. Runs 260+ rules across SEO, performance, security, accessibility and agent experience, and hands the agent exact, source-mapped fixes. Works with OpenCode via MCP (hosted https://mcp.squirrelscan.com/mcp with OAuth, or local `squirrel mcp` over stdio) to run audits, read reports and fix findings, or via the agent-skills format with `npx skills add squirrelscan/squirrelscan`. Free local audits, GitHub Action, MIT CLI and rules.
+tags:
+  - mcp
+  - skills
+  - seo
+  - audit
+  - accessibility
+  - performance
+homepage: https://squirrelscan.com
+installation: |
+  curl -fsSL https://squirrelscan.com/install.sh | bash
+  npx skills add squirrelscan/squirrelscan
