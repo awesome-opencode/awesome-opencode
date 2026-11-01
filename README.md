@@ -1062,6 +1062,16 @@ startup.
 </details>
 
 <details>
+  <summary><b>opencode-failover</b> <img src="https://badgen.net/github/stars/bulutmuf/opencode-failover" height="14"/> - <i>Automatic API-key failover and rotation across multiple provider keys</i></summary>
+  <blockquote>
+    OpenCode plugin that automatically rotates API keys across multiple provider credentials. When a key hits a rate limit, the plugin quarantines it and switches to the next available key with zero downtime. Features weighted round-robin distribution, exponential backoff quarantine, retry-after header support, permanent disable on auth errors (401/403/402), and natural language tools for key management. Works with NVIDIA NIM, OpenRouter, Anthropic, OpenAI, and any OpenCode-compatible provider.
+
+    <br><br>
+    <a href="https://github.com/bulutmuf/opencode-failover">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>opencode-llm-proxy</b> <img src="https://badgen.net/github/stars/KochC/opencode-llm-proxy" height="14"/> - <i>OpenCode-backed API gateway with tool calling</i></summary>
   <blockquote>
     Local OpenCode plugin that exposes OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, and Gemini-compatible endpoints for any model configured in OpenCode. Supports streaming, model listing, and real tool/function calling including parallel tool calls, so tools like n8n, Open WebUI, LangChain, Continue, Zed, and coding agents can reuse the same OpenCode model setup.
@@ -2165,6 +2175,15 @@ Also available for bat and Ghostty in the same repository.
     Bridge app connecting chat platforms (Slack/Teams/Discord) to AI coding assistants. Run agents locally or spin up isolated Fly.io Sprites for parallel execution. Supports 75+ AI providers via OpenCode, Claude CLI, real-time output streaming, session persistence, and smart message routing.
     <br><br>
     <a href="https://github.com/bobum/open-dispatch">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Open Walnut</b> <img src="https://badgen.net/github/stars/EvanZhang008/open-walnut" height="14"/> - <i>Self-hosted web console that runs OpenCode next to Claude Code and Codex, every session in one page</i></summary>
+  <blockquote>
+    A local daemon starts OpenCode over ACP (`opencode acp`) and owns the session, so it keeps going when you close the browser. One page, phone included, shows every OpenCode, Claude Code and Codex session and which ones wait for you, with tasks and notes alongside. Claude Code sessions also get a per-session diff and can run on remote dev boxes over SSH. MIT.
+    <br><br>
+    <a href="https://github.com/EvanZhang008/open-walnut">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

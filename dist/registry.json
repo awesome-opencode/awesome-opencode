@@ -1229,6 +1229,18 @@
     "homepageUrl": "https://www.npmjs.com/package/@hueyexe/opencode-ensemble"
   },
   {
+    "productId": "opencode-failover",
+    "type": "plugins",
+    "displayName": "opencode-failover",
+    "repoUrl": "https://github.com/bulutmuf/opencode-failover",
+    "tagline": "Automatic API-key failover and rotation across multiple provider keys",
+    "description": "OpenCode plugin that automatically rotates API keys across multiple provider credentials. When a key hits a rate limit, the plugin quarantines it and switches to the next available key with zero downtime. Features weighted round-robin distribution, exponential backoff quarantine, retry-after header support, permanent disable on auth errors (401/403/402), and natural language tools for key management. Works with NVIDIA NIM, OpenRouter, Anthropic, OpenAI, and any OpenCode-compatible provider.\n",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-github-release",
     "type": "plugins",
     "displayName": "GitHub Release",
@@ -2903,6 +2915,23 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "open-walnut",
+    "type": "projects",
+    "displayName": "Open Walnut",
+    "repoUrl": "https://github.com/EvanZhang008/open-walnut",
+    "tagline": "Self-hosted web console that runs OpenCode next to Claude Code and Codex, every session in one page",
+    "description": "A local daemon starts OpenCode over ACP (`opencode acp`) and owns the session, so it keeps going when you close the browser. One page, phone included, shows every OpenCode, Claude Code and Codex session and which ones wait for you, with tasks and notes alongside. Claude Code sessions also get a per-session diff and can run on remote dev boxes over SSH. MIT.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "web-ui",
+      "self-hosted",
+      "multi-agent",
+      "acp"
+    ]
   },
   {
     "productId": "openchamber",
