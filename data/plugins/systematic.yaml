@@ -1,0 +1,4 @@
+name: Systematic
+repo: https://github.com/marcusrbrown/systematic
+tagline: Compound-engineering workflows for OpenCode, Pi, and Claude Code
+description: Provides brainstorm, plan, work, and review workflows as bundled skills and agents for OpenCode, Pi, and Claude Code.
