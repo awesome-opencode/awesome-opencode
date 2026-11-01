@@ -1,0 +1,4 @@
+name: Parallel Code
+repo: https://github.com/johannesjo/parallel-code
+tagline: Orchestrate multiple AI coding agents simultaneously
+description: Desktop app for orchestrating multiple AI coding agents (Claude Code, Codex CLI, Gemini CLI) simultaneously in isolated git worktrees. Run agents in parallel, each in their own branch, and merge results when ready.
