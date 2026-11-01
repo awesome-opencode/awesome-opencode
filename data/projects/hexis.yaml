@@ -1,0 +1,4 @@
+name: Hexis
+repo: https://github.com/Bevel-Software/Hexis
+tagline: Git-backed skills, tools, and context for OpenCode
+description: Manages shared agent skills, tool access, and context in Git, then makes approved resources available to OpenCode through a remote OAuth MCP connection.
