@@ -1,0 +1,17 @@
+name: OrcaReplay
+repo: https://github.com/Continuum-AI-Corp/OrcaReplay
+tagline: Record an OpenCode run, replay it offline with the network off, fork it onto another model
+description: >-
+  Records an OpenCode session without modifying it, then replays that run with the network off
+  and reproduces it with the network off, or forks it from any step so the model is the only thing that
+  changed. Because OpenCode keeps its provider origin in opencode.json rather than an environment
+  variable, there is nothing to redirect: the adapter terminates the TLS OpenCode opened itself
+  using a per-run CA that only the launched process trusts and that is deleted when the run ends,
+  and your config is left untouched. Alongside the model traffic it records shell exit codes and
+  timing, per-turn file changes and MCP calls, all on one timeline. Apache-2.0, Node 20+, and the
+  trace format is a published spec so other readers can be written against it.
+tags:
+  - debugging
+  - replay
+  - observability
+  - cli
