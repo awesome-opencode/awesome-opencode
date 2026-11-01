@@ -1,0 +1,4 @@
+name: Zinn Task Inspector
+repo: https://github.com/yethranayeh/zinn
+tagline: Inspect Zinn tasks mentioned in an OpenCode conversation
+description: Shows the Zinn tasks mentioned in the current conversation in the OpenCode sidebar, with their state, labels and recorded activity. Opens task details without leaving the TUI.
