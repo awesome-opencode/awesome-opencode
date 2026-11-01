@@ -1,0 +1,13 @@
+name: Tapetide MCP
+repo: https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp
+tagline: Indian stock market data (NSE and BSE) for OpenCode agents
+description: MCP server that gives OpenCode structured Indian stock market data for about 8,200 NSE and BSE stocks, including quotes, quarterly financials, shareholding, a 326-ratio screener, FII/DII flows, option chains and company filings. Runs locally over stdio via npx with a free personal token, or remotely at https://mcp.tapetide.com/mcp with OAuth. MIT licensed, free plan available.
+tags:
+  - mcp
+  - finance
+  - stocks
+  - india
+homepage: https://tapetide.com/mcp
+installation: |
+  Add to opencode.json under "mcp":
+  "tapetide": { "type": "local", "command": ["npx", "-y", "tapetide-mcp"], "environment": { "TAPETIDE_TOKEN": "your_token_here" } }
