@@ -251,6 +251,15 @@
 </details>
 
 <details>
+  <summary><b>codemem</b> <img src="https://badgen.net/github/stars/kunickiaj/codemem" height="14"/> - <i>Persistent coding memory across sessions, machines, and teammates</i></summary>
+  <blockquote>
+    Captures coding decisions, discoveries, and fixes, with automatic context injection in OpenCode, Claude Code, and Codex. Includes MCP tools for searching and managing memories, a viewer, optional cross-machine sync, and sharing of selected projects with teammates.
+    <br><br>
+    <a href="https://github.com/kunickiaj/codemem">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Command Inject</b> <img src="https://badgen.net/github/stars/shihyuho/opencode-command-inject" height="14"/> - <i>Auto-inject project commands into OpenCode</i></summary>
   <blockquote>
     Automatically discovers and injects Makefile targets, npm/pnpm/yarn/bun scripts, and local skills at startup. Type / to see and run all project commands.
@@ -2472,6 +2481,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
 </details>
 
 <details>
+  <summary><b>UIZZE</b> <img src="https://badgen.net/github/stars/uizze/uizze" height="14"/> - <i>UI quality workflow for OpenCode with an optional authenticated MCP</i></summary>
+  <blockquote>
+    Help OpenCode avoid generic UI with a free anti-UI-slop Agent Skill and an optional authenticated UIZZE MCP for focused UI references from 800,000+ real web and iOS screens.
+    <br><br>
+    <a href="https://github.com/uizze/uizze">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Universal LLM API Proxy</b> <img src="https://badgen.net/github/stars/Mirrowel/LLM-API-Key-Proxy" height="14"/> - <i>Universal multi-model proxy and library - made with Opencode community</i></summary>
   <blockquote>
     Universal LLM Gateway: One API, every LLM. OpenAI/Anthropic-compatible endpoints with multi-provider translation and intelligent load-balancing. Works with any application that supports custom OpenAI/Anthropic base URLs—no code changes required in your existing tools. Best support for Antigravity/Gemini CLI out of the competition. Deploy anywhere. <a href='https://discord.com/channels/1391832426048651334/1449788759917858959'>Opencode Discord discussion</a>
@@ -2588,6 +2606,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     Inspired by kickstart.nvim. A minimal, well-commented OpenCode configuration designed as a starting point, not a framework. Every decision is explained. Includes free-only models and MCPs, a plan/execute workflow with interview-style clarification, and a careful agent for supervised AI execution. Read it, understand it, make it yours.
     <br><br>
     <a href="https://github.com/orionpax1997/kickstart.opencode">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>LWC</b> <img src="https://badgen.net/github/stars/JanYork/llm-wiki-cli" height="14"/> - <i>Source-grounded project memory for OpenCode with an Agent Skill, CLI, and read-only MCP server</i></summary>
+  <blockquote>
+    Local-first project memory for coding agents with bounded recall, source citations, provenance, atomic changesets, and optional document and code graphs. Includes the installable using-lwc Agent Skill and a stdio MCP server exposing one bounded, read-only exploration tool.
+    <br><br>
+    <a href="https://github.com/JanYork/llm-wiki-cli">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
