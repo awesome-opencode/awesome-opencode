@@ -1,0 +1,13 @@
+name: basemind
+repo: https://github.com/Goldziher/basemind
+tagline: Full AI context layer over MCP — code-map, document RAG, agent memory, web crawl, git history
+description: >-
+  Full AI context layer over MCP — tree-sitter code-map, document RAG, shared
+  agent memory, web crawl, and git history. 300+ languages. Published to npm as
+  basemind-opencode (https://www.npmjs.com/package/basemind-opencode).
+installation: |
+  Add to your `opencode.json`:
+
+  ```json
+  { "plugin": ["basemind-opencode@latest"] }
+  ```
