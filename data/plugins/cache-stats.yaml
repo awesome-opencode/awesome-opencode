@@ -1,0 +1,6 @@
+name: cache-stats
+repo: https://github.com/nmdra/opencode-cache-stats
+tagline: Showing the active session's cache hit rate in a popup dialog
+description: This plugin shows the overall cache hit rate, a per-model breakdown,
+  a per subagent breakdown and the associated cost, making it easy to understand
+  cache performance at a glance.
