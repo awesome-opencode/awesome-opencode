@@ -1,0 +1,10 @@
+name: opencode-failover
+repo: https://github.com/bulutmuf/opencode-failover
+tagline: Automatic API-key failover and rotation across multiple provider keys
+description: >
+  OpenCode plugin that automatically rotates API keys across multiple provider credentials.
+  When a key hits a rate limit, the plugin quarantines it and switches to the next available key
+  with zero downtime. Features weighted round-robin distribution, exponential backoff quarantine,
+  retry-after header support, permanent disable on auth errors (401/403/402),
+  and natural language tools for key management. Works with NVIDIA NIM, OpenRouter, Anthropic,
+  OpenAI, and any OpenCode-compatible provider.
