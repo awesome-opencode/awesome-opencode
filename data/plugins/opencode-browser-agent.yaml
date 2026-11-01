@@ -1,0 +1,41 @@
+name: opencode-browser-agent
+repo: https://github.com/BTF-Kabir-2020/opencode-browser-agent
+tagline: Policy-first browser automation plugin for OpenCode via agent-browser
+description: >-
+  OpenCode plugin for agent-browser that gives AI agents policy-first browser
+  automation: reuse your real running Chrome (no pkill, no hijacking tabs),
+  persistent sessions, full dev tools, cross-platform installers for Windows,
+  Linux desktop and headless VPS, and an optional opt-in Obscura CDP backend.
+scope:
+  - global
+tags:
+  - browser
+  - automation
+  - agent-browser
+  - screenshots
+  - web-scraping
+min_version: 2.0.0
+homepage: https://ghourchiani.ir/projects/opencode-browser-agent
+installation: |
+  Install the agent-browser CLI first:
+
+  ```sh
+  npm install -g agent-browser
+  agent-browser install
+  ```
+
+  Then add the plugin to OpenCode:
+
+  ```json
+  { "plugins": ["opencode-browser-agent"] }
+  ```
+
+  Or build locally from source:
+
+  ```sh
+  git clone https://github.com/BTF-Kabir-2020/opencode-browser-agent.git
+  cd opencode-browser-agent
+  npm install && npm run build
+  ```
+
+  Restart OpenCode after installing.
