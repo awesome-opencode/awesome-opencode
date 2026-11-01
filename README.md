@@ -2262,6 +2262,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>OpenClient</b> <img src="https://badgen.net/github/stars/ntoporcov/openclient" height="14"/> - <i>Native iPhone and iPad companion for self-hosted OpenCode servers</i></summary>
+  <blockquote>
+    Native SwiftUI client for browsing projects, resuming sessions, streaming chat, handling permission and question prompts, and following active work through Live Activities and widgets.
+    <br><br>
+    <a href="https://github.com/ntoporcov/openclient">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode A2A</b> <img src="https://badgen.net/github/stars/Intelligent-Internet/opencode-a2a" height="14"/> - <i>Full A2A Protocol support for OpenCode.</i></summary>
   <blockquote>
     A production-ready A2A Protocol implementation that exposes OpenCode as a standardized Agent-to-Agent service, enabling seamless cross-agent collaboration and automated workflows.
@@ -2570,6 +2579,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     Turns raw docs, research, and code into a persistent markdown wiki, knowledge graph, and hybrid SQLite FTS + embeddings search. Ships a bundled skill (schema-first, graph-query-first conventions) and an MCP server, so it works with OpenCode, Claude Code, and Codex. Offline heuristic provider by default; optional Ollama for local embeddings.
     <br><br>
     <a href="https://github.com/swarmclawai/swarmvault">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>swe-mux</b> <img src="https://badgen.net/github/stars/jatoran/swe-mux" height="14"/> - <i>Run OpenCode sessions side by side with a status each, and on your phone over Tailscale</i></summary>
+  <blockquote>
+    Terminal multiplexer for coding agents. Runs OpenCode (plus Claude Code, Codex and pi) in real terminals on your own machine, shows which session is waiting on you, and serves the same live sessions to your phone over your own Tailscale network. Sessions survive app restarts and updates.
+    <br><br>
+    <a href="https://github.com/jatoran/swe-mux">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
