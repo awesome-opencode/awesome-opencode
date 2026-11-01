@@ -1,0 +1,4 @@
+name: Caprock
+repo: https://github.com/dspv/caprock
+tagline: Local dashboard showing OpenCode sessions next to Claude Code and Codex, with cost per repository
+description: Reads OpenCode's own database read-only and shows its sessions on the same screens as Claude Code, Codex and DeepSeek Harness, with an all/opencode filter. Costs are shown as OpenCode reports them. Searchable history, single Go binary, no telemetry.
