@@ -1,0 +1,11 @@
+name: rolecraft
+repo: https://github.com/rolecraft-sh/rolecraft
+tagline: The package manager for AI agents — install, test, publish, and manage skills & MCP servers across 86+ agents
+description: Zero-dependency CLI for installing AI agent skills as roles & behaviors from any source (local folders, GitHub, GitLab, SSH). Supports 86 agent targets (26 verified), lockfile-based CI re-install with `rolecraft ci`, `rolecraft doctor` for troubleshooting, and bundled team onboarding. Works with opencode, claude-code, cursor, and more.
+tags:
+  - cli
+  - skills
+  - mcp
+  - package-manager
+  - agents
+  - opencode
