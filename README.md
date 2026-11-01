@@ -1165,6 +1165,15 @@ suggestions. All processing stays local by default — no data leaves the machin
 </details>
 
 <details>
+  <summary><b>Wudland</b> <img src="https://badgen.net/github/stars/joexk1/wudland-plugins" height="14"/> - <i>End-to-end encrypted agent status on an iPhone pixel village</i></summary>
+  <blockquote>
+    The Wudland plugin turns opencode session state into encrypted pings (AES-256-GCM through a self-hostable ntfy relay): busy, waiting, done or failed, with short notes like "Edited src/auth.ts". Statuses show up as villagers at desks in Wudland, a cozy GPLv3 iOS app; the same link carries Claude Code and Codex, and <code>wudland run</code> covers anything else in a terminal.
+    <br><br>
+    <a href="https://github.com/joexk1/wudland-plugins">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Xquik</b> <img src="https://badgen.net/github/stars/Xquik-dev/x-twitter-scraper" height="14"/> - <i>X/Twitter data skill & MCP server</i></summary>
   <blockquote>
     X/Twitter data skill — MCP server, REST API, 20 extraction tools. Works with Claude Code, Cursor, Codex, and 40+ agents.
