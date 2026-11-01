@@ -1053,6 +1053,15 @@ startup.
 </details>
 
 <details>
+  <summary><b>opencode-llm-proxy</b> <img src="https://badgen.net/github/stars/KochC/opencode-llm-proxy" height="14"/> - <i>OpenCode-backed API gateway with tool calling</i></summary>
+  <blockquote>
+    Local OpenCode plugin that exposes OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, and Gemini-compatible endpoints for any model configured in OpenCode. Supports streaming, model listing, and real tool/function calling including parallel tool calls, so tools like n8n, Open WebUI, LangChain, Continue, Zed, and coding agents can reuse the same OpenCode model setup.
+    <br><br>
+    <a href="https://github.com/KochC/opencode-llm-proxy">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>opencode-mystatus</b> <img src="https://badgen.net/github/stars/vbgate/opencode-mystatus" height="14"/> - <i>Check AI subscription quotas</i></summary>
   <blockquote>
     Check all your AI subscription quotas in one command. Supports OpenAI (Plus/Pro/Codex, etc.), Zhipu AI, Google Antigravity, and more.
@@ -2015,6 +2024,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>intentic</b> <img src="https://badgen.net/github/stars/intentic/intentic" height="14"/> - <i>Self-hosted browser workspace that runs OpenCode agents in parallel sandboxes</i></summary>
+  <blockquote>
+    A browser workspace for running coding agents on hardware you own, with OpenCode connected over ACP as a chat provider. Each agent gets its own Docker sandbox and git worktree, terminals survive disconnects, any browser or phone reopens the same fleet, and every change is reviewed as a per-file, per-hunk diff before it lands.
+    <br><br>
+    <a href="https://github.com/intentic/intentic">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>jailoc</b> <img src="https://badgen.net/github/stars/seznam/jailoc" height="14"/> - <i>Sandboxed Docker environments for OpenCode agents</i></summary>
   <blockquote>
     CLI tool that wraps OpenCode agents in isolated Docker Compose environments with file isolation (bind-mounted workspaces only), network isolation (private subnets blocked by default with host allowlisting), and a per-workspace DinD sidecar. Zero config to start.
@@ -2387,6 +2405,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     A feature-rich opencode fork with dual-interface (TUI terminal + GUI desktop), built-in MCP ecosystem (CodeGraph, TypeGraph, jCodeMunch, Browser, Vision, Web Search), automated memory system, AI personality system, skill extensions, and 3-tier permission guardrails. Privacy-first design with personal data fully separated from public templates.
     <br><br>
     <a href="https://github.com/JiaHuiRed/RedCode">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>rolecraft</b> <img src="https://badgen.net/github/stars/rolecraft-sh/rolecraft" height="14"/> - <i>The package manager for AI agents — install, test, publish, and manage skills & MCP servers across 86+ agents</i></summary>
+  <blockquote>
+    Zero-dependency CLI for installing AI agent skills as roles & behaviors from any source (local folders, GitHub, GitLab, SSH). Supports 86 agent targets (26 verified), lockfile-based CI re-install with `rolecraft ci`, `rolecraft doctor` for troubleshooting, and bundled team onboarding. Works with opencode, claude-code, cursor, and more.
+    <br><br>
+    <a href="https://github.com/rolecraft-sh/rolecraft">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

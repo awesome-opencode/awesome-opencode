@@ -797,6 +797,31 @@
     "installation": "Add the package to `opencode.json`:\n\n```json\n{\n  \"plugin\": [\"@xberg-io/opencode-liter-llm\"]\n}\n```\n\nRequires the `liter-llm` CLI.\n"
   },
   {
+    "productId": "llm-proxy",
+    "type": "plugins",
+    "displayName": "opencode-llm-proxy",
+    "repoUrl": "https://github.com/KochC/opencode-llm-proxy",
+    "tagline": "OpenCode-backed API gateway with tool calling",
+    "description": "Local OpenCode plugin that exposes OpenAI Chat Completions, OpenAI Responses, Anthropic Messages, and Gemini-compatible endpoints for any model configured in OpenCode. Supports streaming, model listing, and real tool/function calling including parallel tool calls, so tools like n8n, Open WebUI, LangChain, Continue, Zed, and coding agents can reuse the same OpenCode model setup.",
+    "scope": [
+      "global",
+      "project"
+    ],
+    "tags": [
+      "openai",
+      "anthropic",
+      "gemini",
+      "responses-api",
+      "llm-gateway",
+      "tool-calling",
+      "n8n",
+      "open-webui",
+      "langchain"
+    ],
+    "homepageUrl": "https://www.npmjs.com/package/opencode-llm-proxy",
+    "installation": "Add the package to `opencode.json`:\n\n```json\n{\n  \"plugin\": [\"opencode-llm-proxy\"]\n}\n```\n\nThe proxy starts automatically on `http://127.0.0.1:4010`.\n"
+  },
+  {
     "productId": "magic-context",
     "type": "plugins",
     "displayName": "Magic Context",
@@ -2672,6 +2697,18 @@
     "tags": []
   },
   {
+    "productId": "intentic",
+    "type": "projects",
+    "displayName": "intentic",
+    "repoUrl": "https://github.com/intentic/intentic",
+    "tagline": "Self-hosted browser workspace that runs OpenCode agents in parallel sandboxes",
+    "description": "A browser workspace for running coding agents on hardware you own, with OpenCode connected over ACP as a chat provider. Each agent gets its own Docker sandbox and git worktree, terminals survive disconnects, any browser or phone reopens the same fleet, and every change is reviewed as a per-file, per-hunk diff before it lands.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "jailoc",
     "type": "projects",
     "displayName": "jailoc",
@@ -3221,6 +3258,25 @@
       "mcp",
       "memory",
       "ai-agent"
+    ]
+  },
+  {
+    "productId": "rolecraft",
+    "type": "projects",
+    "displayName": "rolecraft",
+    "repoUrl": "https://github.com/rolecraft-sh/rolecraft",
+    "tagline": "The package manager for AI agents — install, test, publish, and manage skills & MCP servers across 86+ agents",
+    "description": "Zero-dependency CLI for installing AI agent skills as roles & behaviors from any source (local folders, GitHub, GitLab, SSH). Supports 86 agent targets (26 verified), lockfile-based CI re-install with `rolecraft ci`, `rolecraft doctor` for troubleshooting, and bundled team onboarding. Works with opencode, claude-code, cursor, and more.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "cli",
+      "skills",
+      "mcp",
+      "package-manager",
+      "agents",
+      "opencode"
     ]
   },
   {
