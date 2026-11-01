@@ -1,0 +1,8 @@
+name: '@telemetry-dev/opencode'
+repo: https://github.com/telemetry-dev/telemetry
+tagline: OpenTelemetry traces for OpenCode agent turns, model calls, and tools
+description: >-
+  Records OpenCode agent turns, model calls, tool executions, and session events
+  with OpenTelemetry for telemetry.dev. Available as the @telemetry-dev/opencode
+  npm package; source and setup instructions are in packages/opencode of the
+  linked SDK repository.
