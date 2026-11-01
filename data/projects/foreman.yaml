@@ -1,0 +1,22 @@
+name: Foreman
+repo: https://github.com/thruwire/foreman
+tagline: Jev-powered agent supervisor for OpenCode workers
+homepage: https://github.com/thruwire/foreman/blob/main/docs/workers.md
+description: >-
+  Runs OpenCode workers through opencode run while TypeSafe AI's Jev independently
+  assesses requirements, implementation completion, tests, progress, and human
+  escalation. Foreman can continue, stop, retry, or launch independent verification
+  workers. The OpenCode backend supports stop/retry interventions.
+installation: |-
+  Install foreman-core with pipx and make sure the OpenCode CLI is on PATH.
+  Set TYPESAFE_API_KEY in the environment or ~/.foreman/.env.
+
+  ```bash
+  pipx install foreman-core
+  FOREMAN_WORKER_BACKEND=opencode foreman run --repo ./my-project --job "Add request retries"
+  ```
+tags:
+  - supervision
+  - orchestration
+  - verification
+  - jev
