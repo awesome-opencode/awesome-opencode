@@ -1,0 +1,5 @@
+name: agent-manager
+repo: https://github.com/YoanWai/agent-manager
+homepage: https://agent-manager.dev/docs/
+tagline: Terminal UI that runs OpenCode and other coding-agent CLIs side by side in persistent tmux sessions
+description: Terminal UI that runs OpenCode alongside Claude Code, Codex and other coding-agent CLIs, each in its own persistent tmux session. It launches the installed OpenCode CLI unmodified, so login, config and MCP servers carry over. One list shows every session's live status, prompts go into a pane without attaching, a session can spawn into its own git worktree, and a full-file diff review sends line comments back to the agent. Runs on macOS, Linux and Windows via WSL2. Apache-2.0.
