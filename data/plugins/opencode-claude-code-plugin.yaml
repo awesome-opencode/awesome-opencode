@@ -1,0 +1,4 @@
+name: OpenCode Claude Code Plugin
+repo: https://github.com/khalilgharbaoui/opencode-claude-code-plugin
+tagline: Claude models through the official Claude Code CLI, using the login you already have
+description: Runs Anthropic's Claude models in opencode through the official claude CLI as a subprocess, so opencode uses whatever the CLI is logged in as and no token is ever read or replayed. Bash, Edit and Write are proxied back to opencode's own permissions, with several accounts, per-subagent models, and one package for opencode 1.x and 2.x.
