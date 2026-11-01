@@ -136,6 +136,18 @@
     "tags": []
   },
   {
+    "productId": "agent-notifications",
+    "type": "plugins",
+    "displayName": "Agent Notifications",
+    "repoUrl": "https://github.com/777genius/agent-notifications",
+    "tagline": "Desktop and webhook alerts for OpenCode sessions",
+    "description": "Desktop and optional webhook notifications for OpenCode root-session completion, questions, permissions, and errors on macOS, Linux, and Windows.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "agent-skills-jdt",
     "type": "plugins",
     "displayName": "Agent Skills (JDT)",
@@ -264,6 +276,24 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "chisle",
+    "type": "plugins",
+    "displayName": "Chisle",
+    "repoUrl": "https://github.com/JayPokale/Chisle",
+    "tagline": "Cuts token use with terse answers, smallest-code-that-works rules and tool-output compression",
+    "description": "Installs a ruleset for terse answers that keep every decisive fact and a \"smallest code that works\" ladder, Chisle skills, and a compression plugin that trims oversized tool output before it re-enters the context. The same ruleset ships for Claude Code, Cursor, Codex and Gemini CLI. Install with `npx chisle --only opencode`. MIT, zero dependencies, benchmarks with raw transcripts in the repository.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "tokens",
+      "cost",
+      "context",
+      "productivity"
+    ],
+    "homepageUrl": "https://chisle.jaypokale.me"
   },
   {
     "productId": "cli-subagent-output",
@@ -2230,6 +2260,25 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "foreman",
+    "type": "projects",
+    "displayName": "Foreman",
+    "repoUrl": "https://github.com/thruwire/foreman",
+    "tagline": "Jev-powered agent supervisor for OpenCode workers",
+    "description": "Runs OpenCode workers through opencode run while TypeSafe AI's Jev independently assesses requirements, implementation completion, tests, progress, and human escalation. Foreman can continue, stop, retry, or launch independent verification workers. The OpenCode backend supports stop/retry interventions.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "supervision",
+      "orchestration",
+      "verification",
+      "jev"
+    ],
+    "homepageUrl": "https://github.com/thruwire/foreman/blob/main/docs/workers.md",
+    "installation": "Install foreman-core with pipx and make sure the OpenCode CLI is on PATH.\nSet TYPESAFE_API_KEY in the environment or ~/.foreman/.env.\n\n```bash\npipx install foreman-core\nFOREMAN_WORKER_BACKEND=opencode foreman run --repo ./my-project --job \"Add request retries\"\n```"
   },
   {
     "productId": "gemini-cli-to-api",

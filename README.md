@@ -89,6 +89,15 @@
 </details>
 
 <details>
+  <summary><b>Agent Notifications</b> <img src="https://badgen.net/github/stars/777genius/agent-notifications" height="14"/> - <i>Desktop and webhook alerts for OpenCode sessions</i></summary>
+  <blockquote>
+    Desktop and optional webhook notifications for OpenCode root-session completion, questions, permissions, and errors on macOS, Linux, and Windows.
+    <br><br>
+    <a href="https://github.com/777genius/agent-notifications">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Agent Skills (JDT)</b> <img src="https://badgen.net/github/stars/joshuadavidthomas/opencode-agent-skills" height="14"/> - <i>Dynamic skills loader</i></summary>
   <blockquote>
     Dynamic skills loader that discovers skills from project, user, and plugin directories.
@@ -175,6 +184,15 @@
     A Claude Code plugin that acts as a safety net, catching destructive git and filesystem commands before they execute.
     <br><br>
     <a href="https://github.com/kenryu42/claude-code-safety-net">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Chisle</b> <img src="https://badgen.net/github/stars/JayPokale/Chisle" height="14"/> - <i>Cuts token use with terse answers, smallest-code-that-works rules and tool-output compression</i></summary>
+  <blockquote>
+    Installs a ruleset for terse answers that keep every decisive fact and a "smallest code that works" ladder, Chisle skills, and a compression plugin that trims oversized tool output before it re-enters the context. The same ruleset ships for Claude Code, Cursor, Codex and Gemini CLI. Install with `npx chisle --only opencode`. MIT, zero dependencies, benchmarks with raw transcripts in the repository.
+    <br><br>
+    <a href="https://github.com/JayPokale/Chisle">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1718,6 +1736,15 @@ Also available for bat and Ghostty in the same repository.
     Detects when an OpenCode skill's behavior drifts from a baseline, attributes the cause across 4 classes (skill change / fixture stale / model change / unknown drift), and emits a 6-field FAIL schema with transcript-span and env-delta evidence. Ships a git pre-push hook, a composite GitHub Action, and a $-cost hard ceiling for CI safety. Bash + jq + python3 stdlib only; no daemon, no SaaS. MIT.
     <br><br>
     <a href="https://github.com/nano-step/eval-harness">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Foreman</b> <img src="https://badgen.net/github/stars/thruwire/foreman" height="14"/> - <i>Jev-powered agent supervisor for OpenCode workers</i></summary>
+  <blockquote>
+    Runs OpenCode workers through opencode run while TypeSafe AI's Jev independently assesses requirements, implementation completion, tests, progress, and human escalation. Foreman can continue, stop, retry, or launch independent verification workers. The OpenCode backend supports stop/retry interventions.
+    <br><br>
+    <a href="https://github.com/thruwire/foreman">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
