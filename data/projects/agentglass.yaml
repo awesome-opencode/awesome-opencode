@@ -1,0 +1,4 @@
+name: agentglass
+repo: https://github.com/SirAllap/agentglass
+tagline: Linux desktop app showing live cost, tokens and tool calls for OpenCode and other coding agents
+description: Desktop app that puts OpenCode, Claude Code, Codex and Gemini CLI sessions on one screen with live cost, tokens and tool calls per session. Holds dangerous tool calls until you approve them. Also has tmux terminal tabs, a built-in browser that agents drive through a CLI and an MCP server, an Android companion app, and sandboxed plugins. MIT.
