@@ -180,6 +180,19 @@
     "tags": []
   },
   {
+    "productId": "aidevops",
+    "type": "plugins",
+    "displayName": "AIDevOps",
+    "repoUrl": "https://github.com/marcusquinn/aidevops",
+    "tagline": "AI DevOps framework and OpenCode plugin",
+    "description": "OpenCode-first AI DevOps framework with agents, skills, workflows, safety hooks, memory, GitHub worker dispatch, and integrations for code, infrastructure, content, SEO, and operations.",
+    "scope": [
+      "global"
+    ],
+    "tags": [],
+    "homepageUrl": "https://aidevops.sh"
+  },
+  {
     "productId": "antigravity-auth",
     "type": "plugins",
     "displayName": "Antigravity Auth",
@@ -258,6 +271,18 @@
     "repoUrl": "https://github.com/ZanzyTHEbar/brhp",
     "tagline": "Persistent planning state",
     "description": "Structured, persistent planning for OpenCode with local session state, /brhp commands, bounded planner history, and a TUI sidebar.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "bro",
+    "type": "plugins",
+    "displayName": "bro",
+    "repoUrl": "https://github.com/luchasarie/bro-skill",
+    "tagline": "Re-explains the last reply in plain language",
+    "description": "One-file Agent Skill that re-explains the assistant's last reply (or pasted text) in plain language when it was too dense. The installer adds a `/bro` command for OpenCode (`~/.config/opencode/skills/bro/SKILL.md` plus a command wrapper); also works in Claude Code, Codex, Cursor and Hermes.",
     "scope": [
       "global"
     ],
@@ -2195,6 +2220,19 @@
     ],
     "homepageUrl": "https://razzant.github.io/claudexor/",
     "installation": "npm install -g claudexor\nclaudexor doctor\n"
+  },
+  {
+    "productId": "clawmetry",
+    "type": "projects",
+    "displayName": "ClawMetry",
+    "repoUrl": "https://github.com/vivekchand/clawmetry",
+    "tagline": "Zero-config observability dashboard for OpenCode and 20+ agent runtimes",
+    "description": "Local web dashboard that auto-detects OpenCode session history and shows live sessions, token usage, costs, tool calls, and transcripts alongside 20+ other agent runtimes. One pip install, no configuration.",
+    "scope": [
+      "global"
+    ],
+    "tags": [],
+    "homepageUrl": "https://clawmetry.com"
   },
   {
     "productId": "cli-proxy-api",

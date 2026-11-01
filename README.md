@@ -116,6 +116,15 @@
 </details>
 
 <details>
+  <summary><b>AIDevOps</b> <img src="https://badgen.net/github/stars/marcusquinn/aidevops" height="14"/> - <i>AI DevOps framework and OpenCode plugin</i></summary>
+  <blockquote>
+    OpenCode-first AI DevOps framework with agents, skills, workflows, safety hooks, memory, GitHub worker dispatch, and integrations for code, infrastructure, content, SEO, and operations.
+    <br><br>
+    <a href="https://github.com/marcusquinn/aidevops">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Antigravity Auth</b> <img src="https://badgen.net/github/stars/NoeFabris/opencode-antigravity-auth" height="14"/> - <i>Google Antigravity models</i></summary>
   <blockquote>
     Use Gemini and Anthropic models for free via Google Antigravity IDE authentication.
@@ -175,6 +184,15 @@
     Structured, persistent planning for OpenCode with local session state, /brhp commands, bounded planner history, and a TUI sidebar.
     <br><br>
     <a href="https://github.com/ZanzyTHEbar/brhp">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>bro</b> <img src="https://badgen.net/github/stars/luchasarie/bro-skill" height="14"/> - <i>Re-explains the last reply in plain language</i></summary>
+  <blockquote>
+    One-file Agent Skill that re-explains the assistant's last reply (or pasted text) in plain language when it was too dense. The installer adds a `/bro` command for OpenCode (`~/.config/opencode/skills/bro/SKILL.md` plus a command wrapper); also works in Claude Code, Codex, Cursor and Hermes.
+    <br><br>
+    <a href="https://github.com/luchasarie/bro-skill">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1682,6 +1700,15 @@ Also available for bat and Ghostty in the same repository.
     A local-first control plane that runs OpenCode alongside Claude Code, Codex, and Cursor while keeping one Claudexor thread across harness lanes. Adds isolated workspaces, Best-of-N runs, cross-model review, and typed apply gates; quota-aware multi-subscription rotation is available for Claude Code and Codex.
     <br><br>
     <a href="https://github.com/razzant/claudexor">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>ClawMetry</b> <img src="https://badgen.net/github/stars/vivekchand/clawmetry" height="14"/> - <i>Zero-config observability dashboard for OpenCode and 20+ agent runtimes</i></summary>
+  <blockquote>
+    Local web dashboard that auto-detects OpenCode session history and shows live sessions, token usage, costs, tool calls, and transcripts alongside 20+ other agent runtimes. One pip install, no configuration.
+    <br><br>
+    <a href="https://github.com/vivekchand/clawmetry">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
