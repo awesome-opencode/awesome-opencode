@@ -1,0 +1,4 @@
+name: OpenCode Usage Desktop
+repo: https://github.com/sthsmall/opencode-usage-desktop
+tagline: Usage, quota, TPS/TTFT and session stats sidebar for OpenCode Desktop
+description: Pinned Usage sidebar for OpenCode Desktop with Go/Zen quota pace, 15m/24h/30d TPS and TTFT, token/cache/context cards, and a stats dialog with token activity, project scope, and tool detail.
