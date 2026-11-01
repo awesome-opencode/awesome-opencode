@@ -161,6 +161,15 @@
 </details>
 
 <details>
+  <summary><b>Caspian</b> <img src="https://badgen.net/github/stars/TryCaspian/caspian-sdk" height="14"/> - <i>Give your OpenCode agent an inbox — email, Telegram, and Discord</i></summary>
+  <blockquote>
+    Official Caspian plugin for OpenCode. Gives the agent a bidirectional inbox — email, Telegram, and Discord — with slash commands, session threading back to Gmail, and desktop notifications. No Caspian account required; on first start the plugin mints a sandbox project and provisions an agent email. Distributed via npm as caspian-opencode-plugin.
+    <br><br>
+    <a href="https://github.com/TryCaspian/caspian-sdk/tree/main/packages/opencode">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>CC Safety Net</b> <img src="https://badgen.net/github/stars/kenryu42/claude-code-safety-net" height="14"/> - <i>Safety net catching destructive commands</i></summary>
   <blockquote>
     A Claude Code plugin that acts as a safety net, catching destructive git and filesystem commands before they execute.
@@ -1749,6 +1758,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>herdr-reviewr</b> <img src="https://badgen.net/github/stars/persiyanov/herdr-reviewr" height="14"/> - <i>Review your coding agent's diff in a terminal pane and send line comments back to OpenCode</i></summary>
+  <blockquote>
+    A terminal code-review pane that runs beside OpenCode in herdr. Read the agent's diff, comment on lines or ranges, and send the comments straight back to the agent's input. Also works with Claude Code, Codex and Pi.
+    <br><br>
+    <a href="https://github.com/persiyanov/herdr-reviewr">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Hipocampo</b> <img src="https://badgen.net/github/stars/carrasquelalex1/hipocampo" height="14"/> - <i>Dual memory system with BIRE search for AI agents</i></summary>
   <blockquote>
     A dual-memory system (PostgreSQL + pgvector + Gemini Embeddings) for AI coding agents. Implements the BIRE algorithm (Búsqueda Integrada por Relevancia Expansiva) — unified semantic + lexical search with auto-tagging, hybrid scoring, GIN trigram indexes, and cross-system 768d embeddings. Ships as an opencode skill with SKILL.md, Python scripts, and full DDL schema.
@@ -2076,6 +2094,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     Native Android app for controlling OpenCode from your phone. Chat with AI, manage sessions, browse files with syntax highlighting, view diffs, and use an embedded terminal — all styled with a terminal UI aesthetic. Available on Google Play.
     <br><br>
     <a href="https://github.com/theblazehen/P4OC">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Parallel Code</b> <img src="https://badgen.net/github/stars/johannesjo/parallel-code" height="14"/> - <i>Orchestrate multiple AI coding agents simultaneously</i></summary>
+  <blockquote>
+    Desktop app for orchestrating multiple AI coding agents (Claude Code, Codex CLI, Gemini CLI) simultaneously in isolated git worktrees. Run agents in parallel, each in their own branch, and merge results when ready.
+    <br><br>
+    <a href="https://github.com/johannesjo/parallel-code">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

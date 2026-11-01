@@ -232,6 +232,28 @@
     "tags": []
   },
   {
+    "productId": "caspian-opencode-plugin",
+    "type": "plugins",
+    "displayName": "Caspian",
+    "repoUrl": "https://github.com/TryCaspian/caspian-sdk/tree/main/packages/opencode",
+    "tagline": "Give your OpenCode agent an inbox — email, Telegram, and Discord",
+    "description": "Official Caspian plugin for OpenCode. Gives the agent a bidirectional inbox — email, Telegram, and Discord — with slash commands, session threading back to Gmail, and desktop notifications. No Caspian account required; on first start the plugin mints a sandbox project and provisions an agent email. Distributed via npm as caspian-opencode-plugin.",
+    "scope": [
+      "global",
+      "project"
+    ],
+    "tags": [
+      "email",
+      "telegram",
+      "discord",
+      "inbox",
+      "messaging",
+      "notifications"
+    ],
+    "homepageUrl": "https://www.npmjs.com/package/caspian-opencode-plugin",
+    "installation": "## Installation\n\n### Global (all projects)\n```bash\nbunx caspian-opencode-plugin setup\n```\n\n### Project-only\n```bash\nbunx caspian-opencode-plugin setup --project\n```\n\nRestart OpenCode. You should see toasts: **Caspian ready** → **Caspian inbox ready**.\n\n## Configuration\nSetup adds the plugin to `opencode.json` / `opencode.jsonc`:\n\n```json\n{\n  \"plugin\": [\"caspian-opencode-plugin\"]\n}\n```\n\n## Files Modified\n- `~/.config/opencode/opencode.json` or `opencode.jsonc` (plugin entry)\n- `~/.config/opencode/commands/` (`/caspian:*` slash commands)\n- `~/.config/opencode/skills/` (Caspian skills)\n\n## Removal\nRemove `\"caspian-opencode-plugin\"` from the `plugin` array and delete the copied `/caspian:*` commands and skills.\n"
+  },
+  {
     "productId": "cc-safety-net",
     "type": "plugins",
     "displayName": "CC Safety Net",
@@ -2258,6 +2280,18 @@
     "tags": []
   },
   {
+    "productId": "herdr-reviewr",
+    "type": "projects",
+    "displayName": "herdr-reviewr",
+    "repoUrl": "https://github.com/persiyanov/herdr-reviewr",
+    "tagline": "Review your coding agent's diff in a terminal pane and send line comments back to OpenCode",
+    "description": "A terminal code-review pane that runs beside OpenCode in herdr. Read the agent's diff, comment on lines or ranges, and send the comments straight back to the agent's input. Also works with Claude Code, Codex and Pi.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "hipocampo",
     "type": "projects",
     "displayName": "Hipocampo",
@@ -2719,6 +2753,18 @@
     "repoUrl": "https://github.com/theblazehen/P4OC",
     "tagline": "Android client for OpenCode",
     "description": "Native Android app for controlling OpenCode from your phone. Chat with AI, manage sessions, browse files with syntax highlighting, view diffs, and use an embedded terminal — all styled with a terminal UI aesthetic. Available on Google Play.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "parallel-code",
+    "type": "projects",
+    "displayName": "Parallel Code",
+    "repoUrl": "https://github.com/johannesjo/parallel-code",
+    "tagline": "Orchestrate multiple AI coding agents simultaneously",
+    "description": "Desktop app for orchestrating multiple AI coding agents (Claude Code, Codex CLI, Gemini CLI) simultaneously in isolated git worktrees. Run agents in parallel, each in their own branch, and merge results when ready.",
     "scope": [
       "global"
     ],
