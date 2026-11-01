@@ -1,0 +1,5 @@
+name: ClawMetry
+repo: https://github.com/vivekchand/clawmetry
+tagline: Zero-config observability dashboard for OpenCode and 20+ agent runtimes
+description: Local web dashboard that auto-detects OpenCode session history and shows live sessions, token usage, costs, tool calls, and transcripts alongside 20+ other agent runtimes. One pip install, no configuration.
+homepage: https://clawmetry.com
