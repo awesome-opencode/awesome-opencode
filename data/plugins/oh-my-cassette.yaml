@@ -1,0 +1,27 @@
+name: Oh My Cassette
+repo: https://github.com/Cassette-Editor/oh-my-cassette
+tagline: Chat your raw clips into a finished cut
+description: >-
+  Adds a local stdio MCP server that turns a chat message into an edited video: beat-synced
+  cuts, auto-matched background music, subtitles, transitions, and picture-in-picture. Ingest
+  local clips, then drive a persistent multi-turn editing thread — every turn returns a
+  timeline delta and a contact-sheet preview, so an edit can be reviewed before anything
+  renders. Editing and rendering run on the hosted Cassette service, which requires an
+  account; the plugin, skills, and MCP server are MIT licensed.
+scope:
+  - global
+tags:
+  - mcp
+  - video
+  - video-editing
+  - media
+homepage: https://trycassette.online
+installation: |
+  ```bash
+  curl -fsSL https://raw.githubusercontent.com/Cassette-Editor/oh-my-cassette/release/scripts/install_opencode.py | python3 -
+  ```
+
+  Writes the `cassette` MCP server into `~/.config/opencode/opencode.json`, installs the
+  host-neutral skills into `~/.config/opencode/skills/`, and adds `/cassette-model` to
+  `~/.config/opencode/commands/`. Re-run the same command to update. Requires Python
+  3.11–3.13 on the machine and a Cassette account.
