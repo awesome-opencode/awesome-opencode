@@ -2198,6 +2198,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>Ivy Tendril</b> <img src="https://badgen.net/github/stars/Ivy-Interactive/Ivy-Tendril" height="14"/> - <i>AI coding orchestrator with plan-based lifecycle and verification gates</i></summary>
+  <blockquote>
+    Open-source desktop app that orchestrates OpenCode, Claude Code, Codex, Antigravity, and Copilot through a structured plan-based lifecycle. Features verification gates, self-improving memory, human-in-the-loop checkpoints, and git worktree isolation. Local-first, agent-agnostic, stack-agnostic.
+    <br><br>
+    <a href="https://github.com/Ivy-Interactive/Ivy-Tendril">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>jailoc</b> <img src="https://badgen.net/github/stars/seznam/jailoc" height="14"/> - <i>Sandboxed Docker environments for OpenCode agents</i></summary>
   <blockquote>
     CLI tool that wraps OpenCode agents in isolated Docker Compose environments with file isolation (bind-mounted workspaces only), network isolation (private subnets blocked by default with host allowlisting), and a per-workspace DinD sidecar. Zero config to start.
@@ -2646,6 +2655,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
 </details>
 
 <details>
+  <summary><b>squirrelscan</b> <img src="https://badgen.net/github/stars/squirrelscan/squirrelscan" height="14"/> - <i>Website audit CLI, MCP server and skill for coding agents (SEO, performance, security, accessibility)</i></summary>
+  <blockquote>
+    CLI website audit tool built for coding agents. Runs 260+ rules across SEO, performance, security, accessibility and agent experience, and hands the agent exact, source-mapped fixes. Works with OpenCode via MCP (hosted https://mcp.squirrelscan.com/mcp with OAuth, or local `squirrel mcp` over stdio) to run audits, read reports and fix findings, or via the agent-skills format with `npx skills add squirrelscan/squirrelscan`. Free local audits, GitHub Action, MIT CLI and rules.
+    <br><br>
+    <a href="https://github.com/squirrelscan/squirrelscan">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>supamem</b> <img src="https://badgen.net/github/stars/dzmitrys-dev/supamem" height="14"/> - <i>Project-agnostic dual-memory MCP CLI for OpenCode</i></summary>
   <blockquote>
     Adds semantic memory (Qdrant tuned hybrid retrieval — RRF fusion of dense MiniLM + sparse BM25) and structural memory hooks to OpenCode via MCP. Ships an installer that wires `qdrant-find` / `qdrant-store` tools and a snapshot hook into your project's OpenCode config. Python 3.12+, MIT, on PyPI as `supamem`.
@@ -2872,6 +2890,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
 
     <br><br>
     <a href="https://github.com/qualixar/superlocalmemory">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Tapetide MCP</b> <img src="https://badgen.net/github/stars/Tapetide-hq/nse-bse-indian-stock-market-data-mcp" height="14"/> - <i>Indian stock market data (NSE and BSE) for OpenCode agents</i></summary>
+  <blockquote>
+    MCP server that gives OpenCode structured Indian stock market data for about 8,200 NSE and BSE stocks, including quotes, quarterly financials, shareholding, a 326-ratio screener, FII/DII flows, option chains and company filings. Runs locally over stdio via npx with a free personal token, or remotely at https://mcp.tapetide.com/mcp with OAuth. MIT licensed, free plan available.
+    <br><br>
+    <a href="https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
