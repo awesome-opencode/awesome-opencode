@@ -1,0 +1,28 @@
+name: /call-me
+repo: https://github.com/radres/call-me
+tagline: Let OpenCode ring your iPhone, read you a question and return your spoken answer
+description: A hosted remote MCP server for OpenCode. The agent can ring your iPhone, read a question or status update aloud, and get your spoken reply back as text, or send you a text and wait for your answer. Useful when a long session needs a decision while you are away from the keyboard. Needs the /call-me iPhone app, which gives you the number the agent calls.
+scope:
+  - global
+  - project
+tags:
+  - mcp
+  - phone
+  - notifications
+  - human-in-the-loop
+  - ios
+homepage: https://callmemcp.com
+installation: |
+  Install the /call-me iPhone app and open My Number. Then add the remote MCP server to `opencode.json` (or `~/.config/opencode/opencode.json`):
+  ```json
+  {
+    "mcp": {
+      "call-me": {
+        "type": "remote",
+        "url": "https://callmemcp.com/mcp",
+        "enabled": true
+      }
+    }
+  }
+  ```
+  Tell the agent your 10-digit /call-me number, or ask it to call the `setup` tool.
