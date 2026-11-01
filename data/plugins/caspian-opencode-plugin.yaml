@@ -1,0 +1,46 @@
+name: Caspian
+repo: https://github.com/TryCaspian/caspian-sdk/tree/main/packages/opencode
+tagline: Give your OpenCode agent an inbox — email, Telegram, and Discord
+description: Official Caspian plugin for OpenCode. Gives the agent a bidirectional inbox — email, Telegram, and Discord — with slash commands, session threading back to Gmail, and desktop notifications. No Caspian account required; on first start the plugin mints a sandbox project and provisions an agent email. Distributed via npm as caspian-opencode-plugin.
+scope:
+  - global
+  - project
+tags:
+  - email
+  - telegram
+  - discord
+  - inbox
+  - messaging
+  - notifications
+homepage: https://www.npmjs.com/package/caspian-opencode-plugin
+installation: |
+  ## Installation
+
+  ### Global (all projects)
+  ```bash
+  bunx caspian-opencode-plugin setup
+  ```
+
+  ### Project-only
+  ```bash
+  bunx caspian-opencode-plugin setup --project
+  ```
+
+  Restart OpenCode. You should see toasts: **Caspian ready** → **Caspian inbox ready**.
+
+  ## Configuration
+  Setup adds the plugin to `opencode.json` / `opencode.jsonc`:
+
+  ```json
+  {
+    "plugin": ["caspian-opencode-plugin"]
+  }
+  ```
+
+  ## Files Modified
+  - `~/.config/opencode/opencode.json` or `opencode.jsonc` (plugin entry)
+  - `~/.config/opencode/commands/` (`/caspian:*` slash commands)
+  - `~/.config/opencode/skills/` (Caspian skills)
+
+  ## Removal
+  Remove `"caspian-opencode-plugin"` from the `plugin` array and delete the copied `/caspian:*` commands and skills.
