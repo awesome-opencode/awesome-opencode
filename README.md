@@ -224,6 +224,15 @@
 </details>
 
 <details>
+  <summary><b>cache-stats</b> <img src="https://badgen.net/github/stars/nmdra/opencode-cache-stats" height="14"/> - <i>Showing the active session's cache hit rate in a popup dialog</i></summary>
+  <blockquote>
+    This plugin shows the overall cache hit rate, a per-model breakdown, a per subagent breakdown and the associated cost, making it easy to understand cache performance at a glance.
+    <br><br>
+    <a href="https://github.com/nmdra/opencode-cache-stats">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Caspian</b> <img src="https://badgen.net/github/stars/TryCaspian/caspian-sdk" height="14"/> - <i>Give your OpenCode agent an inbox — email, Telegram, and Discord</i></summary>
   <blockquote>
     Official Caspian plugin for OpenCode. Gives the agent a bidirectional inbox — email, Telegram, and Discord — with slash commands, session threading back to Gmail, and desktop notifications. No Caspian account required; on first start the plugin mints a sandbox project and provisions an agent email. Distributed via npm as caspian-opencode-plugin.
@@ -1413,6 +1422,15 @@ suggestions. All processing stays local by default — no data leaves the machin
 </details>
 
 <details>
+  <summary><b>Systematic</b> <img src="https://badgen.net/github/stars/marcusrbrown/systematic" height="14"/> - <i>Compound-engineering workflows for OpenCode, Pi, and Claude Code</i></summary>
+  <blockquote>
+    Provides brainstorm, plan, work, and review workflows as bundled skills and agents for OpenCode, Pi, and Claude Code.
+    <br><br>
+    <a href="https://github.com/marcusrbrown/systematic">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Token Monitor</b> <img src="https://badgen.net/github/stars/Ainsley0917/opencode-token-monitor" height="14"/> - <i>Token analysis & cost tracking with budgets, trends, and per-project analytics</i></summary>
   <blockquote>
     Track token usage (input/output/reasoning/cache), estimate costs, view daily trends with ASCII charts, set budget alerts, and export data. Supports per-agent breakdown, agent×model cross-analysis, and project-scoped analytics.
@@ -1773,6 +1791,15 @@ Also available for bat and Ghostty in the same repository.
 <details>
 <summary><strong>🛠 PROJECTS</strong></summary>
 <br>
+
+<details>
+  <summary><b>/call-me</b> <img src="https://badgen.net/github/stars/radres/call-me" height="14"/> - <i>Let OpenCode ring your iPhone, read you a question and return your spoken answer</i></summary>
+  <blockquote>
+    A hosted remote MCP server for OpenCode. The agent can ring your iPhone, read a question or status update aloud, and get your spoken reply back as text, or send you a text and wait for your answer. Useful when a long session needs a decision while you are away from the keyboard. Needs the /call-me iPhone app, which gives you the number the agent calls.
+    <br><br>
+    <a href="https://github.com/radres/call-me">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>Agent of Empires</b> <img src="https://badgen.net/github/stars/njbrake/agent-of-empires" height="14"/> - <i>Multi-session TUI for OpenCode</i></summary>

@@ -364,6 +364,18 @@
     "tags": []
   },
   {
+    "productId": "cache-stats",
+    "type": "plugins",
+    "displayName": "cache-stats",
+    "repoUrl": "https://github.com/nmdra/opencode-cache-stats",
+    "tagline": "Showing the active session's cache hit rate in a popup dialog",
+    "description": "This plugin shows the overall cache hit rate, a per-model breakdown, a per subagent breakdown and the associated cost, making it easy to understand cache performance at a glance.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "caspian-opencode-plugin",
     "type": "plugins",
     "displayName": "Caspian",
@@ -2098,6 +2110,18 @@
     "tags": []
   },
   {
+    "productId": "systematic",
+    "type": "plugins",
+    "displayName": "Systematic",
+    "repoUrl": "https://github.com/marcusrbrown/systematic",
+    "tagline": "Compound-engineering workflows for OpenCode, Pi, and Claude Code",
+    "description": "Provides brainstorm, plan, work, and review workflows as bundled skills and agents for OpenCode, Pi, and Claude Code.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "telemetry-dev-opencode",
     "type": "plugins",
     "displayName": "@telemetry-dev/opencode",
@@ -2521,6 +2545,27 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "call-me",
+    "type": "projects",
+    "displayName": "/call-me",
+    "repoUrl": "https://github.com/radres/call-me",
+    "tagline": "Let OpenCode ring your iPhone, read you a question and return your spoken answer",
+    "description": "A hosted remote MCP server for OpenCode. The agent can ring your iPhone, read a question or status update aloud, and get your spoken reply back as text, or send you a text and wait for your answer. Useful when a long session needs a decision while you are away from the keyboard. Needs the /call-me iPhone app, which gives you the number the agent calls.",
+    "scope": [
+      "global",
+      "project"
+    ],
+    "tags": [
+      "mcp",
+      "phone",
+      "notifications",
+      "human-in-the-loop",
+      "ios"
+    ],
+    "homepageUrl": "https://callmemcp.com",
+    "installation": "Install the /call-me iPhone app and open My Number. Then add the remote MCP server to `opencode.json` (or `~/.config/opencode/opencode.json`):\n```json\n{\n  \"mcp\": {\n    \"call-me\": {\n      \"type\": \"remote\",\n      \"url\": \"https://callmemcp.com/mcp\",\n      \"enabled\": true\n    }\n  }\n}\n```\nTell the agent your 10-digit /call-me number, or ask it to call the `setup` tool.\n"
   },
   {
     "productId": "caprock",
