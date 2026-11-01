@@ -1,0 +1,5 @@
+name: self-host
+repo: https://github.com/ajnart/self-host
+tagline: Lets your agent install self-hosted apps and set them up, asking before each step.
+description: Lets your agent install self-hosted apps on your own hardware and set them up (admin accounts, API keys, apps connected to each other), asking before each step.
+homepage: https://self-host.fyi
