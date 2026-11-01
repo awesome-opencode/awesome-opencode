@@ -1,0 +1,11 @@
+name: Agent Sessions
+repo: https://github.com/jazzyalex/agent-sessions
+tagline: Local OpenCode session-history browser
+description: Local-first macOS app for browsing and full-text searching OpenCode session history. It reads local OpenCode SQLite history in read-only mode, opens old runs as readable timelines, and can resume sessions where the OpenCode CLI supports it.
+tags:
+  - session-history
+  - transcript-search
+  - macos
+  - gui
+  - sqlite
+homepage: https://jazzyalex.github.io/agent-sessions
