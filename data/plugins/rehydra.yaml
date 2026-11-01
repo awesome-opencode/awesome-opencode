@@ -1,0 +1,9 @@
+name: Rehydra
+repo: https://github.com/rehydra-ai/rehydra-sdk
+tagline: Prevent your coding agent from leaking secrets to LLM providers
+description: >
+  Intercepts the conversation between OpenCode and the LLM, replacing secrets
+  from .env files and detected API keys, tokens, and credentials with
+  placeholders before they leave your machine. Secrets are transparently
+  restored before any tool executes locally. Supports pattern-based detection
+  for Stripe, OpenAI, AWS, GitHub, Slack, and more.
