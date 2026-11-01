@@ -1,0 +1,4 @@
+name: herdr-reviewr
+repo: https://github.com/persiyanov/herdr-reviewr
+tagline: Review your coding agent's diff in a terminal pane and send line comments back to OpenCode
+description: A terminal code-review pane that runs beside OpenCode in herdr. Read the agent's diff, comment on lines or ranges, and send the comments straight back to the agent's input. Also works with Claude Code, Codex and Pi.
