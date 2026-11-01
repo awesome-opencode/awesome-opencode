@@ -1288,6 +1288,18 @@
     "tags": []
   },
   {
+    "productId": "opencode-dir-tree-tui",
+    "type": "plugins",
+    "displayName": "opencode-dir-tree-tui",
+    "repoUrl": "https://github.com/aihaipeng/opencode-dir-tree-tui",
+    "tagline": "File tree sidebar with Git status and quick file actions",
+    "description": "Browse project files in the OpenCode V2 sidebar with Git status indicators, custom ignore rules, path copying, and quick file and folder opening.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-ensemble",
     "type": "plugins",
     "displayName": "OpenCode Ensemble",

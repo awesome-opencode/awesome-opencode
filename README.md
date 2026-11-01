@@ -1136,6 +1136,15 @@ startup.
 </details>
 
 <details>
+  <summary><b>opencode-dir-tree-tui</b> <img src="https://badgen.net/github/stars/aihaipeng/opencode-dir-tree-tui" height="14"/> - <i>File tree sidebar with Git status and quick file actions</i></summary>
+  <blockquote>
+    Browse project files in the OpenCode V2 sidebar with Git status indicators, custom ignore rules, path copying, and quick file and folder opening.
+    <br><br>
+    <a href="https://github.com/aihaipeng/opencode-dir-tree-tui">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>opencode-failover</b> <img src="https://badgen.net/github/stars/bulutmuf/opencode-failover" height="14"/> - <i>Automatic API-key failover and rotation across multiple provider keys</i></summary>
   <blockquote>
     OpenCode plugin that automatically rotates API keys across multiple provider credentials. When a key hits a rate limit, the plugin quarantines it and switches to the next available key with zero downtime. Features weighted round-robin distribution, exponential backoff quarantine, retry-after header support, permanent disable on auth errors (401/403/402), and natural language tools for key management. Works with NVIDIA NIM, OpenRouter, Anthropic, OpenAI, and any OpenCode-compatible provider.
