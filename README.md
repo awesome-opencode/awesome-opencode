@@ -179,6 +179,15 @@
 </details>
 
 <details>
+  <summary><b>basemind</b> <img src="https://badgen.net/github/stars/Goldziher/basemind" height="14"/> - <i>Full AI context layer over MCP — code-map, document RAG, agent memory, web crawl, git history</i></summary>
+  <blockquote>
+    Full AI context layer over MCP — tree-sitter code-map, document RAG, shared agent memory, web crawl, and git history. 300+ languages. Published to npm as basemind-opencode (https://www.npmjs.com/package/basemind-opencode).
+    <br><br>
+    <a href="https://github.com/Goldziher/basemind">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Beads Plugin</b> <img src="https://badgen.net/github/stars/joshuadavidthomas/opencode-beads" height="14"/> - <i>Beads issue tracker integration</i></summary>
   <blockquote>
     Integration for Steve Yegge's beads issue tracker with /bd-* commands.
@@ -1284,6 +1293,15 @@ suggestions. All processing stays local by default — no data leaves the machin
 </details>
 
 <details>
+  <summary><b>SonarQube</b> <img src="https://badgen.net/github/stars/SonarSource/sonarqube-agent-plugins" height="14"/> - <i>Automatically enforce SonarQube code quality and security in the agent coding loop</i></summary>
+  <blockquote>
+    SonarQube is the AI code quality and security verification platform used by millions of developers to catch bugs, vulnerabilities, and leaked secrets. This plugin enforces those standards in the agent coding loop: 7,500+ distinct issue types, secrets scanning, agentic analysis, and quality gates across 40+ languages.
+    <br><br>
+    <a href="https://github.com/SonarSource/sonarqube-agent-plugins">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Subagent Reporter</b> <img src="https://badgen.net/github/stars/raisbecka/opencode-subagent-output" height="14"/> - <i>See exactly what your subagents are up to (in the terminal) when invoked during an `opencode run _____` session.</i></summary>
   <blockquote>
     When opencode run <prompt> is invoked normally, the actions of the primary agent are visible in the terminal, but subagent actions are not. This makes it difficult to follow progress on the prompt, and makes it very difficult to use `opencode run` as part of an unattended process or script. This plugin pipes subagent actions/events directly to stdout, prefixes them with the subagents name, and enumerates subagents when run in parallel for easy identification. This allows the user to follow along in realtime when subagents are running, and effectively trace execution at a later time.
@@ -1768,6 +1786,15 @@ Also available for bat and Ghostty in the same repository.
     Cross-platform (macOS/Windows/Linux) desktop app that wraps OpenCode and other agent CLIs in a chat-based GUI. Supports any API key and multiple LLM providers with API-key polling, multi-session and multi-agent workflows, MCP and ACP protocols, file management and preview, code diff view, scheduled tasks, local data storage, and remote WebUI access.
     <br><br>
     <a href="https://github.com/iOfficeAI/AionUi">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>assay</b> <img src="https://badgen.net/github/stars/awss1i/assay" height="14"/> - <i>Deterministic QA that drives every control on a web page and reports where it contradicts itself</i></summary>
+  <blockquote>
+    assay opens a web page in Chromium through Playwright, drives every control it finds, and reports where the page contradicts itself. Runs are deterministic and use no LLM, so the same page gives the same result every time. For opencode you install its skill by copying checking-a-page into .opencode/skills/, and it tells the agent to run assay after it changes a page and report the result. MIT licensed, Python 3.10+, installed from PyPI as assay-ui.
+    <br><br>
+    <a href="https://github.com/awss1i/assay">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

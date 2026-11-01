@@ -315,6 +315,19 @@
     "tags": []
   },
   {
+    "productId": "basemind",
+    "type": "plugins",
+    "displayName": "basemind",
+    "repoUrl": "https://github.com/Goldziher/basemind",
+    "tagline": "Full AI context layer over MCP — code-map, document RAG, agent memory, web crawl, git history",
+    "description": "Full AI context layer over MCP — tree-sitter code-map, document RAG, shared agent memory, web crawl, and git history. 300+ languages. Published to npm as basemind-opencode (https://www.npmjs.com/package/basemind-opencode).",
+    "scope": [
+      "global"
+    ],
+    "tags": [],
+    "installation": "Add to your `opencode.json`:\n\n```json\n{ \"plugin\": [\"basemind-opencode@latest\"] }\n```\n"
+  },
+  {
     "productId": "beads-plugin",
     "type": "plugins",
     "displayName": "Beads Plugin",
@@ -1937,6 +1950,25 @@
     "tags": []
   },
   {
+    "productId": "sonarqube",
+    "type": "plugins",
+    "displayName": "SonarQube",
+    "repoUrl": "https://github.com/SonarSource/sonarqube-agent-plugins",
+    "tagline": "Automatically enforce SonarQube code quality and security in the agent coding loop",
+    "description": "SonarQube is the AI code quality and security verification platform used by millions of developers to catch bugs, vulnerabilities, and leaked secrets. This plugin enforces those standards in the agent coding loop: 7,500+ distinct issue types, secrets scanning, agentic analysis, and quality gates across 40+ languages.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "sonarqube",
+      "code-quality",
+      "static-analysis",
+      "security",
+      "secrets"
+    ],
+    "minVersion": "2.0.0"
+  },
+  {
     "productId": "subtask2",
     "type": "plugins",
     "displayName": "Subtask2",
@@ -2306,6 +2338,18 @@
       "cross-platform"
     ],
     "homepageUrl": "https://www.aionui.com"
+  },
+  {
+    "productId": "assay",
+    "type": "projects",
+    "displayName": "assay",
+    "repoUrl": "https://github.com/awss1i/assay",
+    "tagline": "Deterministic QA that drives every control on a web page and reports where it contradicts itself",
+    "description": "assay opens a web page in Chromium through Playwright, drives every control it finds, and reports where the page contradicts itself. Runs are deterministic and use no LLM, so the same page gives the same result every time. For opencode you install its skill by copying checking-a-page into .opencode/skills/, and it tells the agent to run assay after it changes a page and report the result. MIT licensed, Python 3.10+, installed from PyPI as assay-ui.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
   },
   {
     "productId": "ax",
