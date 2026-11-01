@@ -1,0 +1,9 @@
+name: Ditto
+repo: https://github.com/ohad6k/ditto
+tagline: Mines your local AI coding session logs into a personal profile your agent loads before every task
+description: >
+  Mines local AI coding session logs (OpenCode, Claude Code, Codex, Copilot CLI)
+  into a personal working profile. The OpenCode adapter reads OpenCode's SQLite
+  session store and installs the profile into OpenCode's global rules so the
+  agent loads it before every task. Single stdlib-only Python file, runs
+  locally, MIT licensed.
