@@ -1,0 +1,5 @@
+name: codemem
+repo: https://github.com/kunickiaj/codemem
+homepage: https://codemem.sh
+tagline: Persistent coding memory across sessions, machines, and teammates
+description: Captures coding decisions, discoveries, and fixes, with automatic context injection in OpenCode, Claude Code, and Codex. Includes MCP tools for searching and managing memories, a viewer, optional cross-machine sync, and sharing of selected projects with teammates.
