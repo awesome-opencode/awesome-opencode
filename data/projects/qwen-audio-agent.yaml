@@ -1,0 +1,10 @@
+name: qwen-audio-agent
+repo: https://github.com/QwenAudio/qwen-audio-agent
+tagline: Full-duplex voice runtime for OpenCode and other ACP agents
+description: Realtime full-duplex voice interface that connects to OpenCode natively over ACP, with one-click install and DashScope configuration. Conversations keep going while OpenCode runs tasks in the background, and task results flow back into the same voice conversation. Also supports Claude Code, Codex, Kimi Code, and more. Ships a macOS desktop app, terminal TUI, and web UI.
+tags:
+  - voice
+  - speech
+  - acp
+  - desktop
+  - tui
