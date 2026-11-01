@@ -1,4 +1,0 @@
-name: opencode-mystatus
-repo: https://github.com/vbgate/opencode-mystatus
-tagline: Check AI subscription quotas
-description: Check all your AI subscription quotas in one command. Supports OpenAI (Plus/Pro/Codex, etc.), Zhipu AI, Google Antigravity, and more.

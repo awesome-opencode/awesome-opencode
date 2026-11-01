@@ -1,4 +1,0 @@
-name: Direnv
-repo: https://github.com/simonwjackson/opencode-direnv
-tagline: Load direnv variables
-description: Automatically loads direnv environment variables at session start. Perfect for Nix flakes.

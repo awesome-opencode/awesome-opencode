@@ -1,4 +1,0 @@
-name: With Context MCP
-repo: https://github.com/boxpositron/with-context-mcp
-tagline: Project-specific markdown notes
-description: MCP server for managing project-specific markdown notes with templates, batch edits, and ignore patterns.

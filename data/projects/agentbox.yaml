@@ -1,0 +1,4 @@
+name: AgentBox
+repo: https://github.com/madarco/agentbox
+tagline: Run multiple coding agents in parallel, each in its own sandboxed VM
+description: "Run OpenCode, Claude Code, and Codex in parallel — each teleported into its own sandboxed VM (local Docker, self-hosted, or cloud: Hetzner / Daytona / Vercel / E2B / DigitalOcean). Sub-1s checkpoint startup, per-box browser/VS Code/persistent shells, and git credentials stay on the host. MIT."

@@ -1,4 +1,0 @@
-name: Background Agents
-repo: https://github.com/kdcokenny/opencode-background-agents
-tagline: Async agent delegation
-description: Claude Code-style background agents with async delegation and context persistence.
