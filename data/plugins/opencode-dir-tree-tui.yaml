@@ -1,0 +1,4 @@
+name: opencode-dir-tree-tui
+repo: https://github.com/aihaipeng/opencode-dir-tree-tui
+tagline: File tree sidebar with Git status and quick file actions
+description: Browse project files in the OpenCode V2 sidebar with Git status indicators, custom ignore rules, path copying, and quick file and folder opening.
