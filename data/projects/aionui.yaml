@@ -1,0 +1,11 @@
+name: AionUi
+repo: https://github.com/iOfficeAI/AionUi
+homepage: https://www.aionui.com
+tagline: Free, open-source multi-agent desktop client that gives OpenCode (and other CLIs) a GUI.
+description: Cross-platform (macOS/Windows/Linux) desktop app that wraps OpenCode and other agent CLIs in a chat-based GUI. Supports any API key and multiple LLM providers with API-key polling, multi-session and multi-agent workflows, MCP and ACP protocols, file management and preview, code diff view, scheduled tasks, local data storage, and remote WebUI access.
+tags:
+  - gui
+  - desktop
+  - client
+  - multi-agent
+  - cross-platform
