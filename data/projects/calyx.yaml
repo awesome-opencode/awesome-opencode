@@ -1,0 +1,4 @@
+name: Calyx
+repo: https://github.com/yuuichieguchi/Calyx
+tagline: Native macOS terminal for running and supervising OpenCode and other coding agents in parallel
+description: Calyx is an MIT-licensed native macOS terminal built on libghostty. It runs OpenCode alongside Claude Code, Codex, Hermes, Grok, and pi in parallel panes, shows each agent's status and subagents in a sidebar, lets you review diffs and send line comments back to the OpenCode pane, and provides a built-in MCP server for cross-pane messaging.
