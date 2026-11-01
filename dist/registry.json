@@ -2595,6 +2595,25 @@
     "homepageUrl": "https://deck.cofy-x.space"
   },
   {
+    "productId": "dotpals",
+    "type": "projects",
+    "displayName": "dotpals",
+    "repoUrl": "https://github.com/Rikinshah787/dotpals",
+    "tagline": "A desktop pal and notch that shows what your OpenCode sessions did, in plain words",
+    "description": "An open-source desktop companion that follows OpenCode through an OpenCode plugin and integrates with Claude Code, Codex, Cursor, Gemini CLI, and Copilot CLI through their respective hooks or local logs. Each request becomes a few readable with a live view of the file being edited in a notch at the top of the screen, and flags for .env changes, force-pushes and two agents editing the same file. Runs locally, no telemetry.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "plugin",
+      "desktop",
+      "activity",
+      "monitoring",
+      "multi-agent"
+    ],
+    "installation": "```bash\nnpx --allow-git=all github:rikinshah787/dotpals setup\n```\nThen open the dashboard (`dotpals dashboard`) → **Agents** → **OpenCode** → **Connect**, which adds a small plugin to `~/.config/opencode/plugins/`. Restart OpenCode to load it.\n"
+  },
+  {
     "productId": "eval-harness",
     "type": "projects",
     "displayName": "eval-harness",
@@ -2744,6 +2763,19 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "kranz",
+    "type": "projects",
+    "displayName": "Kranz",
+    "repoUrl": "https://github.com/kranz-org/kranz",
+    "tagline": "Inspect and control live development services from OpenCode over MCP",
+    "description": "Kranz runs local development stacks with a terminal UI and CLI. Its built-in stdio MCP server lets OpenCode inspect services, readiness, logs, ports, actions, and run history, then perform authorized lifecycle operations against the same live runtime. The companion kranz-services Agent Skill teaches the agent to reuse existing runtimes and preview scoped changes.",
+    "scope": [
+      "global"
+    ],
+    "tags": [],
+    "homepageUrl": "https://kranz-org.github.io/kranz/guide/mcp"
   },
   {
     "productId": "looptroop",
@@ -3572,6 +3604,24 @@
       "knowledge-base"
     ],
     "installation": "## Agent Skill\n```bash\nnpx skills add JanYork/llm-wiki-cli --skill using-lwc\n```\n\n## CLI and MCP server\n```bash\nnpm install --global @i-xor/lwc\nlwc serve --mcp\n```\n"
+  },
+  {
+    "productId": "my-opencode-deepseek-config",
+    "type": "resources",
+    "displayName": "my-opencode-deepseek-config",
+    "repoUrl": "https://github.com/znlgis/my-opencode-deepseek-config",
+    "tagline": "Optimal DeepSeek V4 dual-model config — 11 agents, 15 skills, 25 commands",
+    "description": "A pure-config, zero-dependency OpenCode configuration optimized for DeepSeek V4 dual-model (Pro + Flash). Includes an orchestrator with 17 intent-gate patterns, delegation decision table, and cost-aware routing; 11 specialized subagents (planner, deep-worker, oracle, reviewer, consultant, ui-builder, explore, librarian, light-orchestrator, generalist); 15 on-demand skills (code-review, spec-workflow, deepwork, reflect, and more); and 25 slash commands. Designed for maximum token efficiency with model-isolated routing, background dispatch, read-only isolation for analysis agents, and execution-only discipline for worker agents. Iterated across 14 versions, continuously incorporating best practices from 6 upstream reference projects.\n",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "config",
+      "deepseek",
+      "agents",
+      "skills",
+      "token-efficient"
+    ]
   },
   {
     "productId": "opencode-config-starter",

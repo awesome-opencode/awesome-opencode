@@ -1952,6 +1952,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>dotpals</b> <img src="https://badgen.net/github/stars/Rikinshah787/dotpals" height="14"/> - <i>A desktop pal and notch that shows what your OpenCode sessions did, in plain words</i></summary>
+  <blockquote>
+    An open-source desktop companion that follows OpenCode through an OpenCode plugin and integrates with Claude Code, Codex, Cursor, Gemini CLI, and Copilot CLI through their respective hooks or local logs. Each request becomes a few readable with a live view of the file being edited in a notch at the top of the screen, and flags for .env changes, force-pushes and two agents editing the same file. Runs locally, no telemetry.
+    <br><br>
+    <a href="https://github.com/Rikinshah787/dotpals">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>eval-harness</b> <img src="https://badgen.net/github/stars/nano-step/eval-harness" height="14"/> - <i>Behavior-regression testing for OpenCode skills</i></summary>
   <blockquote>
     Detects when an OpenCode skill's behavior drifts from a baseline, attributes the cause across 4 classes (skill change / fixture stale / model change / unknown drift), and emits a 6-field FAIL schema with transcript-span and env-delta evidence. Ships a git pre-push hook, a composite GitHub Action, and a $-cost hard ceiling for CI safety. Bash + jq + python3 stdlib only; no daemon, no SaaS. MIT.
@@ -2057,6 +2066,15 @@ Also available for bat and Ghostty in the same repository.
     A Discord bot to control opencode sessions on any computer via Discord.
     <br><br>
     <a href="https://github.com/remorses/kimaki/">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Kranz</b> <img src="https://badgen.net/github/stars/kranz-org/kranz" height="14"/> - <i>Inspect and control live development services from OpenCode over MCP</i></summary>
+  <blockquote>
+    Kranz runs local development stacks with a terminal UI and CLI. Its built-in stdio MCP server lets OpenCode inspect services, readiness, logs, ports, actions, and run history, then perform authorized lifecycle operations against the same live runtime. The companion kranz-services Agent Skill teaches the agent to reuse existing runtimes and preview scoped changes.
+    <br><br>
+    <a href="https://github.com/kranz-org/kranz">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -2615,6 +2633,16 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     Local-first project memory for coding agents with bounded recall, source citations, provenance, atomic changesets, and optional document and code graphs. Includes the installable using-lwc Agent Skill and a stdio MCP server exposing one bounded, read-only exploration tool.
     <br><br>
     <a href="https://github.com/JanYork/llm-wiki-cli">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>my-opencode-deepseek-config</b> <img src="https://badgen.net/github/stars/znlgis/my-opencode-deepseek-config" height="14"/> - <i>Optimal DeepSeek V4 dual-model config — 11 agents, 15 skills, 25 commands</i></summary>
+  <blockquote>
+    A pure-config, zero-dependency OpenCode configuration optimized for DeepSeek V4 dual-model (Pro + Flash). Includes an orchestrator with 17 intent-gate patterns, delegation decision table, and cost-aware routing; 11 specialized subagents (planner, deep-worker, oracle, reviewer, consultant, ui-builder, explore, librarian, light-orchestrator, generalist); 15 on-demand skills (code-review, spec-workflow, deepwork, reflect, and more); and 25 slash commands. Designed for maximum token efficiency with model-isolated routing, background dispatch, read-only isolation for analysis agents, and execution-only discipline for worker agents. Iterated across 14 versions, continuously incorporating best practices from 6 upstream reference projects.
+
+    <br><br>
+    <a href="https://github.com/znlgis/my-opencode-deepseek-config">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
