@@ -1,0 +1,14 @@
+name: LoopTroop
+repo: https://github.com/looptroop-ai/LoopTroop
+tagline: Local GUI orchestrator for autonomous AI coding using multi-model planning councils and isolated worktrees
+description: Local-first, open-source GUI orchestrator that runs long-running AI coding
+  tickets end-to-end. An LLM Council plans the work, tasks are decomposed into atomic
+  units (Beads) executed in isolated git worktrees, and a Ralph Loop recovers from
+  errors with a fresh context. Built on OpenCode.
+homepage: https://www.looptroop.ovh/
+tags:
+  - orchestration
+  - multi-agent
+  - context-engineering
+  - local-first
+  - opencode
