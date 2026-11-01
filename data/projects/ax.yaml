@@ -1,0 +1,4 @@
+name: ax
+repo: https://github.com/Necmttn/ax
+tagline: Local telemetry graph for AI coding agents
+description: Local-first telemetry and taste graph for AI coding agents. Ingests OpenCode, Claude Code, Codex, Cursor, and Pi session data plus OTLP, then exposes recall, cost, skill/hook usage, churn, and workflow-extraction views through a CLI, dashboard, and MCP server.
