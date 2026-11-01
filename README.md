@@ -542,6 +542,15 @@ Key features:
 </details>
 
 <details>
+  <summary><b>Internet Court</b> <img src="https://badgen.net/github/stars/internet-court/internet-court-skill" height="14"/> - <i>Trust layer for agent-to-agent commerce: mandates, payments, escrow, dispute resolution.</i></summary>
+  <blockquote>
+    The trust layer for agent-to-agent commerce — natural-language mandates, delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all skill. By the Internet Court Consortium (internetcourt.org). MIT licensed.
+    <br><br>
+    <a href="https://github.com/internet-court/internet-court-skill">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>kibi-opencode</b> <img src="https://badgen.net/github/stars/Looted/kibi" height="14"/> - <i>Repo-local, branch-scoped knowledge and traceability for OpenCode</i></summary>
   <blockquote>
     Plugin-first entry point into the Kibi stack for OpenCode users. It adds context-aware
@@ -1229,6 +1238,15 @@ suggestions. All processing stays local by default — no data leaves the machin
     An OpenCode plugin that integrates OpenSpec, providing a dedicated agent for planning and specifying software architecture.
     <br><br>
     <a href="https://github.com/Octane0411/opencode-plugin-openspec">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenWork for OpenCode</b> <img src="https://badgen.net/github/stars/different-ai/openwork" height="14"/> - <i>Official OpenWork plugin to deploy AI models, skills, and MCPs to your team's OpenCode</i></summary>
+  <blockquote>
+    The official plugin from OpenWork. Centrally deploy AI models, skills, and MCP servers to your whole team. Admins add a model provider, skill, or MCP connection once and choose who gets it; everyone receives it in OpenCode after a single sign-in. No shared API keys, no copying MCP configs between machines, and access changes apply on the next refresh. Works without the OpenWork desktop app.
+    <br><br>
+    <a href="https://github.com/different-ai/openwork/tree/dev/packages/opencode-plugin">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

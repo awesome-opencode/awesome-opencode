@@ -772,6 +772,29 @@
     "installation": "Add the package to `opencode.json`:\n\n```json\n{\n  \"plugin\": [\"@xberg-io/opencode-html-to-markdown\"]\n}\n```\n\nRequires the `html-to-markdown` CLI.\n"
   },
   {
+    "productId": "internet-court",
+    "type": "plugins",
+    "displayName": "Internet Court",
+    "repoUrl": "https://github.com/internet-court/internet-court-skill",
+    "tagline": "Trust layer for agent-to-agent commerce: mandates, payments, escrow, dispute resolution.",
+    "description": "The trust layer for agent-to-agent commerce — natural-language mandates, delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all skill. By the Internet Court Consortium (internetcourt.org). MIT licensed.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "agent-payments",
+      "x402",
+      "erc-7710",
+      "erc-8004",
+      "escrow",
+      "genlayer",
+      "dispute-resolution",
+      "a2a",
+      "agentic-commerce"
+    ],
+    "homepageUrl": "https://internetcourt.org"
+  },
+  {
     "productId": "kibi-opencode",
     "type": "plugins",
     "displayName": "kibi-opencode",
@@ -1486,6 +1509,20 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "opencode-openwork",
+    "type": "plugins",
+    "displayName": "OpenWork for OpenCode",
+    "repoUrl": "https://github.com/different-ai/openwork/tree/dev/packages/opencode-plugin",
+    "tagline": "Official OpenWork plugin to deploy AI models, skills, and MCPs to your team's OpenCode",
+    "description": "The official plugin from OpenWork. Centrally deploy AI models, skills, and MCP servers to your whole team. Admins add a model provider, skill, or MCP connection once and choose who gets it; everyone receives it in OpenCode after a single sign-in. No shared API keys, no copying MCP configs between machines, and access changes apply on the next refresh. Works without the OpenWork desktop app.",
+    "scope": [
+      "global"
+    ],
+    "tags": [],
+    "homepageUrl": "https://openworklabs.com/docs/model-context-protocol/opencode-plugin",
+    "installation": "Requires OpenCode 2.\n\n`opencode plugin add opencode-openwork`\n`opencode auth login openwork`"
   },
   {
     "productId": "opencode-personality",
