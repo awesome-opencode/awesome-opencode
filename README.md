@@ -1582,6 +1582,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>Bifrost</b> <img src="https://badgen.net/github/stars/maximhq/bifrost" height="14"/> - <i>OpenCode gateway for multi-provider routing</i></summary>
+  <blockquote>
+    Route OpenCode requests through Bifrost's OpenAI-compatible gateway with provider selection, virtual-key controls, and request logging.
+    <br><br>
+    <a href="https://github.com/maximhq/bifrost">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>brood-box</b> <img src="https://badgen.net/github/stars/stacklok/brood-box" height="14"/> - <i>Hardware-isolated microVMs for coding agents</i></summary>
   <blockquote>
     Run AI coding agents (Claude Code, Codex, OpenCode) inside hardware-isolated microVMs with snapshot isolation, egress control, and MCP authorization.
@@ -2008,6 +2017,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     Open-source alternative to Claude Cowork built on top of OpenCode. Provides a polished desktop UI for sessions, skills, plugins, and templates.
     <br><br>
     <a href="https://github.com/different-ai/openwork">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Orkas</b> <img src="https://badgen.net/github/stars/Orkas-AI/Orkas" height="14"/> - <i>Local-first multi-agent desktop workspace with OpenCode orchestration</i></summary>
+  <blockquote>
+    Orkas is an open-source desktop AI workforce whose Commander coordinates specialist agents and can run OpenCode alongside Claude Code, Codex, and Cline from one chat. Conversations, files, agent configurations, and model keys stay local.
+    <br><br>
+    <a href="https://github.com/Orkas-AI/Orkas">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

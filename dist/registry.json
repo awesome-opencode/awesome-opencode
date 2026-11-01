@@ -2012,6 +2012,24 @@
     "tags": []
   },
   {
+    "productId": "bifrost",
+    "type": "projects",
+    "displayName": "Bifrost",
+    "repoUrl": "https://github.com/maximhq/bifrost",
+    "tagline": "OpenCode gateway for multi-provider routing",
+    "description": "Route OpenCode requests through Bifrost's OpenAI-compatible gateway with provider selection, virtual-key controls, and request logging.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "gateway",
+      "routing",
+      "provider",
+      "observability"
+    ],
+    "homepageUrl": "https://docs.getbifrost.ai/cli-agents/opencode"
+  },
+  {
     "productId": "brood-box",
     "type": "projects",
     "displayName": "brood-box",
@@ -2610,6 +2628,18 @@
       "workflows"
     ],
     "homepageUrl": "https://openwork.software/"
+  },
+  {
+    "productId": "orkas",
+    "type": "projects",
+    "displayName": "Orkas",
+    "repoUrl": "https://github.com/Orkas-AI/Orkas",
+    "tagline": "Local-first multi-agent desktop workspace with OpenCode orchestration",
+    "description": "Orkas is an open-source desktop AI workforce whose Commander coordinates specialist agents and can run OpenCode alongside Claude Code, Codex, and Cline from one chat. Conversations, files, agent configurations, and model keys stay local.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
   },
   {
     "productId": "p4oc",
