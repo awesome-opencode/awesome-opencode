@@ -143,6 +143,15 @@
 </details>
 
 <details>
+  <summary><b>AnveVoice</b> <img src="https://badgen.net/github/stars/anvevoice/anvevoice" height="14"/> - <i>Voice AI for web apps with real DOM actions, 46 MCP tools, 50+ languages</i></summary>
+  <blockquote>
+    AI voice assistant that adds voice interaction to any web application. Takes real DOM actions (clicks, fills forms, navigates) via voice commands with 46 MCP tools via JSON-RPC 2.0. Sub-700ms end-to-end voice latency, 50+ languages (22 Indian languages + Hinglish), WCAG 2.1 AA compliant. Works with React, Vue, Angular, Next.js. MIT-0 licensed.
+    <br><br>
+    <a href="https://github.com/anvevoice/anvevoice">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Autotitle</b> <img src="https://badgen.net/github/stars/pawelma/opencode-autotitle" height="14"/> - <i>AI-powered automatic session naming</i></summary>
   <blockquote>
     Two-phase session titling - instant keyword titles on user message, refined AI titles after response. Auto-selects cheapest model (flash/haiku/fast), respects custom titles, zero configuration needed.
@@ -716,6 +725,19 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
 </details>
 
 <details>
+  <summary><b>Opencode CMD Provider</b> <img src="https://badgen.net/github/stars/rashidrazak/opencode-cmd-provider" height="14"/> - <i>Use CommandCode plans (Go, GOAT, Pro, Max) as an OpenCode provider.</i></summary>
+  <blockquote>
+    OpenCode provider plugin for the CommandCode Provider API. Authenticate via
+/connect browser flow or COMMANDCODE_API_KEY, auto-registers all CommandCode
+models ([CMD] prefix) with offline snapshot, pricing display, and per-plan
+deals/allowance intelligence in the sidebar and cmd_plan_summary tool.
+
+    <br><br>
+    <a href="https://github.com/rashidrazak/opencode-cmd-provider">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OpenCode Ensemble</b> <img src="https://badgen.net/github/stars/hueyexe/opencode-ensemble" height="14"/> - <i>Parallel agent teams for OpenCode</i></summary>
   <blockquote>
     Coordinate parallel OpenCode agents with peer messaging, a shared task board, git worktree isolation, and a live dashboard.
@@ -844,6 +866,15 @@ startup.
     Track quota and token usage across providers via automatic toasts and slash commands.
     <br><br>
     <a href="https://github.com/slkiser/opencode-quota">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenCode Remote Control</b> <img src="https://badgen.net/github/stars/ceociocto/opencode-remote-control" height="14"/> - <i>Control OpenCode from anywhere via Telegram, Feishu, or WeChat</i></summary>
+  <blockquote>
+    Multi-platform remote control for OpenCode via Telegram, Feishu (Lark), and WeChat. No tunnel requirements — Feishu uses WebSocket long connection, WeChat uses official API with QR code login + long-polling. Privacy-first, all data processing happens locally. Features session management, diff preview, approve/reject, file tracking. Interactive configuration wizard with `opencode-remote config`.
+    <br><br>
+    <a href="https://github.com/ceociocto/opencode-remote-control">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1567,11 +1598,38 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>OpenCode Agent Orchestration Kit</b> <img src="https://badgen.net/github/stars/jcarlosrodicio/opencode-agent-orchestration-kit" height="14"/> - <i>Structured product-development workflows</i></summary>
+  <blockquote>
+    A reproducible OpenCode configuration kit with specialized agents, structured handoffs for research, design, specification, implementation, and review, plus local skills, validation checks, safe installation, and optional design integrations.
+    <br><br>
+    <a href="https://github.com/jcarlosrodicio/opencode-agent-orchestration-kit">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Agents</b> <img src="https://badgen.net/github/stars/darrenhinde/opencode-agents" height="14"/> - <i>Enhanced workflows</i></summary>
   <blockquote>
     A set of opencode configurations, prompts, agents, and plugins for enhanced development workflows.
     <br><br>
     <a href="https://github.com/darrenhinde/opencode-agents">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenCode Auto Resume</b> <img src="https://badgen.net/github/stars/Mte90/opencode-auto-resume" height="14"/> - <i>Automatically resume interrupted OpenCode sessions</i></summary>
+  <blockquote>
+    Automatically resume interrupted OpenCode sessions. Prevents lost work when sessions crash or disconnect.
+    <br><br>
+    <a href="https://github.com/Mte90/opencode-auto-resume">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenCode Easy Workflow</b> <img src="https://badgen.net/github/stars/jmarceno/opencode-easy-workflow" height="14"/> - <i>Kanban-style Agent Orchestration plugin for OpenCode</i></summary>
+  <blockquote>
+    A Kanban-style Agent Orchestration plugin for OpenCode. Provides visual workflow management for multi-agent task coordination.
+    <br><br>
+    <a href="https://github.com/jmarceno/opencode-easy-workflow">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1599,6 +1657,15 @@ Also available for bat and Ghostty in the same repository.
     Start, track, and stop local dev servers in the background — without blocking your AI conversation. Supports Node.js, Python, Go, .NET, Java, Rust, PHP and any framework that runs a dev server. JSON state persistence, per-project log files, HTTP health checks, and log tail/grep for debugging.
     <br><br>
     <a href="https://github.com/workdocyeye/server-manager">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Zosma QA</b> <img src="https://badgen.net/github/stars/zosmaai/zosma-qa" height="14"/> - <i>Zero-config QA platform with OpenCode agents for Playwright, Appium, and k6</i></summary>
+  <blockquote>
+    Zero-config QA platform that generates four OpenCode agent prompts (test planner, generator, healer, analyzer) for Playwright web tests, Appium mobile tests, and k6 load tests. Run `npx zosma-qa agents init --loop opencode` to scaffold agent definitions directly into `.opencode/prompts/`.
+    <br><br>
+    <a href="https://github.com/zosmaai/zosma-qa">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -2381,6 +2448,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
 </details>
 
 <details>
+  <summary><b>Clarvia</b> <img src="https://badgen.net/github/stars/clarvia-project/scanner" height="14"/> - <i>AEO quality scanner for MCP tools and AI agents</i></summary>
+  <blockquote>
+    An open-source AI tool discovery platform that scores MCP servers for Agent Engine Optimization (AEO) quality. Scan any MCP server for AEO quality score (0-100), search 27,906+ indexed AI tools by capability, and compare MCP servers head-to-head. MIT license, self-hostable backend.
+    <br><br>
+    <a href="https://github.com/clarvia-project/scanner">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Coding Agent Orchestration</b> <img src="https://badgen.net/github/stars/evermeer/CodingAgentOrchestration" height="14"/> - <i>OpenCode Setup Guide / Orchestration</i></summary>
   <blockquote>
     An opinionated but practical handbook that argues for treating AI coding tools as a composable, multi-agent system rather than a single assistant, and then walks through how to implement that mindset using OpenCode's CLI, configuration system, and ecosystem (agents, tools, skills, and plugins).
@@ -2395,6 +2471,15 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     How to output a debug log from opencode to a text file for troubleshooting.
     <br><br>
     <a href="https://github.com/awesome-opencode/awesome-opencode/discussions/19">🔗 <b>View Discussion</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Dreampowers</b> <img src="https://badgen.net/github/stars/skyfiredao/dreampowers" height="14"/> - <i>Complete AI skill set for Chinese novel writing</i></summary>
+  <blockquote>
+    A complete AI skill set for Chinese novel writing, pure skills, no tools. 13 specialized skills covering every stage of fiction creation, from story ideation to manuscript completion, with core innovations in preventing worldbuilding info-dumps, reader-perspective testing, and AI-flavor elimination.
+    <br><br>
+    <a href="https://github.com/skyfiredao/dreampowers">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -2440,6 +2525,16 @@ template (cowork-with-github). Install: drag-and-drop .plugin into Cowork.
     RunAPI MCP lets coding agents discover models, check pricing, and create image, video, music/audio, text-to-speech, and LLM tasks through RunAPI.
     <br><br>
     <a href="https://github.com/runapi-ai/mcp">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>SuperLocalMemory</b> <img src="https://badgen.net/github/stars/qualixar/superlocalmemory" height="14"/> - <i>Local-first persistent memory MCP server for OpenCode</i></summary>
+  <blockquote>
+    MCP memory server that works with OpenCode and any MCP-compatible tool. Provides 6 MCP tools: remember, recall, search, forget, status, health. Uses Fisher-Rao information geometry with 87.7% LoCoMo benchmark score. Zero-cloud mode, MIT license.
+
+    <br><br>
+    <a href="https://github.com/qualixar/superlocalmemory">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 

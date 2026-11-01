@@ -67,12 +67,48 @@
     "tags": []
   },
   {
+    "productId": "opencode-agent-orchestration-kit",
+    "type": "agents",
+    "displayName": "OpenCode Agent Orchestration Kit",
+    "repoUrl": "https://github.com/jcarlosrodicio/opencode-agent-orchestration-kit",
+    "tagline": "Structured product-development workflows",
+    "description": "A reproducible OpenCode configuration kit with specialized agents, structured handoffs for research, design, specification, implementation, and review, plus local skills, validation checks, safe installation, and optional design integrations.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-agents",
     "type": "agents",
     "displayName": "Opencode Agents",
     "repoUrl": "https://github.com/darrenhinde/opencode-agents",
     "tagline": "Enhanced workflows",
     "description": "A set of opencode configurations, prompts, agents, and plugins for enhanced development workflows.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-auto-resume",
+    "type": "agents",
+    "displayName": "OpenCode Auto Resume",
+    "repoUrl": "https://github.com/Mte90/opencode-auto-resume",
+    "tagline": "Automatically resume interrupted OpenCode sessions",
+    "description": "Automatically resume interrupted OpenCode sessions. Prevents lost work when sessions crash or disconnect.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-easy-workflow",
+    "type": "agents",
+    "displayName": "OpenCode Easy Workflow",
+    "repoUrl": "https://github.com/jmarceno/opencode-easy-workflow",
+    "tagline": "Kanban-style Agent Orchestration plugin for OpenCode",
+    "description": "A Kanban-style Agent Orchestration plugin for OpenCode. Provides visual workflow management for multi-agent task coordination.",
     "scope": [
       "global"
     ],
@@ -122,6 +158,19 @@
     ],
     "homepageUrl": "https://github.com/workdocyeye/server-manager",
     "installation": "Download the entire `server-manager/` folder into your AI coding tool's skills directory:\n- OpenCode: `~/.config/opencode/skills/server-manager/`\n- Claude Code: `~/.claude/skills/server-manager/`\n- Project-level: `.opencode/skills/` or `.claude/skills/` in your project root\n"
+  },
+  {
+    "productId": "zosma-qa",
+    "type": "agents",
+    "displayName": "Zosma QA",
+    "repoUrl": "https://github.com/zosmaai/zosma-qa",
+    "tagline": "Zero-config QA platform with OpenCode agents for Playwright, Appium, and k6",
+    "description": "Zero-config QA platform that generates four OpenCode agent prompts (test planner, generator, healer, analyzer) for Playwright web tests, Appium mobile tests, and k6 load tests. Run `npx zosma-qa agents init --loop opencode` to scaffold agent definitions directly into `.opencode/prompts/`.",
+    "scope": [
+      "global"
+    ],
+    "tags": [],
+    "installation": "npx zosma-qa agents init --loop opencode"
   },
   {
     "productId": "aerovato-operator-memory",
@@ -215,6 +264,19 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "anvevoice",
+    "type": "plugins",
+    "displayName": "AnveVoice",
+    "repoUrl": "https://github.com/anvevoice/anvevoice",
+    "tagline": "Voice AI for web apps with real DOM actions, 46 MCP tools, 50+ languages",
+    "description": "AI voice assistant that adds voice interaction to any web application. Takes real DOM actions (clicks, fills forms, navigates) via voice commands with 46 MCP tools via JSON-RPC 2.0. Sub-700ms end-to-end voice latency, 50+ languages (22 Indian languages + Hinglish), WCAG 2.1 AA compliant. Works with React, Vue, Angular, Next.js. MIT-0 licensed.",
+    "scope": [
+      "global"
+    ],
+    "tags": [],
+    "homepageUrl": "https://anvevoice.app"
   },
   {
     "productId": "autotitle",
@@ -1055,6 +1117,24 @@
     "tags": []
   },
   {
+    "productId": "opencode-cmd-provider",
+    "type": "plugins",
+    "displayName": "Opencode CMD Provider",
+    "repoUrl": "https://github.com/rashidrazak/opencode-cmd-provider",
+    "tagline": "Use CommandCode plans (Go, GOAT, Pro, Max) as an OpenCode provider.",
+    "description": "OpenCode provider plugin for the CommandCode Provider API. Authenticate via\n/connect browser flow or COMMANDCODE_API_KEY, auto-registers all CommandCode\nmodels ([CMD] prefix) with offline snapshot, pricing display, and per-plan\ndeals/allowance intelligence in the sidebar and cmd_plan_summary tool.\n",
+    "scope": [
+      "global",
+      "project"
+    ],
+    "tags": [
+      "provider",
+      "commandcode",
+      "model-discovery",
+      "auth"
+    ]
+  },
+  {
     "productId": "opencode-cursor",
     "type": "plugins",
     "displayName": "Cursor Auth",
@@ -1384,6 +1464,19 @@
       "global"
     ],
     "tags": []
+  },
+  {
+    "productId": "opencode-remote-control",
+    "type": "plugins",
+    "displayName": "OpenCode Remote Control",
+    "repoUrl": "https://github.com/ceociocto/opencode-remote-control",
+    "tagline": "Control OpenCode from anywhere via Telegram, Feishu, or WeChat",
+    "description": "Multi-platform remote control for OpenCode via Telegram, Feishu (Lark), and WeChat. No tunnel requirements — Feishu uses WebSocket long connection, WeChat uses official API with QR code login + long-polling. Privacy-first, all data processing happens locally. Features session management, diff preview, approve/reject, file tracking. Interactive configuration wizard with `opencode-remote config`.",
+    "scope": [
+      "global"
+    ],
+    "tags": [],
+    "installation": "npm install -g opencode-remote-control@latest && opencode-remote config"
   },
   {
     "productId": "opencode-research-papers",
@@ -3209,6 +3302,20 @@
     ]
   },
   {
+    "productId": "clarvia",
+    "type": "resources",
+    "displayName": "Clarvia",
+    "repoUrl": "https://github.com/clarvia-project/scanner",
+    "tagline": "AEO quality scanner for MCP tools and AI agents",
+    "description": "An open-source AI tool discovery platform that scores MCP servers for Agent Engine Optimization (AEO) quality. Scan any MCP server for AEO quality score (0-100), search 27,906+ indexed AI tools by capability, and compare MCP servers head-to-head. MIT license, self-hostable backend.",
+    "scope": [
+      "global"
+    ],
+    "tags": [],
+    "homepageUrl": "https://clarvia.art",
+    "installation": "npm install -g clarvia-mcp-server"
+  },
+  {
     "productId": "coding-agent-orchestration",
     "type": "resources",
     "displayName": "Coding Agent Orchestration",
@@ -3227,6 +3334,18 @@
     "repoUrl": "https://github.com/awesome-opencode/awesome-opencode/discussions/19",
     "tagline": "Troubleshooting guide",
     "description": "How to output a debug log from opencode to a text file for troubleshooting.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "dreampowers",
+    "type": "resources",
+    "displayName": "Dreampowers",
+    "repoUrl": "https://github.com/skyfiredao/dreampowers",
+    "tagline": "Complete AI skill set for Chinese novel writing",
+    "description": "A complete AI skill set for Chinese novel writing, pure skills, no tools. 13 specialized skills covering every stage of fiction creation, from story ideation to manuscript completion, with core innovations in preventing worldbuilding info-dumps, reader-perspective testing, and AI-flavor elimination.",
     "scope": [
       "global"
     ],
@@ -3301,6 +3420,19 @@
       "model-api",
       "media-generation"
     ]
+  },
+  {
+    "productId": "super-local-memory",
+    "type": "resources",
+    "displayName": "SuperLocalMemory",
+    "repoUrl": "https://github.com/qualixar/superlocalmemory",
+    "tagline": "Local-first persistent memory MCP server for OpenCode",
+    "description": "MCP memory server that works with OpenCode and any MCP-compatible tool. Provides 6 MCP tools: remember, recall, search, forget, status, health. Uses Fisher-Rao information geometry with 87.7% LoCoMo benchmark score. Zero-cloud mode, MIT license.\n",
+    "scope": [
+      "global"
+    ],
+    "tags": [],
+    "installation": "npm install -g superlocalmemory && slm init && slm serve"
   },
   {
     "productId": "ayu-dark",
