@@ -1,0 +1,14 @@
+name: Claudexor
+repo: https://github.com/razzant/claudexor
+tagline: Run OpenCode alongside Claude Code, Codex, and Cursor in one local-first control plane
+description: A local-first control plane that runs OpenCode alongside Claude Code, Codex, and Cursor while keeping one Claudexor thread across harness lanes. Adds isolated workspaces, Best-of-N runs, cross-model review, and typed apply gates; quota-aware multi-subscription rotation is available for Claude Code and Codex.
+tags:
+  - orchestration
+  - multi-agent
+  - local-first
+  - code-review
+  - opencode
+homepage: https://razzant.github.io/claudexor/
+installation: |
+  npm install -g claudexor
+  claudexor doctor
