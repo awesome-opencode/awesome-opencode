@@ -1,0 +1,5 @@
+name: Kranz
+repo: https://github.com/kranz-org/kranz
+tagline: Inspect and control live development services from OpenCode over MCP
+description: Kranz runs local development stacks with a terminal UI and CLI. Its built-in stdio MCP server lets OpenCode inspect services, readiness, logs, ports, actions, and run history, then perform authorized lifecycle operations against the same live runtime. The companion kranz-services Agent Skill teaches the agent to reuse existing runtimes and preview scoped changes.
+homepage: https://kranz-org.github.io/kranz/guide/mcp
