@@ -278,6 +278,16 @@
 </details>
 
 <details>
+  <summary><b>ContextStream</b> <img src="https://badgen.net/github/stars/contextstream/mcp-server" height="14"/> - <i>Shared project context for OpenCode, Cursor, Claude Code, Codex, and Grok via MCP</i></summary>
+  <blockquote>
+    Hosted MCP server that keeps coding agents on shared project context across sessions and teammates. Works with OpenCode and other MCP-compatible clients. Endpoint https://mcp.contextstream.io/mcp — Intelligence isn’t the bottleneck. Context is.
+
+    <br><br>
+    <a href="https://github.com/contextstream/mcp-server">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Crawlberg</b> <img src="https://badgen.net/github/stars/xberg-io/plugins" height="14"/> - <i>Web crawling and scraping tools for opencode</i></summary>
   <blockquote>
     OpenCode plugin exposing crawlberg CLI tools for scraping pages, crawling sites, and mapping URLs to JSON or Markdown.
@@ -685,6 +695,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
     This plugin enables opencode to use OpenAI's Codex backend via ChatGPT Plus/Pro OAuth authentication.
     <br><br>
     <a href="https://github.com/numman-ali/opencode-openai-codex-auth">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenAI Native Compaction</b> <img src="https://badgen.net/github/stars/partment/opencode-openai-compact" height="14"/> - <i>Use OpenAI's official Responses API compaction in OpenCode</i></summary>
+  <blockquote>
+    Routes OpenCode session compaction for OpenAI providers through `/responses/compact`, stores the returned compacted output locally, and injects it into the next Responses request so long sessions use OpenAI's native compaction instead of a prompt-written summary.
+    <br><br>
+    <a href="https://github.com/partment/opencode-openai-compact">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1872,6 +1891,15 @@ Also available for bat and Ghostty in the same repository.
 </details>
 
 <details>
+  <summary><b>Caprock</b> <img src="https://badgen.net/github/stars/dspv/caprock" height="14"/> - <i>Local dashboard showing OpenCode sessions next to Claude Code and Codex, with cost per repository</i></summary>
+  <blockquote>
+    Reads OpenCode's own database read-only and shows its sessions on the same screens as Claude Code, Codex and DeepSeek Harness, with an all/opencode filter. Costs are shown as OpenCode reports them. Searchable history, single Go binary, no telemetry.
+    <br><br>
+    <a href="https://github.com/dspv/caprock">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Claudexor</b> <img src="https://badgen.net/github/stars/razzant/claudexor" height="14"/> - <i>Run OpenCode alongside Claude Code, Codex, and Cursor in one local-first control plane</i></summary>
   <blockquote>
     A local-first control plane that runs OpenCode alongside Claude Code, Codex, and Cursor while keeping one Claudexor thread across harness lanes. Adds isolated workspaces, Best-of-N runs, cross-model review, and typed apply gates; quota-aware multi-subscription rotation is available for Claude Code and Codex.
@@ -2139,6 +2167,15 @@ Also available for bat and Ghostty in the same repository.
     A CLI tool for monitoring and analysing opencode AI coding usage.
     <br><br>
     <a href="https://github.com/Shlomob/ocmonitor-share">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>ocp</b> <img src="https://badgen.net/github/stars/alvarosanchez/ocp" height="14"/> - <i>Manage OpenCode config profiles in Git</i></summary>
+  <blockquote>
+    A CLI for switching OpenCode configuration profiles stored in Git repositories.
+    <br><br>
+    <a href="https://github.com/alvarosanchez/ocp">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
