@@ -926,6 +926,18 @@
     "tags": []
   },
   {
+    "productId": "neuralyzer",
+    "type": "plugins",
+    "displayName": "Neuralyzer",
+    "repoUrl": "https://github.com/gintasz/neuralyzer",
+    "tagline": "Easier Ralph loop inside harness",
+    "description": "Allow agent to wipe its own session context and re-run the first message. This allows easier and more ergonomic Ralph loop engineering.\n",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "oc-mnemoria",
     "type": "plugins",
     "displayName": "oc-mnemoria",
@@ -2086,6 +2098,18 @@
     "tags": []
   },
   {
+    "productId": "telemetry-dev-opencode",
+    "type": "plugins",
+    "displayName": "@telemetry-dev/opencode",
+    "repoUrl": "https://github.com/telemetry-dev/telemetry",
+    "tagline": "OpenTelemetry traces for OpenCode agent turns, model calls, and tools",
+    "description": "Records OpenCode agent turns, model calls, tool executions, and session events with OpenTelemetry for telemetry.dev. Available as the @telemetry-dev/opencode npm package; source and setup instructions are in packages/opencode of the linked SDK repository.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "token-monitor",
     "type": "plugins",
     "displayName": "Token Monitor",
@@ -2698,6 +2722,25 @@
     ],
     "homepageUrl": "https://github.com/thruwire/foreman/blob/main/docs/workers.md",
     "installation": "Install foreman-core with pipx and make sure the OpenCode CLI is on PATH.\nSet TYPESAFE_API_KEY in the environment or ~/.foreman/.env.\n\n```bash\npipx install foreman-core\nFOREMAN_WORKER_BACKEND=opencode foreman run --repo ./my-project --job \"Add request retries\"\n```"
+  },
+  {
+    "productId": "forgeo",
+    "type": "projects",
+    "displayName": "Forgeo",
+    "repoUrl": "https://github.com/lucaGazzola/forgeo",
+    "tagline": "Scheduled software factory that runs your coding agent on a backlog",
+    "description": "A scheduled, agent-driven software factory for a repository. Keep a plain JSON backlog of tasks and Forgeo runs your configured coding agent (opencode, Claude Code, Codex, or any CLI) on each one, commits the result to the default branch, and runs a refactoring pass when the backlog is empty. Pauses and writes BLOCKER.md when the agent needs a human decision, with a web dashboard for every instance.",
+    "scope": [
+      "global"
+    ],
+    "tags": [
+      "orchestration",
+      "automation",
+      "backlog",
+      "scheduling",
+      "cli"
+    ],
+    "homepageUrl": "https://forgeo.org"
   },
   {
     "productId": "gemini-cli-to-api",

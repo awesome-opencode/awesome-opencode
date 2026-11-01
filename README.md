@@ -71,6 +71,15 @@
 </details>
 
 <details>
+  <summary><b>@telemetry-dev/opencode</b> <img src="https://badgen.net/github/stars/telemetry-dev/telemetry" height="14"/> - <i>OpenTelemetry traces for OpenCode agent turns, model calls, and tools</i></summary>
+  <blockquote>
+    Records OpenCode agent turns, model calls, tool executions, and session events with OpenTelemetry for telemetry.dev. Available as the @telemetry-dev/opencode npm package; source and setup instructions are in packages/opencode of the linked SDK repository.
+    <br><br>
+    <a href="https://github.com/telemetry-dev/telemetry">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>aerovato/opencode-quotes-plugin</b> <img src="https://badgen.net/github/stars/aerovato/opencode-quotes-plugin" height="14"/> - <i>Display inspirational quotes instead of tips</i></summary>
   <blockquote>
     Replaces the default home-page tips with inspirational quotes for a more motivating OpenCode experience.
@@ -614,6 +623,16 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
     Integrates Morph's Fast Apply API for faster code editing with lazy edit markers and unified diff output.
     <br><br>
     <a href="https://github.com/JRedeker/opencode-morph-fast-apply">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Neuralyzer</b> <img src="https://badgen.net/github/stars/gintasz/neuralyzer" height="14"/> - <i>Easier Ralph loop inside harness</i></summary>
+  <blockquote>
+    Allow agent to wipe its own session context and re-run the first message. This allows easier and more ergonomic Ralph loop engineering.
+
+    <br><br>
+    <a href="https://github.com/gintasz/neuralyzer">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -2013,6 +2032,15 @@ Also available for bat and Ghostty in the same repository.
     Runs OpenCode workers through opencode run while TypeSafe AI's Jev independently assesses requirements, implementation completion, tests, progress, and human escalation. Foreman can continue, stop, retry, or launch independent verification workers. The OpenCode backend supports stop/retry interventions.
     <br><br>
     <a href="https://github.com/thruwire/foreman">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Forgeo</b> <img src="https://badgen.net/github/stars/lucaGazzola/forgeo" height="14"/> - <i>Scheduled software factory that runs your coding agent on a backlog</i></summary>
+  <blockquote>
+    A scheduled, agent-driven software factory for a repository. Keep a plain JSON backlog of tasks and Forgeo runs your configured coding agent (opencode, Claude Code, Codex, or any CLI) on each one, commits the result to the default branch, and runs a refactoring pass when the backlog is empty. Pauses and writes BLOCKER.md when the agent needs a human decision, with a web dashboard for every instance.
+    <br><br>
+    <a href="https://github.com/lucaGazzola/forgeo">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
