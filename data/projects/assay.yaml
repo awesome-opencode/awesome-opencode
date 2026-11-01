@@ -1,0 +1,4 @@
+name: assay
+repo: https://github.com/awss1i/assay
+tagline: Deterministic QA that drives every control on a web page and reports where it contradicts itself
+description: assay opens a web page in Chromium through Playwright, drives every control it finds, and reports where the page contradicts itself. Runs are deterministic and use no LLM, so the same page gives the same result every time. For opencode you install its skill by copying checking-a-page into .opencode/skills/, and it tells the agent to run assay after it changes a page and report the result. MIT licensed, Python 3.10+, installed from PyPI as assay-ui.
