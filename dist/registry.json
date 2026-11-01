@@ -229,6 +229,18 @@
     "tags": []
   },
   {
+    "productId": "agy-auth",
+    "type": "plugins",
+    "displayName": "OpenCode Antigravity CLI Auth",
+    "repoUrl": "https://github.com/anthonyhaussman/opencode-agy-auth",
+    "tagline": "Google Antigravity account auth",
+    "description": "Authenticate the Opencode CLI with your Google account so you can use your existing Antigravity plan.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "aidevops",
     "type": "plugins",
     "displayName": "AIDevOps",
@@ -686,18 +698,6 @@
     "repoUrl": "https://github.com/jenslys/opencode-gemini-auth",
     "tagline": "Google account auth",
     "description": "Authenticate the Opencode CLI with your Google account so you can use your existing Gemini plan.",
-    "scope": [
-      "global"
-    ],
-    "tags": []
-  },
-  {
-    "productId": "antigravity-auth",
-    "type": "plugins",
-    "displayName": "Antigravity Auth",
-    "repoUrl": "https://github.com/anthonyhaussman/opencode-agy-auth",
-    "tagline": "Google Antigravity account auth",
-    "description": "Authenticate the Opencode CLI with your Google account so you can use your existing Antigravity plan.",
     "scope": [
       "global"
     ],
@@ -1742,6 +1742,18 @@
     "tags": []
   },
   {
+    "productId": "opencode-skills-tui",
+    "type": "plugins",
+    "displayName": "opencode-skills-tui",
+    "repoUrl": "https://github.com/aihaipeng/opencode-skills-tui",
+    "tagline": "Browse skills, track loaded state, and preview SKILL.md",
+    "description": "OpenCode V2 skills sidebar with loaded-state tracking, SKILL.md previews, token estimates, and skill mentions in prompts.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-snip",
     "type": "plugins",
     "displayName": "opencode-snip",
@@ -2406,6 +2418,18 @@
     "repoUrl": "https://github.com/24601/opencode-zellij-namer",
     "tagline": "Auto-rename Zellij sessions",
     "description": "Keeps your Zellij session name in sync with your work.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "ag-local-bridge",
+    "type": "projects",
+    "displayName": "Antigravity Local Bridge",
+    "repoUrl": "https://github.com/marcodiniz/ag-local-bridge",
+    "tagline": "Local OpenAI-compatible API bridge for Antigravity",
+    "description": "An Antigravity extension that exposes a local OpenAI-compatible HTTP server on localhost:11435. Enables any OpenAI-compatible tool (OpenCode, Aider, Cline, Continue.dev) to use Antigravity's Gemini, Claude, and GPT models without additional API keys.",
     "scope": [
       "global"
     ],

@@ -772,6 +772,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
 </details>
 
 <details>
+  <summary><b>OpenCode Antigravity CLI Auth</b> <img src="https://badgen.net/github/stars/anthonyhaussman/opencode-agy-auth" height="14"/> - <i>Google Antigravity account auth</i></summary>
+  <blockquote>
+    Authenticate the Opencode CLI with your Google account so you can use your existing Antigravity plan.
+    <br><br>
+    <a href="https://github.com/anthonyhaussman/opencode-agy-auth">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Opencode Canvas</b> <img src="https://badgen.net/github/stars/mailshieldai/opencode-canvas" height="14"/> - <i>Interactive terminal canvases in tmux splits</i></summary>
   <blockquote>
     Interactive terminal canvases (calendars, documents, flight booking) in tmux splits. Port of claude-canvas for OpenCode.
@@ -1187,6 +1196,15 @@ startup.
     Automatically summarizes conversation context into structured session memory and injects it back into the system prompt every few turns — preserving user instructions, project context, decisions, and active references across long chats and compactions.
     <br><br>
     <a href="https://github.com/andrejtonev/opencode-short-term-memory">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>opencode-skills-tui</b> <img src="https://badgen.net/github/stars/aihaipeng/opencode-skills-tui" height="14"/> - <i>Browse skills, track loaded state, and preview SKILL.md</i></summary>
+  <blockquote>
+    OpenCode V2 skills sidebar with loaded-state tracking, SKILL.md previews, token estimates, and skill mentions in prompts.
+    <br><br>
+    <a href="https://github.com/aihaipeng/opencode-skills-tui">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -1925,6 +1943,15 @@ Also available for bat and Ghostty in the same repository.
     Cross-platform (macOS/Windows/Linux) desktop app that wraps OpenCode and other agent CLIs in a chat-based GUI. Supports any API key and multiple LLM providers with API-key polling, multi-session and multi-agent workflows, MCP and ACP protocols, file management and preview, code diff view, scheduled tasks, local data storage, and remote WebUI access.
     <br><br>
     <a href="https://github.com/iOfficeAI/AionUi">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Antigravity Local Bridge</b> <img src="https://badgen.net/github/stars/marcodiniz/ag-local-bridge" height="14"/> - <i>Local OpenAI-compatible API bridge for Antigravity</i></summary>
+  <blockquote>
+    An Antigravity extension that exposes a local OpenAI-compatible HTTP server on localhost:11435. Enables any OpenAI-compatible tool (OpenCode, Aider, Cline, Continue.dev) to use Antigravity's Gemini, Claude, and GPT models without additional API keys.
+    <br><br>
+    <a href="https://github.com/marcodiniz/ag-local-bridge">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
