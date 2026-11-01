@@ -1,0 +1,4 @@
+name: intentic
+repo: https://github.com/intentic/intentic
+tagline: Self-hosted browser workspace that runs OpenCode agents in parallel sandboxes
+description: A browser workspace for running coding agents on hardware you own, with OpenCode connected over ACP as a chat provider. Each agent gets its own Docker sandbox and git worktree, terminals survive disconnects, any browser or phone reopens the same fleet, and every change is reviewed as a per-file, per-hunk diff before it lands.
