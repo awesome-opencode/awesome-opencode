@@ -452,6 +452,18 @@
     "tags": []
   },
   {
+    "productId": "ditto",
+    "type": "plugins",
+    "displayName": "Ditto",
+    "repoUrl": "https://github.com/ohad6k/ditto",
+    "tagline": "Mines your local AI coding session logs into a personal profile your agent loads before every task",
+    "description": "Mines local AI coding session logs (OpenCode, Claude Code, Codex, Copilot CLI) into a personal working profile. The OpenCode adapter reads OpenCode's SQLite session store and installs the profile into OpenCode's global rules so the agent loads it before every task. Single stdlib-only Python file, runs locally, MIT licensed.\n",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "dodo-payments",
     "type": "plugins",
     "displayName": "Dodo Payments",
@@ -2111,6 +2123,18 @@
     "repoUrl": "https://github.com/robhunter/agentdeals",
     "tagline": "MCP server aggregating free tiers, credits, and referral codes across 1,500+ developer tools",
     "description": "Remote MCP server that surfaces free tiers, credits, trials, and referral codes for developer infrastructure — Railway, Vercel, Fly, OpenAI, Anthropic, and 1,500+ other vendors. Exposes four tools (search_deals, plan_stack, compare_vendors, track_changes) so an agent can find the cheapest way to ship a given stack. Works with opencode via remote URL (https://agentdeals-production.up.railway.app/mcp). Also tracks pricing changes over time.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "agentglass",
+    "type": "projects",
+    "displayName": "agentglass",
+    "repoUrl": "https://github.com/SirAllap/agentglass",
+    "tagline": "Linux desktop app showing live cost, tokens and tool calls for OpenCode and other coding agents",
+    "description": "Desktop app that puts OpenCode, Claude Code, Codex and Gemini CLI sessions on one screen with live cost, tokens and tool calls per session. Holds dangerous tool calls until you approve them. Also has tmux terminal tabs, a built-in browser that agents drive through a CLI and an MCP server, an Android companion app, and sandboxed plugins. MIT.",
     "scope": [
       "global"
     ],

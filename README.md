@@ -301,6 +301,16 @@ BM25 over local files. No LLM, no embeddings, no network. Credentials are redact
 </details>
 
 <details>
+  <summary><b>Ditto</b> <img src="https://badgen.net/github/stars/ohad6k/ditto" height="14"/> - <i>Mines your local AI coding session logs into a personal profile your agent loads before every task</i></summary>
+  <blockquote>
+    Mines local AI coding session logs (OpenCode, Claude Code, Codex, Copilot CLI) into a personal working profile. The OpenCode adapter reads OpenCode's SQLite session store and installs the profile into OpenCode's global rules so the agent loads it before every task. Single stdlib-only Python file, runs locally, MIT licensed.
+
+    <br><br>
+    <a href="https://github.com/ohad6k/ditto">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Dodo Payments</b> <img src="https://badgen.net/github/stars/dodopayments/dodo-agent-plugin" height="14"/> - <i>Payments, subscriptions, webhooks, and billing for OpenCode agents</i></summary>
   <blockquote>
     Official Dodo Payments plugin for OpenCode (also Claude Code, Codex, Cursor). Bundles eight integration skills (checkout, subscriptions, webhooks, usage-based billing, credits, license keys, BillingSDK, best practices) plus two MCP servers — a live API server with browser OAuth and a documentation search server. Distributed via npm as @dodopayments/opencode-plugin.
@@ -1637,6 +1647,15 @@ Also available for bat and Ghostty in the same repository.
     Remote MCP server that surfaces free tiers, credits, trials, and referral codes for developer infrastructure — Railway, Vercel, Fly, OpenAI, Anthropic, and 1,500+ other vendors. Exposes four tools (search_deals, plan_stack, compare_vendors, track_changes) so an agent can find the cheapest way to ship a given stack. Works with opencode via remote URL (https://agentdeals-production.up.railway.app/mcp). Also tracks pricing changes over time.
     <br><br>
     <a href="https://github.com/robhunter/agentdeals">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>agentglass</b> <img src="https://badgen.net/github/stars/SirAllap/agentglass" height="14"/> - <i>Linux desktop app showing live cost, tokens and tool calls for OpenCode and other coding agents</i></summary>
+  <blockquote>
+    Desktop app that puts OpenCode, Claude Code, Codex and Gemini CLI sessions on one screen with live cost, tokens and tool calls per session. Holds dangerous tool calls until you approve them. Also has tmux terminal tabs, a built-in browser that agents drive through a CLI and an MCP server, an Android companion app, and sandboxed plugins. MIT.
+    <br><br>
+    <a href="https://github.com/SirAllap/agentglass">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
