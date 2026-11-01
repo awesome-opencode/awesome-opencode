@@ -1,0 +1,4 @@
+name: opencode-skills-tui
+repo: https://github.com/aihaipeng/opencode-skills-tui
+tagline: Browse skills, track loaded state, and preview SKILL.md
+description: OpenCode V2 skills sidebar with loaded-state tracking, SKILL.md previews, token estimates, and skill mentions in prompts.
