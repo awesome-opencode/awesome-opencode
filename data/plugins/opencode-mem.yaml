@@ -1,4 +1,4 @@
-name: Opencode Mem
+name: OpenCode Mem
 repo: https://github.com/tickernelz/opencode-mem
-tagline: Persistent memory with vector database
-description: A persistent memory system for AI coding agents that enables long-term context retention across sessions using local vector database technology. Features dual memory scopes, web interface, auto-capture system, and multi-provider AI support.
+tagline: Persistent memory with Turso/libSQL vector search
+description: OpenCode plugin for long-term context across sessions via embedded Turso/libSQL vector search. Dual memory scopes, auto-capture, user profile learning, full web UI, and multi-provider AI support.
