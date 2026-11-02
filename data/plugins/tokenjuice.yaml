@@ -1,0 +1,20 @@
+name: tokenjuice
+repo: https://github.com/vincentkoc/tokenjuice
+tagline: Compact successful shell output before it reaches the model
+description: >-
+  Native OpenCode V1 and V2 plugins that compact noisy shell output while
+  preserving failed commands, exact file reads, explicit raw requests, and
+  tool-result metadata. Install with tokenjuice's managed installer.
+homepage: https://github.com/vincentkoc/tokenjuice/blob/main/docs/opencode-v2-integration.md
+installation: |
+  Install tokenjuice, then choose the target matching your OpenCode major version:
+
+  ```sh
+  npm install --global tokenjuice
+  # OpenCode V1
+  tokenjuice install opencode
+  tokenjuice doctor opencode
+  # OpenCode V2
+  tokenjuice install opencode-v2
+  tokenjuice doctor opencode-v2
+  ```
