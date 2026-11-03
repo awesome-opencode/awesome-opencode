@@ -56,7 +56,7 @@ Every PR is checked against these rules. A PR that fails any rule is closed.
 
 ## List Maintenance
 
-We audit the whole list from time to time. Entries are removed when the repo is deleted, archived, or has no commits for 6 months.
+We audit the whole list from time to time. An entry is removed when the repo is deleted, archived, or has no commits for 90 days.
 
 This keeps the list useful. It is not a judgement on the project. If your project is active again, feel free to submit it once more.
 
