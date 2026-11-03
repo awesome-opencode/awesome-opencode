@@ -1,0 +1,29 @@
+name: ponder
+repo: https://github.com/Quinnod345/ponder
+tagline: Coverage-gated, multi-pass deliberation loop and code review CLI
+description: >-
+  Open-source, zero-dependency Node.js CLI and agent skill that enforces a
+  coverage-gated, multi-pass deliberative review loop across four structured
+  perspectives (skeptic, builder, dreamer, empath). Refuses to stop until 100% of
+  enumerated units are graded and two consecutive passes produce zero ledger deltas.
+scope:
+  - global
+  - project
+tags:
+  - code-review
+  - code-quality
+  - deliberation
+  - skills
+  - cli
+homepage: https://quinnod345.github.io/ponder/
+installation: |
+  Install ponder globally with npm or Homebrew:
+
+  ```sh
+  npm install -g @quinnod345/ponder
+  # Or with Homebrew:
+  # brew install quinnod345/tap/ponder
+
+  # Verify CLI and environment
+  ponder doctor
+  ```
