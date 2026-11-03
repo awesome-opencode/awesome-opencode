@@ -60,6 +60,14 @@
     <a href="https://github.com/aerovato/operator-memory">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
+<details>
+  <summary><b>@aerovato/operator-memory</b> <img src="https://badgen.net/github/stars/aerovato/operator-memory" height="14"/> - <i>Durable context for agent-driven development</i></summary>
+  <blockquote>
+    Operator Memory gives the agent durable memory made of ordinary Markdown: specs, decisions, standards, and research, kept across private, shared, and user partitions. Every file is yours to read, correct, or remove, and new sessions start from that knowledge. No embeddings, no vector database, no hosted service.
+    <br><br>
+    <a href="https://github.com/aerovato/operator-memory">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
 
 <details>
   <summary><b>@bluelovers/opencode-arise</b> <img src="https://badgen.net/github/stars/bluelovers/opencode-arise" height="14"/> - <i>「⚔️ ARISE!」　A Solo Leveling themed orchestrator harness for OpenCode</i></summary>
