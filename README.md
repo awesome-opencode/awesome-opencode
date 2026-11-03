@@ -53,13 +53,14 @@
 <br>
 
 <details>
-  <summary><b>@aerovato/operator-memory</b> <img src="https://badgen.net/github/stars/aerovato/operator-memory" height="14"/> - <i>Durable context for agent-driven development</i></summary>
+  <summary><b>OpenCode QQ Bot</b> <img src="https://badgen.net/github/stars/linjz3376/opencode-qqbot" height="14"/> - <i>QQ Bot channel for OpenCode: permission approval & form cards on QQ, voice-to-prompt, long answers never lost, duplicate-proof delivery</i></summary>
   <blockquote>
-    Operator Memory gives the agent durable memory made of ordinary Markdown: specs, decisions, standards, and research, kept across private, shared, and user partitions. Every file is yours to read, correct, or remove, and new sessions start from that knowledge. No embeddings, no vector database, no hosted service.
+    Connect OpenCode to QQ (official bot APIs): C2C and group @. Sends permission approval cards and form/select prompts into QQ (tap or text reply), voice-to-prompt via QQ built-in ASR, long turns wait up to 24h with status-aware stall notices, and duplicate-proof delivery via cross-process msgId claim plus same-content fingerprint. MIT.
     <br><br>
-    <a href="https://github.com/aerovato/operator-memory">🔗 <b>View Repository</b></a>
+    <a href="https://github.com/linjz3376/opencode-qqbot">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
+
 <details>
   <summary><b>@aerovato/operator-memory</b> <img src="https://badgen.net/github/stars/aerovato/operator-memory" height="14"/> - <i>Durable context for agent-driven development</i></summary>
   <blockquote>
