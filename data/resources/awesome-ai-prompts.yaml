@@ -1,0 +1,6 @@
+name: Awesome AI Prompts
+repo: https://github.com/shauryagangrade/awesome-ai-prompts
+tagline: Verification-first prompt library with ready-made opencode slash commands
+description: A curated, MIT-licensed set of 144 prompts for AI coding agents, with a dedicated opencode guide. Each prompt is a self-contained workflow that makes the agent read the relevant code, run the project's own tooling, and show evidence before claiming work is done. The opencode guide covers pasting a prompt into a session, running one with `opencode run`, and installing any prompt as a slash command in `.opencode/commands/`.
+homepage: https://awesome-ai-prompts.vercel.app
+installation: See https://github.com/shauryagangrade/awesome-ai-prompts/blob/main/docs/opencode.md for the opencode setup, including the command that copies a prompt body into `.opencode/commands/<name>.md`.
