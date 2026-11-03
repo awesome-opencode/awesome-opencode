@@ -1,0 +1,9 @@
+name: opencode-pulse-ticker
+repo: https://github.com/fatwang2/Pulse/tree/main/opencode
+tagline: Stock and crypto quotes in the sidebar, plus a one-line ticker at the bottom of the window
+description: A TUI plugin that adds a stock and crypto watchlist to the session sidebar, with today's line and change for each ticker and a detail view on click, plus a one-line quote band you can move or turn off. Quotes come from Yahoo Finance and Binance public data; manage the list with /pulse-add and /pulse-remove. Install by adding "opencode-pulse-ticker" to the plugin list in tui.json.
+tags:
+  - tui
+  - sidebar
+  - finance
+min_version: 1.15.0
