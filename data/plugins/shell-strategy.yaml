@@ -1,4 +1,0 @@
-name: Shell Strategy
-repo: https://github.com/JRedeker/opencode-shell-strategy
-tagline: Avoid interactive shell hangs
-description: Instructions file that teaches LLMs how to avoid interactive shell commands that hang in non-TTY environments.
