@@ -1,16 +1,15 @@
 name: Smart Router (@qadanm/opencode-smart-router)
 repo: https://github.com/qadanm/opencode-smart-router
-tagline: Subscription-aware model routing that repairs prompts and fails over rejections
+tagline: Subscription-aware model routing with prompt repair and failover
 description: >-
-  Model routing priced against what a subscription actually allows rather than
-  per-token rates. Reads nested usage windows (5h/weekly/monthly), multi-pool
-  credit plans, and context size, routes to the cheapest eligible model above an
-  intelligence floor, and pays the switch penalty only when the saving clears a
-  margin. Self-healing as of 0.4.0: an Anthropic-incompatible session (mid-session
-  system notice reaching the wire as a system role) is repaired in flight, a
-  deterministic request rejection is never retried, and a rejected turn is
-  continued on the next best eligible model with one router-marked notice.
-  Desktop panel and terminal commands explain every decision it makes.
+  A router plugin for OpenCode that prices each prompt against what a
+  subscription actually allows: nested usage windows (5h/weekly/monthly),
+  credit pools, and context size, held to an intelligence floor with a
+  cache-affinity switch margin. Since 0.4.0 it also handles provider
+  rejections on its own: it folds system-role notices out of Anthropic
+  prompts before send, declines the host retry on a deterministic 400, and
+  moves a rejected turn to the next best eligible model with one notice in
+  the session. A desktop panel and /router-report explain every decision.
 scope:
   - global
   - project
@@ -22,7 +21,7 @@ tags:
   - model-selection
 homepage: https://www.npmjs.com/package/@qadanm/opencode-smart-router
 installation: |
-  Add the plugin to opencode.json (the routing core, installed from npm at startup):
+  Add the plugin to opencode.json. OpenCode installs the routing core from npm at startup:
 
   ```json
   {
@@ -31,8 +30,7 @@ installation: |
   }
   ```
 
-  For the full experience: desktop panel, /router-report, /router-mode and
-  first-run onboarding:
+  For the desktop panel, /router-report, /router-mode and first-run onboarding, use the installer:
 
   ```sh
   curl -fsSL https://raw.githubusercontent.com/qadanm/opencode-smart-router/main/install | bash
