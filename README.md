@@ -1787,6 +1787,15 @@ suggestions. All processing stays local by default — no data leaves the machin
 </details>
 
 <details>
+  <summary><b>Token Ledger</b> <img src="https://badgen.net/github/stars/ww330115/token-ledger" height="14"/> - <i>Local token, quota and cost ledger for OpenCode on Windows</i></summary>
+  <blockquote>
+    A Windows desktop widget that reads the local OpenCode database and service endpoint (read-only) and shows per-request tokens, the three OpenCode Go quota windows, and daily/monthly cost in an always-on-top panel. Five billing channels (USD, quota, credits, free, local) are kept separate and never summed. Single Python file, standard library only, MIT.
+    <br><br>
+    <a href="https://github.com/ww330115/token-ledger">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Tokscale</b> <img src="https://badgen.net/github/stars/junhoyeo/tokscale" height="14"/> - <i>Token usage tracking CLI</i></summary>
   <blockquote>
     A CLI tool for tracking token usage from OpenCode and other coding agents (Claude Code, Codex, Gemini CLI, and Cursor IDE).
