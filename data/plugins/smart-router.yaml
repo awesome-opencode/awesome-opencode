@@ -1,0 +1,40 @@
+name: Smart Router (@qadanm/opencode-smart-router)
+repo: https://github.com/qadanm/opencode-smart-router
+tagline: Subscription-aware model routing that repairs prompts and fails over rejections
+description: >-
+  Model routing priced against what a subscription actually allows rather than
+  per-token rates. Reads nested usage windows (5h/weekly/monthly), multi-pool
+  credit plans, and context size, routes to the cheapest eligible model above an
+  intelligence floor, and pays the switch penalty only when the saving clears a
+  margin. Self-healing as of 0.4.0: an Anthropic-incompatible session (mid-session
+  system notice reaching the wire as a system role) is repaired in flight, a
+  deterministic request rejection is never retried, and a rejected turn is
+  continued on the next best eligible model with one router-marked notice.
+  Desktop panel and terminal commands explain every decision it makes.
+scope:
+  - global
+  - project
+tags:
+  - routing
+  - cost
+  - quota
+  - reliability
+  - model-selection
+homepage: https://www.npmjs.com/package/@qadanm/opencode-smart-router
+installation: |
+  Add the plugin to opencode.json (the routing core, installed from npm at startup):
+
+  ```json
+  {
+    "$schema": "https://opencode.ai/config.json",
+    "plugin": ["@qadanm/opencode-smart-router"]
+  }
+  ```
+
+  For the full experience: desktop panel, /router-report, /router-mode and
+  first-run onboarding:
+
+  ```sh
+  curl -fsSL https://raw.githubusercontent.com/qadanm/opencode-smart-router/main/install | bash
+  ```
+min_version: "2.1.0"
