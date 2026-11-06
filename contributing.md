@@ -29,7 +29,10 @@ name: Your Plugin Name
 repo: https://github.com/owner/repo-name
 tagline: Short punchy summary (max 120 chars, shown in collapsed view)
 description: Longer description explaining what it does and why it's useful.
+min_version: "1.0.0"  # optional
 ```
+
+**Version support:** OpenCode V1 and V2 plugins are not interchangeable. Say which major versions your project supports in the description (for example, "OpenCode V1 and V2" or "OpenCode V2 only"). If it needs a specific version or newer, set `min_version` to the lowest release that works. V2-first projects are welcome.
 
 ### Step 4: Submit PR
 
