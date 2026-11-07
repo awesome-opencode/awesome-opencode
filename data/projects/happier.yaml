@@ -1,0 +1,10 @@
+name: Happier
+repo: https://github.com/happier-dev/happier
+tagline: Open-source, E2E encrypted cross-device app to orchestrate OpenCode, Claude Code and Codex from desktop, phone and web.
+description: Open-source, end-to-end encrypted, cross-device app to orchestrate Claude Code, Codex, OpenCode, Gemini CLI and other coding agents on your own machines from desktop, phone and web.
+homepage: https://happier.dev
+tags:
+- mobile
+- client
+- orchestration
+- encryption
