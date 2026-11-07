@@ -1,0 +1,28 @@
+name: EGC (Extended Global Context)
+repo: https://github.com/Fmarzochi/EGC
+homepage: https://fmarzochi.github.io/EGCSite/integrations/opencode/
+tagline: Persistent, encrypted project memory, a session mesh and command guardrails for OpenCode and 28 other AI coding tools
+description: >-
+  EGC is a local-first runtime that gives every AI coding tool on a machine the same brain.
+  For OpenCode it installs the skills under the OpenCode config directory, registers the
+  egc-memory and egc-guardian MCP servers in opencode.json, carries the memory protocol in an
+  instructions file that OpenCode lists in its config, and ships a native OpenCode plugin that
+  runs the Guardian (command and write validation) and the Token Crusher (shell output
+  compression) on tool.execute.before. Memory is kept per project and branch, encrypted at rest
+  with AES-256-GCM, and shared with Claude Code, Cursor, Codex, Copilot and the rest of the 29
+  supported tools, so a decision made in one of them is there when OpenCode opens the project.
+  Apache-2.0; nothing leaves the machine.
+scope:
+  - global
+  - project
+tags:
+  - memory
+  - mcp
+  - security
+  - multi-tool
+installation: |
+  ```bash
+  npm install -g @egchq/egc
+  egc install --target opencode
+  egc init   # inside a project
+  ```
