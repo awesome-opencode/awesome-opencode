@@ -1,0 +1,17 @@
+name: Sesori
+repo: https://github.com/sesori-ai/sesori_apps_monorepo
+tagline: Free desktop and iOS/Android app that pings you when an OpenCode session needs you, so you can answer from anywhere
+description: Shows and controls the OpenCode sessions running on your own computer, from a desktop app (macOS, Linux) or an iOS/Android app that follow the same sessions. It notifies you the moment an agent stops on a question or a permission prompt, and you can reply, review diffs or dictate the next prompt from either screen. A local Bridge runs beside OpenCode and talks to the phone through a hosted relay with end-to-end encryption (X25519, XChaCha20-Poly1305), so code stays on your computer and the relay sees only ciphertext. Supports OpenCode V1 and V2, and also works with Claude Code, Codex, GitHub Copilot CLI, Cursor, Pi, OMP, Hermes Agent, DeepSeek Harness and Grok Build. Free; source-available under FSL-1.1-ALv2.
+homepage: https://sesori.com
+tags:
+  - desktop
+  - mobile
+  - ios
+  - android
+  - remote-control
+installation: |
+  Download the desktop app from https://sesori.com/desktop/, or run the Bridge headless:
+
+  ```bash
+  npx @sesori/bridge
+  ```
