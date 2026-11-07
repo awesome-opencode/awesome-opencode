@@ -1,0 +1,11 @@
+name: RU Marketplace MCP
+repo: https://github.com/Vladimir-Human/ru-marketplace-mcp
+tagline: 12 Russian and Chinese marketplaces and Cian real estate as read-only MCP servers and 15 Agent Skills
+description: >-
+  Connects OpenCode (V1 and V2) to 12 Russian and Chinese marketplaces and classifieds
+  (Wildberries, Ozon, Yandex Market, Detsky Mir, Avito, AliExpress, Taobao, Megamarket,
+  Lamoda, DNS, Citilink, and Cian real estate) plus cross-marketplace price comparison
+  in one call, with no API keys or seller accounts required. Ships 15 Agent Skills
+  installable into OpenCode via `npx skills add Vladimir-Human/ru-marketplace-mcp -s '*'`
+  and three token-budgeted stdio MCP server profiles (`compare-mcp` at 4 tools,
+  `decision-mcp` at 5 tools, and `marketplace-mcp` at 39 tools) for `opencode.json`.
