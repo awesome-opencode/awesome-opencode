@@ -1,0 +1,35 @@
+name: OpenCode Unlimited Proxy
+repo: https://github.com/ebouther/opencode-unlimited-proxy
+tagline: Self-hosted OpenAI-compatible gateway for the OpenCode free tier, with a de-duplicated egress pool
+description: >-
+  Serves OpenCode's anonymous free tier (`Bearer public`) through an
+  OpenAI-compatible API. Documents and implements the four server-side conditions
+  those models gate on, so callers outside the CLI don't hit `403 FreeTierError`:
+  a tool named exactly `read` (renaming it does not count), forced `stream: true`,
+  a versioned `User-Agent`, and a canonically-encoded session id. Each one is
+  independently probeable with `scripts/gate-probe.py`, which ships negative
+  controls so a pass cannot be confused with a broken harness. In front of the
+  gateway sits a de-duplicated pool of rotating egress addresses, so six nodes
+  are six quota buckets rather than three.
+tags:
+  - gateway
+  - proxy
+  - free-tier
+  - self-hosted
+  - openai-compatible
+installation: |
+  ```bash
+  git clone https://github.com/ebouther/opencode-unlimited-proxy && cd opencode-unlimited-proxy/stack
+  cp .env.example .env && sed -i 's/WARP_ACCEPT_TOS=0/WARP_ACCEPT_TOS=1/' .env
+  docker compose up -d --build
+  ../scripts/smoke.sh
+  ```
+
+  Then point any OpenAI-compatible client at `http://127.0.0.1:8080/v1`.
+
+  Only the gate probe is needed to *diagnose* the free tier, and it needs no
+  stack at all:
+
+  ```bash
+  ./scripts/gate-probe.py
+  ```
