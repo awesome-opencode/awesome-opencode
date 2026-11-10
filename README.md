@@ -468,7 +468,6 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
   <summary><b>Neuralyzer</b> <img src="https://badgen.net/github/stars/gintasz/neuralyzer" height="14"/> - <i>Easier Ralph loop inside harness</i></summary>
   <blockquote>
     Allow agent to wipe its own session context and re-run the first message. This allows easier and more ergonomic Ralph loop engineering.
-
     <br><br>
     <a href="https://github.com/gintasz/neuralyzer">🔗 <b>View Repository</b></a>
   </blockquote>
@@ -559,10 +558,9 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
   <summary><b>Opencode CMD Provider</b> <img src="https://badgen.net/github/stars/rashidrazak/opencode-cmd-provider" height="14"/> - <i>Use CommandCode plans (Go, GOAT, Pro, Max) as an OpenCode provider.</i></summary>
   <blockquote>
     OpenCode provider plugin for the CommandCode Provider API. Authenticate via
-/connect browser flow or COMMANDCODE_API_KEY, auto-registers all CommandCode
-models ([CMD] prefix) with offline snapshot, pricing display, and per-plan
-deals/allowance intelligence in the sidebar and cmd_plan_summary tool.
-
+    /connect browser flow or COMMANDCODE_API_KEY, auto-registers all CommandCode
+    models ([CMD] prefix) with offline snapshot, pricing display, and per-plan
+    deals/allowance intelligence in the sidebar and cmd_plan_summary tool.
     <br><br>
     <a href="https://github.com/rashidrazak/opencode-cmd-provider">🔗 <b>View Repository</b></a>
   </blockquote>
@@ -581,12 +579,11 @@ deals/allowance intelligence in the sidebar and cmd_plan_summary tool.
   <summary><b>Opencode LiteLLM</b> <img src="https://badgen.net/github/stars/yuseferi/opencode-litellm" height="14"/> - <i>Auto-discover models from a LiteLLM proxy</i></summary>
   <blockquote>
     Drop-in LiteLLM provider for OpenCode with zero configuration. Auto-detects a running
-LiteLLM proxy on common ports (4000, 8000, 8080), pulls every model from /v1/models,
-and registers them in OpenCode automatically — no model lists to hand-maintain. Smart
-name formatting, modality categorization (chat/embedding/image/audio), provider
-extraction, optional API-key auth, and a 5-second timeout so a slow proxy never blocks
-startup.
-
+    LiteLLM proxy on common ports (4000, 8000, 8080), pulls every model from /v1/models,
+    and registers them in OpenCode automatically — no model lists to hand-maintain. Smart
+    name formatting, modality categorization (chat/embedding/image/audio), provider
+    extraction, optional API-key auth, and a 5-second timeout so a slow proxy never blocks
+    startup.
     <br><br>
     <a href="https://github.com/yuseferi/opencode-litellm">🔗 <b>View Repository</b></a>
   </blockquote>
@@ -722,7 +719,6 @@ startup.
   <summary><b>opencode-failover</b> <img src="https://badgen.net/github/stars/bulutmuf/opencode-failover" height="14"/> - <i>Automatic API-key failover and rotation across multiple provider keys</i></summary>
   <blockquote>
     OpenCode plugin that automatically rotates API keys across multiple provider credentials. When a key hits a rate limit, the plugin quarantines it and switches to the next available key with zero downtime. Features weighted round-robin distribution, exponential backoff quarantine, retry-after header support, permanent disable on auth errors (401/403/402), and natural language tools for key management. Works with NVIDIA NIM, OpenRouter, Anthropic, OpenAI, and any OpenCode-compatible provider.
-
     <br><br>
     <a href="https://github.com/bulutmuf/opencode-failover">🔗 <b>View Repository</b></a>
   </blockquote>
@@ -786,12 +782,11 @@ startup.
   <summary><b>OpenCodeRAG</b> <img src="https://badgen.net/github/stars/MrDoe/OpenCodeRAG" height="14"/> - <i>Local-first RAG plugin for semantic code search with tree-sitter chunking and LanceDB</i></summary>
   <blockquote>
     A local-first Retrieval-Augmented Generation plugin for OpenCode that enables semantic code
-search across your workspace. Features AST-aware chunking via tree-sitter (19 languages),
-incremental indexing with file-change detection, watch mode for live re-indexing, and
-configurable embeddings via Ollama (default) or OpenAI. Includes a CLI (index, query, status,
-clear) and an OpenCode plugin with a chunk retrieval tool + automatic chat.message file
-suggestions. All processing stays local by default — no data leaves the machine.
-
+    search across your workspace. Features AST-aware chunking via tree-sitter (19 languages),
+    incremental indexing with file-change detection, watch mode for live re-indexing, and
+    configurable embeddings via Ollama (default) or OpenAI. Includes a CLI (index, query, status,
+    clear) and an OpenCode plugin with a chunk retrieval tool + automatic chat.message file
+    suggestions. All processing stays local by default — no data leaves the machine.
     <br><br>
     <a href="https://github.com/MrDoe/OpenCodeRAG">🔗 <b>View Repository</b></a>
   </blockquote>
@@ -837,7 +832,6 @@ suggestions. All processing stays local by default — no data leaves the machin
   <summary><b>Rehydra</b> <img src="https://badgen.net/github/stars/rehydra-ai/rehydra-sdk" height="14"/> - <i>Prevent your coding agent from leaking secrets to LLM providers</i></summary>
   <blockquote>
     Intercepts the conversation between OpenCode and the LLM, replacing secrets from .env files and detected API keys, tokens, and credentials with placeholders before they leave your machine. Secrets are transparently restored before any tool executes locally. Supports pattern-based detection for Stripe, OpenAI, AWS, GitHub, Slack, and more.
-
     <br><br>
     <a href="https://github.com/rehydra-ai/rehydra-sdk">🔗 <b>View Repository</b></a>
   </blockquote>
@@ -933,7 +927,6 @@ suggestions. All processing stays local by default — no data leaves the machin
 - 74+ template variables with i18n support (zh/en)
 - Global + project config merge, automatic DB preload for crash recovery
 - Built-in CLI test tool
-
     <br><br>
     <a href="https://gitee.com/ulthon/ul-opencode-event">🔗 <b>View Repository</b></a>
   </blockquote>
@@ -1901,7 +1894,6 @@ suggestions. All processing stays local by default — no data leaves the machin
   <summary><b>my-opencode-deepseek-config</b> <img src="https://badgen.net/github/stars/znlgis/my-opencode-deepseek-config" height="14"/> - <i>Optimal DeepSeek V4 dual-model config — 11 agents, 15 skills, 25 commands</i></summary>
   <blockquote>
     A pure-config, zero-dependency OpenCode configuration optimized for DeepSeek V4 dual-model (Pro + Flash). Includes an orchestrator with 17 intent-gate patterns, delegation decision table, and cost-aware routing; 11 specialized subagents (planner, deep-worker, oracle, reviewer, consultant, ui-builder, explore, librarian, light-orchestrator, generalist); 15 on-demand skills (code-review, spec-workflow, deepwork, reflect, and more); and 25 slash commands. Designed for maximum token efficiency with model-isolated routing, background dispatch, read-only isolation for analysis agents, and execution-only discipline for worker agents. Iterated across 14 versions, continuously incorporating best practices from 6 upstream reference projects.
-
     <br><br>
     <a href="https://github.com/znlgis/my-opencode-deepseek-config">🔗 <b>View Repository</b></a>
   </blockquote>
