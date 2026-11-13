@@ -1363,6 +1363,15 @@ suggestions. All processing stays local by default — no data leaves the machin
 </details>
 
 <details>
+  <summary><b>Happier</b> <img src="https://badgen.net/github/stars/happier-dev/happier" height="14"/> - <i>Open-source, E2E encrypted cross-device app to orchestrate OpenCode, Claude Code and Codex from desktop, phone and web.</i></summary>
+  <blockquote>
+    Open-source, end-to-end encrypted, cross-device app to orchestrate Claude Code, Codex, OpenCode, Gemini CLI and other coding agents on your own machines from desktop, phone and web.
+    <br><br>
+    <a href="https://github.com/happier-dev/happier">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>hcom</b> <img src="https://badgen.net/github/stars/aannoo/hcom" height="14"/> - <i>Let AI agents message, watch, and spawn each other across terminals</i></summary>
   <blockquote>
     Claude Code, Gemini CLI, Codex CLI, and OpenCode agents in separate terminals can message each other, detect file edit collisions, read transcripts, view terminal screens, subscribe to activity, and spawn/fork/resume agents. First-class OpenCode support with native plugin. Includes TUI dashboard, cross-device relay, Python API, and multi-agent workflow scripts. pip installable, MIT licensed.
