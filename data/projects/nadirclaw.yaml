@@ -1,0 +1,9 @@
+name: NadirClaw
+repo: https://github.com/NadirRouter/NadirClaw
+tagline: Local LLM router for OpenCode that sends each request to a cheap or strong model
+description: Open-source router that runs an OpenAI-compatible server on your machine and plugs into OpenCode as a custom provider (no plugin). A local classifier picks your cheap or strong model per request; tool-carrying agent turns stay on the strong model. Includes per-model cost reports. OpenCode V1 and V2 (tested 1.19.5 and 2.2.6).
+homepage: https://github.com/NadirRouter/NadirClaw#usage-with-opencode
+tags:
+  - router
+  - cost
+  - provider
