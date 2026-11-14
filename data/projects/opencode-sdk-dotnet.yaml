@@ -1,0 +1,4 @@
+name: OpenCode .NET SDK
+repo: https://github.com/opencode-dotnet/opencode-sdk-dotnet
+tagline: Typed C# SDK for the OpenCode server API, with streaming, terminals, server lifecycle and DI
+description: An unofficial, strongly typed .NET SDK for the OpenCode server API (OpenCode V2 only). Server-sent event streams, PTY terminals over WebSockets, private, external and CLI background-service connections, typed errors and dependency injection. On NuGet as OpenCodeDotNet.Sdk and OpenCodeDotNet.Sdk.Extensions; targets .NET Framework 4.7.2 through modern .NET, with Native AOT on modern targets.
