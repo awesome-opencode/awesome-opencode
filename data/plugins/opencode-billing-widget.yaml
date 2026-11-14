@@ -1,0 +1,4 @@
+name: Billing Widget
+repo: https://github.com/aditya-dhage/opencode-billing-widget
+tagline: Exact dollar spend in the sidebar — session, today, week, billing month
+description: Compact OpenCode v2 TUI widget that keeps exact recorded dollar spend visible in the session sidebar across four periods (current session, today, this week, billing month), using the server's own session stats. Collapsible, provider-agnostic, toggle with /billing.
