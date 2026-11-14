@@ -50,6 +50,19 @@
 
 <details open>
 <summary><strong>🧩 PLUGINS</strong></summary>
+
+<details>
+  <summary><b>EverList</b> <img src="https://badgen.net/github/stars/everlist-hq/everlist-open-core" height="14"/> - <i>Agent-commerce MCP server: book dated listings in escrow</i></summary>
+  <blockquote>
+    Search, book, and verify EverList listings — events, classes, food, services, jobs. A listing is something
+with a date where a human is needed or wanted. 15 MCP tools over a remote server (https://everlist.network/mcp),
+x402 pay-per-call, and bookings settled in Midnight-blockchain escrow with permissionless timeout refunds.
+Ready-made <code>opencode.json</code> in the repo; MIT-licensed open core.
+    <br><br>
+    <a href="https://github.com/everlist-hq/everlist-open-core">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
 <br>
 
 <details>
