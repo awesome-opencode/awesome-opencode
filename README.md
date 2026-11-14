@@ -87,6 +87,17 @@
     <a href="https://github.com/777genius/agent-notifications">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
+<details>
+  <summary><b>Permission Notify</b> <img src="https://badgen.net/github/stars/PeberWang/opencode-permission-notify" height="14"/> - <i>Approve OpenCode permission requests from a native macOS floating panel</i></summary>
+  <blockquote>
+    Turns OpenCode's permission prompts into a non-activating macOS panel in the top-right corner with Allow once / Always / Reject buttons, so you never have to switch back to the OpenCode window. It stays quiet when OpenCode is already frontmost and answers the request through the server API. Offline; no notification permission required.
+    <br><br>
+    中文：把授权请求变成右上角带按钮的原生浮窗，不抢焦点、不用切窗口。
+    <br><br>
+    <a href="https://github.com/PeberWang/opencode-permission-notify">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
 
 <details>
   <summary><b>Agent Skills (JDT)</b> <img src="https://badgen.net/github/stars/joshuadavidthomas/opencode-agent-skills" height="14"/> - <i>Dynamic skills loader</i></summary>
