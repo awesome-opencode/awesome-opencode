@@ -1,0 +1,18 @@
+name: OpenCode Pixel Guild
+repo: https://github.com/nirtus/opencode-pixel-guild
+tagline: Real-time 2D RPG workshop & dungeon visualizer for live OpenCode V2 sessions, subagents, tools, and Git commits
+description: >-
+  Self-hosted 2D RPG companion for OpenCode V2 that turns live hosts, projects,
+  git worktrees, root sessions, and child subagents into autonomous heroes inside
+  a shared Workshop Room and Dungeon Wilds. Watch agents equip @skill grimoires,
+  haul MCP cargo, work at tool-specific stations, and battle Bug Monsters during
+  failing test/debug turns—while you prompt or steer sessions, answer permission
+  and question gates, and stage or commit Git changes from desktop or mobile.
+  Zero external npm dependencies (Node.js 22+ or Docker Compose).
+tags:
+  - visualizer
+  - web-ui
+  - rpg
+  - gamification
+  - subagents
+  - git
