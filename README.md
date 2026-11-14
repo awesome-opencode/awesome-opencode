@@ -87,6 +87,15 @@
     <a href="https://github.com/777genius/agent-notifications">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
+<details>
+  <summary><b>Permission Notify</b> <img src="https://badgen.net/github/stars/PeberWang/opencode-permission-notify" height="14"/> - <i>macOS 原生浮窗批复授权请求</i></summary>
+  <blockquote>
+    把 OpenCode 的授权请求变成屏幕右上角的原生浮窗，带「允许一次 / 总是允许 / 拒绝」三个按钮，不抢焦点、不用切回窗口；OpenCode 在前台时不打扰。离线、无通知权限依赖。
+    <br><br>
+    <a href="https://github.com/PeberWang/opencode-permission-notify">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
 
 <details>
   <summary><b>Agent Skills (JDT)</b> <img src="https://badgen.net/github/stars/joshuadavidthomas/opencode-agent-skills" height="14"/> - <i>Dynamic skills loader</i></summary>
