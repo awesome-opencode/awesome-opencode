@@ -1,0 +1,5 @@
+name: Orchestrator
+repo: https://github.com/OrchestratorInc/agent-orchestrator
+homepage: https://docs.orchestrator.inc/plugins/agents/opencode/
+tagline: Desktop app that runs OpenCode workers in parallel git worktrees and tracks each PR through CI and review
+description: An Apache-2.0 desktop app (macOS, Windows, Linux) where an orchestrator agent splits a task across parallel workers, each running OpenCode, Claude Code, Codex or another supported agent CLI in its own git worktree. It runs your installed OpenCode, and both OpenCode V1 and V2 are available as worker harnesses. A Kanban board tracks every session's PR through CI and review, and failed checks, review comments and merge conflicts are sent back to the worker that owns the branch.
