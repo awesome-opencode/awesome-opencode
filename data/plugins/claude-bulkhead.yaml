@@ -1,0 +1,36 @@
+name: claude-bulkhead
+repo: https://github.com/dooly6276/claude-bulkhead
+tagline: Guards for many agent sessions on one machine; blocks kills, port and git clashes between sessions
+description: >-
+  bulkhead checks every bash command the agent runs against the other sessions on the
+  same machine (other opencode, Claude Code, Codex or Copilot CLI sessions). It blocks
+  killing processes by name, taking a port another session's dev server holds, git
+  commands that would switch, stash or delete another session's tree, whole-disk scans
+  and long foreground sleeps, and holds heavy builds and tests back when RAM runs low.
+  The plugin hooks tool.execute.before and runs the same guards as the Claude Code plugin.
+  Supports OpenCode V1.
+scope:
+  - global
+  - project
+tags:
+  - safety
+  - guard
+  - hooks
+  - processes
+  - ports
+  - git
+  - worktrees
+  - parallel
+homepage: https://github.com/dooly6276/claude-bulkhead/blob/main/docs/other-agents.md
+installation: |
+  Add the plugin to `opencode.json` (global or project) and restart opencode. Node 18 or later must be on `PATH`.
+
+  ```json
+  {
+    "$schema": "https://opencode.ai/config.json",
+    "plugin": ["claude-bulkhead"]
+  }
+  ```
+
+  Or, with the CLI installed (`npm install -g claude-bulkhead`), `bulkhead setup opencode --write`
+  writes the same plugin to `~/.config/opencode/plugins/bulkhead.js`.
