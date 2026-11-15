@@ -1943,6 +1943,15 @@ suggestions. All processing stays local by default — no data leaves the machin
   </blockquote>
 </details>
 
+<details>
+  <summary><b>No Stairs Please MCP</b> - <i>Live-music venue search and tour routing for OpenCode agents</i></summary>
+  <blockquote>
+    Remote MCP server for searching 2,200+ North American live-music venues, checking load-in stairs, calculating drive-time routes, and looking up booking contacts. Hosted at https://nostairsplease.com/mcp with free access.
+    <br><br>
+    <a href="https://nostairsplease.com/mcp">🔗 <b>View MCP Endpoint</b></a>
+  </blockquote>
+</details>
+
 <br>
 <a href="https://github.com/awesome-opencode/awesome-opencode/blob/main/contributing.md"><b>➕ Add a Resource via PR</b></a>
 </details>
