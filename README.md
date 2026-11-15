@@ -236,7 +236,7 @@
 <details>
   <summary><b>deja</b> <img src="https://badgen.net/github/stars/vshulcz/deja-vu" height="14"/> - <i>Recall what you already did in your other coding agents</i></summary>
   <blockquote>
-    opencode remembers its own sessions. deja answers the other question: what you did in Claude Code, Codex, Cursor, Gemini CLI, Zed and fifteen more agents on this machine — including the months before you installed anything.
+    opencode remembers its own sessions. deja answers the other question: what you did in Claude Code, Codex, Cursor, Gemini CLI, Zed and thirty-eight more agents on this machine — including the months before you installed anything.
 
 A local Go binary indexes the transcripts those agents already wrote to disk, and the plugin gives the model six tools over that index: recall past sessions by error or symbol, read the digest of one session, see which sessions discussed a file before you edit it, ask what this machine actually ran after a given error, and store a decision worth keeping. Recall also arrives unasked — once per session on the system prompt, and a relevance pass per prompt that stays silent when history has no answer.
 
