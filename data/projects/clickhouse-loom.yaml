@@ -1,0 +1,5 @@
+name: ClickHouse Loom
+repo: https://github.com/ClickHouse/loom
+tagline: Self-hosted shared memory and code index for coding agents
+homepage: https://clickhouse.github.io/loom/features/integrations/mcp-clients/#other-editors-and-agents
+description: A self-hosted MCP server that gives OpenCode and other coding agents shared long-term memory, document search with citations and a code index (definitions, callers, change impact), stored in ClickHouse. Add it with `opencode mcp add`. Supports OpenCode V2 (tested on 2.3.0).
