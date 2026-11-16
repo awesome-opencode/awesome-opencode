@@ -1,0 +1,4 @@
+name: Senrelay
+repo: https://github.com/qingsongcui/ContextCore
+tagline: Local macOS workbench for cross-agent session relay, source-linked memory, and OpenCode config sync
+description: Native macOS (Apple Silicon) workbench and loopback MCP service (https://senrelay.com/) supporting OpenCode V1 and V2 alongside Claude Code, Codex, Cursor, Antigravity, and OMP. Wires ~/.config/opencode/opencode.json (mcp key), ~/.config/opencode/plugins/contextcore.ts, and the /contextcore command so OpenCode can page and compact full cross-agent transcripts in context, share source-cited working memories, and sync providers, MCP servers, and Skills with rollback snapshots.
