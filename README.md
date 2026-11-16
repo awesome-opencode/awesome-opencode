@@ -502,6 +502,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
 </details>
 
 <details>
+  <summary><b>Oliviacode</b> <img src="https://badgen.net/github/stars/9562295450/Oliviacode" height="14"/> - <i>Desktop client for OpenCode with multi-lane egress and isolated sessions</i></summary>
+  <blockquote>
+    Independent MIT desktop shell for OpenCode on Windows, macOS and Linux. Provider-agnostic: a fresh install has no endpoint, key or account, and provider entries are community data files rather than built-ins. Adds Direct, WARP, Tor and proxy egress lanes with health, latency and rotation, and each session keeps its own workspace, model and agent. The CLI engine still runs underneath as a sidecar, so tools, permissions and MCP servers behave the same.
+    <br><br>
+    <a href="https://github.com/9562295450/Oliviacode">View Repository</a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>open-plan-annotator</b> <img src="https://badgen.net/github/stars/ndom91/open-plan-annotator" height="14"/> - <i>Annotate LLM plans like a Google Doc!</i></summary>
   <blockquote>
     A fully local agentic coding plugin that intercepts plan mode and opens an annotation UI in your browser. Select text to strikethrough, replace, insert, or comment — then approve the plan or request changes
