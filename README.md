@@ -429,6 +429,15 @@ sync and targeted validation checks, and helps keep repo knowledge branch-local 
 </details>
 
 <details>
+  <summary><b>lgpd-skills</b> <img src="https://badgen.net/github/stars/goul4rt/lgpd-skills" height="14"/> - <i>LGPD & ECA Digital Privacy Engineering Toolkit</i></summary>
+  <blockquote>
+    Modular Agent Skills toolkit for LGPD (Brazilian General Data Protection Law) and ECA Digital compliance: automated privacy auditing, data mapping, consent ledgers, LINDDUN threat modeling, and DSAR endpoints. Integrates with OpenCode via the bundled .opencode plugin.
+    <br><br>
+    <a href="https://github.com/goul4rt/lgpd-skills">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Magic Context</b> <img src="https://badgen.net/github/stars/cortexkit/opencode-magic-context" height="14"/> - <i>Lossless context management with background compression</i></summary>
   <blockquote>
     Cache-aware context management that keeps long sessions productive. Background historian compresses old conversation into structured compartments while you keep working. Includes cross-session project memory, unified search across history/memories/facts, overnight dreamer for memory maintenance, and prompt-cache-safe deferred operations.
