@@ -283,6 +283,15 @@ BM25 over local files. No LLM, no embeddings, no network. Credentials are redact
     <a href="https://github.com/boxpositron/envsitter-guard">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
+<details>
+  <summary><b>Epic Visual Git</b> <img src="https://badgen.net/github/stars/Sergey-PrudentDev/epic-visual-git" height="14"/> - <i>Interactive Git control panel for the desktop panel and TUI</i></summary>
+  <blockquote>
+    Branches, fetch/pull/push, per-file staging, commits, merge with in-panel conflict handling, colored diffs, and an expandable commit history with Apply to branch (cherry-pick --no-commit), Undo commit (revert), per-file checkout, and commit-level diffs. Never force-pushes; destructive actions are gated behind two-step confirmations. Published on npm as epic-visual-git. Made with love by PrudentDev.
+    <br><br>
+    <a href="https://github.com/Sergey-PrudentDev/epic-visual-git">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
 
 <details>
   <summary><b>FlowDeck</b> <img src="https://badgen.net/github/stars/DVNghiem/FlowDeck" height="14"/> - <i>AI-powered multi-agent workflow orchestration with built-in safety intelligence</i></summary>
