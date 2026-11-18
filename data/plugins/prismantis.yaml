@@ -1,0 +1,23 @@
+name: prismantis
+repo: https://github.com/NahumLitvin/prismantis
+tagline: Draws the mermaid charts OpenCode leaves as source (pie, kanban, xychart, mindmap...) in your theme's colors
+description: >-
+  OpenCode draws flowcharts and sequence diagrams itself and prints eight other mermaid kinds as raw source.
+  prismantis draws them from a chart block: xychart bar and line charts, pie, quadrantChart, mindmap, journey,
+  kanban, classDiagram and erDiagram, in the active OpenCode theme's colors. It also colors figure text pictures,
+  ships 18 themes (/prismantis-themes), and adds a session note that gets tables, diagrams and charts into replies.
+  OpenCode V2 only.
+min_version: "2.2.5"
+scope:
+  - global
+tags:
+  - markdown
+  - charts
+  - mermaid
+  - themes
+installation: |
+  ```sh
+  opencode plugin add 'github:NahumLitvin/prismantis#v0.48.1::path:opencode'
+  ```
+
+  Run `/prismantis-themes` to install the themes and `/prismantis` for the demo.
