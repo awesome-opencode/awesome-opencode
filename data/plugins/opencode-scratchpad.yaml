@@ -1,8 +1,10 @@
 name: OpenCode Scratchpad
 repo: https://github.com/adikpb/opencode-scratchpad
+homepage: https://github.com/adikpb/opencode-scratchpad#readme
 tagline: A private per-project scratchpad you can capture and edit without leaving the TUI
 description: One plain-Markdown scratchpad per project, keyed by absolute path. Append a line with `/scratch <text>` or open a modal editor with `/scratch`; the session sidebar shows a collapsible, read-only preview that refreshes on save. Notes live under `$OPENCODE_DATA_DIR/scratchpad` and are never written into your repo.
 tags:
   - scratchpad
   - notes
   - tui
+min_version: "2.0.27"
