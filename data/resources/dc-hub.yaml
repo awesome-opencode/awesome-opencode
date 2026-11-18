@@ -1,0 +1,37 @@
+name: DC Hub
+repo: https://github.com/azmartone67/dchub-mcp-server
+tagline: Orchestration layer for data center and energy intelligence
+description: >
+  DC Hub is the orchestration layer for data center and energy intelligence.
+  OpenCode V2 only. Remote Streamable HTTP MCP at
+  https://dchub.cloud/mcp?via=opencode. Call execute_plan first.
+  Configure OpenCode with type "remote" and "oauth": false.
+tags:
+  - mcp-server
+  - data-center
+  - energy
+  - grid
+homepage: https://dchub.cloud
+installation: |
+  OpenCode V2. Add the server, then set `"oauth": false` (OpenCode otherwise tries OAuth).
+
+  ```bash
+  opencode mcp add --global dchub --url "https://dchub.cloud/mcp?via=opencode"
+  ```
+
+  Then in `opencode.json` or `~/.config/opencode/opencode.json`:
+
+  ```json
+  {
+    "$schema": "https://opencode.ai/config.json",
+    "mcp": {
+      "servers": {
+        "dchub": {
+          "type": "remote",
+          "url": "https://dchub.cloud/mcp?via=opencode",
+          "oauth": false
+        }
+      }
+    }
+  }
+  ```
