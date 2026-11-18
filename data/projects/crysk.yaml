@@ -1,0 +1,10 @@
+name: Crysk
+repo: https://github.com/cryskai/crysk
+tagline: Open-source AI code reviewer for GitHub PRs that runs through OpenCode on the model plan you already have
+description: A multi-agent pull request reviewer. Specialty hunter agents read every change in the PR and an adversarial refuter challenges every severe finding. It runs in the terminal or in GitHub Actions, where it blocks the merge while a real bug is open. Through OpenCode it works with any OpenCode-supported model, such as OpenAI on a ChatGPT plan or DeepSeek. Supports OpenCode V1.
+tags:
+  - code-review
+  - github-actions
+  - cli
+  - multi-agent
+homepage: https://crysk.dev
