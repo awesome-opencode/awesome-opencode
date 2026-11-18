@@ -710,6 +710,15 @@ startup.
 </details>
 
 <details>
+  <summary><b>opencode-applefm-compat</b> <img src="https://badgen.net/github/stars/Giuffre/opencode-apple-fm" height="14"/> - <i>Use the macOS on-device Foundation Model as an OpenCode provider with tool calling</i></summary>
+  <blockquote>
+    Compatibility plugin and installer for Apple's on-device Foundation Model via fm serve on macOS 27+. Rewrites OpenCode tool schemas for AFM, installs a LaunchAgent, and is published as an npm package. Verified with OpenCode 2.3.0.
+    <br><br>
+    <a href="https://github.com/Giuffre/opencode-apple-fm">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>opencode-dir-tree-tui</b> <img src="https://badgen.net/github/stars/aihaipeng/opencode-dir-tree-tui" height="14"/> - <i>File tree sidebar with Git status and quick file actions</i></summary>
   <blockquote>
     Browse project files in the OpenCode V2 sidebar with Git status indicators, custom ignore rules, path copying, and quick file and folder opening.
