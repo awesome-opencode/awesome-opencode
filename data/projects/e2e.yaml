@@ -1,0 +1,24 @@
+name: e2e
+repo: https://github.com/e2e-inc/e2e
+tagline: Agentic end-to-end tests for web, iOS, and Android, with an MCP server and skill for OpenCode
+description: >-
+  e2e runs UI tests that mix agent goals with exact steps. In OpenCode V1, the
+  e2e skill teaches the agent the test runner, and the `e2e mcp` server gives
+  it a live session on your app: it walks a flow, writes the test from the
+  steps it checked, and runs it. `npx e2e init` installs the skill in
+  `.agents/skills`, and a local `e2e` server entry in `opencode.json` connects
+  the MCP server. Apache-2.0.
+tags:
+  - testing
+  - e2e
+  - mcp
+  - skills
+  - browser
+  - mobile
+scope:
+  - project
+homepage: https://e2e.com/docs/mcp-server
+installation: |
+  npx e2e init
+  # opencode.json
+  { "mcp": { "e2e": { "type": "local", "command": ["npx", "e2e", "mcp"] } } }
