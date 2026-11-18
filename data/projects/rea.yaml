@@ -1,0 +1,4 @@
+name: REA
+repo: https://github.com/morluto/rea
+tagline: Inspect shipped applications and binaries from OpenCode with local, evidence-backed analysis.
+description: REA provides a local MCP server and CLI for inspecting native binaries, JavaScript and Electron bundles, and .NET assemblies. Its setup command registers the MCP server with OpenCode V1 and V2 so investigations can cite evidence from the artifact.
