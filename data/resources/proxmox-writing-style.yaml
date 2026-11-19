@@ -1,0 +1,12 @@
+name: Proxmox Writing Style
+repo: https://github.com/msoltanov/Proxmox-Technical-Writing-Style-Skill
+tagline: Unofficial skill that applies the Proxmox Technical Writing Style Guide to docs
+description: Write, edit, and review Proxmox VE, Proxmox Backup Server, and
+  Proxmox Mail Gateway documentation with the rules of the Proxmox Technical
+  Writing Style Guide. opencode loads it through opencode.json.
+scope:
+  - project
+tags:
+  - documentation
+  - technical-writing
+  - style-guide
