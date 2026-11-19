@@ -98,6 +98,14 @@
 </details>
 
 <details>
+  <summary><b>agent-steward</b> <img src="https://badgen.net/github/stars/DeadSno/agent-steward" height="14"/> - <i>Local-first scheduling and orchestration for OpenCode agent jobs</i></summary>
+  <blockquote>
+    OpenCode plugin (V1 and V2) that turns agent work into reliable workflows: cron and one-shot jobs on the native OS scheduler (Windows Task Scheduler / launchd / crontab) that survive reboots, DAG dependencies, matrix fan-out across repositories, quality gates, file/git/MCP/webhook triggers, SQLite history, metrics, notifications and a local web dashboard. Runs entirely on your machine - no SaaS, no telemetry.
+    <br><br>
+    <a href="https://github.com/DeadSno/agent-steward">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+<details>
   <summary><b>AIDevOps</b> <img src="https://badgen.net/github/stars/marcusquinn/aidevops" height="14"/> - <i>AI DevOps framework and OpenCode plugin</i></summary>
   <blockquote>
     OpenCode-first AI DevOps framework with agents, skills, workflows, safety hooks, memory, GitHub worker dispatch, and integrations for code, infrastructure, content, SEO, and operations.
