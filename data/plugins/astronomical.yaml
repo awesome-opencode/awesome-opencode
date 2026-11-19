@@ -1,0 +1,31 @@
+name: Astronomical
+repo: https://github.com/aosama/astronomical/tree/main/integrations/opencode
+tagline: Local models on Apple silicon Macs, listed live in the model picker
+description: Registers Astronomical, a free app that runs models privately on Apple silicon Macs (including models larger than the memory you give it), as an OpenCode provider. Every chat model the running app serves appears in /models with its real context window, and the list refreshes as models are added or removed. Talks only to the app on the same Mac. OpenCode V2 only. Distributed via npm as opencode-astronomical.
+scope:
+  - global
+  - project
+tags:
+  - local-models
+  - provider
+  - apple-silicon
+  - privacy
+min_version: "2.3.0"
+homepage: https://getastronomical.com/local-api.html
+installation: |
+  ## Prerequisites
+  - OpenCode 2.3.0 or later
+  - Astronomical running on an Apple silicon Mac, with at least one chat model downloaded
+
+  ## Installation
+  ```bash
+  opencode plugin add opencode-astronomical
+  ```
+
+  Then open `/models`: your local models are listed under **Astronomical**. `/astronomical-status` shows whether the app is reachable.
+
+  ## Configuration
+  Optional, in the plugin's `plugins` entry: `channels` (`["stable"]` by default; add `"development"` for a Development build) or `baseUrl` (one address, such as a proxy).
+
+  ## Removal
+  `opencode plugin remove opencode-astronomical`
