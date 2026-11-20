@@ -1,0 +1,4 @@
+name: OpenCode QQBot
+repo: https://github.com/linjz3376/opencode-qqbot
+tagline: QQ gateway for OpenCode: approve permissions and drive sessions from mobile QQ
+description: Turns QQ (mobile or PC) into a remote control for OpenCode - send prompts, approve permission requests via interactive cards, and watch progress from your phone. Built for production, not just message bridging: a self-healing watchdog (OTP-style restart intensity accounting, dual-signal liveness to avoid false kills, 10s post-spawn liveness re-spawn) writes every kill decision to a dedicated JSONL audit log; dead long-running turns are auto-continued in-session (max 3); proactive messaging is throttled to QQ official quota limits (1000/day + 20/min rolling window) with Retry-After backoff; multiple QQ bot accounts run in one process with physically isolated data buckets and per-role/per-user/per-session lane isolation. OpenCode V2 plugin; also supports standalone deployment via npm.
