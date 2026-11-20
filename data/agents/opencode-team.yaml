@@ -1,0 +1,20 @@
+name: OpenCode Team
+repo: https://github.com/sametcelikbicak/opencode-team
+tagline: A 14-agent software team that takes an idea from research to launch, with approval gates
+description: >-
+  A complete software team for OpenCode V2. Fourteen agent roles (analyst, PM,
+  UX, architect, frontend, backend, QA, DevOps, security, marketing, docs and an
+  orchestrator) run a configurable 12-stage pipeline from research to launch,
+  pausing for your approval at every gate. Ships 19 slash commands and 14 local
+  skills, with no framework and no extra dependencies. Agents inherit your
+  session model, so any configured provider works. Requires OpenCode V2 (tested
+  on 2.2.5).
+min_version: "2.0.0"
+scope:
+  - global
+tags:
+  - agents
+  - multi-agent
+  - orchestration
+  - pipeline
+  - skills
