@@ -1,0 +1,4 @@
+name: OC Manager
+repo: https://github.com/Mrsandman327/OC-Manager
+tagline: "Portable desktop GUI for OpenCode V1 and V2: sessions, files, Git, skills, MCP and a local knowledge base"
+description: "A cross-platform desktop app (Windows, Linux, macOS) with a responsive web UI that also works on mobile, putting the OpenCode workflow into one window. Portable: no installation required - Windows and Linux ship as a single executable, macOS as an app bundle, and all settings and data (configs, knowledge base) live next to the program, so it can run from a folder or a USB stick. Browse sessions, full-text search within the open session, with folding for reasoning, tool calls and diffs; preview and edit project files with a built-in Git panel and terminal; manage providers, models, MCP connectors, skills and OMO agent presets; and keep a local knowledge base that can be converted into skills, commands, rules or AGENTS.md. Supports OpenCode V1 and V2."
