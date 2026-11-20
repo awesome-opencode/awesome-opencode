@@ -1,0 +1,4 @@
+name: YouTube Transcript
+repo: https://github.com/tubeagentkit/youtube-transcript-skills
+tagline: Agent Skill to fetch YouTube transcripts, search YouTube, and browse channels and playlists
+description: Agent Skill that lets OpenCode fetch the transcript of any YouTube video with captions, search YouTube, and list a channel's or playlist's videos through the GetYouTubeTranscript API, so the agent can summarize, quote or analyze what a video actually says. Install it as an OpenCode skill by copying it to ~/.config/opencode/skills (setup in the README); follows the current OpenCode skills docs. Uses a metered API key (new accounts get free credits).
