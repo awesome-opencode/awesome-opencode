@@ -1,0 +1,4 @@
+name: Genex
+repo: https://github.com/genex-games/genex-desktop
+tagline: Desktop app where OpenCode and other AI agents build, play-test and publish games in Unreal, Unity and Godot
+description: Open-source (MIT) desktop app for AI-native game dev. Sign in with OpenCode inside Genex and its agent sets up the engine (Unreal Engine, Unity, Godot, Roblox or Three.js), builds the game, play-tests it and publishes it to Mac, Windows, Linux or the web. Also works with Claude Code, Codex, Antigravity (Gemini models) and local models. Works with the current OpenCode release.
