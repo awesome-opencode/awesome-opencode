@@ -1,0 +1,9 @@
+name: Vicoa
+repo: https://github.com/vicoa-ai/opencode-vicoa
+tagline: Run OpenCode from your phone, the web or desktop, with a push notification when it needs you
+description: >-
+  OpenCode plugin for Vicoa. Follow an OpenCode session live from the Vicoa iOS, Android, web and desktop apps,
+  send it messages and commands, approve permissions, and get a push notification when it needs approval or finishes.
+  Set up with `npm i -g @vicoa/cli` then `vicoa opencode`, or add `@vicoa/opencode` to the `plugin` list in your OpenCode config.
+  Supports OpenCode V1.
+homepage: https://vicoa.ai/docs/agents/opencode
