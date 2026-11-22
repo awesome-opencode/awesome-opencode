@@ -1,0 +1,4 @@
+name: JoeBro
+repo: https://github.com/joexk1/JoeBro
+tagline: Native Mac workspace for OpenCode, Claude Code and Codex sessions, with an iPhone companion
+description: "Free, open-source (GPLv3) macOS workspace (SwiftUI front end, Python standard library backend) that plugs into OpenCode, Claude Code and Codex. Sessions from any of your computers appear in one window; read them, message them mid-task and answer their questions and permission prompts from the Mac or iPhone. Includes one shared memory per project that all agents read and write over MCP, and Night Shift, which runs queued tasks in their own branch and worktree for review in the morning. Local first, no account or telemetry. The one-command installer plugs it into OpenCode, Claude Code and Codex."
