@@ -783,6 +783,15 @@ startup.
 </details>
 
 <details>
+  <summary><b>opencode-voz</b> <img src="https://badgen.net/github/stars/deztino/opencode-voz" height="14"/> - <i>Full voice plugin for OpenCode Desktop on macOS: streaming text-to-speech and microphone dictation with voice activity detection and hands-free auto-mic</i></summary>
+  <blockquote>
+    Reads assistant responses aloud sentence by sentence as they stream (edge-tts with a local say fallback), with pause/resume, repeat per session, and per-session voice on/off. Dictation supports ElevenLabs Scribe or Groq Whisper, a custom vocabulary via /corregir, a voice-activity detector with an auto-stop beep, and an Auto-mic mode that reopens the microphone after each answer and turns off by saying "deja de escuchar". Cross-session audio coordination avoids overlapping voices, with /cortar to switch between cutting the previous reply and waiting for your turn. MIT licensed.
+    <br><br>
+    <a href="https://github.com/deztino/opencode-voz">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OpenCodeRAG</b> <img src="https://badgen.net/github/stars/MrDoe/OpenCodeRAG" height="14"/> - <i>Local-first RAG plugin for semantic code search with tree-sitter chunking and LanceDB</i></summary>
   <blockquote>
     A local-first Retrieval-Augmented Generation plugin for OpenCode that enables semantic code
