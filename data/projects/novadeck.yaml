@@ -1,0 +1,5 @@
+name: Novadeck
+repo: https://github.com/novadeck-org/novadeck
+tagline: Desktop terminal that runs OpenCode, Claude Code, Codex and Antigravity side by side
+description: Free, open-source desktop terminal for macOS, Windows and Linux. Runs OpenCode next to Claude Code, Codex and Antigravity, collects OpenCode's permission and question prompts in one Inbox you answer from, and lets agents message each other and start teammates across harnesses. Supports OpenCode V1 (tested on 1.19).
+homepage: https://novadeck.dev
