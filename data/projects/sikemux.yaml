@@ -1,5 +1,5 @@
 name: Sikemux
 repo: https://github.com/nodelike/sikemux
 homepage: https://sikemux.com
-tagline: Native Mac and Linux app that runs OpenCode as one team with Claude Code, Codex and Pi
-description: Sikemux runs OpenCode through `opencode acp` in a native Rust app, side by side with Claude Code, Codex, Pi and Hermes. A lead agent hands work to the others and brings the person only the decisions, each with an Overrule button. Each chat gets its own terminals, browser tabs and optional Git worktree, keeps running after the window closes, and can be followed from an iPhone or Android phone. Works with OpenCode V1. MIT.
+tagline: Native Apple Silicon Mac and Linux app that runs OpenCode as one team with Claude Code, Codex and Pi
+description: Sikemux runs OpenCode through `opencode acp` in a native Rust app, side by side with Claude Code, Codex, Pi and Hermes. A lead agent hands work to the others and brings the person only the decisions, each with an Overrule button. Each chat gets its own terminals, browser tabs and optional Git worktree, keeps running after the window closes, and can be followed from an iPhone (Android in testing). Works with OpenCode V1. MIT.
