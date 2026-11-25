@@ -1,0 +1,4 @@
+name: Dopamine Talk
+repo: https://github.com/AnnenkovLabs/dopamine-talk
+tagline: Markdown skills (EN & RU) that remove hedging, file-path dumps, and critic-gates from coding agents.
+description: Three zero-dependency Markdown skills (dopamine-talk, dopamine-changelog, dopamine-readme) in separate English and Russian editions. Installable in OpenCode via skills.sh or AGENTS.md rules to cut boilerplate recaps, unasked review checklists, and hedged estimates.
