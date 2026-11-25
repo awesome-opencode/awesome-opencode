@@ -1,0 +1,59 @@
+name: harness-sync
+repo: https://github.com/callmeATHUL/harness-sync
+tagline: Inventory, health-check, and unify skills and MCP servers across Claude Code, Codex, Cursor and OpenCode
+description: >
+  A stdlib-only CLI that reads every AI coding harness on a machine — Claude
+  Code, Codex, Cursor, the ~/.agents pool, and OpenCode — and prints one merged
+  picture of their skills and MCP servers.
+
+
+  It answers the questions you hit once more than one harness shares a box:
+
+  - Which MCP servers exist, in which harness, with what command or url?
+
+  - Which are broken — missing executables, unset `{env:...}` variables,
+  unreachable remote endpoints?
+
+  - Which skills are duplicated across harness pools?
+
+  - What would an OpenCode `mcp.servers` block look like for everything
+  installed?
+
+
+  Read-only by default. It never executes a configured MCP command; writing
+  (creating skill symlinks) requires an explicit `--apply`. Environment
+  references are reported as key names only, never values.
+
+tags:
+  - mcp
+  - skills
+  - cli
+  - configuration
+  - multi-harness
+  - developer-tools
+
+installation: |
+  ## Prerequisites
+  - Python 3.11+ (uses the standard library only; no dependencies)
+
+  ## Install
+  ```bash
+  uv tool install git+https://github.com/callmeATHUL/harness-sync
+  ```
+
+  ## Usage
+  ```bash
+  harness-sync scan            # merged inventory of skills + MCP servers
+  harness-sync scan --json     # machine-readable
+  harness-sync doctor          # health-check servers and skills
+  harness-sync doctor --network
+  harness-sync emit            # print an OpenCode mcp.servers block
+  harness-sync link            # show skills OpenCode does not auto-discover
+  harness-sync link --apply    # symlink them into ~/.config/opencode/skills
+  ```
+
+  Point it at a project to include that project's local skills and `.mcp.json`:
+
+  ```bash
+  harness-sync scan -C /path/to/project
+  ```
