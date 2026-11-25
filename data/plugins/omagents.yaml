@@ -1,0 +1,9 @@
+name: OmAgents
+repo: https://github.com/omagents/omagents
+tagline: "Multi-host agent toolkit: 33 skills, MCP servers, background subagents, and a durable Job Board"
+description: Bundles 18 OmAgents skills and 15 Superpowers process skills, MCP servers (local search proxy with Exa/Keenable/You.com fallback, context7, codegraph, GitHub), native background-subagent tracking with a persistent Job Board, deep research, and managed Python environments. Supports OpenCode V1 and V2 through a dual plugin entry; also ships Codex and DeepSeek Harness installers. Install for OpenCode with npx @omagents/omagents.
+tags:
+  - skills
+  - mcp
+  - subagents
+  - productivity
