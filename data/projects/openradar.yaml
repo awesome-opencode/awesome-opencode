@@ -1,0 +1,33 @@
+name: openradar
+repo: https://github.com/MikhailSagalaev/openradar
+tagline: Open-source job & freelance order feed with MCP server, pay benchmarks, and OpenCode config.
+description: >
+  Decentralized aggregator of IT, digital, and creative job vacancies and freelance orders from job boards,
+  ATS career sites, RSS feeds, and Telegram channels. Connects to OpenCode directly as a remote Streamable HTTP MCP server
+  at https://openradar.fun/mcp (documented in docs/MCP.md; plus ready-made .opencode agents/skills in MikhailSagalaev/openradar-plugin).
+  Exposes search_leads, get_lead_details, estimate_compensation, get_market_analytics, xray_generate_dorks, and write tools.
+homepage: https://openradar.fun/docs
+scope:
+  - global
+  - project
+tags:
+  - mcp
+  - jobs
+  - freelance
+  - market-research
+  - open-data
+installation: |
+  Add to your `opencode.json` or `~/.config/opencode/opencode.json`:
+
+  ```json
+  {
+    "$schema": "https://opencode.ai/config.json",
+    "mcp": {
+      "openradar": {
+        "type": "remote",
+        "url": "https://openradar.fun/mcp",
+        "enabled": true
+      }
+    }
+  }
+  ```
