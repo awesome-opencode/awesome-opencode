@@ -1,5 +1,5 @@
 name: Friday
-repo: https://github.com/splashxmoon/friday
+repo: https://github.com/splashxmoon/friday-code
 homepage: https://www.tryfridaywork.com
 tagline: Desktop app that runs OpenCode, Claude Code, Codex, Cursor and 14 more coding agents as one team on your computer
 description: Free, MIT-licensed desktop app for macOS, Windows and Linux that runs OpenCode alongside Claude Code, Codex, Cursor, Gemini CLI and 13 other coding tools as one team, using the subscriptions you already have, with no account and no API keys. OpenCode is a first-class tool in Friday. It starts your installed OpenCode CLI with `opencode acp` and signs in with `opencode auth login`. Agents message each other while they work, one splits the job into a shared task board, each works in its own git worktree, another reviews finished work, and when one hits its usage limit another picks up its task.
