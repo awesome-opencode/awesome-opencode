@@ -1,0 +1,27 @@
+name: MACCHA (Multi Agent Continuous Context Harness)
+repo: https://github.com/KarelTestSpecial/real-agent-setup
+tagline: Persistent brain shared by OpenCode, Claude Code and others - no 24/7 daemon
+description: >-
+  A file-based, cross-platform context harness. One brain (AGENTS.md mandates,
+  TMS task flow, routed lessons, startup/closeout rituals, encrypted backups)
+  that OpenCode, Claude Code, Antigravity and Codex all read and write, so
+  context survives switching agents and sessions. It is a scaffolding layer,
+  not a plugin and not a daemon: it uses no plugin API, so it works with
+  OpenCode V1 and V2. Everything lives in plain markdown in your home dir - no
+  proprietary cloud, no always-on background process. Built for constrained
+  hardware, with HITL guards for mail and capital moves and a PII-free
+  publishable capsule.
+tags:
+  - context
+  - memory
+  - agents-md
+  - cross-agent
+  - cli
+  - hitl
+  - opencode
+installation: >-
+  Clone https://github.com/KarelTestSpecial/real-agent-setup and run
+  `bash setup.sh`. It non-destructively installs the markdown brain, CLI tools
+  and skills into your home directory; OpenCode then reads ~/AGENTS.md like any
+  other file-based agent. See the README Quick Start for details.
+homepage: https://github.com/KarelTestSpecial/real-agent-setup#readme
