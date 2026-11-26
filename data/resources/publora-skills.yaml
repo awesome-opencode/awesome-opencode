@@ -1,0 +1,24 @@
+name: Publora Skills
+repo: https://github.com/publora/skills
+tagline: Nine Agent Skills plus a remote MCP server to draft, schedule and publish social posts from OpenCode
+description: >-
+  Official Publora skills for OpenCode. Nine SKILL.md files cover LinkedIn, X,
+  Instagram, Threads, TikTok, YouTube, Facebook, Bluesky, Mastodon and Telegram,
+  each with that platform's limits and formatting rules. The skills call the
+  Publora MCP server at mcp.publora.com, which OpenCode connects to as a remote
+  server with OAuth (no API key). The README has an OpenCode section with the
+  opencode.json block, the auth command and the skills install. OpenCode V1,
+  checked on 1.19.6. MIT licensed.
+scope:
+  - project
+tags:
+  - agent-skill
+  - mcp
+  - social-media
+  - scheduling
+homepage: https://publora.com
+installation: |
+  1. Add to opencode.json under "mcp":
+     "publora": { "type": "remote", "url": "https://mcp.publora.com" }
+  2. opencode mcp auth publora
+  3. npx skills add publora/skills -a opencode
