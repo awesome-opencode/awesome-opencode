@@ -1,0 +1,22 @@
+name: Lobster AI
+repo: https://github.com/the-omics-os/lobster
+tagline: Bioinformatics from plain-language questions, as a local MCP server
+description: Open-source multi-agent bioinformatics engine (single-cell and bulk RNA-seq, proteomics, more). Run `lobster mcp --stdio` as a local MCP server and OpenCode hands it an analysis question, then gets back the result, a notebook and the output files. Ships an OpenCode V2 config in lobster/integrations/opencode.json.
+homepage: https://docs.omics-os.com/docs/guides/lobster-mcp
+tags:
+  - mcp
+  - bioinformatics
+  - science
+installation: |
+  Install Lobster AI: `uv tool install --python 3.12 lobster-ai`, then add it to `opencode.json`:
+
+  ```json
+  {
+    "$schema": "https://opencode.ai/config.json",
+    "mcp": {
+      "servers": {
+        "lobster": { "type": "local", "command": ["lobster", "mcp", "--stdio"], "codemode": false }
+      }
+    }
+  }
+  ```
