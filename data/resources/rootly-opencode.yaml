@@ -1,0 +1,9 @@
+name: Rootly for OpenCode
+repo: https://github.com/rootlyhq/rootly-mcp-server
+tagline: Connect OpenCode V2 to Rootly's read-only MCP server and seven agent skills.
+description: >-
+  Set up Rootly's hosted read-only MCP server and seven agent skills in an
+  OpenCode V2 project. The guide covers per-user OAuth sign-in and a sample
+  incident investigation workflow.
+scope:
+  - project
