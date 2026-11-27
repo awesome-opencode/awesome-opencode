@@ -1,0 +1,10 @@
+name: ShipBastion Launch Audit
+repo: https://github.com/zColdWater/mcp-launch-audit
+tagline: Read-only MCP & CLI pre-launch security, email DNS, AI search, and brand clearance toolkit for coding agents.
+description: Open-source MIT MCP server and companion scanners (VibeShield, InboxShield, CiteReady, and BrandShield at shipbastion.com) that let OpenCode and coding agents run strictly read-only 109-check web security, SPF/DKIM/DMARC email deliverability, /llms.txt & Schema.org AI search readiness, and 78-TLD RDAP trademark clearance audits before shipping.
+homepage: https://shipbastion.com
+tags:
+- security
+- mcp
+- cli
+- audit
