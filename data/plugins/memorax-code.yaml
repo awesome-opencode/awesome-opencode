@@ -1,0 +1,6 @@
+name: MemoraX Code
+repo: https://github.com/memorax-ai/memorax-code
+tagline: Recall engineering decisions and save reusable project knowledge across OpenCode sessions
+description: >-
+  OpenCode V1 integration tested with 1.18.18 and 1.19.6. Set up the MemoraX Code
+  CLI to recall prior engineering decisions and save reusable project knowledge.
